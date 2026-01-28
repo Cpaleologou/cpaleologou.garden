@@ -1,5 +1,8 @@
 ---
-title: Hey There!
+title: index
+Date: null
+tags: null
+draft: 'true'
 cover: /Assets/BannerImage.png
 ---
 ## Welcome to my digital field journal
