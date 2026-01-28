@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "CP",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,32 +23,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Playfair Display",
+        body: "Merriweather",
+        code: "Courier Prime",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#F0EFE9",        // Bone White: The main paper background
+          lightgray: "#D8D6CC",    // Stone Grey: For subtle borders or inactive elements
+          gray: "#8C9178",         // Sage: For secondary icons or disabled text
+          darkgray: "#1A2421",     // Olive Drab: For subheaders and secondary text
+          dark: "#4B5320",         // Dark Forest: The "almost black" for main body text
+          secondary: "#1A2421",    // Olive Drab: Primary Brand Color (Headlines)
+          tertiary: "#CC5500",     // Burnt Orange: Accent color for buttons/links
+          highlight: "rgba(75, 83, 32, 0.10)", // Very faint Olive for hover states
+          textHighlight: "#E8C54788", // Muted Gold: For highlighting text (more natural than neon yellow)
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#121513",          // Deep Forest Black (Background)
+          lightgray: "#1F2622",      // Dark Moss (Card Backgrounds)
+          gray: "#8C9178",           // Sage (Secondary/Icons)
+          darkgray: "#E6E4DC",       // Muted Sage (Sub-headers)
+          dark: "#C5CBA5",           // Bone/Parchment (Main Body Text)
+          secondary: "#E6E4DC",      // Pale Khaki (Headlines)
+          tertiary: "#E07A3E",       // Terracotta (Buttons)
+          highlight: "rgba(197, 203, 165, 0.15)",
+          textHighlight: "#E07A3E88",
         },
       },
     },
