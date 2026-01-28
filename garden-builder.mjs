@@ -88,6 +88,13 @@ async function buildGarden() {
             }
         });
 
+        // --- DATE FIXER --- 
+        // If "Date" exists, move it to "date" so Quartz can read it
+        if (content.data.Date) {                 
+            content.data.date = content.data.Date; 
+            delete content.data.Date;              
+        }                                        
+
         // Write File
         const finalContent = matter.stringify(finalBody, content.data);
         await fs.writeFile(path.join(destDir, fileName), finalContent);
