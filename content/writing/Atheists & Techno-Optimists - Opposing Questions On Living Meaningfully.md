@@ -1,20 +1,20 @@
-2025-08-26 05:56
-Status: 
-Tags: 
-# Atheists & Techno-Optimists - Opposing Questions On Living Meaningfully
-
-Atheist existentialists asked "How can we live meaningfully in the absence of God?"
-
-Techno-optimists, believing they are building AGI/ASI, might ask instead "How can we live meaningfully in the *presence* of God?"
+---
+title: Atheists & Techno-Optimists - Opposing Questions On Living Meaningfully
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-08-26T00:00:00.000Z
+---
+Atheist existentialists grappled with finding meaning in a godless universe. Techno-optimists face the inverse problem: if AGI/ASI arrives, how do we find meaning in the presence of something functionally equivalent to God—a superintelligent entity that could render human agency and purpose obsolete?
 
 ---
 # Connections
 
 [[Authenticity Cannot Be Commoditized]]
-[[AGI is just a matter of compute]]
+
 [[Jobs Don't Give People Meaning]]
 
 ---
 # Reference
 
-🟢 At the Existentialist Café#^e2e3a9
+� At the Existentialist Café

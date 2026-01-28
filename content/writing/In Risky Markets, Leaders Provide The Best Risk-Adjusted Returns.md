@@ -1,18 +1,22 @@
-2025-08-11 14:13
-Status: 
-Tags: 
-# In Risky Markets, Leaders Provide The Best Risk-Adjusted Returns
-
+---
+title: 'In Risky Markets, Leaders Provide The Best Risk-Adjusted Returns'
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-08-11T00:00:00.000Z
+---
 In risky markets, market leaders with established production, secure reserves, and dominant market positions can defend their share by lowering prices or increasing output, deterring competition. 
+
 Investing in such firms - especially in markets with tailwinds - can reduce downside risk while preserving upside.
 
 ---
 # Connections
 
-[[Private Investors Shy Away From REE Mining]]
-[[The Layers of AI]]
+[[Private Investors Shy Away From Rare Earth Mining]]
+
+The Layers of AI
 
 ---
 # Reference
 
-🟢 The Elements of Power#^22d7cb
+� The Elements of Power

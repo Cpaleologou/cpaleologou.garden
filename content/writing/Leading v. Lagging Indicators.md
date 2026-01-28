@@ -1,6 +1,10 @@
-# Leading v. Lagging Indicators
-Created: 17:09 17:09
-
+---
+title: Leading v. Lagging Indicators
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2021-08-21T00:00:00.000Z
+---
 There is an enormous importance to assessing whether a metric is a leading indicator or a lagging indicator. 
 Leading indicators are quantitative measures that occur before the event occurs. Lagging indicators are quantitative measure that occur after the event occurs.
 If you spend your time focused on the lagging indicators, you will constantly be playing catch up instead of getting a head. 
@@ -21,14 +25,13 @@ For example, if my goal is to gain muscle. Saying that I want to gain 0.5 pounds
 "I used to focus on lag measures, such as papers published per year. These measures, however, lacked influence on my day-to-day behavior because there was nothing I could do in the short term that could immediately generate a noticeable change to this long-term metric."
 
 ---
+## Connections
+
+Narrow Your Focus
+
+---
 ## Reference
 Book: Deep Work
 Author: Cal Newport
 Location: 1544 & 1548
 
----
-## Connections
-[[Narrow Your Focus]]
-
----
-### Tags

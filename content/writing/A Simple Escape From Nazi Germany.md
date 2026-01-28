@@ -1,8 +1,10 @@
-2025-09-06 11:44
-Status: 
-Tags: 
-# A Simple Escape From Nazi Germany
-
+---
+title: A Simple Escape From Nazi Germany
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-09-06T00:00:00.000Z
+---
 Before Czechoslovakia was annexed, a family living exactly on the border of Germany and Czechoslovakia would invite families for dinner through the front door and then let them leave through the back, into freedom.
 
 ---
@@ -13,4 +15,4 @@ Before Czechoslovakia was annexed, a family living exactly on the border of Germ
 ---
 # Reference
 
-🟢 At the Existentialist Café#^e1ef9d
+� At the Existentialist Café

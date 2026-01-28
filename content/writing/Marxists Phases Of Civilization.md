@@ -1,8 +1,10 @@
-2025-08-26 05:37
-Status: 
-Tags: 
-# Marxists Phases Of Civilization
-
+---
+title: Marxists Phases Of Civilization
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-08-26T00:00:00.000Z
+---
 Marxist philosophy attempts to understand and forecast human history through distinct phases of civilization, centred around production and resource allocation.
 
 The 6 key phased are:
@@ -16,11 +18,11 @@ The 6 key phased are:
 ---
 # Connections
 
-[[Jobs in time intervals]]
 [[Inequality Rises When Capital Valuations Increase Faster Than GDP]]
+
 [[Market Forces Work Because They Remove The Need For Trust]]
 
 ---
 # Reference
 
-🟢 At the Existentialist Café#^41afaf
+� At the Existentialist Café

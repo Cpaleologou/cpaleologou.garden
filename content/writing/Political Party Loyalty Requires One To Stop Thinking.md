@@ -1,7 +1,12 @@
-2025-09-06 12:43
+---
+title: Political Party Loyalty Requires One To Stop Thinking
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-09-06T00:00:00.000Z
+---
 Status: 
 Tags: 
-# Political Party Loyalty Requires One To Stop Thinking
 
 To identify oneself as a loyal member of a political party, to always vote for one party, regardless of their actions or changing beliefs, requires one to forfeit the right to free thinking.
 
@@ -14,4 +19,4 @@ To identify oneself as a loyal member of a political party, to always vote for o
 ---
 # Reference
 
-🟢 At the Existentialist Café#^608670
+� At the Existentialist Café

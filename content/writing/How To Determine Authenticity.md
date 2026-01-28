@@ -1,7 +1,10 @@
-2025-10-04 15:21
-Tags: 
-# How To Determine Authenticity
-
+---
+title: How To Determine Authenticity
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-10-04T00:00:00.000Z
+---
 Authenticity requires the following to be true:
 
 1. Involves:
@@ -17,11 +20,14 @@ Authenticity requires the following to be true:
 # Connections
 
 [[Authenticity Cannot Be Commoditized]]
+
 [[Finding Yourself Requires Creation]]
+
 [[How To Reconcile Discipline With Authentic Passions]]
-[[A Shared Value Is Required To Equate Two Things Against a Horizon of Context]]
+
+[[A Horizon of Context Required To Equate Value]]
 
 ---
 # Reference
 
-🟢 The Ethics of Authenticity#^ba6540
+� The Ethics of Authenticity

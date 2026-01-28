@@ -1,9 +1,11 @@
-2025-07-30 17:37
-Status: 
-Tags: 
-# 3 Attributes of a High Quality Information Stream
-
-There are three main qualities I want and value in an imaginary, ideal information stream:
+---
+title: 3 Attributes of a High Quality Information Stream
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-07-30T00:00:00.000Z
+---
+There are three main qualities I want and value in an ideal information stream:
 
 1. Balanced
 	For non-political topics I do not want any national level political bias of any sort. This is means the reporting does not discuss party-driven narratives, although geopolitical national level bias is likely to be impossible to avoid.

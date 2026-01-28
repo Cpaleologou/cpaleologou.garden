@@ -3,8 +3,6 @@ import path from 'path';
 import matter from 'gray-matter';
 
 // --- CONFIGURATION ---
-// ⚠️ DOUBLE CHECK: Are there spaces in "Mobile Documents"? Yes, usually.
-// ⚠️ DOUBLE CHECK: Is "03-Permanent Notes" correct? Or is it "03 - Permanent Notes"?
 const VAULT_PATH = '/Users/christianpaleologou/Library/Mobile Documents/iCloud~md~obsidian/Documents';
 const SOURCE_ROOT = path.join(VAULT_PATH, 'Thoughts/03-Permanent Notes'); 
 const SOURCE_IMAGES = path.join(VAULT_PATH, 'Thoughts/99-Files'); 
@@ -42,7 +40,7 @@ async function buildGarden() {
     }
 
     // --- CHECK WRITING FOLDER ---
-    const writingPath = path.join(SOURCE_ROOT, 'writing'); // Ensure this matches your folder name exactly
+    const writingPath = path.join(SOURCE_ROOT, 'writing'); 
     if (await fs.pathExists(writingPath)) {
         const writingItems = await fs.readdir(writingPath);
         console.log(`Found ${writingItems.length} items in Writing folder.`);
@@ -77,19 +75,36 @@ async function buildGarden() {
             }
         }
 
-        // Link Sanitization
+        // --- ENHANCED LINK SANITIZATION ---
         const linkRegex = /\[\[(.*?)(?:\|.*?)?\]\]/g;
         finalBody = finalBody.replace(linkRegex, (match, linkTarget) => {
-            const cleanTarget = linkTarget.split('|')[0]; 
-            if (publicFiles.has(cleanTarget)) {
-                return match; 
+            // 1. Clean the target for checking existence (remove alias | and anchor #)
+            // Example: "🟢 The Book#^123|Alias" becomes "🟢 The Book"
+            let coreFilename = linkTarget.split('|')[0].split('#')[0]; 
+            
+            // 2. Also strip emojis from the CHECK specifically? 
+            // If your file on disk is actually named "🟢 The Book.md", keep this line commented out.
+            // If the file is "The Book.md" but you link it as "🟢 The Book", uncomment next line:
+            // coreFilename = coreFilename.replace(/^[🟢🟡] /, '');
+
+            if (publicFiles.has(coreFilename)) {
+                return match; // It's a valid public note, keep the link!
             } else {
-                return linkTarget;
+                // It's a private/book link. We need to pretty-print the text.
+                // Step A: Remove the Alias pipe (take the left side usually, or right if you prefer alias)
+                let displayText = linkTarget.split('|')[0]; 
+
+                // Step B: Remove the Anchor (everything after #)
+                displayText = displayText.split('#')[0];
+
+                // Step C: Remove the Emojis (Green or Yellow circle followed by optional space)
+                displayText = displayText.replace(/^[🟢🟡]\s?/, '');
+
+                return displayText; // Return just the clean title (e.g., "The Ethics of Authenticity")
             }
         });
 
         // --- DATE FIXER --- 
-        // If "Date" exists, move it to "date" so Quartz can read it
         if (content.data.Date) {                 
             content.data.date = content.data.Date; 
             delete content.data.Date;              
@@ -108,16 +123,10 @@ async function stageFile(fileName, sourcePath, destPath, publicSet, processList)
     const raw = await fs.readFile(fullPath, 'utf8');
     const parsed = matter(raw);
     
-    // --- DEBUGGING LOG ---
-    // Remove this block once everything works
-    // console.log(`Checking: ${fileName} | Draft status: ${parsed.data.draft} (${typeof parsed.data.draft})`);
-
     // --- ROBUST DRAFT CHECK ---
-    // Returns true if draft is boolean true OR string "true"
     const isDraft = parsed.data.draft === true || parsed.data.draft === 'true';
 
     if (isDraft) {
-        // console.log(`   ⛔ Skipping ${fileName} (Draft)`);
         return; 
     }
 

@@ -1,7 +1,10 @@
-2025-11-15 13:17
-Tags: 
-# Accepting The Absurd Does Not Permit Evil
-
+---
+title: Accepting The Absurd Does Not Permit Evil
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-11-15T00:00:00.000Z
+---
 Those who accept the absurd might make the mistake in thinking that since external value systems are not considered, there is no longer any morals or ethics. 
 They embrace may embrace this dark nihilism since without a god, there cannot be good or bad.
 
@@ -19,4 +22,4 @@ With less, each of our actions matters more.
 ---
 # Reference
 
-🟢 The Myth of Sisyphus and Other Essays#^623786
+� The Myth of Sisyphus and Other Essays

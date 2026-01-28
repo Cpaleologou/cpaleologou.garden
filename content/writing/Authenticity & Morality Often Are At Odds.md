@@ -1,7 +1,10 @@
-2025-10-04 15:16
-Tags: 
-# Authenticity & Morality Often Are At Odds
-
+---
+title: Authenticity & Morality Often Are At Odds
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-10-04T00:00:00.000Z
+---
 Authenticity requires some level of originality in thought and action, since each person has their own way of living and no two people are exactly the same. 
 
 This, though, can create a conflict with morality because, on a broad societal level, our personal desires and impulses go against cultural themes of morality.
@@ -10,12 +13,16 @@ This, though, can create a conflict with morality because, on a broad societal l
 # Connections
 
 [[Narcissistic Authenticity Drives The Individual Towards Instrumental Reasoning]]
-[[Self-Identification Requires Dialogue With Others]]
-[[Self-Fufilment Is Not Entirely Subjective]]
+
+Self-Identification Requires Dialogue With Others
+
+Self-Fufilment Is Not Entirely Subjective
+
 [['Das Man' As A Cultural River]]
-[[The Horizon of Context Is Given To Us]]
+
+The Horizon of Context Is Given To Us
 
 ---
 # Reference
 
-🟢 The Ethics of Authenticity#^037fb2
+� The Ethics of Authenticity

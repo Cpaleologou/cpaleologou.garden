@@ -23,7 +23,7 @@ Location: 1113
 ---
 ## Connections
 
-[[Narrow Your Focus]]
+Narrow Your Focus
 [[Finding Meaning in Work]]
 [[Changing Tasks v. Rest]]
 [[Why we need to take breaks]]

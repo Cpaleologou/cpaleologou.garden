@@ -20,7 +20,7 @@ Location: 1076
 
 [[Attention Residue]]
 [[Capturing Ideas]]
-[[Narrow Your Focus]]
+Narrow Your Focus
 
 
 ---

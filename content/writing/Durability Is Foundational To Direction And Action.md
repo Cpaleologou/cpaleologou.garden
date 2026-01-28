@@ -1,8 +1,10 @@
-2025-09-14 13:16
-Status: 
-Tags: 
-# Durability Is Foundational To Direction And Action
-
+---
+title: Durability Is Foundational To Direction And Action
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-09-14T00:00:00.000Z
+---
 Our ability to orient ourselves, act, and ultimately move towards an intended target is dependent on the understanding and faith that the things we make will last longer than the time it takes to make them.
 
 ---
@@ -13,4 +15,4 @@ Our ability to orient ourselves, act, and ultimately move towards an intended ta
 ---
 # Reference
 
-🟢 The Ethics of Authenticity#^00c879
+� The Ethics of Authenticity

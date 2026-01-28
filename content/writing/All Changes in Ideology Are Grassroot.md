@@ -1,8 +1,11 @@
-2025-10-04 15:51
-Tags: 
-# All Changes in Ideology Are Grassroot
-
-All ideological shifts are grassroot movements. They are not created at a university or government level and passed down. They must already exist in the minds of individuals. They may be defined at the scholarly or policy level, which further inspires their growth. But to have an impact, to stick, to get people onboard requires that the idea already exist in the minds of the populous.
+---
+title: All Changes in Ideology Are Grassroot
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-10-04T00:00:00.000Z
+---
+All ideological shifts are grassroots movements. They are not created at a university or government level and passed down. They must already exist in the minds of individuals. They may be defined at the scholarly or policy level, which further inspires their growth. But to have an impact, to stick, to get people onboard requires that the idea already exist in the minds of the populous.
 
 ---
 # Connections
@@ -13,4 +16,4 @@ All ideological shifts are grassroot movements. They are not created at a univer
 ---
 # Reference
 
-🟢 The Ethics of Authenticity#^4f042b
+� The Ethics of Authenticity

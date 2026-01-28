@@ -1,6 +1,10 @@
-# Drone Warfare
-Created: 2024-04-13 22:06
-
+---
+title: Drone Warfare
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2024-04-13T00:00:00.000Z
+---
 I'm listening to the new All In podcast, and they are having a conversation towards the end of the podcast about drones, the military industrial complex, and drone warfare, and the future of warfare.
 
 And the overall sentiment is quite positive in terms of how drones will make warfare cheaper, the best human life, and generally framed from a good point of view.
@@ -26,7 +30,7 @@ Timestamp: 1:15:00
 ---
 ## Connections
 
-[[AGI is just a matter of compute]]
+AGI is just a matter of compute
 
 ---
 ### Tags

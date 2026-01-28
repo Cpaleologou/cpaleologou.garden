@@ -1,6 +1,10 @@
-# Attention Residue
-Created: 16:47 16:47
-
+---
+title: Attention Residue
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2021-08-18T00:00:00.000Z
+---
 There was a cool study done in 2009 at the University of Minnesota, which studied the effect of multitasking on productivity. The researchers realized that in the real world multi-tasking doesn’t really mean doing two things at the same time, it means constantly switching from one project to the next. 
 
 The study split participants into two groups and instructed each participant to work on a puzzle. In the first group, the observer only allowed the participants to work for a short amount of time, before interrupting them and instructing them to move on to another challenging task. But in the other group, they allowed each participant to finish the first puzzle before moving on to the next challenge. In between these tasks though, they tested each participants’ focus with a quick word game.
@@ -18,17 +22,13 @@ The implication of attention residue then, is that if we are constantly being in
 “People experiencing attention residue after switching tasks are likely to demonstrate poor performance on that next task,”
 
 ---
+## Connections
+[[Changing Tasks v. Rest]]
+[[Finding Meaning in Work]]
+Narrow Your Focus
+
+---
 ## Reference
 Book: Deep Work
 Author: Cal Newport
 Location: 465
-
----
-## Connections
-[[Changing Tasks v. Rest]]
-[[Finding Meaning in Work]]
-[[Narrow Your Focus]]
-
----
-### Tags
-

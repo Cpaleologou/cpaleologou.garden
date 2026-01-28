@@ -1,8 +1,10 @@
-2025-08-03 07:53
-Status: 
-Tags: 
-# All Data Is Extremely Sensitive In The AI Age
-
+---
+title: All Data Is Extremely Sensitive In The AI Age
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-08-03T00:00:00.000Z
+---
 Fundamentally, AI is a prediction machine. In a world of extremely powerful and accurate AI, just a small amount of public personal data could allow the AI to predict, or guess, extremely private, highly sensitive data.
 
 This would exist across all domains. 
@@ -14,8 +16,9 @@ In the age of AI, all data is hyper sensitive because even non-sensitive data ca
 ---
 # Connections
 
-[[The Power of AI's Cross Domain Expertise]]
+The Power of AI's Cross Domain Expertise
 
 ---
 # Reference
-🟢 The Future of Health Data in the Age of AI
+
+� The Future of Health Data in the Age of AI

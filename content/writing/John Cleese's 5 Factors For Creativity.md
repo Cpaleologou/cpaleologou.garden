@@ -1,7 +1,10 @@
-2025-11-15 14:09
-Tags: 
-# John Cleese's 5 Factors For Creativity
-
+---
+title: John Cleese's 5 Factors For Creativity
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-11-15T00:00:00.000Z
+---
 There is a 1991 lecture by John Cleese of Monty Python on creativity in which he lists the 5 key factors for creativity:
 1. Space
 2. Time
@@ -16,11 +19,14 @@ You need space away from people and distractions and stressors to think deeply a
 # Connections
 
 [[Why we need to take breaks]]
+
 [[Capturing Ideas]]
-[[Self-Discovery Requires Dialogue With The World]]
+
+Self-Discovery Requires Dialogue With The World
+
 [[Walking and Learning]]
 
 ---
 # Reference
 
-🟡 How to Do Nothing#^74fb4a
+� How to Do Nothing

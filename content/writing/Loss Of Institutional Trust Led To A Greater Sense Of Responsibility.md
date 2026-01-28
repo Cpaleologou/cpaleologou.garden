@@ -1,8 +1,10 @@
-2025-08-26 05:33
-Status: 
-Tags: 
-# Loss Of Institutional Trust Led To A Greater Sense Of Responsibility
-
+---
+title: Loss Of Institutional Trust Led To A Greater Sense Of Responsibility
+tags:
+  - '#TerraIncognita'
+draft: 'false'
+date: 2025-08-26T00:00:00.000Z
+---
 After World War 2, when trust in traditional institutions had been shattered, people became more conscious of their individual role in the world.
 
 ---
@@ -13,4 +15,4 @@ After World War 2, when trust in traditional institutions had been shattered, pe
 ---
 # Reference
 
-🟢 At the Existentialist Café#^d8b7e6
+� At the Existentialist Café
