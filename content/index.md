@@ -15,19 +15,22 @@ Recently, I discovered the growing trend of 'digital gardens', which feels much 
 
 By status I am referring to the state of completeness. Commonly, you will see a 3-tiered system of 'sapling', 'budding', and 'evergreen', obviously inspired by a real garden. 
 
-However, ever since reading 'The Great Game: The Struggle For Empire In Central Asia', I've held an admiration for the romantic imagery of early 19th century cartographers. I've also come to see my style of learning as a process closer to exploration than nurturing. I've therefore adapted the concept slightly, inspired by the adventurous men who dutifully risked their lives to chart and map 'the great unknown'. 
+However, since reading Peter Hopkirk's 'The Great Game: The Struggle For Empire In Central Asia', I've held an admiration for the romantic imagery of early 19th century cartographers. I've also come to see my style of learning as a process closer to exploration than nurturing. I've therefore adapted the concept slightly, inspired by the adventurous men who dutifully risked their lives to chart and map 'the great unknown'. 
 
-### The System
+## The System
 
 On each piece of writing here you'll see a tag indicating the completeness of the piece.  
 
 #TerraIncognita are the most common style of note. They are young, unfinished and, **importantly**, potentially wrong. These are closer to one-off ideas, observations, or snippets, rather than finished works. Don't judge them too seriously.
 
-#Surveyed pieces are more developed. Here, a few ideas have been collected and synthesized. They aren't complete, but are starting to come together. Like #TerraIncognita , they are likely to change.
+#Surveyed pieces are more developed. Here, a few ideas have been collected and synthesized. They aren't complete, but are starting to come together. Like *TerraIncognita* , they are likely to change.
 
-#Gazetteer essays are going to be rare. These are largely finished works. A lot of time and thought will have gone into #Gazetteer content. You can interpret these as a fully formed thoughts, though I always maintain the right to change my mind!
+#Gazetteer essays are going to be rare. These are largely finished works. A lot of time and thought will have gone into *Gazetteer* content. You can interpret these as a fully formed thoughts, though I always maintain the right to change my mind!
 
 ## Where to start?
 
 - About
 - Library
+
+
+###### Christian P.
