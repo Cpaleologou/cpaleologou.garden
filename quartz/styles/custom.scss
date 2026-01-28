@@ -1,6 +1,5 @@
 @use "./base.scss";
 
-
 /* Constrain the text width, but center it within the middle column */
 .center .breadcrumb-container, 
 .center .article-title, 
@@ -24,6 +23,7 @@ article {
 
 
 // Apply pinyon script to H6 (The "Last H Heading")
+
 h6 {
   font-family: 'Pinyon Script', cursive;
   font-weight: 400; /* Script fonts usually look best regular, not bold */
@@ -31,7 +31,7 @@ h6 {
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
   line-height: 1.2;
-  color: var(--tertiary); /* Optional: Uses your "Burnt Orange" accent color */
+  color: var(--secondary); /* Optional: Uses your "Burnt Orange" accent color */
 }
 
 /* 2. CARTOGRAPHIC BORDERS */
