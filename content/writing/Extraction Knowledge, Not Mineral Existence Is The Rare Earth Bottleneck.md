@@ -14,9 +14,9 @@ Rare Earth Refining Cannot Target High Priced Materials
 
 Rare Earth Processing
 
-Rare Earth Elements Are Not Rare
+[[Rare Earth Elements Are Not Rare]]
 
-Rare Earth Element Processing Cannot Be Standardized
+[[Rare Earth Element Processing Cannot Be Standardized]]
 
 ---
 # Reference

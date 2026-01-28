@@ -12,7 +12,7 @@ This is creating a scenario for a major talent gap, as well as a risk of losing 
 ---
 # Connections
 
-Rare Earth Element Processing Cannot Be Standardized
+[[Rare Earth Element Processing Cannot Be Standardized]]
 [[Extraction Knowledge, Not Mineral Existence Is The Rare Earth Bottleneck]]
 
 ---
