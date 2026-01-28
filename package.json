@@ -17,7 +17,7 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
-    "update": "rm -rf content/* && cp -r \"/Users/christianpaleologou/Library/Mobile Documents/iCloud~md~obsidian/Documents/Thoughts/03-Permanent Notes\"/* content/",
+    "update": "node garden-builder.mjs",
     "deploy": "npm run update && npx quartz sync",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
@@ -49,6 +49,7 @@
     "d3": "^7.9.0",
     "esbuild-sass-plugin": "^3.6.0",
     "flexsearch": "^0.8.205",
+    "fs-extra": "^11.3.3",
     "github-slugger": "^2.0.0",
     "globby": "^16.1.0",
     "gray-matter": "^4.0.3",

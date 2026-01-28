@@ -1,9 +1,6 @@
 ---
-
 title: Hey There!
-
 cover: /Assets/BannerImage.png
-
 ---
 ## Welcome to my digital field journal
 
