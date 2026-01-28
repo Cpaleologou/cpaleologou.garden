@@ -32,13 +32,19 @@ article {
 
 /* 3. "TELEGRAM" METADATA */
 /* Styles tags and dates to look like stamped classifications */
-.content-meta,
-.center .tags  {
+.content-meta
+  {
   font-family: var(--codeFont);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 0.85rem;
   border-bottom: 1px dashed var(--gray);
+  padding-bottom: 0.5rem;
+}
+
+.center .tags{
+  font-family: var(--codeFont);
+  letter-spacing: 0.1em;
   padding-bottom: 0.5rem;
 }
 
