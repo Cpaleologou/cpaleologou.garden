@@ -16,7 +16,9 @@ With less, each of our actions matters more.
 # Connections
 
 [[Moral Subjectivism]]
+
 [[Moral Subjectivism Removes The Ability to Debate Values]]
+
 [[Beliefs Require A Background of Culture To Be Valid]]
 
 ---

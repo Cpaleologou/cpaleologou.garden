@@ -16,9 +16,11 @@
 }
 
 /* 1. ARCHIVAL LAYOUT */
-body article{
-  font-size: 1.25rem; /* Slightly larger for that bookish feel */
-  line-height: 2;
+article p, 
+article li, 
+article {
+  font-size: 1.2rem;
+  line-height: 1.6; /* 4 is extremely large; 1.6-1.8 is standard for 'bookish' */
 }
 
 /* 2. CARTOGRAPHIC BORDERS */
