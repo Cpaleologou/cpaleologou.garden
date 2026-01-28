@@ -8,7 +8,7 @@ const SOURCE_ROOT = path.join(VAULT_PATH, 'Thoughts/03-Permanent Notes');
 const SOURCE_IMAGES = path.join(VAULT_PATH, 'Thoughts/99-Files'); 
 
 const DEST_CONTENT = './content';
-const DEST_WRITINGS = './content/writings';
+const DEST_WRITINGS = './content/writing';
 const DEST_IMAGES = './content/assets'; 
 
 // --- EXECUTION ---
