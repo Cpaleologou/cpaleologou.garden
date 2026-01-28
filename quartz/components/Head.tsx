@@ -97,6 +97,8 @@ export default (() => {
             return resource
           }
         })}
+
+        <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet" />
       </head>
     )
   }
