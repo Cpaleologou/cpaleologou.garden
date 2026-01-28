@@ -17,6 +17,8 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
+    "update": "rm -rf content/* && cp -r \"/Users/christianpaleologou/Library/Mobile Documents/iCloud~md~obsidian/Documents/Thoughts/03-Permanent Notes\"/* content/",
+    "deploy": "npm run update && npx quartz sync",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
   "engines": {
