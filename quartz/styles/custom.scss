@@ -6,7 +6,7 @@
 .center .breadcrumb-container, 
 .center .article-title, 
 .center .content-meta,    
-.center .tags,  /* Added this selector */
+.center .tags,  
 .center article {
   max-width: 700px;
   margin-left: auto;
@@ -32,7 +32,8 @@ article {
 
 /* 3. "TELEGRAM" METADATA */
 /* Styles tags and dates to look like stamped classifications */
-.content-meta {
+.content-meta,
+.center .tags  {
   font-family: var(--codeFont);
   text-transform: uppercase;
   letter-spacing: 0.05em;
