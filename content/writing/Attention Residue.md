@@ -24,8 +24,8 @@ The implication of attention residue then, is that if we are constantly being in
 ---
 ## Connections
 [[Changing Tasks v. Rest]]
+
 [[Finding Meaning in Work]]
-Narrow Your Focus
 
 ---
 ## Reference

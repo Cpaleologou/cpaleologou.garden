@@ -12,7 +12,9 @@ Thus, to live authentically requires acceptance of our own death.
 # Connections
 
 [[Jobs Don't Give People Meaning]]
+
 True Self-Awareness Requires Suffering
+
 [[Longevity Escape Velocity]]
 
 ---
