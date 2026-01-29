@@ -20,7 +20,7 @@ Thus, they only they are not a form of dialogue with the world.
 
 [[AI Slop Threatens Social Media]]
 
-Self-Discovery Requires Dialogue With The World
+[[Self-Discovery Requires Dialogue With The World]]
 
 ---
 # Reference

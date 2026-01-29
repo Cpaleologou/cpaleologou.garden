@@ -14,7 +14,7 @@ Perhaps the person can claim that it is spiritually significant as it allows you
 ---
 # Connections
 
-Self-Discovery Requires Dialogue With The World
+[[Self-Discovery Requires Dialogue With The World]]
 
 [[Defining One's Self Requires Differentiating and Associating Personal Qualities With Others]]
 

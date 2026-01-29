@@ -14,9 +14,9 @@ This, though, can create a conflict with morality because, on a broad societal l
 
 [[Narcissistic Authenticity Drives The Individual Towards Instrumental Reasoning]]
 
-Self-Identification Requires Dialogue With Others
+[[Self-Identification Requires Dialogue With Others]]
 
-Self-Fufilment Is Not Entirely Subjective
+[[Self-Fufilment Is Not Entirely Subjective]]
 
 [['Das Man' As A Cultural River]]
 

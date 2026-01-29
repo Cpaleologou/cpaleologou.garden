@@ -12,7 +12,7 @@ Philosophy is really just an attempt by philosophers to express their own emotio
 
 [[Phenomenology]]
 
-The Absurd
+[[The Absurd]]
 
 ---
 # Reference

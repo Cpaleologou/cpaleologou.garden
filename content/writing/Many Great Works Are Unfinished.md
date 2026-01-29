@@ -14,7 +14,7 @@ Its a great example of why showing your work, even if unfinished, is important a
 ---
 # Connections
 
-Sartre Had An Extremely Difficult Time Staying Focused
+[[Sartre Had An Extremely Difficult Time Staying Focused]]
 
 [[How To Reconcile Discipline With Authentic Passions]]
 

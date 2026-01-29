@@ -10,9 +10,9 @@ Just having mines that hold or extract rare earth ore is not enough to create a 
 ---
 # Connections
 
-Rare Earth Refining Cannot Target High Priced Materials
+[[Rare Earth Refining Cannot Target High Priced Materials]]
 
-Rare Earth Processing
+[[Rare Earth Processing]]
 
 [[Rare Earth Elements Are Not Rare]]
 

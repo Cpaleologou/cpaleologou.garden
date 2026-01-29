@@ -19,7 +19,7 @@ This is, he says, because any time one tries to do this, they in essence fail. Y
 
 [[A Horizon of Context Required To Equate Value]]
 
-Science Removed The Explanations For Our Suffering
+[[Science Removed The Explanations For Our Suffering]]
 
 ---
 # Reference

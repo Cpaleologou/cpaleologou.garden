@@ -22,7 +22,7 @@ You need space away from people and distractions and stressors to think deeply a
 
 [[Capturing Ideas]]
 
-Self-Discovery Requires Dialogue With The World
+[[Self-Discovery Requires Dialogue With The World]]
 
 [[Walking and Learning]]
 

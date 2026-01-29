@@ -10,7 +10,7 @@ Resisting "das Man", to instead follow our own virtues is to live authentically.
 
 ---
 
-###### Connections
+## Connections
 
 [[Authenticity Cannot Be Commoditized]]
 
@@ -18,6 +18,6 @@ True Self-Awareness Requires Suffering
 
 ---
 
-###### Reference
+## Reference
 
 � At the Existentialist Café

@@ -19,7 +19,7 @@ Because the slip-box is not intended to be an encyclopedia, but a tool to think 
 ---
 ## Connections
 
-[[Smart Notes in Obsidian]]
+Smart Notes in Obsidian
 
 [[Develop understanding to remember better]]
 

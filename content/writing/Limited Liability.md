@@ -15,6 +15,7 @@ By reducing the fear people may have of getting sued and losing everything, the 
 
 ---
 ## Reference
+
 Book: Sapiens
 Author: Yuval Noah Harari
 Location: Ch.2

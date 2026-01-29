@@ -16,7 +16,7 @@ Perhaps though, if 3,732 is a sacred number in ones culture, this trait could ha
 ---
 # Connections
 
-Self-Discovery Requires Dialogue With The World
+[[Self-Discovery Requires Dialogue With The World]]
 
 [[Defining Oneself Is Degrading]]
 

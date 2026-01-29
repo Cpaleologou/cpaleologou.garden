@@ -15,7 +15,7 @@ Processes cannot be copy-pasted between locations.
 ---
 # Connections
 
-Rare Earth Mines Can Take Decades To Reach Production
+[[Rare Earth Mines Can Take Decades To Reach Production]]
 
 Rare Earth Supply Concentration Creates Huge Fragility
 

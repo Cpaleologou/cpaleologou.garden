@@ -12,7 +12,7 @@ In turn, individuals create new forms of conformance in systems that are potenti
 ---
 # Connections
 
-Self-fufilment Led To Poorly Structured Belief Systems
+[[Self-fufilment Led To Poorly Structured Belief Systems]]
 
 [[Exponential Technology Creates Spiritual Deflation]]
 

@@ -12,13 +12,13 @@ We become *something* through our actions. If you act nice, you are nice. If you
 ---
 # Connections
 
-Self-Discovery Requires Dialogue With The World
+[[Self-Discovery Requires Dialogue With The World]]
 
 [[Defining One's Self Requires Differentiating and Associating Personal Qualities With Others]]
 
 [[Growth Comes In Steps And Leaps]]
 
-The Awakened Individual Must Have Projects
+[[The Awakened Individual Must Have Projects]]
 
 ---
 # Reference

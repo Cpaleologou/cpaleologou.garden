@@ -10,7 +10,7 @@ The ability for individuals to act in coordination and cooperation requires each
 ---
 # Connections
 
-Self-Discovery Requires Dialogue With The World
+[[Self-Discovery Requires Dialogue With The World]]
 
 **Link Explanation:**
 The linked note discusses how the discovery of one's own self identity can only be achieved through interaction, conflict and collaboration with society and nature around them. 

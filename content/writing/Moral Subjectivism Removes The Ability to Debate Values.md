@@ -16,7 +16,7 @@ The only criteria is emotional appeal.
 
 [[Moral Subjectivism]]
 
-Self-fufilment Led To Poorly Structured Belief Systems
+[[Self-fufilment Led To Poorly Structured Belief Systems]]
 
 [[Individualism Discourages The Act of Challenging Another's Beliefs]]
 

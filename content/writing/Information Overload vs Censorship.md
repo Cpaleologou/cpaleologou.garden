@@ -20,6 +20,8 @@ Truth is less important than trust
 The idea that trust is more important than truth is based on the concept that information received from a single or few sources will always be incomplete. Yet, on a societal level, it seems that a higher level of cooperation can be achieved on a few incomplete sources, rather than a more complete, but incongruent flood of information.
 This related to the Information Overload vs. Censorship idea above, because it moves the idea from an observation to an intentional method of social engineering and control.
 
+
+
 ---
 # Reference
 

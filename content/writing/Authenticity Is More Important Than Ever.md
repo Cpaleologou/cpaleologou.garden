@@ -20,7 +20,7 @@ We have the freedom of choice to rise to the true ideal of authenticity or sink 
 
 [[Narcissistic Authenticity Drives The Individual Towards Instrumental Reasoning]]
 
-Self-Discovery Requires Dialogue With The World
+[[Self-Discovery Requires Dialogue With The World]]
 
 ---
 # Reference

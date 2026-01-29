@@ -25,7 +25,7 @@ Location: 746
 ---
 ## Connections
 [[Turning Book Notes into Permanent Notes]]
-[[Smart Notes in Obsidian]]
+Smart Notes in Obsidian
 [[Capturing Ideas]]
 [[Finding Meaning in Work]]
 

@@ -17,10 +17,9 @@ You can think of your life like this. The growing tip is the present moment—yo
 
 [[The Only Solution Is To Keep Going]]
 
-Narrow Your Focus
-
 ---
 ## Reference
+
 Book: Entangled Life
 Author: Merlin Sheldrake
 Location: 909

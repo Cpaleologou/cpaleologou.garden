@@ -11,7 +11,7 @@ Instrumental Reasoning is the valuing of everything on an economic efficiency sc
 ---
 # Connections
 
-Science Removed The Explanations For Our Suffering
+[[Science Removed The Explanations For Our Suffering]]
 
 [[Organizations Do What They Are Designed To Do, Regardless of Need]]
 

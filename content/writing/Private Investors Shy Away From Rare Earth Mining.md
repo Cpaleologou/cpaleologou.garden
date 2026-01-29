@@ -16,7 +16,7 @@ For that reason, in the early stages, in order to establish sustainable mines, g
 
 Rare Earth Concentrations And Quality Have Been Diminishing
 
-Rare Earth Mines Can Take Decades To Reach Production
+[[Rare Earth Mines Can Take Decades To Reach Production]]
 
 [[AI Will Supercharge Materials Science]]
 

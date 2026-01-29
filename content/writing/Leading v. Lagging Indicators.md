@@ -31,6 +31,7 @@ Narrow Your Focus
 
 ---
 ## Reference
+
 Book: Deep Work
 Author: Cal Newport
 Location: 1544 & 1548

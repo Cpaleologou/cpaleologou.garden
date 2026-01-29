@@ -20,7 +20,7 @@ For instance, rather than being a CPA, I have trained as a CPA until this moment
 
 [[Freedom Means Choice, Not Unconstraint]]
 
-Self-Description Misses The Mark
+[[Self-Description Misses The Mark]]
 
 You Are Not Your Fucking Khakis
 

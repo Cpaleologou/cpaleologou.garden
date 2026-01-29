@@ -18,7 +18,7 @@ Instead say:
 
 The Lifelong Learning Compass
 
-Sartre Had An Extremely Difficult Time Staying Focused
+[[Sartre Had An Extremely Difficult Time Staying Focused]]
 
 ---
 # Reference

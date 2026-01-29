@@ -14,7 +14,7 @@ In this way, almost by definition, our world view of what matters is flattened a
 
 [[Finding Meaning in Work]]
 
-The Awakened Individual Must Have Projects
+[[The Awakened Individual Must Have Projects]]
 
 ---
 # Reference

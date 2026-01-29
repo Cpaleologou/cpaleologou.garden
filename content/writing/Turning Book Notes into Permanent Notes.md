@@ -21,7 +21,7 @@ Location: 683
 ---
 ## Connections
 
-[[Smart Notes in Obsidian]]
+Smart Notes in Obsidian
 [[Capturing Ideas]]
 [[Finding Meaning in Work]]
 

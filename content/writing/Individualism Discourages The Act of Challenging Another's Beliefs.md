@@ -13,7 +13,7 @@ The implicit problem with this is that since a belief system is now an individua
 
 [[Individualism Flattens Our Life Experience]]
 
-Science Removed The Explanations For Our Suffering
+[[Science Removed The Explanations For Our Suffering]]
 
 [[Loss Of Institutional Trust Led To A Greater Sense Of Responsibility]]
 
