@@ -5,7 +5,7 @@ tags: null
 draft: 'false'
 cover: /Assets/BannerImage.png
 ---
-###### Welcome to my digital field journal
+###### Welcome to my digital garden
 
 I started writing online in 2021 to share book reviews and reflect on the things I thought would be interesting or actionable for friends, family, and myself.
 
