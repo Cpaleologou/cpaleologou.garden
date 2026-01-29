@@ -24,7 +24,7 @@ There are three main qualities I want and value in an ideal information stream:
 
 ---
 
-!Screenshot 2025-07-30 at 6.01.10 PM.png
+![[Screenshot 2025-07-30 at 6.01.10 PM.png]]
 
 ---
 # Connections

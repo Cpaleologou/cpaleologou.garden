@@ -9,7 +9,7 @@ Most of the enterprise opportunities in AI will come from supervised learning.
 But generative AI will like growth by the largest percentage over the next 3 years.
 Compounded and extrapolated this represents huge growth.
 
-!IMG_4028.png
+![[IMG_4028.png]]
 
 
 ---

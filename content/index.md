@@ -4,7 +4,7 @@ Date: null
 tags: null
 draft: 'false'
 ---
-!BannerImageWideCA_Final.png
+![[BannerImageWideCA_Final.png]]
 ###### Welcome to my digital garden
 
 I started writing online in 2021 to share book reviews and reflect on the things I thought would be interesting or actionable for friends, family, and myself.

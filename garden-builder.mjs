@@ -78,7 +78,7 @@ async function buildGarden() {
         }
 
         // --- ENHANCED LINK SANITIZATION ---
-        const linkRegex = /\[\[(.*?)(?:\|.*?)?\]\]/g;
+        const linkRegex = /(?<!\!)\[\[(.*?)(?:\|.*?)?\]\]/g;
         finalBody = finalBody.replace(linkRegex, (match, linkTarget) => {
             // 1. Clean the target for checking existence (remove alias | and anchor #)
             // Example: "🟢 The Book#^123|Alias" becomes "🟢 The Book"
