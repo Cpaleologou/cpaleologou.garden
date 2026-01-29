@@ -23,4 +23,11 @@
 3. Fix border in archival layout styling
 4. Add library page.
 5. Add now page to keep updated with my current learning plan
-6. Finish reformatting permanent notes so that they present properly
+6. Finish reformatting permanent notes so that they present properly and dates
+7. layout hierarchy 
+   - Index and About are one same. Includes The garden, me, where to start
+   - Now - just posting study play updates, more of a chronological blog
+   - Notes - all my terraIncognita notes
+   - Writing - Surveyed and Gazzetter writings
+   - Side bar has no explore. Just Recent Notes and Recent Writing
+   - banner image
