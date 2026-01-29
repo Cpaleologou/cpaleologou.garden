@@ -78,31 +78,29 @@ async function buildGarden() {
         }
 
         // --- ENHANCED LINK SANITIZATION ---
-        const linkRegex = /(?<!\!)\[\[(.*?)(?:\|.*?)?\]\]/g;
-        finalBody = finalBody.replace(linkRegex, (match, linkTarget) => {
+        // We capture an optional "!" in group 1 to identify images
+        const linkRegex = /(!)?\[\[(.*?)(?:\|.*?)?\]\]/g;
+        
+        finalBody = finalBody.replace(linkRegex, (match, isImage, linkTarget) => {
+            // NEW: If this is an image link (starts with !), don't touch it!
+            if (isImage) {
+                return match; 
+            }
+
             // 1. Clean the target for checking existence (remove alias | and anchor #)
-            // Example: "🟢 The Book#^123|Alias" becomes "🟢 The Book"
             let coreFilename = linkTarget.split('|')[0].split('#')[0]; 
             
-            // 2. Also strip emojis from the CHECK specifically? 
-            // If your file on disk is actually named "🟢 The Book.md", keep this line commented out.
-            // If the file is "The Book.md" but you link it as "🟢 The Book", uncomment next line:
-            // coreFilename = coreFilename.replace(/^[🟢🟡] /, '');
-
             if (publicFiles.has(coreFilename)) {
                 return match; // It's a valid public note, keep the link!
             } else {
                 // It's a private/book link. We need to pretty-print the text.
-                // Step A: Remove the Alias pipe (take the left side usually, or right if you prefer alias)
-                let displayText = linkTarget.split('|')[0]; 
+                // Step A: Remove the Alias pipe and the Anchor
+                let displayText = linkTarget.split('|')[0].split('#')[0]; 
 
-                // Step B: Remove the Anchor (everything after #)
-                displayText = displayText.split('#')[0];
-
-                // Step C: Remove the Emojis (Green or Yellow circle followed by optional space)
+                // Step B: Remove the Emojis (Green or Yellow circle followed by optional space)
                 displayText = displayText.replace(/^[🟢🟡]\s?/, '');
 
-                return displayText; // Return just the clean title (e.g., "The Ethics of Authenticity")
+                return displayText; // Return just the clean title
             }
         });
 
