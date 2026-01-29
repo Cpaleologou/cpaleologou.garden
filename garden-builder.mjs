@@ -21,6 +21,8 @@ async function buildGarden() {
     await fs.ensureDir(DEST_WRITINGS);
     await fs.ensureDir(DEST_IMAGES);
 
+    await fs.writeFile(path.join(DEST_CONTENT, 'CNAME'), 'christianp.space');
+
     const publicFiles = new Set();
     const filesToProcess = [];
 
