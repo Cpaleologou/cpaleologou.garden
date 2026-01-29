@@ -18,7 +18,7 @@
 
 # TO DO
 
-1. Fix Images not loading
+[x] Fix Images not loading
 2. Add image wrapping CSS to obsidian so that it matches site
 3. Fix border in archival layout styling
 4. Add library page.
