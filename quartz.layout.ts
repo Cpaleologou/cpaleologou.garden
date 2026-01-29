@@ -21,9 +21,18 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.TagList(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
   ],
   left: [
     Component.PageTitle(),
@@ -35,10 +44,16 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+       // { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    //Component.Explorer(),
+    Component.RecentNotes({
+    title: "Recent Notes",
+    limit: 5,
+    showTags: false,
+    filter: (f) => f.slug ? f.slug.startsWith("writing/") : false,
+    }),
   ],
   right: [
     Component.Graph(),

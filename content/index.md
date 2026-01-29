@@ -3,8 +3,8 @@ title: index
 Date: null
 tags: null
 draft: 'false'
-cover: /Assets/BannerImage.png
 ---
+!BannerImageWideCA_Final.png
 ###### Welcome to my digital garden
 
 I started writing online in 2021 to share book reviews and reflect on the things I thought would be interesting or actionable for friends, family, and myself.
@@ -29,7 +29,8 @@ On each piece of writing here you'll see a tag indicating the completeness of th
 
 ## Where to start?
 
-- About
+- Recent Writings
+- Now
 - Library
 
 

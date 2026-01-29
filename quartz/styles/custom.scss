@@ -233,3 +233,19 @@ body::before {
   // Place it behind the text content but above the background color
   z-index: -1; 
 }
+
+// RECENT NOTES SECTION
+
+.recent-notes {
+  /* This targets the specific link class you provided */
+  a.internal {
+    font-size: 1.1rem !important;
+    //font-weight: 500;
+  }
+
+  /* Your date styling which you mentioned is already working */
+  .meta {
+    font-family: var(--codeFont);
+    font-size: 0.8rem;
+  }
+}
