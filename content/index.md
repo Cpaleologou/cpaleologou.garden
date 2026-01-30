@@ -4,7 +4,7 @@ Date: null
 tags: null
 publish: 'true'
 ---
-![[BannerImageWideCA_Final.png]]
+![[BannerImageWideCA_Final.webp]]
 ###### Welcome to my digital garden
 
 My name's Christian. I started writing online in 2021 to share book reviews and reflect on the things I thought would be interesting or actionable for friends, family, and myself.
