@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { SimpleSlug } from "./quartz/util/path"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -11,6 +12,7 @@ export const sharedPageComponents: SharedLayout = {
         title: "Recent Notes",
         limit: 5,
         showTags: false,
+        linkToMore: "notes/" as SimpleSlug, // <--- Add this line
         filter: (f) => f.slug !== "index" && !f.slug?.startsWith("tags/"),
       })
     ),
@@ -61,6 +63,7 @@ export const defaultContentPageLayout: PageLayout = {
         title: "Recent Notes",
         limit: 5,
         showTags: false,
+        linkToMore: "notes/" as SimpleSlug, // <--- Add this line
         filter: (f) => f.slug ? f.slug.startsWith("notes/") : false,
       })
     ),
