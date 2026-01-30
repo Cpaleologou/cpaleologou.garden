@@ -14,7 +14,7 @@ Investing in such firms - especially in markets with tailwinds - can reduce down
 
 [[Private Investors Shy Away From Rare Earth Mining]]
 
-The Layers of AI
+[[The Layers of AI]]
 
 ---
 # Reference

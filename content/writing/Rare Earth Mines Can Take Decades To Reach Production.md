@@ -10,7 +10,7 @@ Depending on a wide range of influential factors (Politics, finances, legal, tec
 ---
 # Connections
 
-Rare Earth Supply Concentration Creates Huge Fragility
+[[Rare Earth Supply Concentration Creates Huge Fragility]]
 [[AI Will Supercharge Materials Science]]
 
 ---

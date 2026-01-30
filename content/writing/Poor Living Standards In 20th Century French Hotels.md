@@ -14,7 +14,7 @@ He said "The moment I began living in French hotels I understood the necessity o
 ---
 # Connections
 
-The Rapid Demand Increase For Steel In Korea As Incomes Grew
+[[The Rapid Demand Increase For Steel In Korea As Incomes Grew]]
 
 ---
 # Reference

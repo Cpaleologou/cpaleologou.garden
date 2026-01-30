@@ -14,7 +14,7 @@ For that reason, in the early stages, in order to establish sustainable mines, g
 ---
 # Connections
 
-Rare Earth Concentrations And Quality Have Been Diminishing
+[[Rare Earth Concentrations And Quality Have Been Diminishing]]
 
 [[Rare Earth Mines Can Take Decades To Reach Production]]
 

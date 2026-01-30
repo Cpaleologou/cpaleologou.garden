@@ -20,7 +20,7 @@ This, though, can create a conflict with morality because, on a broad societal l
 
 [['Das Man' As A Cultural River]]
 
-The Horizon of Context Is Given To Us
+[[The Horizon of Context Is Given To Us]]
 
 ---
 # Reference

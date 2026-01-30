@@ -16,7 +16,7 @@ Instead say:
 ---
 # Connections
 
-The Lifelong Learning Compass
+[[The Lifelong Learning Compass]]
 
 [[Sartre Had An Extremely Difficult Time Staying Focused]]
 

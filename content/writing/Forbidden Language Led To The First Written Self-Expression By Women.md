@@ -16,7 +16,7 @@ The rise in ability to write in Kana, led to a golden age of literature, mainly 
 
 [[Lady Murasaki's Melancholy Of The Intellectual]]
 
-The Corrosive Power of Words
+[[The Corrosive Power of Words]]
 
 ---
 # Reference

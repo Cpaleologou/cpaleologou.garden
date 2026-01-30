@@ -11,7 +11,7 @@ My name's Christian. I started writing online in 2021 to share book reviews and 
 
 Frankly, I've struggled with consistency over the years. Most of my writing is just short notes on things I find interesting in books or media. Occasionally, I'll put a longer piece together, but the frequency wanes with my interests and motivations.
 
-Recently, I discovered the growing trend of 'digital gardens'. These are opinionated, messy, interconnected collections of notes and essays organized by **maturity** rather than chronology or topic.  It feels much more aligned to my style of learning and sharing. 
+Recently, I discovered the growing trend of *digital gardens*. These are opinionated, messy, interconnected collections of notes and essays organized by **maturity** rather than chronology or topic.  It feels much more aligned to my style of learning and sharing. 
 
 By 'maturity', I am referring to the state of completeness. Commonly, you will see a 3-tiered system of 'sapling', 'budding', and 'evergreen', obviously inspired by a real garden. However, at the time of writing, I am re-reading Peter Hopkirk's '*The Great Game: On Secret Service in High Asia*'.  I love the romantic imagery of early 19th century explorers, spies and cartographers. I've also come to see my style of learning as a process much closer to exploration than nurturing. Thus, I've adapted the concept slightly, inspired by the adventurous men who dutifully risked their lives to chart and map 'the great unknown'. 
 

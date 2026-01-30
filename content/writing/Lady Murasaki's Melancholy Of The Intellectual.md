@@ -12,7 +12,7 @@ It seems a common feeling of those with intellectual dispositions.
 ---
 # Connections
 
-The Isolationist Trap of Abstract Intellectualism
+[[The Isolationist Trap of Abstract Intellectualism]]
 
 **Link Explanation:**
 Intellectualism, almost by definition, requires one to spend time alone, to think deeply, and to feel. As social creatures, it also requires communication, however it can be very difficult to express complex ideas in a way that others understand. Especially if they come from another culture or different background to you. 

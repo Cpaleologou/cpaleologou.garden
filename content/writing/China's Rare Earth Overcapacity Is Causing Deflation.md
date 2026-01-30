@@ -12,7 +12,7 @@ Now though, there is an issue of overcapacity creating unsustainably low prices.
 ---
 # Connections
 
-Rare Earth Supply Concentration Creates Huge Fragility
+[[Rare Earth Supply Concentration Creates Huge Fragility]]
 
 Three Key Concerns With China's Dominant Position In The Rare Earth Supply Chain
 

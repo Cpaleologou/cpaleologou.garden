@@ -12,7 +12,7 @@ As technology continues to advance, break throughs in physicals, chemistry, biol
 
 [[AI Will Supercharge Materials Science]]
 
-The Power of AI's Cross Domain Expertise
+[[The Power of AI's Cross Domain Expertise]]
 
 ---
 # Reference

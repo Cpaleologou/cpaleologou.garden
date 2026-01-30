@@ -10,7 +10,7 @@ AI diffusion models, the most common type of model for image generation rely on 
 ---
 # Connections
 
-The Power of AI's Cross Domain Expertise
+[[The Power of AI's Cross Domain Expertise]]
 
 ---
 # Reference

@@ -13,7 +13,7 @@ It attempts to describe, in words, the universal features of consciousness while
 ---
 # Connections
 
-Short-Comings Of Phenomenology
+[[Short-Comings Of Phenomenology]]
 
 ---
 # Reference

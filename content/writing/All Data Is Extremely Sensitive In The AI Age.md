@@ -16,7 +16,7 @@ In the age of AI, all data is hyper sensitive because even non-sensitive data ca
 ---
 # Connections
 
-The Power of AI's Cross Domain Expertise
+[[The Power of AI's Cross Domain Expertise]]
 
 ---
 # Reference

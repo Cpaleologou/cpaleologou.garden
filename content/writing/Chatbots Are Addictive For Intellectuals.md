@@ -19,7 +19,7 @@ It is really the ultimate bait for people who enjoy the act of pondering.
 ---
 # Connections
 
-The Isolationist Trap of Abstract Intellectualism
+[[The Isolationist Trap of Abstract Intellectualism]]
 **Link Explanation:**
 The isolationist trap of intellectualism refers to a persons tendency to drift away from others as they think more about their own ideas. This is not a new phenomenon, but AI chatbots seem poised to increase this by a large measure.
 

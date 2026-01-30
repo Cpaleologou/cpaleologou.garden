@@ -14,7 +14,7 @@ That represents a ~71% decrease in raw materials.
 ---
 # Connections
 
-Rare Earth Supply Concentration Creates Huge Fragility
+[[Rare Earth Supply Concentration Creates Huge Fragility]]
 
 [[AI Will Supercharge Materials Science]]
 

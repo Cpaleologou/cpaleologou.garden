@@ -13,7 +13,7 @@ Humans are incredibly complex and are constantly changing. No word or combinatio
 
 You Are Not Your Fucking Khakis
 
-The Corrosive Power of Words
+[[The Corrosive Power of Words]]
 
 ---
 # Reference

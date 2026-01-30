@@ -11,7 +11,7 @@ By requiring the thinker to be true to their own lived personal experience, phen
 ---
 # Connections
 
-Short-Comings Of Phenomenology
+[[Short-Comings Of Phenomenology]]
 
 [[Sartre Refused The Nobel Prize To Stay Independent]]
 

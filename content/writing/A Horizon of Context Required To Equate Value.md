@@ -13,7 +13,7 @@ For example, a man and a woman, being different, are not "equal". However, when 
 ---
 # Connections
 
-The Horizon of Context Is Given To Us
+[[The Horizon of Context Is Given To Us]]
 [[Beliefs Require A Background of Culture To Be Valid]]
 
 ---

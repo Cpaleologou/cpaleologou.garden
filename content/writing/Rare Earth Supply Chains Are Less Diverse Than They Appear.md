@@ -18,7 +18,7 @@ What appears to be a resilient pyramid-like supply chain to businesses at the to
 
 [[Rare Earth Mines Can Take Decades To Reach Production]]
 
-Rare Earth Supply Concentration Creates Huge Fragility
+[[Rare Earth Supply Concentration Creates Huge Fragility]]
 
 ---
 ## Reference

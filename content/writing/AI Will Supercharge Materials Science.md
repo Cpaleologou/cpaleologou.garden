@@ -18,9 +18,9 @@ As new material combinations and effects are discovered, demand for the elements
 
 Why Metalloids Are Needed For Technology
 
-The Rapid Demand Increase For Steel In Korea As Incomes Grew
+[[The Rapid Demand Increase For Steel In Korea As Incomes Grew]]
 
-The Power of AI's Cross Domain Expertise
+[[The Power of AI's Cross Domain Expertise]]
 
 ---
 # Reference
