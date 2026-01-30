@@ -27,9 +27,13 @@ On each piece of writing you'll see a tag indicating the maturity of the piece.
 
 ## Where to start?
 
-- Recent Writings
-- Now
+<div class="start-grid">
+
+- [Recent Writings](YOUR_LINK_HERE)
+- [Now](YOUR_LINK_HERE)
 - [[Library]]
+
+</div>
 
 
 ###### Christian P.

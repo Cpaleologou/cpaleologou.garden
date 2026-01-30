@@ -299,3 +299,88 @@ body::before {
     margin-top: 0.25rem;
   }
 }
+
+/* "Where to start" Grid Styling */
+.start-grid {
+  ul {
+    display: grid;
+    /* Desktop: 3 columns (1fr each) */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    /* Mobile: Force 1 column (stack) for readability */
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  li {
+    display: flex;
+    align-items: center; /* Vertically center icon and text */
+    gap: 0.75rem; /* Space between icon and text */
+    
+    background-color: var(--light);
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0;
+    
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s;
+    cursor: pointer;
+
+    /* Card Hover Effect */
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      border-color: var(--secondary); /* Optional: Highlights border on hover */
+      
+      /* Make the link text change color on card hover */
+      a {
+        color: var(--secondary);
+      }
+    }
+
+    /* The Link Text */
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      color: var(--dark);
+      font-family: var(--headerFont);
+      /* Expand link to fill the card (optional, for better UX) */
+      &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+      }
+    }
+    
+    /* Relative positioning needed for the full-card link click trick above */
+    position: relative; 
+  }
+
+  /* * THE ICON LOGIC 
+   * Uses pseudo-element ::before to insert the icon 
+   */
+  li::before {
+    content: "";
+    display: block;
+    width: 24px;  /* Adjust size as needed */
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0; /* Prevents icon from squishing on small screens */
+    
+    /* Default to Light Mode Icon */
+    background-image: url('../../static/Tealcon_Light.webp');
+  }
+}
+
+/* Dark Mode Override for the Icon */
+/* Quartz usually adds [saved-theme="dark"] to the HTML tag */
+html[saved-theme="dark"] .start-grid li::before {
+  background-image: url('../../static/Tealcon_Dark.webp');
+}
