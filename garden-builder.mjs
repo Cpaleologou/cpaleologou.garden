@@ -53,6 +53,7 @@ async function buildGarden() {
             
             let count = 0;
             for (const item of items) {
+                // Only process .md files (ignore folders here to prevent recursion issues)
                 if (item.endsWith('.md')) {
                     await stageFile(item, folder.source, folder.dest, publicFiles, filesToProcess);
                     count++;
@@ -60,7 +61,6 @@ async function buildGarden() {
             }
             console.log(`   -> Found ${count} markdown files.`);
         } else {
-            // It is okay if 'writing' doesn't exist yet, just log a warning
             console.warn(`⚠️  Skipping ${folder.name}: Path not found (${folder.source})`);
         }
     }
@@ -71,19 +71,37 @@ async function buildGarden() {
     for (const { fileName, sourceDir, destDir, content } of filesToProcess) {
         let finalBody = content.content;
 
-        // Image Processing
+        // --- SMARTER IMAGE PROCESSING ---
         const imageRegex = /!\[\[(.*?)(?:\|.*?)?\]\]/g;
         let imgMatch;
         while ((imgMatch = imageRegex.exec(finalBody)) !== null) {
-            const imageName = imgMatch[1];
-            const srcImgPath = path.join(SOURCE_IMAGES, imageName);
-            const destImgPath = path.join(DEST_IMAGES, imageName);
+            const originalLink = imgMatch[1];
+            
+            // 1. Sanitize: Remove subfolders from the link and fix spaces (%20)
+            // e.g. "99-Files/My Image.png" -> "My Image.png"
+            const cleanImageName = path.basename(decodeURIComponent(originalLink));
+
+            const destImgPath = path.join(DEST_IMAGES, cleanImageName);
+            
+            // 2. Look in the main SOURCE_IMAGES folder
+            let srcImgPath = path.join(SOURCE_IMAGES, cleanImageName);
+            let imageFound = false;
 
             if (await fs.pathExists(srcImgPath)) {
+                imageFound = true;
+            } else {
+                // 3. Fallback: Look in the same folder as the note (Relative path)
+                const localPath = path.join(sourceDir, cleanImageName);
+                if (await fs.pathExists(localPath)) {
+                    srcImgPath = localPath;
+                    imageFound = true;
+                }
+            }
+
+            if (imageFound) {
                 await fs.copy(srcImgPath, destImgPath);
             } else {
-                // Optional: Uncomment to debug missing images
-                // console.warn(`⚠️  Missing Image: ${imageName} in ${fileName}`);
+                console.warn(`⚠️  Missing Image in ${fileName}: ${cleanImageName} (Checked: ${SOURCE_IMAGES})`);
             }
         }
 
@@ -95,14 +113,18 @@ async function buildGarden() {
 
             // Clean the target for checking existence
             let coreFilename = linkTarget.split('|')[0].split('#')[0]; 
-            
+            // Also handle cases where linkTarget includes a path like "notes/Some Note"
+            coreFilename = path.basename(coreFilename);
+
             if (publicFiles.has(coreFilename)) {
                 return match; // Valid public note, keep link
             } else {
                 // Private/missing link: Pretty-print text
                 let displayText = linkTarget.split('|')[0].split('#')[0]; 
+                // Remove status icons if present
                 displayText = displayText.replace(/^[🟢🟡]\s?/, '');
-                return displayText; 
+                // Ensure we display just the name, not the path
+                return path.basename(displayText); 
             }
         });
 
@@ -132,7 +154,9 @@ async function stageFile(fileName, sourcePath, destPath, publicSet, processList)
         return; 
     }
 
+    // Add clean filename to public set (remove extension)
     publicSet.add(fileName.replace('.md', ''));
+    
     processList.push({
         fileName,
         sourceDir: sourcePath, 
