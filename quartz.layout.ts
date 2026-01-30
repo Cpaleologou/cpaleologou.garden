@@ -47,13 +47,14 @@ export const defaultContentPageLayout: PageLayout = {
        // { Component: Component.ReaderMode() },
       ],
     }),
-    //Component.Explorer(),
-    Component.RecentNotes({
-    title: "Recent Notes",
-    limit: 5,
-    showTags: false,
-    filter: (f) => f.slug ? f.slug.startsWith("writing/") : false,
-    }),
+    Component.DesktopOnly( 
+      Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 5,
+        showTags: false,
+        filter: (f) => f.slug ? f.slug.startsWith("writing/") : false,
+      })
+    ),
   ],
   right: [
     Component.Graph(),
