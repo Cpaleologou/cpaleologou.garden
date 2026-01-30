@@ -4,6 +4,8 @@ publish: 'true'
 ---
 ## Books I've Read & Recommend
 
+![[Breakneck.webp]]
+
 - [![Breakneck](Breakneck.webp)](https://www.google.ca/books/edition/Breakneck/yMFEEQAAQBAJ?hl=en) **Breakneck: China's Quest to Engineer the Future** <span class="author">by Dan Wang</span>
 - [![The Ethics of Authenticity](EthicsOfAuthenticity.jpg)](https://www.google.ca/books/edition/The_Ethics_of_Authenticity/adnIDwAAQBAJ?hl=en&gbpv=0) **The Ethics of Authenticity** <span class="author">by Charles Taylor</span>
 - [![What It Takes](WhatItTakes.jpg)](https://www.google.ca/books/edition/What_it_Takes/pzuyxgEACAAJ?hl=en) **What It Takes: Lessons in the Pursuit of Excellence** <span class="author">by Stephen A. Schwarzman</span>
