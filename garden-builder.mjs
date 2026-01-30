@@ -16,12 +16,12 @@ const FOLDERS_TO_SYNC = [
         dest: './content'
     },
     {
-        name: 'Notes', // Renamed from 'writing'
+        name: 'Notes', 
         source: path.join(SOURCE_ROOT, 'notes'),
         dest: './content/notes'
     },
     {
-        name: 'Writing', // The future folder you mentioned
+        name: 'Writing', 
         source: path.join(SOURCE_ROOT, 'writing'),
         dest: './content/writing'
     }
@@ -37,7 +37,7 @@ async function buildGarden() {
     // Ensure all destination subfolders exist
     await fs.ensureDir(DEST_IMAGES);
     for (const folder of FOLDERS_TO_SYNC) {
-        if (folder.dest !== './content') { // content is already created by emptyDir
+        if (folder.dest !== './content') { 
             await fs.ensureDir(folder.dest);
         }
     }
@@ -53,7 +53,6 @@ async function buildGarden() {
             
             let count = 0;
             for (const item of items) {
-                // Only process .md files (ignore folders here to prevent recursion issues)
                 if (item.endsWith('.md')) {
                     await stageFile(item, folder.source, folder.dest, publicFiles, filesToProcess);
                     count++;
@@ -71,15 +70,13 @@ async function buildGarden() {
     for (const { fileName, sourceDir, destDir, content } of filesToProcess) {
         let finalBody = content.content;
 
-        // --- SMARTER IMAGE PROCESSING ---
-        const imageRegex = /!\[\[(.*?)(?:\|.*?)?\]\]/g;
-        let imgMatch;
-        while ((imgMatch = imageRegex.exec(finalBody)) !== null) {
-            const originalLink = imgMatch[1];
-            
-            // 1. Sanitize: Remove subfolders from the link and fix spaces (%20)
-            // e.g. "99-Files/My Image.png" -> "My Image.png"
-            const cleanImageName = path.basename(decodeURIComponent(originalLink));
+        // --- FIXED IMAGE PROCESSING (Handles Wikilinks AND Standard Links) ---
+        
+        // Helper function to find and copy an image
+        const processImage = async (rawLink) => {
+            // 1. Sanitize: Remove query params or tooltips if present in standard links
+            let cleanLink = rawLink.split(' ')[0]; 
+            const cleanImageName = path.basename(decodeURIComponent(cleanLink));
 
             const destImgPath = path.join(DEST_IMAGES, cleanImageName);
             
@@ -99,10 +96,28 @@ async function buildGarden() {
             }
 
             if (imageFound) {
-                await fs.copy(srcImgPath, destImgPath);
+                // Check if file already exists at dest to avoid redundant copies
+                if (!(await fs.pathExists(destImgPath))) {
+                    await fs.copy(srcImgPath, destImgPath);
+                }
             } else {
-                console.warn(`⚠️  Missing Image in ${fileName}: ${cleanImageName} (Checked: ${SOURCE_IMAGES})`);
+                console.warn(`⚠️  Missing Image in ${fileName}: ${cleanImageName}`);
             }
+        };
+
+        // Pass 1: Obsidian Wikilinks -> ![[Image.png]]
+        const wikiRegex = /!\[\[(.*?)(?:\|.*?)?\]\]/g;
+        let wikiMatch;
+        while ((wikiMatch = wikiRegex.exec(finalBody)) !== null) {
+            await processImage(wikiMatch[1]);
+        }
+
+        // Pass 2: Standard Markdown Links -> ![Alt](Image.png)
+        // This is what catches the images in your Library.md
+        const mdRegex = /!\[.*?\]\((.*?)\)/g;
+        let mdMatch;
+        while ((mdMatch = mdRegex.exec(finalBody)) !== null) {
+            await processImage(mdMatch[1]);
         }
 
         // --- ENHANCED LINK SANITIZATION ---
@@ -113,17 +128,14 @@ async function buildGarden() {
 
             // Clean the target for checking existence
             let coreFilename = linkTarget.split('|')[0].split('#')[0]; 
-            // Also handle cases where linkTarget includes a path like "notes/Some Note"
             coreFilename = path.basename(coreFilename);
 
             if (publicFiles.has(coreFilename)) {
-                return match; // Valid public note, keep link
+                return match; 
             } else {
                 // Private/missing link: Pretty-print text
                 let displayText = linkTarget.split('|')[0].split('#')[0]; 
-                // Remove status icons if present
                 displayText = displayText.replace(/^[🟢🟡]\s?/, '');
-                // Ensure we display just the name, not the path
                 return path.basename(displayText); 
             }
         });
