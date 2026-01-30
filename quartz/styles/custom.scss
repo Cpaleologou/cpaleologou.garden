@@ -1,5 +1,3 @@
-@use "./base.scss";
-
 /* Constrain the text width, but center it within the middle column */
 .center .breadcrumb-container, 
 .center .article-title, 
@@ -19,24 +17,22 @@ article li,
 article {
   font-size: 1.2rem;
   font-weight: 300;
-  line-height: 1.6; /* 4 is extremely large; 1.6-1.8 is standard for 'bookish' */
+  line-height: 1.6; 
 }
 
-
 // Apply pinyon script to H6 (The "Last H Heading")
-
 h6 {
   font-family: 'Pinyon Script', cursive;
-  font-weight: 400; /* Script fonts usually look best regular, not bold */
-  font-size: 2em;   /* Script fonts often need to be larger to be readable */
+  font-weight: 400; 
+  font-size: 2em;   
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
   line-height: 1.2;
-  color: var(--secondary); /* Optional: Uses your "Burnt Orange" accent color */
+  color: var(--secondary); 
 }
 
 /* 2. CARTOGRAPHIC BORDERS */
-/* Adds a double-line border to the main container, resembling old map frames */
+/* Adds a double-line border to the main container */
 .page {
   border-left: 3px double var(--dark); 
   padding-left: 2rem;
@@ -44,8 +40,7 @@ h6 {
 
 /* 3. "TELEGRAM" METADATA */
 /* Styles tags and dates to look like stamped classifications */
-.content-meta
-  {
+.content-meta {
   font-family: var(--codeFont);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -54,7 +49,7 @@ h6 {
   padding-bottom: 0.5rem;
 }
 
-.center .tags{
+.center .tags {
   font-family: var(--codeFont);
   letter-spacing: 0.1em;
   padding-bottom: 0.5rem;
@@ -63,7 +58,7 @@ h6 {
 /* 4. BLOCKQUOTES AS FIELD REPORTS */
 blockquote {
   font-family: var(--codeFont);
-  background-color: rgba(0, 0, 0, 0.03); /* Subtle tint */
+  background-color: rgba(0, 0, 0, 0.03); 
   border-left: 2px solid var(--secondary);
   padding: 1rem;
   margin: 1.5rem 0;
@@ -81,11 +76,10 @@ blockquote {
 }
 
 /* 5. CALLOUTS */
-/* Style callouts to look like pinned notes or warnings */
 .callout {
   border: 1px solid var(--gray);
-  box-shadow: 4px 4px 0px var(--lightgray); /* Hard shadow, not blurry */
-  border-radius: 0; /* Sharp corners */
+  box-shadow: 4px 4px 0px var(--lightgray); 
+  border-radius: 0; 
 }
 
 /* 6. IMAGE TEXT WRAPPING */
@@ -95,8 +89,8 @@ img[alt$="right"] {
   float: right;
   margin-left: 1.5rem;
   margin-bottom: 1rem;
-  width: 300px; /* Optional: Set a default "small" size */
-  clear: right; /* Prevents stacking weirdness */
+  width: 300px; 
+  clear: right; 
 }
 
 /* Float Left Trigger: ![[image.png|left]] */
@@ -111,99 +105,77 @@ img[alt$="left"] {
 /* 7. DROPCAP FIRST LETTER */
 article > p:first-of-type::first-letter {
   float: left;
-  font-size: 3.5rem; /* Adjust size */
-  line-height: 0.85; /* Adjust vertical alignment */
+  font-size: 3.5rem; 
+  line-height: 0.85; 
   font-weight: bold;
-  margin-right: 0.5rem; /* Space between letter and text */
-  margin-top: 0.2rem;   /* Minor tweak for cap height alignment */
-  color: var(--secondary); /* Uses Quartz's theme colors */
+  margin-right: 0.5rem; 
+  margin-top: 0.2rem;   
+  color: var(--secondary); 
 }
 
 /* 8. LIBRARY PAGE OVERRIDES */
 
-/* 1. Un-restrict the width specifically for the Library page */
-body[data-slug="library"] .center .breadcrumb-container,
-body[data-slug="library"] .center .article-title,
-body[data-slug="library"] .center .content-meta,
-body[data-slug="library"] .center article {
-  max-width: 100%; /* Fill available space */
-}
-
-/* 2. Turn the list of books into a 3-column grid */
-body[data-slug="library"] .center article ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  gap: 1.5rem; /* Space between books */
-  padding: 0;
-  list-style: none; /* Remove bullet points if you want */
-}
-
-/* Optional: Make it responsive (2 columns on tablets, 1 on phones) */
-@media (max-width: 800px) {
-  body[data-slug="library"] .center article ul {
-    grid-template-columns: repeat(2, 1fr);
+/* Allow the library page to use the full screen width */
+body[data-slug="library"] {
+  .center .breadcrumb-container,
+  .center .article-title,
+  .center .content-meta,
+  .center article {
+    max-width: 100%;
   }
 }
 
-@media (max-width: 500px) {
-  body[data-slug="library"] .center article ul {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-/* Library Grid Layout */
+/* Styling specifically for the div class="library-grid" */
 .library-grid {
-  & > ul {
+  ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Creates the grid */
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Responsive grid */
     gap: 2rem;
-    list-style: none; /* Removes bullet points */
+    list-style: none; 
     padding: 0;
     margin: 0;
   }
 
-  & li {
+  li {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border: 1px solid var(--lightgray);
-    border-radius: 8px;
+    margin: 0;
     padding: 1rem;
-    transition: transform 0.2s ease;
-    background-color: var(--light);
+    border-radius: 8px;
+    transition: transform 0.2s ease, background-color 0.2s;
     
-    /* Hover effect */
+    /* Subtle hover effect */
     &:hover {
       transform: translateY(-5px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      border-color: var(--secondary);
+      background-color: rgba(0, 0, 0, 0.03); 
     }
+  }
 
-    /* Style the images inside the grid */
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 4px;
-      margin-bottom: 0.5rem;
-      object-fit: cover;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
+  /* Book Covers */
+  img {
+    width: 100%;
+    max-width: 140px; 
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15); /* Shadow for depth */
+    margin-bottom: 0.75rem;
+  }
 
-    /* Style the links/text */
-    a {
-      font-weight: 600;
-      text-decoration: none;
-      
-      &.internal {
-        background: none; /* Removes default highlight if you prefer clean look */
-      }
-    }
+  /* Author styling matches your "Telegram" metadata style */
+  .author {
+    display: block;
+    font-family: var(--codeFont);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--gray);
+    margin-top: 0.25rem;
   }
 }
 
-// 9. PAPER TEXTURE BACKGROUND
+/* 9. PAPER TEXTURE BACKGROUND */
 body::before {
   content: "";
   position: fixed;
@@ -211,39 +183,20 @@ body::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  
-  // Point to the image you moved to the static folder
   background-image: url("/static/beige-paper.png");
-  
-  // Repeat the texture (or use 'cover' if you prefer it stretched)
   background-repeat: repeat;
-  background-size: auto; // Adjust this if the grain is too big/small (e.g., 500px)
-
-  // Blending is key for "texture over color"
-  // 'multiply' creates a realistic paper effect on light themes
-  // 'overlay' or 'soft-light' works better if you use dark mode
+  background-size: auto; 
   mix-blend-mode: multiply; 
-  
-  // Transparency ensures the underlying color shines through
   opacity: 0.5; 
-
-  // Ensure it doesn't block clicks or selecting text
   pointer-events: none;
-  
-  // Place it behind the text content but above the background color
   z-index: -1; 
 }
 
-// RECENT NOTES SECTION
-
+/* RECENT NOTES SECTION */
 .recent-notes {
-  /* This targets the specific link class you provided */
   a.internal {
     font-size: 1.1rem !important;
-    //font-weight: 500;
   }
-
-  /* Your date styling which you mentioned is already working */
   .meta {
     font-family: var(--codeFont);
     font-size: 0.8rem;
