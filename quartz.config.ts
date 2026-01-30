@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Playfair Display",
-        body: "Merriweather:300,400,700",
+        body: "Merriweather",
         code: "Courier Prime",
       },
       colors: {
