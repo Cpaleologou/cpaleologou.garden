@@ -5,7 +5,16 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.MobileOnly(
+      Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 5,
+        showTags: false,
+        filter: (f) => f.slug !== "index" && !f.slug?.startsWith("tags/"),
+      })
+    ),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
@@ -52,7 +61,7 @@ export const defaultContentPageLayout: PageLayout = {
         title: "Recent Notes",
         limit: 5,
         showTags: false,
-        filter: (f) => f.slug ? f.slug.startsWith("writing/") : false,
+        filter: (f) => f.slug ? f.slug.startsWith("notes/") : false,
       })
     ),
   ],
