@@ -6,54 +6,63 @@ import matter from 'gray-matter';
 const VAULT_PATH = '/Users/christianpaleologou/Library/Mobile Documents/iCloud~md~obsidian/Documents';
 const SOURCE_ROOT = path.join(VAULT_PATH, 'Thoughts/03-Permanent Notes'); 
 const SOURCE_IMAGES = path.join(VAULT_PATH, 'Thoughts/99-Files'); 
-
-const DEST_CONTENT = './content';
-const DEST_WRITINGS = './content/writing';
 const DEST_IMAGES = './content/assets'; 
+
+// Define which folders to sync and where they go
+const FOLDERS_TO_SYNC = [
+    {
+        name: 'Root',
+        source: SOURCE_ROOT,
+        dest: './content'
+    },
+    {
+        name: 'Notes', // Renamed from 'writing'
+        source: path.join(SOURCE_ROOT, 'notes'),
+        dest: './content/notes'
+    },
+    {
+        name: 'Writing', // The future folder you mentioned
+        source: path.join(SOURCE_ROOT, 'writing'),
+        dest: './content/writing'
+    }
+];
 
 // --- EXECUTION ---
 async function buildGarden() {
     console.log("🌱 Starting Garden Build...");
-    console.log(`📂 Looking for notes in: ${SOURCE_ROOT}`);
 
-    // 1. Clean Destination
-    await fs.emptyDir(DEST_CONTENT);
-    await fs.ensureDir(DEST_WRITINGS);
+    // 1. Clean Destination (Wipe content folder fresh)
+    await fs.emptyDir('./content');
+    
+    // Ensure all destination subfolders exist
     await fs.ensureDir(DEST_IMAGES);
-
-    //await fs.writeFile(path.join(DEST_CONTENT, 'CNAME'), 'christianp.space');
+    for (const folder of FOLDERS_TO_SYNC) {
+        if (folder.dest !== './content') { // content is already created by emptyDir
+            await fs.ensureDir(folder.dest);
+        }
+    }
 
     const publicFiles = new Set();
     const filesToProcess = [];
 
-    // --- CHECK ROOT FOLDER ---
-    if (!await fs.pathExists(SOURCE_ROOT)) {
-        console.error(`❌ CRITICAL ERROR: Source path does not exist!\n   -> ${SOURCE_ROOT}`);
-        return;
-    }
-
-    const rootItems = await fs.readdir(SOURCE_ROOT);
-    console.log(`Found ${rootItems.length} items in Root folder.`);
-
-    for (const item of rootItems) {
-        if (item.endsWith('.md')) {
-            await stageFile(item, SOURCE_ROOT, DEST_CONTENT, publicFiles, filesToProcess);
-        }
-    }
-
-    // --- CHECK WRITING FOLDER ---
-    const writingPath = path.join(SOURCE_ROOT, 'writing'); 
-    if (await fs.pathExists(writingPath)) {
-        const writingItems = await fs.readdir(writingPath);
-        console.log(`Found ${writingItems.length} items in Writing folder.`);
-        
-        for (const item of writingItems) {
-            if (item.endsWith('.md')) {
-                await stageFile(item, writingPath, DEST_WRITINGS, publicFiles, filesToProcess);
+    // --- STAGE FILES FROM ALL FOLDERS ---
+    for (const folder of FOLDERS_TO_SYNC) {
+        if (await fs.pathExists(folder.source)) {
+            console.log(`📂 Checking ${folder.name} folder: ${folder.source}`);
+            const items = await fs.readdir(folder.source);
+            
+            let count = 0;
+            for (const item of items) {
+                if (item.endsWith('.md')) {
+                    await stageFile(item, folder.source, folder.dest, publicFiles, filesToProcess);
+                    count++;
+                }
             }
+            console.log(`   -> Found ${count} markdown files.`);
+        } else {
+            // It is okay if 'writing' doesn't exist yet, just log a warning
+            console.warn(`⚠️  Skipping ${folder.name}: Path not found (${folder.source})`);
         }
-    } else {
-        console.warn(`⚠️  Warning: 'writing' folder NOT found at: ${writingPath}`);
     }
 
     // --- PROCESS FILES ---
@@ -73,34 +82,27 @@ async function buildGarden() {
             if (await fs.pathExists(srcImgPath)) {
                 await fs.copy(srcImgPath, destImgPath);
             } else {
-                console.warn(`⚠️  Missing Image: ${imageName} in ${fileName}`);
+                // Optional: Uncomment to debug missing images
+                // console.warn(`⚠️  Missing Image: ${imageName} in ${fileName}`);
             }
         }
 
         // --- ENHANCED LINK SANITIZATION ---
-        // We capture an optional "!" in group 1 to identify images
         const linkRegex = /(!)?\[\[(.*?)(?:\|.*?)?\]\]/g;
         
         finalBody = finalBody.replace(linkRegex, (match, isImage, linkTarget) => {
-            // NEW: If this is an image link (starts with !), don't touch it!
-            if (isImage) {
-                return match; 
-            }
+            if (isImage) return match; 
 
-            // 1. Clean the target for checking existence (remove alias | and anchor #)
+            // Clean the target for checking existence
             let coreFilename = linkTarget.split('|')[0].split('#')[0]; 
             
             if (publicFiles.has(coreFilename)) {
-                return match; // It's a valid public note, keep the link!
+                return match; // Valid public note, keep link
             } else {
-                // It's a private/book link. We need to pretty-print the text.
-                // Step A: Remove the Alias pipe and the Anchor
+                // Private/missing link: Pretty-print text
                 let displayText = linkTarget.split('|')[0].split('#')[0]; 
-
-                // Step B: Remove the Emojis (Green or Yellow circle followed by optional space)
                 displayText = displayText.replace(/^[🟢🟡]\s?/, '');
-
-                return displayText; // Return just the clean title
+                return displayText; 
             }
         });
 
@@ -123,10 +125,10 @@ async function stageFile(fileName, sourcePath, destPath, publicSet, processList)
     const raw = await fs.readFile(fullPath, 'utf8');
     const parsed = matter(raw);
     
-    // --- ROBUST DRAFT CHECK ---
-    const isDraft = parsed.data.draft === true || parsed.data.draft === 'true';
+    // --- PUBLISH CHECK ---
+    const isPublished = parsed.data.publish === true || parsed.data.publish === 'true';
 
-    if (isDraft) {
+    if (!isPublished) {
         return; 
     }
 

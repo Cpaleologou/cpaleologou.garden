@@ -1,0 +1,30 @@
+---
+title: The Layers of AI
+tags:
+  - '#TerraIncognita'
+  - '#AI'
+  - '#Technology'
+publish: 'true'
+date: 2024-03-09T00:00:00.000Z
+---
+![[IMG_4029.png]]
+
+There are 4 key layers to the AI industry
+
+L1: Hardware - Nvidia, Intel, AMD - extremely complicated and difficult
+
+L2: Infrastructure - AWS, Google Cloud - very expensive and resource intensive
+
+L3: Developer tool (APIs) - ChatGPT, Rapidfire - extremely competitive, likely to have only a few big winners
+
+L4: Software Application - Able to target specific use cases for a fraction of the cost that AI used to cost.
+
+---
+## Connections
+
+[[Opportunities in AI]]
+
+---
+## Reference:
+
+ https://youtu.be/5p248yoa3oE?si=GOcfnl6IGuXQlWa0
