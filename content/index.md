@@ -29,7 +29,8 @@ On each piece of writing you'll see a tag indicating the maturity of the piece.
 
 - Recent Writings
 - Now
-- Library
+
+[[Library]]
 
 
 ###### Christian P.
