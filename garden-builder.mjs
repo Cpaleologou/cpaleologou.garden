@@ -24,6 +24,11 @@ const FOLDERS_TO_SYNC = [
         name: 'Writing', 
         source: path.join(SOURCE_ROOT, 'writing'),
         dest: './content/writing'
+    },
+    {
+        name: 'Now', 
+        source: path.join(SOURCE_ROOT, 'now'),
+        dest: './content/now'
     }
 ];
 
@@ -53,6 +58,7 @@ async function buildGarden() {
             
             let count = 0;
             for (const item of items) {
+                // Ignore dotfiles (like .DS_Store) and only grab markdown
                 if (item.endsWith('.md')) {
                     await stageFile(item, folder.source, folder.dest, publicFiles, filesToProcess);
                     count++;
@@ -113,7 +119,6 @@ async function buildGarden() {
         }
 
         // Pass 2: Standard Markdown Links -> ![Alt](Image.png)
-        // This is what catches the images in your Library.md
         const mdRegex = /!\[.*?\]\((.*?)\)/g;
         let mdMatch;
         while ((mdMatch = mdRegex.exec(finalBody)) !== null) {
