@@ -200,26 +200,33 @@ body::before {
   width: 100vw;
   height: 100vh;
   
-  // Point to the image you moved to the static folder
+  // Make sure this path is correct for your project folder
   background-image: url("/static/beige-paper.png");
   
-  // Repeat the texture (or use 'cover' if you prefer it stretched)
   background-repeat: repeat;
-  background-size: auto; // Adjust this if the grain is too big/small (e.g., 500px)
-
-  // Blending is key for "texture over color"
-  // 'multiply' creates a realistic paper effect on light themes
-  // 'overlay' or 'soft-light' works better if you use dark mode
+  background-size: 500px auto; // Adjust size if grain is too chunky
+  pointer-events: none;        // Allows you to click things underneath
+  z-index: -1;                 // Stays behind the text
+  
+  // --- DEFAULT (LIGHT MODE) ---
+  // "Ink on Paper" look
   mix-blend-mode: multiply; 
-  
-  // Transparency ensures the underlying color shines through
   opacity: 0.5; 
+  filter: none;
 
-  // Ensure it doesn't block clicks or selecting text
-  pointer-events: none;
-  
-  // Place it behind the text content but above the background color
-  z-index: -1; 
+  // --- DARK MODE OVERRIDES ---
+  // "Dust on Slate" look
+  @media (prefers-color-scheme: dark) {
+    // 1. Invert colors so dark grains become light specks
+    // 2. Grayscale ensures no weird blue colors appear from the beige
+    filter: grayscale(1) invert(1);
+    
+    // Overlay allows the texture to interact with the dark background
+    mix-blend-mode: overlay; 
+    
+    // Lower opacity so it doesn't look like static noise
+    opacity: 0.15; 
+  }
 }
 
 /* Allow the Left Sidebar to scroll if content is too tall */

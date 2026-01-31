@@ -21,7 +21,7 @@
 [x] Fix Images not loading
 2. Add image wrapping CSS to obsidian so that it matches site
 [x] Add Library page.
-5. Add Now page to keep updated with my current learning plan
+[x] Add Now page to keep updated with my current learning plan
 [x] Finish reformatting permanent notes so that they present properly and dates
 7. layout hierarchy 
    - Index and About are one same. Includes The garden, me, where to start
