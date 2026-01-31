@@ -29,8 +29,16 @@ h6 {
 /* 2. CARTOGRAPHIC BORDERS */
 /* Adds a double-line border to the main container, resembling old map frames */
 .page {
+  /* Default: Desktop styles */
   border-left: 3px double var(--dark); 
   padding-left: 2rem;
+  box-sizing: border-box; /* Ensures padding doesn't expand width beyond 100% */
+  
+  /* Mobile Override: Remove the heavy border/padding */
+  @media (max-width: 600px) {
+    border-left: none; /* Removes the double line to save space */
+    padding-left: 0;   /* Reclaims the space on the left */
+  }
 }
 
 /* 3. "TELEGRAM" METADATA */
