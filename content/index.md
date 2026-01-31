@@ -25,7 +25,7 @@ On each piece of writing you'll see a tag indicating the maturity of the piece.
 
 #Gazetteer essays are going to be rare. These are largely finished works. A lot of time and thought will have gone into *Gazetteer* content. You can interpret these as a fully formed thoughts, though I always maintain the right to change my mind!
 
-## Where to start?
+## Starting Points
 
 <div class="start-grid">
   <ul>

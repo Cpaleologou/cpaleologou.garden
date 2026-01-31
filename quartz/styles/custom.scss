@@ -320,7 +320,10 @@ body::before {
   li {
     /* Flex Row: Icon on Left | Text on Right */
     display: flex;
-    align-items: center; 
+    
+    /* CHANGE 1: Align to top instead of center */
+    align-items: flex-start; 
+    
     gap: 1rem; 
     
     background-color: var(--light);
@@ -331,7 +334,7 @@ body::before {
     
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s;
     cursor: pointer;
-    position: relative; /* For the clickable area expansion */
+    position: relative; 
 
     /* Card Hover Effect */
     &:hover {
@@ -344,19 +347,21 @@ body::before {
   /* TEXT CONTAINER (The Link) */
   a {
     display: flex;
-    flex-direction: column; /* Stacks Title on top of Desc */
+    flex-direction: column; 
     text-decoration: none;
-    border: none; /* Removes default link underline */
+    border: none; 
     width: 100%;
+    
+    background: transparent !important; 
+    padding: 0 !important; 
 
-    /* Clickable Area Expansion */
     &::after {
       content: '';
       position: absolute;
       inset: 0;
     }
 
-    /* THE HEADER (strong tag) */
+    /* THE HEADER */
     strong {
       color: var(--dark);
       font-family: var(--headerFont);
@@ -367,7 +372,7 @@ body::before {
       transition: color 0.2s ease;
     }
 
-    /* THE DESCRIPTION (span class="desc") */
+    /* THE DESCRIPTION */
     .desc {
       color: var(--gray);
       font-family: var(--bodyFont);
@@ -377,7 +382,6 @@ body::before {
     }
   }
 
-  /* Hover State: Change Header Color only */
   li:hover a strong {
     color: var(--secondary);
   }
@@ -386,12 +390,15 @@ body::before {
   li::before {
     content: "";
     display: block;
-    width: 32px;  /* Slightly larger for the new layout */
+    width: 32px; 
     height: 32px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     flex-shrink: 0; 
+    
+    /* CHANGE 2: Nudge icon down slightly to match text line-height */
+    margin-top: 2px; 
     
     background-image: url('/static/TeaIcon_Light.webp');
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
