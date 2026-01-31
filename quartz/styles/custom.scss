@@ -107,17 +107,6 @@ img[alt$="left"] {
   clear: left;
 }
 
-// /* 7. DROPCAP FIRST LETTER */
-// article > p:first-of-type::first-letter {
-//   float: left;
-//   font-size: 4rem; /* Adjust size */
-//   line-height: 0.85; /* Adjust vertical alignment */
-//   font-weight: bold;
-//   margin-right: 0.5rem; /* Space between letter and text */
-//   margin-top: 0.2rem;   /* Minor tweak for cap height alignment */
-//   color: var(--secondary); /* Uses Quartz's theme colors */
-// }
-
 /* 8. LIBRARY PAGE OVERRIDES */
 
 /* 1. Un-restrict the width specifically for the Library page */
@@ -424,7 +413,9 @@ html[saved-theme="dark"] .recent-notes li::before {
     gap: 1rem;
     list-style: none;
     padding: 0;
-    margin: 0;
+    
+    /* CHANGE: Added 3rem space at the bottom */
+    margin: 0 0 4rem 0;
 
     /* Mobile: Stack vertically */
     @media (max-width: 600px) {
@@ -435,10 +426,7 @@ html[saved-theme="dark"] .recent-notes li::before {
   li {
     /* Flex Row: Icon on Left | Text on Right */
     display: flex;
-    
-    /* CHANGE 1: Align to top instead of center */
     align-items: flex-start; 
-    
     gap: 1rem; 
     
     background-color: var(--light);
@@ -512,7 +500,6 @@ html[saved-theme="dark"] .recent-notes li::before {
     background-position: center;
     flex-shrink: 0; 
     
-    /* CHANGE 2: Nudge icon down slightly to match text line-height */
     margin-top: 2px; 
     
     background-image: url('/static/TeaIcon_Light.webp');
@@ -531,10 +518,3 @@ html[saved-theme="dark"] .start-grid li::before {
   background-image: url('/static/TeaIcon_Dark.webp');
 }
 
-/* Disable Hover Previews for the "Where to Start" Grid */
-.start-grid .popover {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-}

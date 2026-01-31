@@ -38,11 +38,12 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.ContentMeta(),
-      condition: (page) => page.fileData.slug !== "index",
+      // Add: && page.fileData.slug !== "library"
+      condition: (page) => page.fileData.slug !== "index" && page.fileData.slug !== "Library",
     }),
     Component.ConditionalRender({
       component: Component.TagList(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => page.fileData.slug !== "index" && page.fileData.slug !== "Library",
     }),
   ],
   left: [

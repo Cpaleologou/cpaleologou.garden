@@ -7,7 +7,7 @@ publish: 'true'
 ![[BannerImageWideCA_Final.webp]]
 ###### Welcome to my digital garden
 
-My name's Christian. I started writing online in 2021 to share book reviews and reflect on the things I thought would be interesting or actionable for friends, family, and myself.
+I'm Christian. I started writing online in 2021 to share book reviews and reflect on the things I thought would be interesting or actionable for friends, family, and myself.
 
 Frankly, I've struggled with consistency over the years. Most of my writing is just short notes on things I find interesting in books or media. Occasionally, I'll put a longer piece together, but the frequency wanes with my interests and motivations.
 
