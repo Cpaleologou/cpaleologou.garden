@@ -23,7 +23,7 @@
 [x] Add Library page.
 [x] Add Now page to keep updated with my current learning plan
 [x] Finish reformatting permanent notes so that they present properly and dates
-7. layout hierarchy 
+[x] layout hierarchy 
    - Index and About are one same. Includes The garden, me, where to start
    - Now - just posting study play updates, more of a chronological blog
    - Notes - all my terraIncognita notes
