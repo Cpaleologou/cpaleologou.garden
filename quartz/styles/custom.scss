@@ -1,21 +1,5 @@
 @use "./base.scss";
 
-/* Constrain the text width, but center it within the middle column */
-// .center .breadcrumb-container, 
-// .center .article-title, 
-// .center .content-meta,    
-// .center .tags,  
-// .center article 
-// .center .section-list, /* <--- ADDS THE FOLDER LIST */
-// .center > h1,          /* <--- ADDS FOLDER TITLES */
-// .center > p {
-//   max-width: 700px;
-//   margin-left: auto;
-//   margin-right: auto;
-//   width: 100%;
-//   box-sizing: border-box;
-// }
-
 /* 1. ARCHIVAL LAYOUT & ACCENT TEXT*/
 article p, 
 article li, 
@@ -111,16 +95,16 @@ img[alt$="left"] {
   clear: left;
 }
 
-/* 7. DROPCAP FIRST LETTER */
-article > p:first-of-type::first-letter {
-  float: left;
-  font-size: 4rem; /* Adjust size */
-  line-height: 0.85; /* Adjust vertical alignment */
-  font-weight: bold;
-  margin-right: 0.5rem; /* Space between letter and text */
-  margin-top: 0.2rem;   /* Minor tweak for cap height alignment */
-  color: var(--secondary); /* Uses Quartz's theme colors */
-}
+// /* 7. DROPCAP FIRST LETTER */
+// article > p:first-of-type::first-letter {
+//   float: left;
+//   font-size: 4rem; /* Adjust size */
+//   line-height: 0.85; /* Adjust vertical alignment */
+//   font-weight: bold;
+//   margin-right: 0.5rem; /* Space between letter and text */
+//   margin-top: 0.2rem;   /* Minor tweak for cap height alignment */
+//   color: var(--secondary); /* Uses Quartz's theme colors */
+// }
 
 /* 8. LIBRARY PAGE OVERRIDES */
 
