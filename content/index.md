@@ -30,7 +30,7 @@ On each piece of writing you'll see a tag indicating the maturity of the piece.
 <div class="start-grid">
   <ul>
     <li>
-      <a href="/recent">
+      <a href="/notes">
         <strong>Recent Writings</strong>
         <span class="desc">My latest essays and notes</span>
       </a>
@@ -49,5 +49,8 @@ On each piece of writing you'll see a tag indicating the maturity of the piece.
     </li>
   </ul>
 </div>
+
+
+
 
 ###### Christian P.
