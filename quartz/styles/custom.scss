@@ -1,17 +1,20 @@
 @use "./base.scss";
 
 /* Constrain the text width, but center it within the middle column */
-.center .breadcrumb-container, 
-.center .article-title, 
-.center .content-meta,    
-.center .tags,  
-.center article {
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  box-sizing: border-box;
-}
+// .center .breadcrumb-container, 
+// .center .article-title, 
+// .center .content-meta,    
+// .center .tags,  
+// .center article 
+// .center .section-list, /* <--- ADDS THE FOLDER LIST */
+// .center > h1,          /* <--- ADDS FOLDER TITLES */
+// .center > p {
+//   max-width: 700px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 100%;
+//   box-sizing: border-box;
+// }
 
 /* 1. ARCHIVAL LAYOUT & ACCENT TEXT*/
 article p, 
@@ -251,14 +254,29 @@ body::before {
 }
 
 /* Styling specifically for the div class="library-grid" */
+/* Styling specifically for the div class="library-grid" */
 .library-grid {
   ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Responsive grid */
+    
+    /* CHANGE 1: Force exactly 3 columns on desktop */
+    grid-template-columns: repeat(3, 1fr); 
+    
     gap: 0.5rem;
     list-style: none; 
     padding: 0;
     margin: 0;
+
+    /* CHANGE 2: Responsive Breakpoints */
+    /* On tablets (under 800px), drop to 2 columns */
+    @media (max-width: 800px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* On phones (under 500px), drop to 1 column */
+    @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   li {
