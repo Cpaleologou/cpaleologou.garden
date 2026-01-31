@@ -6,11 +6,15 @@ article li,
 article {
   font-size: 1.2rem;
   font-weight: 300;
-  line-height: 1.6; /* 4 is extremely large; 1.6-1.8 is standard for 'bookish' */
+  line-height: 1.8; /* 4 is extremely large; 1.6-1.8 is standard for 'bookish' */
 }
 
 
 // Apply pinyon script to H6 (The "Last H Heading")
+h2 {
+  font-size: 1.8rem;
+}
+
 
 h6 {
   font-family: 'Pinyon Script', cursive;
