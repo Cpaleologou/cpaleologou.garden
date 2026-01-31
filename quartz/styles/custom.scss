@@ -114,7 +114,7 @@ img[alt$="left"] {
 /* 7. DROPCAP FIRST LETTER */
 article > p:first-of-type::first-letter {
   float: left;
-  font-size: 3.5rem; /* Adjust size */
+  font-size: 4rem; /* Adjust size */
   line-height: 0.85; /* Adjust vertical alignment */
   font-weight: bold;
   margin-right: 0.5rem; /* Space between letter and text */
