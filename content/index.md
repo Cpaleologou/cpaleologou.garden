@@ -30,27 +30,23 @@ On each piece of writing you'll see a tag indicating the maturity of the piece.
 <div class="start-grid">
   <ul>
     <li>
-      <a href="/notes">
+      <a href="/notes" data-no-popover>
         <strong>Recent Writings</strong>
         <span class="desc">My latest essays and notes</span>
       </a>
     </li>
     <li>
-      <a href="/now">
+      <a href="/now" data-no-popover>
         <strong>Now</strong>
         <span class="desc">What I'm doing currently</span>
       </a>
     </li>
     <li>
-      <a href="/library">
+      <a href="/library" data-no-popover>
         <strong>Library</strong>
         <span class="desc">Books I've read and recommend</span>
       </a>
     </li>
   </ul>
 </div>
-
-
-
-
 ###### Christian P.
