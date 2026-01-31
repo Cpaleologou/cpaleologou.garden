@@ -375,12 +375,12 @@ body::before {
     flex-shrink: 0; /* Prevents icon from squishing on small screens */
     
     /* Default to Light Mode Icon */
-    background-image: url('../../static/Tealcon_Light.webp');
+    background-image: url('/static/Tealcon_Light.webp');
   }
 }
 
 /* Dark Mode Override for the Icon */
 /* Quartz usually adds [saved-theme="dark"] to the HTML tag */
 html[saved-theme="dark"] .start-grid li::before {
-  background-image: url('../../static/Tealcon_Dark.webp');
+  background-image: url('/static/Tealcon_Dark.webp');
 }
