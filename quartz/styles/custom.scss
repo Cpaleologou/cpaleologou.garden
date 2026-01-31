@@ -200,33 +200,26 @@ body::before {
   width: 100vw;
   height: 100vh;
   
-  // Make sure this path is correct for your project folder
+  // Point to the image you moved to the static folder
   background-image: url("/static/beige-paper.png");
   
+  // Repeat the texture (or use 'cover' if you prefer it stretched)
   background-repeat: repeat;
-  background-size: 500px auto; // Adjust size if grain is too chunky
-  pointer-events: none;        // Allows you to click things underneath
-  z-index: -1;                 // Stays behind the text
-  
-  // --- DEFAULT (LIGHT MODE) ---
-  // "Ink on Paper" look
-  mix-blend-mode: multiply; 
-  opacity: 0.5; 
-  filter: none;
+  background-size: auto; // Adjust this if the grain is too big/small (e.g., 500px)
 
-  // --- DARK MODE OVERRIDES ---
-  // "Dust on Slate" look
-  @media (prefers-color-scheme: dark) {
-    // 1. Invert colors so dark grains become light specks
-    // 2. Grayscale ensures no weird blue colors appear from the beige
-    filter: grayscale(1) invert(1);
-    
-    // Overlay allows the texture to interact with the dark background
-    mix-blend-mode: overlay; 
-    
-    // Lower opacity so it doesn't look like static noise
-    opacity: 0.15; 
-  }
+  // Blending is key for "texture over color"
+  // 'multiply' creates a realistic paper effect on light themes
+  // 'overlay' or 'soft-light' works better if you use dark mode
+  mix-blend-mode: multiply; 
+  
+  // Transparency ensures the underlying color shines through
+  opacity: 0.4; 
+
+  // Ensure it doesn't block clicks or selecting text
+  pointer-events: none;
+  
+  // Place it behind the text content but above the background color
+  z-index: -1; 
 }
 
 /* Allow the Left Sidebar to scroll if content is too tall */
@@ -305,7 +298,7 @@ body::before {
     background-repeat: no-repeat;
     background-position: center;
     
-    background-image: url('/static/TeaIcon_Light.webp');
+    background-image: url('/static/CustomIcons/TeaIcon_Light.webp');
     
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform-origin: center;
@@ -343,7 +336,7 @@ body::before {
 
 /* Dark Mode Icon Override */
 html[saved-theme="dark"] .recent-notes li::before {
-  background-image: url('/static/TeaIcon_Dark.webp');
+  background-image: url('/static/CustomIcons/TeaIcon_Dark.webp');
 }
 
 /* Styling specifically for the div class="library-grid" */
@@ -509,7 +502,7 @@ html[saved-theme="dark"] .recent-notes li::before {
     
     margin-top: 2px; 
     
-    background-image: url('/static/TeaIcon_Light.webp');
+    background-image: url('/static/CustomIcons/TeaIcon_Light.webp');
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform-origin: center;
   }
@@ -522,6 +515,28 @@ html[saved-theme="dark"] .recent-notes li::before {
 
 /* Dark Mode Icon Override */
 html[saved-theme="dark"] .start-grid li::before {
-  background-image: url('/static/TeaIcon_Dark.webp');
+  background-image: url('/static/CustomIcons/TeaIcon_Dark.webp');
 }
 
+/* ======================================================= */
+/* LIBRARY ICON OVERRIDE (Book Icon + "Grow" Animation)    */
+/* ======================================================= */
+
+/* 1. Base Styles (Light Mode) */
+.start-grid li:has(a[href="/library"]) {
+  
+  /* Swap the image to the Book Icon */
+  &::before {
+    background-image: url('/static/CustomIcons/BookIcon_Light.webp');
+  }
+
+  /* Override the default "Rotate" animation with "The Grow" */
+  &:hover::before {
+    transform: scale(1.15); 
+  }
+}
+
+/* 2. Dark Mode Override */
+html[saved-theme="dark"] .start-grid li:has(a[href="/library"])::before {
+  background-image: url('/static/CustomIcons/BookIcon_Dark.webp');
+}
