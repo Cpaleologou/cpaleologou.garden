@@ -7,25 +7,23 @@ publish: 'true'
 ![[BannerImageWideCA_Final.webp]]
 ###### Welcome to my digital garden
 
-I'm Christian. I started writing online in 2021 to share book reviews and reflect on the things I thought would be interesting or actionable for friends, family, and myself.
+I'm Christian. This is my digital garden - a collection of notes, half-formed ideas, and occasional essays.
 
-Frankly, I've struggled with consistency over the years. Most of my writing is just short notes on things I find interesting in books or media. Occasionally, I'll put a longer piece together, but the frequency wanes with my interests and motivations.
+By day, I'm a CPA and Senior Financial Analyst. By temperament, I'm an intellectual tinkerer: someone who gets absorbed in book rabbit holes, creative projects, and writes to figure out what I think.
 
-Recently, I discovered the growing trend of *digital gardens*. These are opinionated, messy, interconnected collections of notes and essays organized by **maturity** rather than chronology or topic.  It feels much more aligned to my style of learning and sharing. 
+Most of what's here is incomplete. Fragments about learning, history, technology and philosophy. Some pieces mature into something coherent. Most stay messy. I'm more interested in exploration than polish.
 
-By 'maturity', I am referring to the state of completeness. Commonly, you will see a 3-tiered system of 'sapling', 'budding', and 'evergreen', obviously inspired by a real garden. However, at the time of writing, I am re-reading Peter Hopkirk's '*The Great Game: On Secret Service in High Asia*'.  I love the romantic imagery of early 19th century explorers, spies and cartographers. I've also come to see my style of learning as a process much closer to exploration than nurturing. Thus, I've adapted the concept slightly, inspired by the adventurous men who dutifully risked their lives to chart and map 'the great unknown'. 
+## About This Garden
 
-## The System
+Notes are organized by **maturity** here, rather than chronology or topic. I'm currently re-reading *The Great Game* by Peter Hopkirk, so I've taken inspiration from those 19th century explorers who risked their lives to dutifully chart and map the great unknown. 
 
-On each piece of writing you'll see a tag indicating the maturity of the piece.  
+#TerraIncognita - Raw notes and observations. Potentially wrong. Don't take these too seriously.
 
-#TerraIncognita are the most common style of note. They are young, unfinished and, **importantly**, potentially wrong. These are closer to one-off ideas, observations, or snippets, rather than finished works. Don't judge them too seriously.
+#Surveyed - Ideas starting to come together. Still developing.
 
-#Surveyed pieces are more developed. Here, a few ideas have been collected and synthesized. They aren't complete, but are starting to come together. Like *TerraIncognita* , they are likely to change.
+#Gazetteer - Rare, fully-formed thoughts. Though, I always reserve the right to change my mind.
 
-#Gazetteer essays are going to be rare. These are largely finished works. A lot of time and thought will have gone into *Gazetteer* content. You can interpret these as a fully formed thoughts, though I always maintain the right to change my mind!
-
-## Starting Points
+## Places to Start
 
 <div class="start-grid">
   <ul>
