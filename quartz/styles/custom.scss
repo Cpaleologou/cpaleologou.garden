@@ -234,7 +234,10 @@ body::before {
   }
 }
 
-/* RECENT NOTES - Ghost Card Style */
+/* ======================================================= */
+/* RECENT NOTES (Inkwell & Feather Animation)              */
+/* ======================================================= */
+
 .recent-notes {
   ul {
     display: flex;
@@ -252,9 +255,7 @@ body::before {
     margin: 0 !important; 
     
     /* GHOST STATE (Default) */
-    background-color: transparent; /* Invisible background */
-    
-    /* We keep the border width but make it invisible so text doesn't jump on hover */
+    background-color: transparent; 
     border: 1px solid transparent; 
     border-radius: 8px;
     
@@ -262,54 +263,74 @@ body::before {
     flex-direction: column;
     justify-content: center;
     
-    transition: all 0.2s ease; /* Smooth fade in */
+    transition: all 0.2s ease;
 
+    /* Hide default list bullets */
     &::marker {
       content: none;
     }
 
-    /* HOVER STATE (Visible) */
+    /* HOVER STATE (Visible Card) */
     &:hover {
-      background-color: var(--light); /* Background appears */
-      border-color: var(--lightgray); /* Border appears */
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Shadow appears */
+      background-color: var(--light);
+      border-color: var(--lightgray);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
       transform: translateY(-2px);
-      
-      /* Optional: Accent border color instead of gray? 
-         If yes, change var(--lightgray) above to var(--secondary) */
       
       a.internal {
         color: var(--secondary);
       }
     }
-  }
+    
+    /* --- ICON LAYER 1: THE POT (Static Base) --- */
+    &::before {
+      content: "";
+      position: absolute; 
+      left: 1rem;
+      top: 1rem; 
+      
+      display: block;
+      width: 36px; 
+      height: 36px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+      /* Base Image: Pot Light */
+      background-image: url('/static/CustomIcons/InkWell_Pot_Light.webp');
+      
+      z-index: 1; 
+    }
 
-  /* --- ICON LOGIC --- */
-  li::before {
-    content: "";
-    position: absolute; 
-    left: 1rem;
-    top: 1rem; 
-    
-    display: block;
-    width: 28px; 
-    height: 28px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    background-image: url('/static/CustomIcons/TeaIcon_Light.webp');
-    
-    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transform-origin: center;
-    
-    /* Optional: Make icon semi-transparent until hover? */
-    /* opacity: 0.7; */
-  }
+    /* --- ICON LAYER 2: THE FEATHER (Animated Top) --- */
+    &::after {
+      content: "";
+      position: absolute; 
+      left: 1rem;
+      top: 1rem; 
+      
+      display: block;
+      width: 36px; 
+      height: 36px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+      /* Top Image: Feather Light */
+      background-image: url('/static/CustomIcons/InkWell_Feather_Light.webp');
+      
+      /* Animation Settings */
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transform-origin: center;
+      
+      z-index: 2; 
+      pointer-events: none; /* Allows clicks to pass through */
+    }
 
-  li:hover::before {
-    transform: rotate(-25deg);
-    /* opacity: 1; */
+    /* --- THE HOVER ANIMATION (Dip) --- */
+    &:hover::after {
+      transform: translateY(-6px);
+    }
   }
 
   /* --- TEXT STYLING --- */
@@ -334,9 +355,13 @@ body::before {
   }
 }
 
-/* Dark Mode Icon Override */
+/* --- DARK MODE OVERRIDES --- */
 html[saved-theme="dark"] .recent-notes li::before {
-  background-image: url('/static/CustomIcons/TeaIcon_Dark.webp');
+  background-image: url('/static/CustomIcons/InkWell_Pot_Dark.webp');
+}
+
+html[saved-theme="dark"] .recent-notes li::after {
+  background-image: url('/static/CustomIcons/InkWell_Feather_Dark.webp');
 }
 
 /* Styling specifically for the div class="library-grid" */
@@ -509,7 +534,7 @@ html[saved-theme="dark"] .recent-notes li::before {
 
   /* Icon Animation on Hover */
   li:hover::before {
-    transform: rotate(-25deg);
+    transform: rotate(-25deg) scale(1.15);
   }
 }
 
@@ -519,24 +544,48 @@ html[saved-theme="dark"] .start-grid li::before {
 }
 
 /* ======================================================= */
-/* LIBRARY ICON OVERRIDE (Book Icon + "Grow" Animation)    */
+/* NOW ICON OVERRIDE (2rd Item in the Grid)            */
 /* ======================================================= */
 
-/* 1. Base Styles (Light Mode) */
-.start-grid li:has(a[href="/library"]) {
+/* 1. Light Mode - Target the 2nd list item (Now) */
+.start-grid li:nth-child(2) {
   
-  /* Swap the image to the Book Icon */
+  /* Change icon to Book */
   &::before {
-    background-image: url('/static/CustomIcons/BookIcon_Light.webp');
+    background-image: url('/static/CustomIcons/WatchIcon_Light.webp') !important;
   }
 
-  /* Override the default "Rotate" animation with "The Grow" */
+  /* Override the default "Rotate" animation with "Scale" */
   &:hover::before {
-    transform: scale(1.15); 
+    transform: scale(1.15) !important; 
   }
 }
 
 /* 2. Dark Mode Override */
-html[saved-theme="dark"] .start-grid li:has(a[href="/library"])::before {
-  background-image: url('/static/CustomIcons/BookIcon_Dark.webp');
+html[saved-theme="dark"] .start-grid li:nth-child(2)::before {
+  background-image: url('/static/CustomIcons/WatchIcon_Dark.webp') !important;
+}
+
+
+/* ======================================================= */
+/* LIBRARY ICON OVERRIDE (3rd Item in the Grid)            */
+/* ======================================================= */
+
+/* 1. Light Mode - Target the 3rd list item (Library) */
+.start-grid li:nth-child(3) {
+  
+  /* Change icon to Book */
+  &::before {
+    background-image: url('/static/CustomIcons/BookIcon_Light.webp') !important;
+  }
+
+  /* Override the default "Rotate" animation with "Scale" */
+  &:hover::before {
+    transform: scale(1.15) !important; 
+  }
+}
+
+/* 2. Dark Mode Override */
+html[saved-theme="dark"] .start-grid li:nth-child(3)::before {
+  background-image: url('/static/CustomIcons/BookIcon_Dark.webp') !important;
 }
