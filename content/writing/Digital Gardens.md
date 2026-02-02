@@ -34,6 +34,10 @@ date: 2026-02-01T00:00:00.000Z
 
 [[When Digital Gardening, Plan Long Term]]
 
+[[When My Garden Is Nice I Spent More Time In It]]
+
+[[Performative Blogging Left Me Uninspired]]
+
 ---
 ## Further Reading
 
@@ -41,4 +45,6 @@ date: 2026-02-01T00:00:00.000Z
 
 [A Brief History & Ethos of the Digital Garden](https://maggieappleton.com/garden-history)
 
-At The Existentialist Cafe
+[At The Existentialist Cafe](books.google.ca/books/about/At_the_Existentialist_Café.html?id=nKnSCQAAQBAJ&redir_esc=y)
+
+[Networked Thought](https://jzhao.xyz/posts/networked-thought)
