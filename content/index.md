@@ -28,9 +28,9 @@ Notes are organized by **maturity**, rather than chronology or topic. I'm curre
 <div class="start-grid">
   <ul>
     <li>
-      <a href="/notes" data-no-popover="true">
+      <a href="/writing" data-no-popover="true">
         <strong>Recent Writings</strong>
-        <span class="desc">My latest essays and notes</span>
+        <span class="desc">My latest essays</span>
       </a>
     </li>
     <li>

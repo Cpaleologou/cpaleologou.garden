@@ -7,16 +7,6 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    // Mobile: Recent Notes (specifically from /notes)
-    Component.MobileOnly(
-      Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 3,
-        showTags: false,
-        linkToMore: "notes/" as SimpleSlug, 
-        filter: (f) => f.slug ? f.slug.startsWith("notes/") : false,
-      })
-    ),
     // Mobile: Recent Writing (specifically from /writing)
     Component.MobileOnly(
       Component.RecentNotes({
@@ -25,6 +15,16 @@ export const sharedPageComponents: SharedLayout = {
         showTags: false,
         linkToMore: "writing/" as SimpleSlug, 
         filter: (f) => f.slug ? f.slug.startsWith("writing/") : false,
+      })
+    ),
+    // Mobile: Recent Notes (specifically from /notes)
+    Component.MobileOnly(
+      Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 3,
+        showTags: false,
+        linkToMore: "notes/" as SimpleSlug, 
+        filter: (f) => f.slug ? f.slug.startsWith("notes/") : false,
       })
     ),
   ],
@@ -69,16 +69,6 @@ export const defaultContentPageLayout: PageLayout = {
        // { Component: Component.ReaderMode() },
       ],
     }),
-    // Desktop: Recent Notes
-    Component.DesktopOnly( 
-      Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 3,
-        showTags: false,
-        linkToMore: "notes/" as SimpleSlug, 
-        filter: (f) => f.slug ? f.slug.startsWith("notes/") : false,
-      })
-    ),
     // Desktop: Recent Writing (New Section)
     Component.DesktopOnly( 
       Component.RecentNotes({
@@ -87,6 +77,16 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: false,
         linkToMore: "writing/" as SimpleSlug,
         filter: (f) => f.slug ? f.slug.startsWith("writing/") : false,
+      })
+    ),
+    // Desktop: Recent Notes
+    Component.DesktopOnly( 
+      Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 3,
+        showTags: false,
+        linkToMore: "notes/" as SimpleSlug, 
+        filter: (f) => f.slug ? f.slug.startsWith("notes/") : false,
       })
     ),
   ],
