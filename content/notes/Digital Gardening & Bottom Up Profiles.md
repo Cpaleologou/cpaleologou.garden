@@ -1,7 +1,8 @@
 ---
-title: Digital Gardening Is Humane Self-Definition
+title: Digital Gardening & Bottom Up Profiles
 tags:
   - '#TerraIncognita'
+  - '#DigitalGarden'
 publish: 'true'
 date: 2026-02-01T00:00:00.000Z
 ---
