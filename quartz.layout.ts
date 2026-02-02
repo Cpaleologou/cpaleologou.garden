@@ -7,13 +7,24 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
+    // Mobile: Recent Notes (specifically from /notes)
     Component.MobileOnly(
       Component.RecentNotes({
         title: "Recent Notes",
-        limit: 5,
+        limit: 3,
         showTags: false,
-        linkToMore: "notes/" as SimpleSlug, // <--- Add this line
-        filter: (f) => f.slug !== "index" && !f.slug?.startsWith("tags/"),
+        linkToMore: "notes/" as SimpleSlug, 
+        filter: (f) => f.slug ? f.slug.startsWith("notes/") : false,
+      })
+    ),
+    // Mobile: Recent Writing (specifically from /writing)
+    Component.MobileOnly(
+      Component.RecentNotes({
+        title: "Recent Writing",
+        limit: 3,
+        showTags: false,
+        linkToMore: "writing/" as SimpleSlug, 
+        filter: (f) => f.slug ? f.slug.startsWith("writing/") : false,
       })
     ),
   ],
@@ -38,7 +49,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.ContentMeta(),
-      // Add: && page.fileData.slug !== "library"
       condition: (page) => page.fileData.slug !== "index" && page.fileData.slug !== "Library",
     }),
     Component.ConditionalRender({
@@ -59,13 +69,24 @@ export const defaultContentPageLayout: PageLayout = {
        // { Component: Component.ReaderMode() },
       ],
     }),
+    // Desktop: Recent Notes
     Component.DesktopOnly( 
       Component.RecentNotes({
         title: "Recent Notes",
-        limit: 5,
+        limit: 3,
         showTags: false,
-        linkToMore: "notes/" as SimpleSlug, // <--- Add this line
+        linkToMore: "notes/" as SimpleSlug, 
         filter: (f) => f.slug ? f.slug.startsWith("notes/") : false,
+      })
+    ),
+    // Desktop: Recent Writing (New Section)
+    Component.DesktopOnly( 
+      Component.RecentNotes({
+        title: "Recent Writing",
+        limit: 3,
+        showTags: false,
+        linkToMore: "writing/" as SimpleSlug,
+        filter: (f) => f.slug ? f.slug.startsWith("writing/") : false,
       })
     ),
   ],
