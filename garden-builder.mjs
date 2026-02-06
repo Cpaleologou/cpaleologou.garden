@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 
 // --- CONFIGURATION ---
 const VAULT_PATH = '/Users/christianpaleologou/Library/Mobile Documents/iCloud~md~obsidian/Documents';
-const SOURCE_ROOT = path.join(VAULT_PATH, 'Thoughts/03-Permanent Notes'); 
+const SOURCE_ROOT = path.join(VAULT_PATH, 'Thoughts/03-Garden'); 
 const SOURCE_IMAGES = path.join(VAULT_PATH, 'Thoughts/99-Files'); 
 const DEST_IMAGES = './content/assets'; 
 
@@ -29,6 +29,11 @@ const FOLDERS_TO_SYNC = [
         name: 'Now', 
         source: path.join(SOURCE_ROOT, 'now'),
         dest: './content/now'
+    },
+    {
+        name: 'Learning Plans', 
+        source: path.join(SOURCE_ROOT, 'learning-plans'),
+        dest: './content/learning-plans'
     }
 ];
 
