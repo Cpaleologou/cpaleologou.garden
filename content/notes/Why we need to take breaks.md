@@ -1,7 +1,6 @@
 ---
 title: Why we need to take breaks
 tags:
-  - '#TerraIncognita'
   - '#Learning'
   - '#Productivity'
 publish: 'true'

@@ -1,7 +1,6 @@
 ---
 title: Soft Despotism
 tags:
-  - '#TerraIncognita'
   - '#Definition'
   - '#Politics'
   - '#Philosophy'

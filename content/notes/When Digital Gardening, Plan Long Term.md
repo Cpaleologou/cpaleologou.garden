@@ -1,7 +1,7 @@
 ---
 title: 'When Digital Gardening, Plan Long Term'
 tags:
-  - '#TerraIncognita'
+  - '#DigitalGarden'
 publish: 'true'
 date: 2026-02-01T00:00:00.000Z
 ---

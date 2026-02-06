@@ -1,7 +1,6 @@
 ---
 title: An Example Of Instrumental Reasoning
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
 publish: 'true'
 date: 2025-10-04T00:00:00.000Z

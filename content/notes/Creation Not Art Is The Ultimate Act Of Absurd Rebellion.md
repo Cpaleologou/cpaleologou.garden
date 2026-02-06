@@ -1,7 +1,6 @@
 ---
 title: Creation Not Art Is The Ultimate Act Of Absurd Rebellion
 tags:
-  - '#TerraIncognita'
   - '#Absurdism'
   - '#Creativity'
 publish: 'true'

@@ -1,8 +1,8 @@
 ---
 title: Completeness Is Unimportant For Smart Notes
 tags:
-  - '#TerraIncognita'
   - '#Learning'
+  - '#NoteTaking'
 publish: 'true'
 date: 2021-11-06T00:00:00.000Z
 ---

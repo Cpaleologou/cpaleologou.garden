@@ -1,7 +1,6 @@
 ---
 title: AI Search Is Not the Optimal Solution for Refined Information
 tags:
-  - '#TerraIncognita'
   - '#AI'
 publish: 'true'
 date: 2025-07-30T00:00:00.000Z

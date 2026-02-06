@@ -1,7 +1,6 @@
 ---
 title: The Absurd
 tags:
-  - '#TerraIncognita'
   - '#Definition'
   - '#Philosophy'
   - '#Absurdism'

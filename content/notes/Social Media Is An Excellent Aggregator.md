@@ -1,7 +1,6 @@
 ---
 title: Social Media Is An Excellent Aggregator
 tags:
-  - '#TerraIncognita'
   - '#Media'
   - '#Technology'
 publish: 'true'

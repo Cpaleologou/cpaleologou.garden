@@ -1,7 +1,6 @@
 ---
 title: Camus Fails To Consider Future Generations
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Ethics'
 publish: 'true'

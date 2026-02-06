@@ -1,7 +1,6 @@
 ---
 title: Current Inequality Is Just a Function of Time
 tags:
-  - '#TerraIncognita'
   - '#Economics'
   - '#Society'
 publish: 'true'

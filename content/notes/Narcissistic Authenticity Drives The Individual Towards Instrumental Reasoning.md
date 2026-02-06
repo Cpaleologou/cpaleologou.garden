@@ -1,7 +1,6 @@
 ---
 title: Narcissistic Authenticity Drives The Individual Towards Instrumental Reasoning
 tags:
-  - '#TerraIncognita'
   - '#Authenticity'
   - '#Psychology'
 publish: 'true'

@@ -1,7 +1,6 @@
 ---
 title: All Changes in Ideology Are Grassroot
 tags:
-  - '#TerraIncognita'
   - '#Ideology'
   - '#Society'
 publish: 'true'

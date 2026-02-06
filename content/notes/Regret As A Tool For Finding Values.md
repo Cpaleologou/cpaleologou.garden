@@ -1,7 +1,6 @@
 ---
 title: Regret As A Tool For Finding Values
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Psychology'
 publish: 'true'

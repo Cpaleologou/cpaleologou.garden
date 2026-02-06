@@ -1,7 +1,6 @@
 ---
 title: Political Party Loyalty Requires One To Stop Thinking
 tags:
-  - '#TerraIncognita'
   - '#Politics'
   - '#Philosophy'
 publish: 'true'

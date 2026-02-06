@@ -1,7 +1,6 @@
 ---
 title: Non-Performative Blogging Puts Curiosity First
 tags:
-  - '#TerraIncognita'
   - '#DigitalGarden'
   - '#Curiosity'
 publish: 'true'

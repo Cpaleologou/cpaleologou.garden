@@ -1,7 +1,6 @@
 ---
 title: Marxists Phases Of Civilization
 tags:
-  - '#TerraIncognita'
   - '#History'
   - '#Marxism'
 publish: 'true'

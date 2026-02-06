@@ -1,7 +1,6 @@
 ---
 title: 'Freedom Means Choice, Not Unconstraint'
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Ethics'
 publish: 'true'

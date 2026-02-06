@@ -1,7 +1,6 @@
 ---
 title: 'Organizations Do What They Are Designed To Do, Regardless of Need'
 tags:
-  - '#TerraIncognita'
   - '#Organizations'
   - '#Systems'
 publish: 'true'

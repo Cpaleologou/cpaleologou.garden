@@ -1,11 +1,10 @@
 ---
 title: Truth is less important than trust
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Trust'
 publish: 'true'
-date: '2025-08-09'
+date: 2025-08-09T00:00:00.000Z
 ---
 There has always been untrue information present in our societal systems. In fact, there is plenty of solid reasoning to suggestion that all information, in some way is untrue. Epistemology has grappled with this for thousands of years.
 

@@ -1,7 +1,6 @@
 ---
 title: Saudi Arabia Can Control The Price of Oil With Not A Lot Of Market Share
 tags:
-  - '#TerraIncognita'
   - '#Economics'
   - '#Energy'
 publish: 'true'

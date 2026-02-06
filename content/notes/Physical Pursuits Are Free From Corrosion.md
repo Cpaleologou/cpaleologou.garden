@@ -1,7 +1,6 @@
 ---
 title: Physical Pursuits Are Free From Corrosion
 tags:
-  - '#TerraIncognita'
   - '#Activity'
   - '#Philosophy'
 publish: 'true'

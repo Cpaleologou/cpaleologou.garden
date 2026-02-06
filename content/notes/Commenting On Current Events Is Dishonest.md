@@ -1,7 +1,6 @@
 ---
 title: Commenting On Current Events Is Dishonest
 tags:
-  - '#TerraIncognita'
   - '#Media'
   - '#Ethics'
 publish: 'true'

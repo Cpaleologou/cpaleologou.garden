@@ -1,7 +1,6 @@
 ---
 title: Exponential Technology Creates Spiritual Deflation
 tags:
-  - '#TerraIncognita'
   - '#Technology'
   - '#Spirituality'
 publish: 'true'

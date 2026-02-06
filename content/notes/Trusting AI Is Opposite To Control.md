@@ -1,7 +1,6 @@
 ---
 title: Trusting AI Is Opposite To Control
 tags:
-  - '#TerraIncognita'
   - '#AI'
   - '#Trust'
 publish: 'true'

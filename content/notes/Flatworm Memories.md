@@ -1,7 +1,6 @@
 ---
 title: Flatworms Have Memories
 tags:
-  - '#TerraIncognita'
   - '#Neuroscience'
   - '#Biology'
 publish: 'true'

@@ -1,7 +1,6 @@
 ---
 title: Cash Transfers Don't Improve Quality of Life
 tags:
-  - '#TerraIncognita'
   - '#Economics'
 publish: 'true'
 date: 2025-09-27T00:00:00.000Z

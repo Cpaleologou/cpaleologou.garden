@@ -1,7 +1,6 @@
 ---
 title: Niobium Reduces The Required Steel For Building The Eiffel Tower
 tags:
-  - '#TerraIncognita'
   - '#Materials'
   - '#RareEarths'
 publish: 'true'

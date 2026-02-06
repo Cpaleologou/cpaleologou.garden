@@ -1,7 +1,6 @@
 ---
 title: Self-fufilment Led To Poorly Structured Belief Systems
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Society'
 publish: 'true'

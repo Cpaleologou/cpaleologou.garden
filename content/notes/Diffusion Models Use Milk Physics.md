@@ -1,7 +1,6 @@
 ---
 title: Diffusion Models Use Milk Physics
 tags:
-  - '#TerraIncognita'
   - '#AI'
 publish: 'true'
 date: 2025-08-02T00:00:00.000Z

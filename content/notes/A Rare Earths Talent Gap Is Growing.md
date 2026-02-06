@@ -1,7 +1,6 @@
 ---
 title: A Rare Earths Talent Gap Is Growing
 tags:
-  - '#TerraIncognita'
   - '#RareEarths'
 publish: 'true'
 date: 2025-08-24T00:00:00.000Z

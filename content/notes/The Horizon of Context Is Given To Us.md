@@ -1,7 +1,6 @@
 ---
 title: The Horizon of Context Is Given To Us
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Context'
 publish: 'true'

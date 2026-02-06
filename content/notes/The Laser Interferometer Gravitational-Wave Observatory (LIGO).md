@@ -1,7 +1,6 @@
 ---
 title: The Laser Interferometer Gravitational-Wave Observatory (LIGO)
 tags:
-  - '#TerraIncognita'
   - '#Science'
   - '#Physics'
 publish: 'true'

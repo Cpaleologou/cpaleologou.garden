@@ -1,7 +1,6 @@
 ---
 title: Translation Is An Indicator Of Quality
 tags:
-  - '#TerraIncognita'
   - '#Learning'
   - '#Reading'
   - '#Media'

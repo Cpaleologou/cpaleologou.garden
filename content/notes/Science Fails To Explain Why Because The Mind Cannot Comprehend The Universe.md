@@ -1,7 +1,6 @@
 ---
 title: Science Fails To Explain Why Because The Mind Cannot Comprehend The Universe
 tags:
-  - '#TerraIncognita'
   - '#Science'
   - '#Philosophy'
 publish: 'true'

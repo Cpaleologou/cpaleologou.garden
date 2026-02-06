@@ -1,7 +1,6 @@
 ---
 title: Instrumental Reason Explains The Demand For "Productivity"
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Productivity'
 publish: 'true'

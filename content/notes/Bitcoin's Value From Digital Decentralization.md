@@ -1,7 +1,6 @@
 ---
 title: Bitcoin's Value From Digital Decentralization
 tags:
-  - '#TerraIncognita'
   - '#Bitcoin'
   - '#Decentralization'
 publish: 'true'

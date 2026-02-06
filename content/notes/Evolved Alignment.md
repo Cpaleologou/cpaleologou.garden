@@ -1,7 +1,6 @@
 ---
 title: Evolved Alignment
 tags:
-  - '#TerraIncognita'
   - '#Evolution'
   - '#Alignment'
 publish: 'true'

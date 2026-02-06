@@ -1,7 +1,6 @@
 ---
 title: Philosophy Is The Mask Of A Memoir
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Literature'
 publish: 'true'

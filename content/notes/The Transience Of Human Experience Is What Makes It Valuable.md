@@ -1,7 +1,6 @@
 ---
 title: The Transience Of Human Experience Is What Makes It Valuable
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Meaning'
 publish: 'true'

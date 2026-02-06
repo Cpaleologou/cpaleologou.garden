@@ -1,7 +1,6 @@
 ---
 title: Capturing Ideas
 tags:
-  - '#TerraIncognita'
   - '#Learning'
   - '#Creativity'
 publish: 'true'

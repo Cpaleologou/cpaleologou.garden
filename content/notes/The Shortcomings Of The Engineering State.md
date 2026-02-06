@@ -1,7 +1,6 @@
 ---
 title: The Shortcomings Of The Engineering State
 tags:
-  - '#TerraIncognita'
   - '#Society'
   - '#Philosophy'
 publish: 'true'

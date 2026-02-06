@@ -1,11 +1,10 @@
 ---
 title: Work is Creation
 tags:
-  - '#TerraIncognita'
   - '#Work'
   - '#Creation'
 publish: 'true'
-date: '2025-10-04'
+date: 2025-10-04T00:00:00.000Z
 ---
 We tend to think of "work" as a job, a task or the time and effort spent to earn money. But really, "work" is just creation. The farmer creates an environment where a crop can grow. The writer creates an idea as a fully formed argument or story. The accountant creates a ledger of history in financial terms.
 

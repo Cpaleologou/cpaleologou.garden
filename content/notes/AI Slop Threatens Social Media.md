@@ -1,7 +1,6 @@
 ---
 title: AI Slop Threatens Social Media
 tags:
-  - '#TerraIncognita'
   - '#AI'
   - '#Media'
 publish: 'true'

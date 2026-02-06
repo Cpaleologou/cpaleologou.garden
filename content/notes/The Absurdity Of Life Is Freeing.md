@@ -1,7 +1,6 @@
 ---
 title: The Absurdity Of Life Is Freeing
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Absurdism'
 publish: 'true'

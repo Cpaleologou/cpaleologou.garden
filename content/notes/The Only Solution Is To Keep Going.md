@@ -1,7 +1,6 @@
 ---
 title: The Only Solution Is To Keep Going
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
 publish: 'true'
 date: 2021-10-23T00:00:00.000Z

@@ -1,7 +1,6 @@
 ---
 title: Rare Earth Mines Can Take Decades To Reach Production
 tags:
-  - '#TerraIncognita'
   - '#RareEarths'
   - '#Economics'
 publish: 'true'

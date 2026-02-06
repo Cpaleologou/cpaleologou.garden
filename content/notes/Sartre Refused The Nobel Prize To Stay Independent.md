@@ -1,7 +1,6 @@
 ---
 title: Sartre Refused The Nobel Prize To Stay Independent
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Authenticity'
 publish: 'true'

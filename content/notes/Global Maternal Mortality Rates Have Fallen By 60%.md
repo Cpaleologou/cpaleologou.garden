@@ -1,7 +1,6 @@
 ---
 title: Global Maternal Mortality Rates Have Fallen By 60%
 tags:
-  - '#TerraIncognita'
   - '#Health'
   - '#Society'
 publish: 'true'

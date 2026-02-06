@@ -1,7 +1,6 @@
 ---
 title: Finding Meaning in Work
 tags:
-  - '#TerraIncognita'
   - '#Work'
   - '#Meaning'
 publish: 'true'

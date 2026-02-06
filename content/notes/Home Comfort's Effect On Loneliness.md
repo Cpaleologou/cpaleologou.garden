@@ -1,7 +1,6 @@
 ---
 title: Home Comfort's Effect On Loneliness
 tags:
-  - '#TerraIncognita'
   - '#Psychology'
   - '#Society'
 publish: 'true'

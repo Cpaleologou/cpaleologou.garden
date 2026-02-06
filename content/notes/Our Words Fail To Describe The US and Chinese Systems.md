@@ -1,7 +1,6 @@
 ---
 title: Our Words Fail To Describe The US and Chinese Systems
 tags:
-  - '#TerraIncognita'
   - '#Politics'
   - '#Society'
 publish: 'true'

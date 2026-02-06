@@ -1,7 +1,6 @@
 ---
 title: Short-Comings Of Phenomenology
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Phenomenology'
 publish: 'true'

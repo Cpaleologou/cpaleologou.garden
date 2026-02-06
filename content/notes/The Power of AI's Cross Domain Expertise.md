@@ -1,7 +1,6 @@
 ---
 title: The Power of AI's Cross Domain Expertise
 tags:
-  - '#TerraIncognita'
   - '#AI'
   - '#Technology'
 publish: 'true'

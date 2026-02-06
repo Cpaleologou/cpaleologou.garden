@@ -1,7 +1,6 @@
 ---
 title: Users Need Control Over When They Consume Information
 tags:
-  - '#TerraIncognita'
   - '#Information'
 publish: 'true'
 date: 2025-07-31T00:00:00.000Z

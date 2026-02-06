@@ -1,7 +1,6 @@
 ---
 title: The Late Heavy Bombardment May Have Never Occurred
 tags:
-  - '#TerraIncognita'
   - '#Science'
   - '#Evolution'
 publish: 'true'

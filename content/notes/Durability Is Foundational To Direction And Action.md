@@ -1,7 +1,7 @@
 ---
 title: Durability Is Foundational To Direction And Action
 tags:
-  - '#TerraIncognita'
+  - '#Identity'
 publish: 'true'
 date: 2025-09-14T00:00:00.000Z
 ---

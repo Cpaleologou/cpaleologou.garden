@@ -1,7 +1,6 @@
 ---
 title: Self-Description Misses The Mark
 tags:
-  - '#TerraIncognita'
   - '#Self'
   - '#Philosophy'
 publish: 'true'

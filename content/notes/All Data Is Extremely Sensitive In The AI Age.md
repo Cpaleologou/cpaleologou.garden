@@ -1,7 +1,6 @@
 ---
 title: All Data Is Extremely Sensitive In The AI Age
 tags:
-  - '#TerraIncognita'
   - '#AI'
 publish: 'true'
 date: 2025-08-03T00:00:00.000Z

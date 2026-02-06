@@ -1,7 +1,6 @@
 ---
 title: Authenticity Cannot Be Commoditized
 tags:
-  - '#TerraIncognita'
   - '#Authenticity'
   - '#Economics'
 publish: 'true'

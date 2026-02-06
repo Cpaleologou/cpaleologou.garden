@@ -1,7 +1,6 @@
 ---
 title: A Horizon of Context Required To Equate Value
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Ethics'
 publish: 'true'

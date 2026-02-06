@@ -1,7 +1,6 @@
 ---
 title: The Rapid Demand Increase For Steel In Korea As Incomes Grew
 tags:
-  - '#TerraIncognita'
   - '#Economics'
   - '#History'
 publish: 'true'

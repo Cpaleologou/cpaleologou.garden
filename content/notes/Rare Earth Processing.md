@@ -1,7 +1,6 @@
 ---
 title: Rare Earth Processing
 tags:
-  - '#TerraIncognita'
   - '#RareEarths'
   - '#Manufacturing'
 publish: 'true'

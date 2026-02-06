@@ -1,7 +1,6 @@
 ---
 title: The Isolationist Trap of Abstract Intellectualism
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Intellectualism'
 publish: 'true'

@@ -1,11 +1,10 @@
 ---
 title: The Certainty of Vulcan's Existence
 tags:
-  - '#TerraIncognita'
   - '#Science'
   - '#Philosophy'
 publish: 'true'
-date: '2025-08-02'
+date: 2025-08-02T00:00:00.000Z
 ---
 For roughly two decades (1860s-1880s), most scientists believed in Vulcan—a planet supposedly orbiting between Mercury and the Sun. They needed it to exist because Mercury's orbit didn't match predictions from Newtonian physics. Rather than question their framework, they invented a planet.
 

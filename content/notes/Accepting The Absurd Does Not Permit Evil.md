@@ -1,7 +1,6 @@
 ---
 title: Accepting The Absurd Does Not Permit Evil
 tags:
-  - '#TerraIncognita'
   - '#Absurdism'
   - '#Ethics'
 publish: 'true'

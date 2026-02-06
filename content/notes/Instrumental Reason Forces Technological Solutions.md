@@ -1,7 +1,6 @@
 ---
 title: Instrumental Reason Forces Technological Solutions
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Technology'
 publish: 'true'

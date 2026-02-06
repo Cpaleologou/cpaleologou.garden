@@ -1,7 +1,6 @@
 ---
 title: Longevity Escape Velocity
 tags:
-  - '#TerraIncognita'
   - '#Science'
   - '#Health'
 publish: 'true'

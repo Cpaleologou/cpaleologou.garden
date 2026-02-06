@@ -1,7 +1,6 @@
 ---
 title: '''Das Man'' As A Cultural River'
 tags:
-  - '#TerraIncognita'
   - '#Existentialism'
   - '#Authenticity'
 publish: 'true'

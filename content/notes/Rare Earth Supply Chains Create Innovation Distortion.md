@@ -1,7 +1,6 @@
 ---
 title: Rare Earth Supply Chains Create Innovation Distortion
 tags:
-  - '#TerraIncognita'
   - '#RareEarths'
   - '#Economics'
 publish: 'true'

@@ -1,7 +1,8 @@
 ---
 title: An Unfocused Society Cannot Function
 tags:
-  - '#TerraIncognita'
+  - '#Society'
+  - '#Attention'
 publish: 'true'
 date: 2026-01-19T00:00:00.000Z
 ---

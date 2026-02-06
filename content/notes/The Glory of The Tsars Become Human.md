@@ -1,7 +1,6 @@
 ---
 title: The Glory of The Tsars Become Human
 tags:
-  - '#TerraIncognita'
   - '#Quote'
   - '#Philosophy'
   - Absurdism

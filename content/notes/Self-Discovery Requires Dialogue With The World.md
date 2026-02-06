@@ -1,9 +1,8 @@
 ---
 title: Self-Discovery Requires Dialogue With The World
 tags:
-  - '#TerraIncognita'
-  - '#Self'
   - '#Philosophy'
+  - '#Identity'
 publish: 'true'
 date: 2025-10-04T00:00:00.000Z
 ---

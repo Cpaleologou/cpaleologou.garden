@@ -1,7 +1,6 @@
 ---
 title: The Corrosive Power of Words
 tags:
-  - '#TerraIncognita'
   - '#Language'
   - '#Philosophy'
 publish: 'true'

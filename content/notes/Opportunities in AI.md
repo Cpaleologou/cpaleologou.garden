@@ -1,7 +1,6 @@
 ---
 title: Opportunities in AI
 tags:
-  - '#TerraIncognita'
   - '#AI'
   - '#Technology'
 publish: 'true'

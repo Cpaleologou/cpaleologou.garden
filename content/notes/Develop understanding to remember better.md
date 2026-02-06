@@ -1,7 +1,6 @@
 ---
 title: Develop understanding to remember better
 tags:
-  - '#TerraIncognita'
   - '#Learning'
   - '#Memory'
 publish: 'true'

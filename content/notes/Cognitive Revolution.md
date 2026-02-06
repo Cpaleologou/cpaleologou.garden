@@ -1,7 +1,6 @@
 ---
 title: Cognitive Revolution
 tags:
-  - '#TerraIncognita'
   - '#History'
   - '#Psychology'
 publish: 'true'

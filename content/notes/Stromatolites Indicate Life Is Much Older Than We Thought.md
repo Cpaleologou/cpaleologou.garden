@@ -1,7 +1,6 @@
 ---
 title: Stromatolites Indicate Life Is Much Older Than We Thought
 tags:
-  - '#TerraIncognita'
   - '#Science'
   - '#Evolution'
 publish: 'true'

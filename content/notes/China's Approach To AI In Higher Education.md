@@ -1,7 +1,6 @@
 ---
 title: China's Approach To AI In Higher Education
 tags:
-  - '#TerraIncognita'
   - '#AI'
   - '#Education'
 publish: 'true'

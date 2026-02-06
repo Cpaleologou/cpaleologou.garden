@@ -1,11 +1,10 @@
 ---
 title: You Are Not Your Fucking Khakis
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Identity'
 publish: 'true'
-date: '2025-09-06'
+date: 2025-09-06T00:00:00.000Z
 ---
 >_“You are not your job, you're not how much money you have in the bank. You are not the car you drive. You're not the contents of your wallet. You are not your fucking khakis. You are all singing, all dancing crap of the world.”_
 

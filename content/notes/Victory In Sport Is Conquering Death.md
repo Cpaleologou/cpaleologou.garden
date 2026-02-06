@@ -1,11 +1,10 @@
 ---
 title: Victory In Sport Is Conquering Death
 tags:
-  - '#TerraIncognita'
   - '#Philosophy'
   - '#Mortality'
 publish: 'true'
-date: '2025-08-09'
+date: 2025-08-09T00:00:00.000Z
 ---
 The enemy in sport, or a duel, is a representation of death. The physical and mental effort of the duel mimics the intense moment of pain, peril or panic that occurs when we face our mortality. 
 

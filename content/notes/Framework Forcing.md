@@ -1,7 +1,6 @@
 ---
 title: Framework Forcing
 tags:
-  - '#TerraIncognita'
   - '#Methodology'
   - '#Thinking'
 publish: 'true'

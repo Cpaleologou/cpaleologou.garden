@@ -1,7 +1,6 @@
 ---
 title: Rare Earth Elements Are Not Rare
 tags:
-  - '#TerraIncognita'
   - '#RareEarths'
   - '#Science'
 publish: 'true'

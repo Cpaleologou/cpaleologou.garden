@@ -1,7 +1,6 @@
 ---
 title: Rare Earth Supply Chains Are Less Diverse Than They Appear
 tags:
-  - '#TerraIncognita'
   - '#RareEarths'
   - '#Economics'
 publish: 'true'

@@ -1,7 +1,6 @@
 ---
 title: Three Golden Rules For Writing
 tags:
-  - '#TerraIncognita'
   - '#Writing'
   - '#Methodology'
 publish: 'true'

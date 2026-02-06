@@ -1,7 +1,6 @@
 ---
 title: Many Great Works Are Unfinished
 tags:
-  - '#TerraIncognita'
   - '#Art'
   - '#Philosophy'
 publish: 'true'
