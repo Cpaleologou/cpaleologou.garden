@@ -116,24 +116,6 @@ blockquote {
   background-color: var(--color) !important; 
 }
 
-/* 6. IMAGE STYLING & TEXT WRAPPING */
-article img {
-  border: 1px solid var(--secondary);       /* Olive/Khaki border */
-  box-shadow: 4px 4px 0px var(--tertiary);  /* Hard Orange/Terracotta shadow */
-  border-radius: 0;                         /* Sharp corners */
-  padding: 0.25rem;                         /* Small gap creates a "photo frame" effect */
-  background-color: var(--light);           /* Matches page background */
-  
-  /* Standard Responsive sizing */
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.2s ease;
-}
-
-/* Optional: Slight lift on hover for interactive feel */
-article img:hover {
-  transform: translateY(-2px);
-}
 
 /* Float Right Trigger: ![[image.png|right]] */
 img[alt$="right"] {
@@ -151,6 +133,47 @@ img[alt$="left"] {
   margin-bottom: 1rem;
   width: 300px;
   clear: left;
+}
+
+/* ======================================================= */
+/* FORCE: PINNED NOTE STYLE FOR ALL IMAGES                 */
+/* ======================================================= */
+
+/* 1. Target standard content images & Library Grid images */
+.center article img,
+.library-grid img {
+  /* The "Physical Photo" Look */
+  border: 1px solid var(--secondary) !important;      /* Olive/Khaki Border */
+  box-shadow: 4px 4px 0px var(--tertiary) !important; /* Hard Orange/Terracotta Shadow */
+  border-radius: 0 !important;                        /* Sharp corners */
+  
+  /* The "Matte" Frame Effect */
+  padding: 6px !important;                            /* Creates space between image and border */
+  background-color: var(--light) !important;          /* Matches the paper background */
+  
+  /* Layout Safety */
+  max-width: 100%;
+  height: auto;
+  display: block; /* Fixes tiny gaps under images */
+  margin: 1.5rem auto; /* Centers standard images */
+}
+
+/* 2. Handle Floated Images (Right/Left) explicitly so they keep the style */
+img[alt$="right"],
+img[alt$="left"] {
+  border: 1px solid var(--secondary) !important;
+  box-shadow: 4px 4px 0px var(--tertiary) !important;
+  border-radius: 0 !important;
+  padding: 6px !important;
+  background-color: var(--light) !important;
+  /* Note: Float and Margin are handled by your existing rules in Section 6 */
+}
+
+/* 3. Interactive Hover (Optional) */
+.center article img:hover,
+.library-grid img:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
 }
 
 /* 8. LIBRARY PAGE OVERRIDES */
