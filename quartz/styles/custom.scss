@@ -82,9 +82,12 @@ blockquote {
 /* 5. CALLOUTS */
 /* Style callouts to look like pinned notes or warnings */
 .callout {
-  border: 1px solid var(--gray);
-  box-shadow: 4px 4px 0px var(--lightgray); /* Hard shadow, not blurry */
+  background-color: var(--highlight); /* Faint Olive (Light) / Faint Bone (Dark) */
+  border: 1px solid var(--secondary); /* Matches your headers & blockquotes */
+  box-shadow: 4px 4px 0px var(--tertiary); /* Hard shadow using your Orange/Terracotta accent */
   border-radius: 0; /* Sharp corners */
+  padding: 1rem; /* Ensures text doesn't hit the border */
+  color: var(--dark); /* Ensures text stays readable */
 }
 
 /* 6. IMAGE TEXT WRAPPING */
