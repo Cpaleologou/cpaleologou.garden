@@ -90,7 +90,24 @@ blockquote {
   color: var(--dark); /* Ensures text stays readable */
 }
 
-/* 6. IMAGE TEXT WRAPPING */
+/* 6. IMAGE STYLING & TEXT WRAPPING */
+article img {
+  border: 1px solid var(--secondary);       /* Olive/Khaki border */
+  box-shadow: 4px 4px 0px var(--tertiary);  /* Hard Orange/Terracotta shadow */
+  border-radius: 0;                         /* Sharp corners */
+  padding: 0.25rem;                         /* Small gap creates a "photo frame" effect */
+  background-color: var(--light);           /* Matches page background */
+  
+  /* Standard Responsive sizing */
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+/* Optional: Slight lift on hover for interactive feel */
+article img:hover {
+  transform: translateY(-2px);
+}
 
 /* Float Right Trigger: ![[image.png|right]] */
 img[alt$="right"] {
