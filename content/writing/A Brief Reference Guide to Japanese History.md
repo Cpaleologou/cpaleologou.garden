@@ -6,14 +6,14 @@ tags:
   - '#Japan'
 publish: 'true'
 ---
-- [3] In January 2026, I built a little 10-week [[03-Garden/learning-plans/Introduction To Japanese History|Introduction To Japanese History]]. This article represents my current knowledge of the country's history, as well as knowledge subsequently gained. Each period also contains a "tourism" section, containing related sites and a short description of their significance to the era.
+> [!INFO] In January 2026, I built a little 10-week [[03-Garden/learning-plans/Introduction To Japanese History|Introduction To Japanese History]] course. This article represents my current knowledge of the country's history, as well as knowledge subsequently gained. Each period also contains a "tourism" section, containing related sites and a short description of their significance to the era.
 
-![[MapOfJapan.webp]]
+![[MapOfJapan.webp|700x660]]
 *Map of modern Japan*
-## Heian Period & Kyoto's Golden Age
+### Heian Period & Kyoto's Golden Age
 *794 – 1185*
 
-The first permanent and official capital of Japan was Nara, located in the central region of Kinki. In the early 8th century, the empire was still very young and a considerable effort was made by the government to consolidate under an official legal code and culture. Part of this task was to build Nara as a religious centre for buddhism, as well as the seat of the emperor.
+The first permanent and official capital of Japan was Nara, located in the central region of Kinki. In the early 8th century, the empire was still young and a considerable effort was made by the government to consolidate under an official legal code and culture. Part of this task was to build Nara as a religious centre for buddhism, as well as the seat of the emperor.
 
 While successful, the plan actually backfired. By the end of the century, the wealth, cultural prominence and political influence of the city's monks actually threatened the power of the emperor himself. Rather than challenge the temples politically or militarily, the emperor decided to just build a new capital instead. 
 
@@ -23,13 +23,11 @@ The imperial palace sat at the northern centre of the city, acting as a focal po
 
 ![[MapOfKyoto.webp]]
 
-
-
-- culture
+culture
 - Economics
-### Tourism
+#### Tourism
 
-## Warriors Take Power
+### Warriors Take Power
 *1185 – 1573*
 
 ### Tourism
