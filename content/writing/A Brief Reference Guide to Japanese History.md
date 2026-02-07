@@ -8,7 +8,7 @@ publish: 'true'
 ---
 > [!INFO] In January 2026, I built a little 10-week [[03-Garden/learning-plans/Introduction To Japanese History|Introduction To Japanese History]] course. This article represents my current knowledge of the country's history, as well as knowledge subsequently gained. Each period also contains a "tourism" section, containing related sites and a short description of their significance to the era.
 
-![[MapOfJapan.webp|700x660]]
+> ![[MapOfJapan.webp|700x660]]
 *Map of modern Japan*
 ### Heian Period & Kyoto's Golden Age
 *794 – 1185*
@@ -21,7 +21,7 @@ Approximately 50km to the North, the new Capital was established in Heian-kyo (K
 
 The imperial palace sat at the northern centre of the city, acting as a focal point for all urban activity. Running directly from the gates of the city to the palace was a massive, 90 meter wide, main street. Smaller roads ran left to right, sorting the rest of the buildings into a grid. 
 
-![[MapOfKyoto.webp]]
+> ![[MapOfKyoto.webp]]
 
 culture
 - Economics
