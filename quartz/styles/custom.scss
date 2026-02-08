@@ -616,34 +616,25 @@ html[saved-theme="dark"] .start-grid li::before {
 /* LAMP ICON OVERRIDE (2nd Item in the Grid)                */
 /* ======================================================= */
 
-/* 1. Light Mode - Target the 2nd list item (Now) */
+/* 1. Light Mode - Target the 3nd list item (Now) */
 .start-grid li:nth-child(2) {
   
-  /* Default State: Light Off */
+  /* Change icon to Book */
   &::before {
-    background-image: url('/static/CustomIcons/lamp_light_off.webp') !important;
+    background-image: url('/static/CustomIcons/GlobeIcon_Light.webp') !important;
   }
 
-  /* Hover State: Light On + Scale */
+  /* Override the default "Rotate" animation with "Scale" */
   &:hover::before {
-    background-image: url('/static/CustomIcons/lamp_light_on.webp') !important;
     transform: scale(1.15) !important; 
   }
 }
 
 /* 2. Dark Mode Override */
-html[saved-theme="dark"] .start-grid li:nth-child(2) {
-  
-  /* Default State: Dark Off */
-  &::before {
-    background-image: url('/static/CustomIcons/lamp_dark_off.webp') !important;
-  }
-
-  /* Hover State: Dark On */
-  &:hover::before {
-    background-image: url('/static/CustomIcons/lamp_light_on.webp') !important;
-  }
+html[saved-theme="dark"] .start-grid li:nth-child(2)::before {
+  background-image: url('/static/CustomIcons/GlobeIcon_Dark.webp') !important;
 }
+
 
 
 /* ======================================================= */
