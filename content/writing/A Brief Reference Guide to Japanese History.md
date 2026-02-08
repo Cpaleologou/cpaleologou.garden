@@ -43,7 +43,7 @@ Without tax income, the ability for the government to enact policy or even prote
 
 ##### Heian-jingu Shrine
 
-Byodo-in Temple
+**Byodo-in Temple**
 ![[Byodo-inTemple.webp | Byodo-in Temple]]
 Daikaku-ji Temple
 
