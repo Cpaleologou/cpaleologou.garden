@@ -684,6 +684,11 @@ html[saved-theme="dark"] .start-grid li:nth-child(4)::before {
   background-image: url('/static/CustomIcons/BookIcon_Dark.webp') !important;
 }
 
-&[data-callout] {
-    --color: var(--primary)
-  }
+/* ======================================================= */
+/* CALL OUT STYLING OVERRIDE           */
+/* ======================================================= */
+
+
+.callout[data-callout="note"] {
+  --color: var(--primary);
+}
