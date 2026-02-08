@@ -1,50 +1,82 @@
 @use "./base.scss";
 
-/* 1. ARCHIVAL LAYOUT & ACCENT TEXT*/
+/* ==========================================================================
+   1. GLOBAL LAYOUT & BACKGROUND
+   ========================================================================== */
+
+/* Paper Texture Background */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/static/beige-paper.png");
+  background-repeat: repeat;
+  background-size: auto; 
+  mix-blend-mode: multiply; 
+  opacity: 0.4; 
+  pointer-events: none;
+  z-index: -1; 
+}
+
+/* "Cartographic" Page Borders */
+.page {
+  /* Default: Desktop styles */
+  border-left: 3px double var(--dark); 
+  padding-left: 2rem;
+  box-sizing: border-box; 
+  
+  /* Mobile Override */
+  @media (max-width: 600px) {
+    border-left: none; 
+    padding-left: 0;   
+  }
+}
+
+/* Sidebar Scroll Fix */
+.left {
+  overflow-y: auto !important; 
+  max-height: 100vh; 
+  
+  /* Hide scrollbar visual */
+  scrollbar-width: none;  
+  &::-webkit-scrollbar { 
+    display: none;  
+  }
+}
+
+/* ==========================================================================
+   2. TYPOGRAPHY
+   ========================================================================== */
+
+/* Article Text */
 article p, 
 article li, 
 article {
   font-size: 1.2rem;
   font-weight: 300;
-  line-height: 1.8; /* 4 is extremely large; 1.6-1.8 is standard for 'bookish' */
+  line-height: 1.8; 
 }
 
-
-// Apply pinyon script to H6 (The "Last H Heading")
+/* Headings */
 h2 {
   font-size: 1.8rem;
 }
 
-
 h6 {
   font-family: 'Pinyon Script', cursive;
-  font-weight: 400; /* Script fonts usually look best regular, not bold */
-  font-size: 2em;   /* Script fonts often need to be larger to be readable */
+  font-weight: 400; 
+  font-size: 2em;   
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
   line-height: 1.2;
-  color: var(--secondary); /* Optional: Uses your "Burnt Orange" accent color */
+  color: var(--secondary); 
 }
 
-/* 2. CARTOGRAPHIC BORDERS */
-/* Adds a double-line border to the main container, resembling old map frames */
-.page {
-  /* Default: Desktop styles */
-  border-left: 3px double var(--dark); 
-  padding-left: 2rem;
-  box-sizing: border-box; /* Ensures padding doesn't expand width beyond 100% */
-  
-  /* Mobile Override: Remove the heavy border/padding */
-  @media (max-width: 600px) {
-    border-left: none; /* Removes the double line to save space */
-    padding-left: 0;   /* Reclaims the space on the left */
-  }
-}
-
-/* 3. "TELEGRAM" METADATA */
-/* Styles tags and dates to look like stamped classifications */
-.content-meta
-  {
+/* Metadata & Tags ("Telegram" Style) */
+.content-meta {
   font-family: var(--codeFont);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -53,16 +85,77 @@ h6 {
   padding-bottom: 0.5rem;
 }
 
-.center .tags{
+.center .tags {
   font-family: var(--codeFont);
   letter-spacing: 0.1em;
   padding-bottom: 0.5rem;
 }
 
-/* 4. BLOCKQUOTES AS FIELD REPORTS */
+/* ==========================================================================
+   3. IMAGES & FIGURES
+   ========================================================================== */
+
+/* Standard Content Images & Library Grid Images */
+.center article img,
+.library-grid img {
+  /* The "Physical Photo" Look */
+  border: 1px solid var(--secondary) !important;      
+  box-shadow: 4px 4px 0px var(--tertiary) !important; 
+  border-radius: 0 !important;                        
+  padding: 6px !important;                            
+  background-color: var(--light) !important;          
+  
+  /* LAYOUT SAFETY FIXES */
+  box-sizing: border-box; /* 1. Includes padding/border in width calculation */
+  max-width: calc(100% - 8px); /* 2. Leaves room for the 4px shadow (4px left + 4px right) */
+  height: auto;
+  display: block; 
+  margin: 1.5rem auto; /* 3. Centers the image in the remaining space */
+
+  /* Interactive Hover */
+  &:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+  }
+}
+
+/* Floated Images (Right/Left) */
+img[alt$="right"] {
+  float: right;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  width: 300px; 
+  clear: right; 
+  /* Inherit styles */
+  border: 1px solid var(--secondary) !important;
+  box-shadow: 4px 4px 0px var(--tertiary) !important;
+  border-radius: 0 !important;
+  padding: 6px !important;
+  background-color: var(--light) !important;
+}
+
+img[alt$="left"] {
+  float: left;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  width: 300px;
+  clear: left;
+  /* Inherit styles */
+  border: 1px solid var(--secondary) !important;
+  box-shadow: 4px 4px 0px var(--tertiary) !important;
+  border-radius: 0 !important;
+  padding: 6px !important;
+  background-color: var(--light) !important;
+}
+
+/* ==========================================================================
+   4. COMPONENTS
+   ========================================================================== */
+
+/* Blockquotes ("Field Reports") */
 blockquote {
   font-family: var(--codeFont);
-  background-color: rgba(0, 0, 0, 0.03); /* Subtle tint */
+  background-color: rgba(0, 0, 0, 0.03); 
   border-left: 2px solid var(--secondary);
   padding: 1rem;
   margin: 1.5rem 0;
@@ -79,195 +172,9 @@ blockquote {
   }
 }
 
-/* Float Right Trigger: ![[image.png|right]] */
-img[alt$="right"] {
-  float: right;
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
-  width: 300px; /* Optional: Set a default "small" size */
-  clear: right; /* Prevents stacking weirdness */
-}
-
-/* Float Left Trigger: ![[image.png|left]] */
-img[alt$="left"] {
-  float: left;
-  margin-right: 1.5rem;
-  margin-bottom: 1rem;
-  width: 300px;
-  clear: left;
-}
-
-/* ======================================================= */
-/* FORCE: PINNED NOTE STYLE FOR ALL IMAGES                 */
-/* ======================================================= */
-
-/* 1. Target standard content images & Library Grid images */
-.center article img,
-.library-grid img {
-  /* The "Physical Photo" Look */
-  border: 1px solid var(--secondary) !important;      /* Olive/Khaki Border */
-  box-shadow: 4px 4px 0px var(--tertiary) !important; /* Hard Orange/Terracotta Shadow */
-  border-radius: 0 !important;                        /* Sharp corners */
-  
-  /* The "Matte" Frame Effect */
-  padding: 6px !important;                            /* Creates space between image and border */
-  background-color: var(--light) !important;          /* Matches the paper background */
-  
-  /* Layout Safety */
-  max-width: 100%;
-  height: auto;
-  display: block; /* Fixes tiny gaps under images */
-  margin: 1.5rem auto; /* Centers standard images */
-}
-
-/* 2. Handle Floated Images (Right/Left) explicitly so they keep the style */
-img[alt$="right"],
-img[alt$="left"] {
-  border: 1px solid var(--secondary) !important;
-  box-shadow: 4px 4px 0px var(--tertiary) !important;
-  border-radius: 0 !important;
-  padding: 6px !important;
-  background-color: var(--light) !important;
-  /* Note: Float and Margin are handled by your existing rules in Section 6 */
-}
-
-/* 3. Interactive Hover (Optional) */
-.center article img:hover,
-.library-grid img:hover {
-  transform: translateY(-2px);
-  transition: transform 0.2s ease;
-}
-
-/* 8. LIBRARY PAGE OVERRIDES */
-
-/* 1. Un-restrict the width specifically for the Library page */
-body[data-slug="library"] .center .breadcrumb-container,
-body[data-slug="library"] .center .article-title,
-body[data-slug="library"] .center .content-meta,
-body[data-slug="library"] .center article {
-  max-width: 100%; /* Fill available space */
-}
-
-/* 2. Turn the list of books into a 3-column grid */
-body[data-slug="library"] .center article ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  gap: 1.5rem; /* Space between books */
-  padding: 0;
-  list-style: none; /* Remove bullet points if you want */
-}
-
-/* Optional: Make it responsive (2 columns on tablets, 1 on phones) */
-@media (max-width: 800px) {
-  body[data-slug="library"] .center article ul {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 500px) {
-  body[data-slug="library"] .center article ul {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-/* Library Grid Layout */
-.library-grid {
-  & > ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Creates the grid */
-    gap: 2rem;
-    list-style: none; /* Removes bullet points */
-    padding: 0;
-    margin: 0;
-  }
-
-  & li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border: 1px solid var(--lightgray);
-    border-radius: 8px;
-    padding: 1rem;
-    transition: transform 0.2s ease;
-    background-color: var(--light);
-    
-    /* Hover effect */
-    &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      border-color: var(--secondary);
-    }
-
-    /* Style the images inside the grid */
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 4px;
-      margin-bottom: 0.5rem;
-      object-fit: cover;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    /* Style the links/text */
-    a {
-      font-weight: 600;
-      text-decoration: none;
-      
-      &.internal {
-        background: none; /* Removes default highlight if you prefer clean look */
-      }
-    }
-  }
-}
-
-// 9. PAPER TEXTURE BACKGROUND
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  
-  // Point to the image you moved to the static folder
-  background-image: url("/static/beige-paper.png");
-  
-  // Repeat the texture (or use 'cover' if you prefer it stretched)
-  background-repeat: repeat;
-  background-size: auto; // Adjust this if the grain is too big/small (e.g., 500px)
-
-  // Blending is key for "texture over color"
-  // 'multiply' creates a realistic paper effect on light themes
-  // 'overlay' or 'soft-light' works better if you use dark mode
-  mix-blend-mode: multiply; 
-  
-  // Transparency ensures the underlying color shines through
-  opacity: 0.4; 
-
-  // Ensure it doesn't block clicks or selecting text
-  pointer-events: none;
-  
-  // Place it behind the text content but above the background color
-  z-index: -1; 
-}
-
-/* Allow the Left Sidebar to scroll if content is too tall */
-.left {
-  overflow-y: auto !important; /* Forces a vertical scrollbar when needed */
-  max-height: 100vh; /* Ensures it never extends past the screen bottom */
-  
-  /* Optional: Hide the scrollbar visual but keep functionality (cleaner look) */
-  scrollbar-width: none;  /* Firefox */
-  &::-webkit-scrollbar { 
-    display: none;  /* Chrome/Safari */
-  }
-}
-
-/* ======================================================= */
-/* RECENT NOTES (Inkwell & Feather Animation)              */
-/* ======================================================= */
+/* ==========================================================================
+   5. FEATURE: RECENT NOTES (Inkwell Animation)
+   ========================================================================== */
 
 .recent-notes {
   ul {
@@ -280,91 +187,67 @@ body::before {
   }
 
   li {
-    /* Layout */
     position: relative; 
     padding: 1rem 1rem 1rem 3.5rem; 
     margin: 0 !important; 
-    
-    /* GHOST STATE (Default) */
     background-color: transparent; 
     border: 1px solid transparent; 
     border-radius: 8px;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     transition: all 0.2s ease;
 
-    /* Hide default list bullets */
-    &::marker {
-      content: none;
-    }
+    &::marker { content: none; }
 
-    /* HOVER STATE (Visible Card) */
+    /* HOVER STATE */
     &:hover {
       background-color: var(--light);
       border-color: var(--lightgray);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
       transform: translateY(-2px);
       
-      a.internal {
-        color: var(--secondary);
-      }
+      a.internal { color: var(--secondary); }
     }
     
-    /* --- ICON LAYER 1: THE POT (Static Base) --- */
+    /* --- ICON LAYER 1: THE POT --- */
     &::before {
       content: "";
       position: absolute; 
       left: 1rem;
       top: 1rem; 
-      
       display: block;
-      width: 36px; 
-      height: 36px;
+      width: 36px; height: 36px;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      
-      /* Base Image: Pot Light */
       background-image: url('/static/CustomIcons/InkWell_Pot_Light.webp');
-      
       z-index: 1; 
     }
 
-    /* --- ICON LAYER 2: THE FEATHER (Animated Top) --- */
+    /* --- ICON LAYER 2: THE FEATHER --- */
     &::after {
       content: "";
       position: absolute; 
       left: 1rem;
       top: 1rem; 
-      
       display: block;
-      width: 36px; 
-      height: 36px;
+      width: 36px; height: 36px;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      
-      /* Top Image: Feather Light */
       background-image: url('/static/CustomIcons/InkWell_Feather_Light.webp');
-      
-      /* Animation Settings */
       transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       transform-origin: center;
-      
       z-index: 2; 
-      pointer-events: none; /* Allows clicks to pass through */
+      pointer-events: none;
     }
 
-    /* --- THE HOVER ANIMATION (Dip) --- */
-    &:hover::after {
-      transform: translateY(-6px);
-    }
+    /* Animation on Hover */
+    &:hover::after { transform: translateY(-6px); }
   }
 
-  /* --- TEXT STYLING --- */
+  /* Text Styling */
   a.internal {
     font-family: var(--headerFont);
     font-weight: 700;
@@ -386,141 +269,84 @@ body::before {
   }
 }
 
-/* --- DARK MODE OVERRIDES --- */
-html[saved-theme="dark"] .recent-notes li::before {
-  background-image: url('/static/CustomIcons/InkWell_Pot_Dark.webp');
+/* Dark Mode Overrides for Inkwell */
+html[saved-theme="dark"] .recent-notes {
+  li::before { background-image: url('/static/CustomIcons/InkWell_Pot_Dark.webp'); }
+  li::after { background-image: url('/static/CustomIcons/InkWell_Feather_Dark.webp'); }
 }
 
-html[saved-theme="dark"] .recent-notes li::after {
-  background-image: url('/static/CustomIcons/InkWell_Feather_Dark.webp');
-}
+/* ==========================================================================
+   6. FEATURE: START GRID (Where to Start)
+   ========================================================================== */
 
-/* Styling specifically for the div class="library-grid" */
-
-.library-grid {
-  ul {
-    display: grid;
-    
-    /* CHANGE 1: Force exactly 3 columns on desktop */
-    grid-template-columns: repeat(3, 1fr); 
-    
-    gap: 0.5rem;
-    list-style: none; 
-    padding: 0;
-    margin: 0;
-
-    /* CHANGE 2: Responsive Breakpoints */
-    /* On tablets (under 800px), drop to 2 columns */
-    @media (max-width: 800px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    /* On phones (under 500px), drop to 1 column */
-    @media (max-width: 500px) {
-      grid-template-columns: 1fr;
-    }
-  }
-
-  li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-    padding: 1rem;
-    border-radius: 8px;
-    transition: transform 0.2s ease, background-color 0.2s;
-    
-    /* Subtle hover effect */
-    &:hover {
-      transform: translateY(-5px);
-      background-color: rgba(0, 0, 0, 0.03); 
-    }
-  }
-
-  /* Book Covers */
-  img {
-    width: 100%;
-    max-width: 140px; 
-    height: auto;
-    border-radius: 2px;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15); /* Shadow for depth */
-    margin-bottom: 0.75rem;
-  }
-
-  /* Author styling matches your "Telegram" metadata style */
-  .author {
-    display: block;
-    font-family: var(--codeFont);
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--gray);
-    margin-top: 0.25rem;
-  }
-}
-
-/* "Where to start" Grid Styling */
 .start-grid {
   ul {
     display: grid;
-    /* Desktop: 3 columns */
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* Desktop: 2 columns */
     gap: 1rem;
     list-style: none;
     padding: 0;
-    
-    /* CHANGE: Added 3rem space at the bottom */
     margin: 0 0 4rem 0;
 
-    /* Mobile: Stack vertically */
     @media (max-width: 600px) {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr; /* Mobile: Stack */
     }
   }
 
   li {
-    /* Flex Row: Icon on Left | Text on Right */
     display: flex;
     align-items: flex-start; 
     gap: 1rem; 
-    
     background-color: var(--light);
     border: 1px solid var(--lightgray);
     border-radius: 8px;
     padding: 1rem;
     margin: 0;
-    
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s;
     cursor: pointer;
     position: relative; 
 
-    /* Card Hover Effect */
     &:hover {
       transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
       border-color: var(--secondary);
     }
+    
+    /* Base Icon (Item 1: Tea) */
+    &::before {
+      content: "";
+      display: block;
+      width: 32px; height: 32px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      flex-shrink: 0; 
+      margin-top: 2px; 
+      background-image: url('/static/CustomIcons/TeaIcon_Light.webp');
+      transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transform-origin: center;
+    }
+
+    &:hover::before {
+      transform: rotate(-25deg) scale(1.15);
+    }
   }
 
-  /* TEXT CONTAINER (The Link) */
+  /* Link & Text Styling */
   a {
     display: flex;
     flex-direction: column; 
     text-decoration: none;
     border: none; 
     width: 100%;
-    
     background: transparent !important; 
     padding: 0 !important; 
-
+    
     &::after {
       content: '';
-      position: absolute;
-      inset: 0;
+      position: absolute; inset: 0;
     }
 
-    /* THE HEADER */
     strong {
       color: var(--dark);
       font-family: var(--headerFont);
@@ -531,7 +357,6 @@ html[saved-theme="dark"] .recent-notes li::after {
       transition: color 0.2s ease;
     }
 
-    /* THE DESCRIPTION */
     .desc {
       color: var(--gray);
       font-family: var(--bodyFont);
@@ -541,107 +366,123 @@ html[saved-theme="dark"] .recent-notes li::after {
     }
   }
 
-  li:hover a strong {
-    color: var(--secondary);
-  }
-
-  /* --- ICON SETTINGS --- */
-  li::before {
-    content: "";
-    display: block;
-    width: 32px; 
-    height: 32px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-shrink: 0; 
-    
-    margin-top: 2px; 
-    
-    background-image: url('/static/CustomIcons/TeaIcon_Light.webp');
-    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transform-origin: center;
-  }
-
-  /* Icon Animation on Hover */
-  li:hover::before {
-    transform: rotate(-25deg) scale(1.15);
-  }
+  li:hover a strong { color: var(--secondary); }
 }
 
-/* Dark Mode Icon Override */
-html[saved-theme="dark"] .start-grid li::before {
-  background-image: url('/static/CustomIcons/TeaIcon_Dark.webp');
+/* --- ICON OVERRIDES (Targeting Specific Grid Items) --- */
+
+/* Item 1: Tea (Default above, but needs Dark Mode) */
+html[saved-theme="dark"] .start-grid li:nth-child(1)::before {
+    background-image: url('/static/CustomIcons/TeaIcon_Dark.webp');
 }
 
-/* ======================================================= */
-/* LAMP ICON OVERRIDE (2nd Item in the Grid)                */
-/* ======================================================= */
-
-/* 1. Light Mode - Target the 3nd list item (Now) */
+/* Item 2: Globe */
 .start-grid li:nth-child(2) {
-  
-  /* Change icon to Book */
-  &::before {
-    background-image: url('/static/CustomIcons/GlobeIcon_Light.webp') !important;
-  }
-
-  /* Override the default "Rotate" animation with "Scale" */
-  &:hover::before {
-    transform: scale(1.15) !important; 
-  }
+  &::before { background-image: url('/static/CustomIcons/GlobeIcon_Light.webp') !important; }
+  &:hover::before { transform: scale(1.15) !important; }
 }
-
-/* 2. Dark Mode Override */
 html[saved-theme="dark"] .start-grid li:nth-child(2)::before {
   background-image: url('/static/CustomIcons/GlobeIcon_Dark.webp') !important;
 }
 
-
-
-/* ======================================================= */
-/* NOW ICON OVERRIDE (3rd Item in the Grid)            */
-/* ======================================================= */
-
-/* 1. Light Mode - Target the 3nd list item (Now) */
+/* Item 3: Watch */
 .start-grid li:nth-child(3) {
-  
-  /* Change icon to Book */
-  &::before {
-    background-image: url('/static/CustomIcons/WatchIcon_Light.webp') !important;
-  }
-
-  /* Override the default "Rotate" animation with "Scale" */
-  &:hover::before {
-    transform: scale(1.15) !important; 
-  }
+  &::before { background-image: url('/static/CustomIcons/WatchIcon_Light.webp') !important; }
+  &:hover::before { transform: scale(1.15) !important; }
 }
-
-/* 2. Dark Mode Override */
 html[saved-theme="dark"] .start-grid li:nth-child(3)::before {
   background-image: url('/static/CustomIcons/WatchIcon_Dark.webp') !important;
 }
 
-
-/* ======================================================= */
-/* LIBRARY ICON OVERRIDE (4rd Item in the Grid)            */
-/* ======================================================= */
-
-/* 1. Light Mode - Target the 3rd list item (Library) */
+/* Item 4: Library/Book */
 .start-grid li:nth-child(4) {
-  
-  /* Change icon to Book */
-  &::before {
-    background-image: url('/static/CustomIcons/BookIcon_Light.webp') !important;
+  &::before { background-image: url('/static/CustomIcons/BookIcon_Light.webp') !important; }
+  &:hover::before { transform: scale(1.15) !important; }
+}
+html[saved-theme="dark"] .start-grid li:nth-child(4)::before {
+  background-image: url('/static/CustomIcons/BookIcon_Dark.webp') !important;
+}
+
+/* ==========================================================================
+   7. PAGE SPECIFIC: LIBRARY
+   ========================================================================== */
+
+/* 1. Page Width Overrides */
+body[data-slug="library"] {
+  .center .breadcrumb-container,
+  .center .article-title,
+  .center .content-meta,
+  .center article {
+    max-width: 100%; 
   }
 
-  /* Override the default "Rotate" animation with "Scale" */
-  &:hover::before {
-    transform: scale(1.15) !important; 
+  /* List of books -> 3-column grid */
+  .center article ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem; 
+    padding: 0;
+    list-style: none; 
+
+    @media (max-width: 800px) { grid-template-columns: repeat(2, 1fr); }
+    @media (max-width: 500px) { grid-template-columns: 1fr; }
   }
 }
 
-/* 2. Dark Mode Override */
-html[saved-theme="dark"] .start-grid li:nth-child(4)::before {
-  background-image: url('/static/CustomIcons/BookIcon_Dark.webp') !important;
+/* 2. Library Grid Component */
+.library-grid {
+  & > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Force 3 cols */
+    gap: 2rem;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+
+    @media (max-width: 800px) { grid-template-columns: repeat(2, 1fr); }
+    @media (max-width: 500px) { grid-template-columns: 1fr; }
+  }
+
+  & li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.2s ease;
+    background-color: var(--light);
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-color: var(--secondary);
+    }
+
+    /* Images inside grid */
+    img {
+      max-width: 140px; /* Specific size override for grid */
+      margin-bottom: 0.5rem;
+      object-fit: cover;
+      /* Borders inherited from Section 3, but size constrained here */
+    }
+
+    /* Links/Text */
+    a {
+      font-weight: 600;
+      text-decoration: none;
+      &.internal { background: none; }
+    }
+
+    .author {
+      display: block;
+      font-family: var(--codeFont);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--gray);
+      margin-top: 0.25rem;
+    }
+  }
 }
