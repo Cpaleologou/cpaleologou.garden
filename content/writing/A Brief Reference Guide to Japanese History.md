@@ -6,7 +6,7 @@ tags:
   - '#Surveyed'
 publish: 'true'
 ---
->[!INFO] In January 2026, I built a little 10-week [[03-Garden/learning-plans/Introduction To Japanese History|Introduction To Japanese History]] course. This article represents my current knowledge of the country's history, as well as knowledge subsequently gained. Each period also contains a "tourism" section, containing related sites and a short description of their significance to the era.
+>[!info] In January 2026, I built a little 10-week [[03-Garden/learning-plans/Introduction To Japanese History|Introduction To Japanese History]] course. This article represents my current knowledge of the country's history, as well as knowledge subsequently gained. Each period also contains a "tourism" section, containing related sites and a short description of their significance to the era.
 
 ![[MapOfJapan.webp| Map of modern Japan]]
 
