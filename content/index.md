@@ -15,7 +15,7 @@ Most of what's here is incomplete. Fragments about learning, history, technology
 
 ## About This Garden
 
-Notes are organized by **maturity**, rather than chronology or topic. I'm currently re-reading _The Great Game_ by Peter Hopkirk, and I've taken inspiration from those 19th-century explorers who risked their lives to dutifully chart and map 'the great unknown'.
+Essays are organized by **maturity**, rather than chronology or topic. I'm currently re-reading _The Great Game_ by Peter Hopkirk, and I've taken inspiration from those 19th-century explorers who risked their lives to dutifully chart and map 'the great unknown'.
 
 #TerraIncognita - Raw notes and observations. Potentially wrong. Don't take these too seriously.
 
