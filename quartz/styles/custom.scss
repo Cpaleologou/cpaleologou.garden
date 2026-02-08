@@ -79,42 +79,6 @@ blockquote {
   }
 }
 
-/* 5. CALLOUTS (High Specificity Override) */
-/* Target explicitly [data-callout] to override the specific color 
-   rules in callouts.scss, while keeping the icon colors intact.
-*/
-.callout[data-callout] {
-  /* 1. Force the Archival Background */
-  /* Instead of the neon blues/reds, use your faint theme highlight */
-  background-color: var(--highlight) !important;
-  
-  /* 2. Force the Archival Border */
-  /* Use your standard Olive/Khaki border instead of the colored ones */
-  border: 1px solid var(--secondary) !important;
-  
-  /* 3. The Pinned Note Aesthetic */
-  border-radius: 0 !important;              /* Sharp corners */
-  box-shadow: 4px 4px 0px var(--tertiary);  /* The Hard Orange/Terracotta Shadow */
-  
-  /* 4. Text Visibility */
-  /* Ensure the body text uses your main dark text color, not the colored accent */
-  color: var(--dark);
-}
-
-/* Optional: Make the title text pop by using the Callout's intended color 
-   (e.g., Red for danger) but bolder */
-.callout-title {
-  color: var(--primary) !important; /* Keeps the red/blue/green accent for the header only */
-  letter-spacing: 0.05em;
-  font-size: 0.9em;
-}
-
-/* Optional: Ensure the icon uses the specific color too */
-.callout-title .callout-icon {
-  background-color: var(--color) !important; 
-}
-
-
 /* Float Right Trigger: ![[image.png|right]] */
 img[alt$="right"] {
   float: right;
