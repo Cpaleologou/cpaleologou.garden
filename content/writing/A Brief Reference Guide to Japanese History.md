@@ -41,17 +41,20 @@ After a series of smallpox epidemics drasitically reduced the population size, t
 Without tax income, the ability for the government to enact policy or even protect and police its citizens collapsed. With rising crimes rates across the country side, farmers and peasants were forced to form their own militias for protection. Literally "to serve", these militias became the first Samurai and began the downfall of the Heian regime. 
 #### Tourism
 
-##### Heian-jingu Shrine
-
-**Byodo-in Temple**
+##### Byodo-in Temple
 ![[Byodo-inTemple.webp | Byodo-in Temple]]
-Daikaku-ji Temple
+The Byodo-in Temple is one of the few remaining structures from the Heian period. Built in 1053, it was one of the villas of the Fujiwara family.
 
-Kyoto City Heiankyo Sousei-kan
+**Daikaku-ji Temple & Osawa Pond**
+![[OsawaPond.webp | Daikaku Temple & Osawa Pond]]
+The Daikaku Temple was originally built for Emperor Saga (809 - 823). Osawa pond, in front is the oldest surviving artificial forest pond in Japan. Heian nobility often held moon-viewing parties on dragon-headed boats, like those described by Lady Murasaki in her journal.
 
-Boat Rides in Arashiyama
+>On the day of the imperial visit, His Excellency had the boats poled over to where he could inspect them. They had been specially made for the occasion. They were most impressive; you could almost imagine that the dragon and mythical bird on the prows were alive.
+>*The Diary of Lady Mursaki*
 
-The Tale of Genji Museum
+##### Kyoto City Heiankyo Sousei-kan
+![[Heian-kyoSoseikan.webp | Miniature models of Kyoto and the Palace]]
+A museum dedicated to the Heian period. It features a 1/1000th model of the city and the palace as well as artifacts such as clothing, art, etc.
 
 ## Warriors Take Power (*1185 – 1573*)
 

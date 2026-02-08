@@ -6,7 +6,7 @@ tags:
 publish: 'true'
 ---
 ![[Gemini_Generated_Image_phx3wvphx3wvphx3.png]]
-# Course Description
+## Course Description
 
 A 10-week survey of Japan's political, social, economic, and cultural development from the Heian period to the present.
 Themes will include the foundation of the early aristocratic state, warrior regimes, the rise of the Japanese empire in the 19th and 20th centuries, and Japan's recovery and economic development after World War II.
@@ -45,7 +45,6 @@ Include 2-3 specific sites or districts in each city that exemplify its characte
 **Purpose**: Frame your trip around understanding these three different historical identities.
 
 ---
-
 ### Assignment 3: Your Personal "Must-See" List (Due Week 10)
 
 Now that you understand the full historical arc, create a **curated list of 10-15 sites** across the cities you'll visit that you're most interested in seeing, organized by historical period.
@@ -57,11 +56,11 @@ For each site, write **one sentence** explaining what historical moment or theme
 **Purpose**: Transform abstract history into concrete places you'll experience. This becomes your actual trip itinerary.
 
 ---
-# Local Field Trips (Vancouver, BC)
+## Local Field Trips (Vancouver, BC)
 
 To ground the abstract history of the "Golden Route" in tangible experiences, you will complete three site visits. These are timed to provide local context to the political and social shifts you are studying in the texts.
 
-### Field Trip 1: The Heian Aesthetic & Garden Philosophy
+## Field Trip 1: The Heian Aesthetic & Garden Philosophy
 
 **Location:** Nitobe Memorial Garden (UBC) | [Hours of Operation](https://botanicalgarden.ubc.ca/visit/hours-directions/)
 
@@ -73,7 +72,7 @@ To ground the abstract history of the "Golden Route" in tangible experiences, yo
 
 **Key Question:** How does the garden’s layout reflect the Heian-era preoccupation with the transience of life (mono no aware)?
 
-### Field Trip 2: Meiji Migration & Industrialization
+## Field Trip 2: Meiji Migration & Industrialization
 
 **Location:** Steveston Village (Murakami House & Britannia Shipyards)
 
@@ -85,7 +84,7 @@ To ground the abstract history of the "Golden Route" in tangible experiences, yo
 
 **Key Question:** Based on your readings, what specific economic pressures in Meiji Japan would drive a family to move from a rural prefecture to a fishing village in BC?
 
-### Field Trip 3: The Diaspora & The "Dark Valley"
+## Field Trip 3: The Diaspora & The "Dark Valley"
 
 **Location:** Nikkei National Museum & Cultural Centre (Burnaby)
 
