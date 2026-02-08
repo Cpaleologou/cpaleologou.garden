@@ -6,7 +6,7 @@ tags:
   - '#Surveyed'
 publish: 'true'
 ---
->[!NOTE] In January 2026, I built a little 10-week [[03-Garden/learning-plans/Introduction To Japanese History|Introduction To Japanese History]] course. This article represents my current knowledge of the country's history, as well as knowledge subsequently gained. Each period also contains a "tourism" section, containing related sites and a short description of their significance to the era.
+>[!INFO] In January 2026, I built a little 10-week [[03-Garden/learning-plans/Introduction To Japanese History|Introduction To Japanese History]] course. This article represents my current knowledge of the country's history, as well as knowledge subsequently gained. Each period also contains a "tourism" section, containing related sites and a short description of their significance to the era.
 
 ![[MapOfJapan.webp| Map of modern Japan]]
 
@@ -45,12 +45,12 @@ Without tax income, the ability for the government to enact policy or even prote
 ![[Byodo-inTemple.webp | Byodo-in Temple]]
 The Byodo-in Temple is one of the few remaining structures from the Heian period. Built in 1053, it was one of the villas of the Fujiwara family.
 
-**Daikaku-ji Temple & Osawa Pond**
+##### Daikaku-ji Temple & Osawa Pond
 ![[OsawaPond.webp | Daikaku Temple & Osawa Pond]]
 The Daikaku Temple was originally built for Emperor Saga (809 - 823). Osawa pond, in front is the oldest surviving artificial forest pond in Japan. Heian nobility often held moon-viewing parties on dragon-headed boats, like those described by Lady Murasaki in her journal.
 
 >On the day of the imperial visit, His Excellency had the boats poled over to where he could inspect them. They had been specially made for the occasion. They were most impressive; you could almost imagine that the dragon and mythical bird on the prows were alive.
->*The Diary of Lady Mursaki*
+>- *The Diary of Lady Mursaki*
 
 ##### Kyoto City Heiankyo Sousei-kan
 ![[Heian-kyoSoseikan.webp | Miniature models of Kyoto and the Palace]]
