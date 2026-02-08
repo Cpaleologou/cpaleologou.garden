@@ -46,7 +46,7 @@ Essays are organized by **maturity**, rather than chronology or topic. I'm curr
       </a>
     </li>
     <li>
-      <a href="/library"  data-no-popover="true">
+      <a href="/Library"  data-no-popover="true">
         <strong>Library</strong>
         <span class="desc">Books I've read and recommend</span>
       </a>
