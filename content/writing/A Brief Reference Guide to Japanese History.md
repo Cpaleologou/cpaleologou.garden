@@ -59,17 +59,17 @@ A museum dedicated to the Heian period. It features a 1/1000th model of the city
 ## Warriors Take Power (*1185 – 1573*)
 
 
-### Tourism
+#### Tourism
 ## Peak Tokugawa & The Great Peace (*1603 – 1853*)
 
-### Tourism
+#### Tourism
 ## Late Tokugawa & The Fall of the Bakufu (*1853 – 1867*)
 
 
-### Culture & Economics
+#### Culture & Economics
 
-### Revolution 
+#### Revolution 
 
-### Tourism
+#### Tourism
 
 
