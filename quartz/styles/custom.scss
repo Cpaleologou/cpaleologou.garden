@@ -503,7 +503,7 @@ html[saved-theme="dark"] .recent-notes li::after {
   ul {
     display: grid;
     /* Desktop: 3 columns */
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     list-style: none;
     padding: 0;
@@ -613,11 +613,45 @@ html[saved-theme="dark"] .start-grid li::before {
 }
 
 /* ======================================================= */
-/* NOW ICON OVERRIDE (2rd Item in the Grid)            */
+/* LAMP ICON OVERRIDE (2nd Item in the Grid)                */
 /* ======================================================= */
 
 /* 1. Light Mode - Target the 2nd list item (Now) */
 .start-grid li:nth-child(2) {
+  
+  /* Default State: Light Off */
+  &::before {
+    background-image: url('/static/CustomIcons/lamp_light_off.webp') !important;
+  }
+
+  /* Hover State: Light On + Scale */
+  &:hover::before {
+    background-image: url('/static/CustomIcons/lamp_light_on.webp') !important;
+    transform: scale(1.15) !important; 
+  }
+}
+
+/* 2. Dark Mode Override */
+html[saved-theme="dark"] .start-grid li:nth-child(2) {
+  
+  /* Default State: Dark Off */
+  &::before {
+    background-image: url('/static/CustomIcons/lamp_dark_off.webp') !important;
+  }
+
+  /* Hover State: Dark On */
+  &:hover::before {
+    background-image: url('/static/CustomIcons/lamp_light_on.webp') !important;
+  }
+}
+
+
+/* ======================================================= */
+/* NOW ICON OVERRIDE (3rd Item in the Grid)            */
+/* ======================================================= */
+
+/* 1. Light Mode - Target the 3nd list item (Now) */
+.start-grid li:nth-child(3) {
   
   /* Change icon to Book */
   &::before {
@@ -631,17 +665,17 @@ html[saved-theme="dark"] .start-grid li::before {
 }
 
 /* 2. Dark Mode Override */
-html[saved-theme="dark"] .start-grid li:nth-child(2)::before {
+html[saved-theme="dark"] .start-grid li:nth-child(3)::before {
   background-image: url('/static/CustomIcons/WatchIcon_Dark.webp') !important;
 }
 
 
 /* ======================================================= */
-/* LIBRARY ICON OVERRIDE (3rd Item in the Grid)            */
+/* LIBRARY ICON OVERRIDE (4rd Item in the Grid)            */
 /* ======================================================= */
 
 /* 1. Light Mode - Target the 3rd list item (Library) */
-.start-grid li:nth-child(3) {
+.start-grid li:nth-child(4) {
   
   /* Change icon to Book */
   &::before {
@@ -655,6 +689,6 @@ html[saved-theme="dark"] .start-grid li:nth-child(2)::before {
 }
 
 /* 2. Dark Mode Override */
-html[saved-theme="dark"] .start-grid li:nth-child(3)::before {
+html[saved-theme="dark"] .start-grid li:nth-child(4)::before {
   background-image: url('/static/CustomIcons/BookIcon_Dark.webp') !important;
 }

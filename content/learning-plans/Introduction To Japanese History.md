@@ -5,7 +5,6 @@ tags:
   - '#Japan'
 publish: 'true'
 ---
-
 ![[Gemini_Generated_Image_phx3wvphx3wvphx3.png]]
 # Course Description
 
