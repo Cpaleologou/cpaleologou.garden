@@ -41,11 +41,11 @@ After a series of smallpox epidemics drasitically reduced the population size, t
 Without tax income, the ability for the government to enact policy or even protect and police its citizens collapsed. With rising crimes rates across the country side, farmers and peasants were forced to form their own militias for protection. Literally "to serve", these militias became the first Samurai and began the downfall of the Heian regime. 
 
 ### Tourism
-##### Byodo-in Temple
+#### Byodo-in Temple
 ![[Byodo-inTemple.webp | Byodo-in Temple]]
 The Byodo-in Temple is one of the few remaining structures from the Heian period. Built in 1053, it was one of the villas of the Fujiwara family.
 
-##### Daikaku-ji Temple & Osawa Pond
+#### Daikaku-ji Temple & Osawa Pond
 ![[OsawaPond.webp | Daikaku Temple & Osawa Pond]]
 The Daikaku Temple was originally built for Emperor Saga (809 - 823). Osawa pond, in front is the oldest surviving artificial forest pond in Japan. Heian nobility often held moon-viewing parties on dragon-headed boats, like those described by Lady Murasaki in her journal.
 
@@ -59,21 +59,21 @@ A museum dedicated to the Heian period. It features a 1/1000th model of the city
 ## Warriors Take Power (*1185 – 1573*)
 
 
-#### Tourism
+### Tourism
 ## Peak Tokugawa & The Great Peace (*1603 – 1853*)
 
-#### Tourism
+### Tourism
 ## Late Tokugawa & The Fall of the Bakufu (*1853 – 1867*)
 
-#### Culture & Economics
+### Culture & Economics
 
-#### Revolution 
+### Revolution 
 
-#### Tourism
+### Tourism
 
 ## The Meiji Modernization (*1870 - 1900*)
 
-#### New Government
+### New Government
 
 The period from the 1870s to the 1900s is traditionally recognized worldwide as the Second Industrial Revolution. This was an era of intense technological, social, and political change. Improvements in steel production, electrification, and petroleum usage developed alongside communication advances, such as the telegraph and telephone, and the invention of more efficient processing methods. Interchangeable parts, the assembly line, advanced railway systems, and corporate bureaucracy combined to unlock previously unfathomable economic gains.
 
@@ -84,7 +84,7 @@ After the fall of the Tokugawa shogunate, the new political leaders moved quickl
 Perhaps surprisingly, this process was not dominated by violence, though such drastic change is almost always accompanied by some level of conflict. A key move by the new government was convincing select influential daimyo to return their land to the Emperor. In return, they were promised a seat in the new political administration and a generous government salary. Most daimyo accepted the deal, setting a precedent that the rest of the country’s lords followed within a year.
 
 The structure of the government remained fluid for the first few years of the Meiji era before eventually settling into a European-style parliament with a Prime Minister and a cabinet system. Importantly, the entire government was framed as subservient to the Emperor. This system promoted the legitimacy of the new regime by leveraging Tokugawa ideals of duty and loyalty while claiming authority through the Emperor’s divine right to rule.
-#### Social Order
+### Social Order
 
 The other major change during this time was the revolution of the social class system that had defined the Tokugawa era for nearly three centuries. Only a few years after the daimyo had forfeited their land, the government deemed the regular samurai stipends too expensive to maintain, as they consumed roughly half of all government revenue.
 
@@ -101,7 +101,7 @@ The stipends, which were inheritable and adjusted for inflation, represented a p
 Finally, the samurai were forbidden from carrying their swords in public—the very items that represented their social status.
 
 Unsurprisingly, these changes were unpopular among the old-guard samurai. Simultaneously, increased literacy rates and rising levels of political involvement among the general public led to frequent criticisms of the government and popular unrest.
-#### Social, Economic, & Cultural Transformations
+### Economic, & Cultural Transformations
 
 Facing internal pressure and external geopolitical threats, the Meiji government viewed rapid modernization—which it equated with Westernization—as the best way to solidify its authority at home and project strength internationally.
 
