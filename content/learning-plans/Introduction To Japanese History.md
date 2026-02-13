@@ -195,9 +195,9 @@ To ground the abstract history of the "Golden Route" in tangible experiences, yo
 ### Week 6 - Building the Modern Nation (1870s-1900s)
 
 **Readings & Deliverables**:
-- [ ] Gordon, Chapters 6 (Participation and Protest) 
-- [ ] Gordon, Chapters 7 (Social, Economic, and Cultural Transformations)
-- [ ] Gordon, Chapters 8 (Empire and Domestic Order)
+- [x] Gordon, Chapters 6 (Participation and Protest) 
+- [x] Gordon, Chapters 7 (Social, Economic, and Cultural Transformations)
+- [x] Gordon, Chapters 8 (Empire and Domestic Order)
 - [ ] Huffman, Chapter 3 (Confronting The Modern World)
 - [ ] Huffman, Chapter 4 (Turning Outward)
 - [ ] Field Trip Pre-Read: ["A Capture of Memories: The Murakami Family at Britannia"](https://youtu.be/pPURgbJsGKY?si=gXgR8-2vlG0Si5jZ)
