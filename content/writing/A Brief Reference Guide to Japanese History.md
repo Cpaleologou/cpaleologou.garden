@@ -152,7 +152,7 @@ The south exit of the Tokyo Station Murunouchi Building contains a plaque that m
 
 #### Peace Osaka
 ![[PeaceMuseumOsaka.webp]]
-Many museums across Japan focus on the damage that was done to Japan. Peace Osaka focuses on the damage done by Japan to both the outer world and to its own people. Exhibits include the "Peace Preservation Law" and the *Tokko* who were the special police force used to arrest and monitor thousands of left-wing protestors.
+Many museums across Japan focus on the damage that was done to Japan. Peace Osaka focuses on the damage done by Japan to both the outer world and to its own people. Exhibits include the "Peace Preservation Law" and the Tokko who were the special police force used to arrest and monitor thousands of left-wing protestors.
 #### Birthplace of Rice Riots
 ![[BirthplaceOfRiceRiots.webp | A small memorial for the birthplace of the Rice Riots in 1918.]]
 In the small town of Uozu a small memorial can be found marking the birthplace of the rice riots in 1918. Started by a small group of fisherman wives, the riots spread across the country and led to the appointing of Hara Kei as Prime Minister.
