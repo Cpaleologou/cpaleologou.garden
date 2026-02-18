@@ -486,3 +486,24 @@ body[data-slug="library"] {
     }
   }
 }
+
+/* Right Side Bar */
+
+/* Make the right sidebar scrollable */
+.right {
+  height: 100vh; /* Constrain height to viewport */
+  max-height: 100vh;
+  overflow-y: auto; /* Enable vertical scrolling */
+  position: sticky;
+  top: 0;
+  
+  /* Optional: Add some padding at the bottom so the last item isn't flush with the edge */
+  padding-bottom: 2rem; 
+  
+  /* Optional: Hide the scrollbar for a cleaner look (but keep functionality) */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
