@@ -49,7 +49,7 @@ The Daikaku Temple was originally built for Emperor Saga (809 - 823). Osawa pond
 >On the day of the imperial visit, His Excellency had the boats poled over to where he could inspect them. They had been specially made for the occasion. They were most impressive; you could almost imagine that the dragon and mythical bird on the prows were alive.
 >- *The Diary of Lady Mursaki*
 
-##### Kyoto City Heiankyo Sousei-kan
+#### Kyoto City Heiankyo Sousei-kan
 ![[Heian-kyoSoseikan.webp | Miniature models of Kyoto and the Palace]]
 A museum dedicated to the Heian period. It features a 1/1000th model of the city and the palace as well as artifacts such as clothing, art, etc.
 
