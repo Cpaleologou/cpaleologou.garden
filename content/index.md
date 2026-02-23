@@ -9,7 +9,7 @@ publish: 'true'
 
 I'm Christian. This is my digital garden; a collection of notes, half-formed ideas, and occasional essays.
 
-By day, I'm a CPA and Senior Financial Analyst. By temperament, I'm an intellectual tinkerer. This sounds more pretentious than I mean it to be, but I'm not sure there's a better word for it. I'm someone who gets absorbed in book rabbit holes, creative projects, and writes to figure out what I think. 
+By day, I'm a CPA and Senior Financial Analyst. By temperament, I'm an intellectual tinkerer. That probably sounds more pretentious than I mean it to be, but I'm not sure there's a better word for it. I get absorbed in book rabbit holes, creative projects, and I write to figure out what I think. 
 
 Most of what's here is incomplete. Fragments about learning, history, technology and philosophy. Some pieces mature into something coherent. Most stay messy. Many have spelling errors. I'm more interested in exploration than polish.
 

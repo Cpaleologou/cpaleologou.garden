@@ -217,7 +217,7 @@ To ground the abstract history of the "Golden Route" in tangible experiences, yo
 ### Week 7 - The Dark Valley: From Democracy to Disaster (1920s-1945)
 
 **Readings & Deliverables**:
-- [ ] Gordon, Chapters 10 (Democracy and Empire between the World Wars)
+- [x] Gordon, Chapters 10 (Democracy and Empire between the World Wars)
 - [ ] Gordon, Chapters 11 (The Depression Crisis and Responses)
 - [ ] Gordon, Chapters 12 (Japan in Wartime)
 - [ ] Huffman, Chapter 5 (Imperial Democracy)
