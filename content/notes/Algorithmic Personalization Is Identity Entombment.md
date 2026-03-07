@@ -1,5 +1,5 @@
 ---
-title: Algorithmic Personalization Is Identify Entombment
+title: Algorithmic Personalization Is Identity Entombment
 tags:
   - '#TerraIncognita'
 publish: 'true'
