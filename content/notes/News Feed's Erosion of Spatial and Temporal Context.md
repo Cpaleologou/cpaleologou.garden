@@ -1,7 +1,8 @@
 ---
 title: News Feed's Erosion of Spatial and Temporal Context
 tags:
-  - '#TerraIncognita'
+  - SocialMedia
+  - Information
 publish: 'true'
 date: 2026-03-07T00:00:00.000Z
 ---
