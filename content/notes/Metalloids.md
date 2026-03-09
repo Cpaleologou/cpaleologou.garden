@@ -13,7 +13,7 @@ There is no official definition or criteria for what qualifies an element as a m
 
 ### Elements Recognized As Metalloids
 
-![[Screenshot 2025-08-10 at 2.29.14 PM.png|400]]
+![[ElementsRecognizedAsMetalloids.png|400]]
 
 ---
 ## Connections
