@@ -1,6 +1,6 @@
 ---
 title: A Brief Reference Guide to Japanese History
-date: 2026-02-06T00:00:00.000Z
+date: 2026-03-09T00:00:00.000Z
 tags:
   - '#Japan'
   - '#Surveyed'
@@ -131,9 +131,7 @@ Unsurprisingly, these changes were unpopular among the old-guard samurai. Simult
 Facing internal pressure and external geopolitical threats, the Meiji government viewed rapid modernization—which it equated with Westernization—as the best way to solidify its authority at home and project strength internationally.
 
 The image below demonstrates the Westernization of Japanese authority through the Emperor’s dress and stature as depicted in imperial imagery.
-
 ![[TransitionOfMeijiImagery.webp]]
-
 ## The Dark Valley - The End of Democracy (1900 - 1930)
 ### Background
 The Meiji emperor was a titanic figure in the political and religious worlds of both the government and the public. He benefitted from the shifting politics of the early Meiji era, with the new government promoting his divinity in order to secure their own authority. However, he was also a strong leader, overseeing one of the most rapid and transformational modernizations in history as Japan went from a frozen time capsule of the middle ages to a leading industrialized nation in just a few decades.
