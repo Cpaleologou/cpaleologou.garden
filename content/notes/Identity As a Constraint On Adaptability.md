@@ -7,6 +7,7 @@ publish: 'true'
 date: 2026-03-07T00:00:00.000Z
 ---
 Defining one's self via a personal history, opinion, or values is a dangerous way to live. By defining your past and present, you are setting in place a rigid identity structure that now needs to *change* in order to adapt to new situations. 
+
 In a world of rapid acceleration, one can not rely on their knowledge of the past to thrive. Adaptability becomes more important than structure. In fact, "survival" by definition implies something staying the same, or continuing to exist in the same way. The harder you work to define yourself, the more external forces that put pressure on that definition feel like mortal threats to your existence. If you build a structure of identity that is inflexible to change, you will have to "*die*" in order to survive in a world that looks different than the past.
 
 ---

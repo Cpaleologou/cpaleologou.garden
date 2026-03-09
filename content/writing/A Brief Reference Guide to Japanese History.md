@@ -38,33 +38,55 @@ After a series of smallpox epidemics drasitically reduced the population size, t
 
 Without tax income, the ability for the government to enact policy or even protect and police its citizens collapsed. With rising crimes rates across the country side, farmers and peasants were forced to form their own militias for protection. Literally "to serve", these militias became the first Samurai and began the downfall of the Heian regime. 
 ### Tourism
-#### Byodo-in Temple
+#### Byodo-in Temple (Kyoto)
 ![[Byodo-inTemple.webp | Byodo-in Temple]]
 The Byodo-in Temple is one of the few remaining structures from the Heian period. Built in 1053, it was one of the villas of the Fujiwara family.
-
-#### Daikaku-ji Temple & Osawa Pond
+#### Daikaku-ji Temple & Osawa Pond (Kyoto)
 ![[OsawaPond.webp | Daikaku Temple & Osawa Pond]]
 The Daikaku Temple was originally built for Emperor Saga (809 - 823). Osawa pond, in front is the oldest surviving artificial forest pond in Japan. Heian nobility often held moon-viewing parties on dragon-headed boats, like those described by Lady Murasaki in her journal.
 
 >On the day of the imperial visit, His Excellency had the boats poled over to where he could inspect them. They had been specially made for the occasion. They were most impressive; you could almost imagine that the dragon and mythical bird on the prows were alive.
 >- *The Diary of Lady Mursaki*
-
-#### Kyoto City Heiankyo Sousei-kan
+#### Kyoto City Heiankyo Sousei-kan (Kyoto)
 ![[Heian-kyoSoseikan.webp | Miniature models of Kyoto and the Palace]]
 A museum dedicated to the Heian period. It features a 1/1000th model of the city and the palace as well as artifacts such as clothing, art, etc.
-
-## Warriors Take Power (*1185 – 1573*)
-
-## The Kamakura Shogunate
-As the people of Japan became increasingly dependent on the new Samurai warrior class for protection, the Samurai themselves realized that they held the real power, not the empire. Taira family, rulers at the time, were eventually defeated after a series of battles and insurrections, later known as the **Gempei Wars**. 
+## Warriors Take Power (*1185 – 1333*)
+### The Kamakura Shogunate
+As the people of Japan became increasingly dependent on the new Samurai warrior class for protection, the Samurai themselves realized they held the real power, not the empire. Taira family, rulers at the time, were eventually defeated after a series of battles and insurrections, later known as the **Gempei Wars**. 
 
 The leader of the Samurai, Minamoto no Yoritomo was an incredibly ruthless and jealous man. After consolidating his victory he set out to eliminate any potential rivals, including remaining Fujiwara family members, as well as his own brother. 
-Yoritomo's genius though, was in sanctioning the continued authority of the Emperor and the civil government in Kyoto. Instead, he established a system of dual authority with Kyoto hosting the imperial court and legal administration. In the Eastern fishing village of Kamakura he established his centre of military authority and police affairs. 
-This dual government system was called the Bakufu government, literally meaning "tent government" because of the three poles of bureaucracy holding up the administration, split between Kyoto and Kamakura. 
+Yoritomo's genius though, was in sanctioning the continued authority of the Emperor and the civil government in Kyoto. He established a system of dual authority with Kyoto hosting the imperial court and legal administration. The military and polices authority was established in the Eastern fishing village of Kamakura.
+
+This dual government system was called the **Bakufu government**, stemming from the word for the physical field tents used by military commanders during campaigns. The administration was split into three parts which allowed for the duel-location functioning of the government.
 - The Samurai Office - responsible for supervising the conduct of the Samurai.
 - The Administrative Office - Admin, legislation and legal affairs.
 - The Court of Appeals - Settlement of civil disputes among the governing Samurai lands.
+### Samurai Ethos
+Though it was often romanticized in later centuries, the Samurai Ethos was one of pragmatism and ruthlessness. This was the period where the culture of *On* was instituted. Under the *On* system, warriors were bound to their lord under a very transactional expectation that service equalled reward, either in the form of land or promotion. This system was often dominated by opportunity over loyalty and there are many examples of Samurai switching sides for rewards or inheritances. 
 
+This was also the period were *seppuku* or ritual suicide developed as a cultural practice. In such a military culture, the practice started as a way to avoid the disgrace of being captured, but evolved into a method of accepting responsibility for mistakes, following a lord into death, or even in protest to an unjust or unsupported decision of a lord.
+![[SamuraiWeaponArmour.png | Examples of Samurai armour and swords]]
+### Mongol Invasions
+The first attempt to conquer Japan by the Mongols came in 1274. However, before first contact was made with land, the Mongols turned around and returned to China. Scholars are unclear why the Mongols retreated, but Japanese lore claims a typhoon appeared and destroyed the fleet, forcing surrender. Despite the lack of fighting, external threat did bring a unification between the Samurai that was previously non-existent. 
+
+By the time the second invasion attempt was made in 1281, the key targeted sites had been fortified over the prior eight years. Even with their massive force of over 140,000 warriors, the Mongols struggled to establish roots. This time though, after seven weeks of warfare, an actual typhoon destroyed the Mongolian fleets. The Japanese interpreted the miracle as an act of divine intervention and named the event *kamikaze* (divine wind). This divine wind has continued as a symbol in Japanese culture until today.
+### The Downfall of the Kamakura
+Ironically, while the defeat of the Mongols saved Japan and the Kamakura government, it also weakened the government to such a degree that it was never able to recover. The massive defensive essentially bankrupted the government. As explained above, the culture of the Samurai was highly transactional, so after the defeat of the Mongols, reward was expected. This though, was a defensive war, not an offensive one, and there were no spoils to be divided. What wealth the government did hold, it gave to Buddhist priests rather than the warriors, whose prayers supposedly summoned the *kamikaze*. After years of *On*, the vital contract between the Kamakura government and its warriors was broken. 
+### Culture
+As the culture of the period shifted from the siloed and abstract life of the Heian period to the ruthless realities of Kamakura martial law, so did the art. Artisans of the time carved hyper-realistic, muscular sculptures of Deva Kings to reflect the raw strength of the warrior. The illustrated hand scrolls, *Emakimono*, which combined sequential paintings with narrative text, generally documented the bloody insurrections of the time, rather than the courtly romances they often did in the past period. Swordsmithing reached its relative peak during the Kamakura period as well. Beautiful blades, containing thousands of layers of  folded steel were highly prized by the warring Samurai.
+![[KamakuraCulture.webp | Hyper-realistic Deva Kings (left) and a Samurai katana (right)]]
+![[Heiji_Monogatari_Emaki.webp | Heiji Monogatari Emaki - one of the most famous emakimono scenes of the era]]
+### Tourism
+#### Tsurugaoka Hachimangu Shrine (Kamakura)
+![[TsurugaokaHachiman.webp]]
+The Tsurugaoka Hachimangu Shrine is the foundational political and spiritual shrine in Kamakura. Minamoto no Yorimoto, the first Shogun, moved the shrine to its current location in 1180. The approaching *sandō* leads all the way from the sea to the temple and is lined with traditional Japanese cherry trees.
+#### The Yagura Tombs (Kamakura)
+![[TheYaguraTombs.webp]]
+The shogunate did not allow for burials within the city limits of Kamakura. So rather than traditional cemeteries, thousands of cave tombs called *yagura* were carved into the soft stone of the surrounding hills to house the remains of samurai and priests.
+#### Sanjusangen-do (Kyoto) 
+![[Sanjusangen-do.webp]]
+Kyoto remained the cultural hub of Japan, despite the core governing administration moving to Kamakura. While the original Sanjusangen-do temple was destroyed by a fire, it was rebuilt in 1266. It houses over a thousand life-sized statues which illustrate the hyper-realism valued in the era.
+## The Ashikaga Period 
 ### Tourism
 ## Peak Tokugawa & The Great Peace (*1603 – 1853*)
 
@@ -146,13 +168,13 @@ Eventually, this system spiraled out of control. Attempting to take more land in
 
 Finally, in 1929, the Great Depression hit. The common people suffered greatly. All faith in Western-style politics and economics was lost. Without public support, the government—already broadly seen as corrupt and ineffective—lost what authority it had left. The military stepped in, promising safety and protection by taking what was needed from the rest of the world by force. In just a few years, the experiment of democracy in Japan fell apart.
 ### Tourism
-#### Tokyo Station Marunouchi Building
+#### Tokyo Station Marunouchi Building (Tokyo)
 ![[Marunouchi_Station_HaraKei.webp | Tokyo Station Marunouchi Building and Hara Kei Plaque.]]
 The south exit of the Tokyo Station Murunouchi Building contains a plaque that marks the exact spot where Prime Minister Hara Kei was assassinated in 1921.
 
-#### Peace Osaka
+#### Peace Osaka (Osaka)
 ![[PeaceMuseumOsaka.webp]]
 Many museums across Japan focus on the damage that was done to Japan. Peace Osaka focuses on the damage done by Japan to both the outer world and to its own people. Exhibits include the "Peace Preservation Law" and the Tokko who were the special police force used to arrest and monitor thousands of left-wing protestors.
-#### Birthplace of Rice Riots
+#### Birthplace of Rice Riots (Uozu)
 ![[BirthplaceOfRiceRiots.webp | A small memorial for the birthplace of the Rice Riots in 1918.]]
 In the small town of Uozu a small memorial can be found marking the birthplace of the rice riots in 1918. Started by a small group of fisherman wives, the riots spread across the country and led to the appointing of Hara Kei as Prime Minister.
