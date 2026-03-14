@@ -15,7 +15,7 @@ But once the algorithm has refined its model of you, something else happens simu
 ## Why Being Frozen is Dangerous
 The world is changing faster than at any previous point in history. We are one of the few generations in history that has little clue what life for our children may look like. In such an environment, the ability to adapt is more valuable than the stability of a fixed self. Clinging to who you were rather than who you need to become has never been a good strategy. It is becoming increasingly worse. 
 
-There is something legitimately dangerous about defining yourself too rigidly. It is one of the reasons IWhen Personal Branding Holds You Back . By *defining* your opinions, your history, your taste, your tribe, you are building a firm structure of identity. That structure will now need to *change* in order for you to adapt, should you need to. And change, when it threatens the architecture of the Self, often does not feel like growth. It feels like a small death. 
+There is something legitimately dangerous about defining yourself too rigidly. It is one of the reasons I hesitate against the professional trend of personal branding. By *defining* your opinions, your history, your taste, your tribe, you are building a firm structure of identity. That structure will now need to *change* in order for you to adapt, should you need to. And change, when it threatens the architecture of the Self, often does not feel like growth. It feels like a small death. 
 
 Have you ever been asked by a friend or colleague how a hobby, job, or life goal is going and you had to explain to them how you no longer do that thing or care about that outcome? Sometimes you make excuses, sometimes you just say it wasn't for you, or something else caught your attention. The reality is that it is completely fine to change your path, but you try to explain it through a narrative because there is a cognitive pain associated with changing. That is what I mean by small death.
 
@@ -44,11 +44,12 @@ Algorithmic entombment of the Self is real. Social media platforms are less prof
 A process cannot be rushed without ceasing to be a process. As the activity of information consumption accelerates, it fractures into exposure without integration. Without integration, personal development cannot occur. 
 
 There is no clean resolution to this. Social media is not going away. But understanding that it is not your opinions, nor your autonomy, that is being stolen is at least a more honest account of what's happening. What's being taken is your time to think. It is not a technical problem with a technical solution, but a more precise diagnosis gives us a better place to start.
+###### Christian P.
+
 ## Further Reading
 - [Filter bubbles in recommender systems: Fact or fallacy—A systematic review](https://wires.onlinelibrary.wiley.com/doi/10.1002/widm.1512)
+- [[When Personal Branding Holds You Back]]
 - [How To Do Nothing](https://www.google.ca/books/edition/How_to_Do_Nothing/OMBkDwAAQBAJ?hl=en&gbpv=0)
 - [Essence Is Fluttering](https://aeon.co/essays/how-to-be-yourself-when-you-have-no-self-lessons-from-zhuangzi?utm_source=Aeon+Newsletter&utm_campaign=63aa6924a1-EMAIL_CAMPAIGN_2025_09_01&utm_medium=email&utm_term=0_-4ef8a26106-838209624)
 - [Your Phone Is The Reason You Have No Identity](https://theweeklyscrapbook.substack.com/p/your-phone-is-the-reason-you-have?r=2pfh5i&utm_medium=ios&shareImageVariant=overlay&triedRedirect=true)
 - [The Ethics of Authenticity](https://www.google.ca/books/edition/The_Ethics_of_Authenticity/adnIDwAAQBAJ?hl=en&gbpv=0)
-
-
