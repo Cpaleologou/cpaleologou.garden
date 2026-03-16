@@ -1,5 +1,5 @@
 ---
-title: A Mind in Amber
+title: The Algorithmic Entombment of The Self
 tags:
   - '#Surveyed'
 publish: 'true'
