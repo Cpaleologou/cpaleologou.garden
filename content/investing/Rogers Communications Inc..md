@@ -5,7 +5,7 @@ tags:
 publish: 'true'
 date: 2026-03-19T00:00:00.000Z
 ---
-<!-- TradingView Widget BEGIN -->
+<iframe style="width: 100%; height: 500px; border: none;" srcdoc='
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols//" rel="noopener nofollow" target="_blank"><span class="blue-text">TSX:RCI.B quote</span></a><span class="trademark">&nbsp;by TradingView</span></div>
@@ -27,7 +27,7 @@ date: 2026-03-19T00:00:00.000Z
   "wickUpColor": "#22ab94",
   "wickDownColor": "#f7525f",
   "colorTheme": "light",
-  "isTransparent": true,
+  "isTransparent": false,
   "locale": "en",
   "chartOnly": false,
   "scalePosition": "right",
@@ -57,10 +57,12 @@ date: 2026-03-19T00:00:00.000Z
   "hideDateRanges": false,
   "hideMarketStatus": false,
   "hideSymbolLogo": false
-}
+  }
   </script>
 </div>
-<!-- TradingView Widget END -->
+'></iframe>
+
+--- 
 ## ROGERS COMMUNICATIONS INC. (TSX: RCI.B / NYSE: RCI) — Value Investor Research Report
 
 **Last Updated: ** March 19, 2026  
