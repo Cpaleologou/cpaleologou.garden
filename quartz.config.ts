@@ -23,9 +23,18 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Playfair Display",
-        body: "Merriweather",
-        code: "Courier Prime",
+        header: {
+          name: "Playfair Display",
+          weights: [500, 600, 700],
+        },
+        body: {
+          name: "Merriweather",
+          weights: [300, 400],
+        },
+        code: {
+          name: "Courier Prime",
+          weights: [400, 700],
+        },
       },
       colors: {
         lightMode: {
