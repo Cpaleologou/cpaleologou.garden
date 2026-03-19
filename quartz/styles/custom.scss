@@ -108,21 +108,59 @@ p.content-meta {
   border-bottom: 1px solid color-mix(in srgb, var(--gray) 35%, transparent) !important;
   padding-bottom: 0.6rem !important;
   margin-top: 0.25rem !important;
-  margin-bottom: 1.75rem !important;
+  margin-bottom: 0.75rem !important;
   display: flex !important;
   align-items: center !important;
   gap: 1.25rem !important;
   flex-wrap: wrap !important;
 
   time, span { color: var(--gray) !important; }
+
+  /* Suppress the trailing comma that show-comma="true" adds via ::after */
+  & > *::after { content: "" !important; margin: 0 !important; }
 }
 
+/* Tags
+   DOM: ul.tags > li > a.internal.tag-link
+   base.scss adds a "#" via a.internal.tag-link::before { content: "#" }
+   We suppress that and style the pills to match the target. */
 .center .tags {
-  font-family: var(--codeFont);
-  font-size: 0.68rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  padding-bottom: 0.5rem;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 1.5rem !important;
+
+  li {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  a.internal.tag-link {
+    font-family: var(--codeFont) !important;
+    font-size: 0.68rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase !important;
+    color: var(--dark) !important;
+    background-color: transparent !important;
+    border: 1px solid var(--lightgray) !important;
+    border-radius: 4px !important;
+    padding: 0.3rem 0.75rem !important;
+    line-height: normal !important;
+    display: inline-block !important;
+    transition: border-color 0.2s ease, color 0.2s ease !important;
+
+    /* Hide the "#" prefix that base.scss injects */
+    &::before { content: "" !important; }
+
+    &:hover {
+      border-color: var(--secondary) !important;
+      color: var(--secondary) !important;
+    }
+  }
 }
 
 /* ==========================================================================
