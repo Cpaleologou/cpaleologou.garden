@@ -4,7 +4,6 @@
    1. GLOBAL LAYOUT & BACKGROUND
    ========================================================================== */
 
-/* Paper Texture Background */
 body::before {
   content: "";
   position: fixed;
@@ -14,223 +13,281 @@ body::before {
   height: 100vh;
   background-image: url("/static/beige-paper.png");
   background-repeat: repeat;
-  background-size: auto; 
-  mix-blend-mode: multiply; 
-  opacity: 0.4; 
+  background-size: auto;
+  mix-blend-mode: multiply;
+  opacity: 0.35;
   pointer-events: none;
-  z-index: -1; 
+  z-index: -1;
 }
 
-/* "Cartographic" Page Borders */
 .page {
-  /* Default: Desktop styles */
-  border-left: 3px double var(--dark); 
-  padding-left: 2rem;
-  box-sizing: border-box; 
-  
-  /* Mobile Override */
+  border-left: 1px dashed color-mix(in srgb, var(--dark) 25%, transparent);
+  padding-left: 2.25rem;
+  box-sizing: border-box;
+
   @media (max-width: 600px) {
-    border-left: none; 
-    padding-left: 0;   
+    border-left: none;
+    padding-left: 0;
   }
 }
 
-/* Sidebar Scroll Fix */
 .sidebar {
-  overflow-y: auto !important; 
-  max-height: 100vh; 
-  
-  /* Hide scrollbar visual */
-  scrollbar-width: none;  
-  &::-webkit-scrollbar { 
-    display: none;  
-  }
+  overflow-y: auto !important;
+  max-height: 100vh;
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
 }
 
 /* ==========================================================================
    2. TYPOGRAPHY
    ========================================================================== */
 
-/* Article Text */
-article p, 
-article li, 
-article {
-  font-size: 1.2rem;
-  font-weight: 300;
-  line-height: 1.8; 
-}
-
-/* Headings */
-h2 {
-  font-size: 1.8rem;
+article p,
+article li {
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.85;
+  color: var(--dark);
 }
 
 h6 {
   font-family: 'Pinyon Script', cursive;
-  font-weight: 400; 
-  font-size: 2em;   
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-  line-height: 1.2;
-  color: var(--secondary); 
+  font-weight: 400;
+  font-size: 1.9em;
+  margin-top: 1.75rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.15;
+  color: var(--secondary);
+  opacity: 0.85;
 }
 
-/* Metadata & Tags ("Telegram" Style) */
 .content-meta {
   font-family: var(--codeFont);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.85rem;
-  border-bottom: 1px dashed var(--gray);
-  padding-bottom: 0.5rem;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  color: var(--gray);
+  border-bottom: 1px solid color-mix(in srgb, var(--gray) 35%, transparent);
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.75rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
 }
 
 .center .tags {
   font-family: var(--codeFont);
-  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   padding-bottom: 0.5rem;
 }
 
 /* ==========================================================================
-   3. IMAGES & FIGURES
+   3. TYPOGRAPHY HIERARCHY
    ========================================================================== */
 
-/* Standard Content Images & Library Grid Images */
-.center article img,
-.library-grid img {
-  /* The "Physical Photo" Look */
-  border: 1px solid var(--secondary) !important;      
-  box-shadow: 4px 4px 0px var(--tertiary) !important; 
-  border-radius: 0 !important;                        
-  padding: 6px !important;                            
-  background-color: var(--light) !important;          
-  
-  /* LAYOUT SAFETY FIXES */
-  box-sizing: border-box; /* 1. Includes padding/border in width calculation */
-  max-width: calc(100% - 8px); /* 2. Leaves room for the 4px shadow (4px left + 4px right) */
-  height: auto;
-  display: block; 
-  margin: 1.5rem auto; /* 3. Centers the image in the remaining space */
+.page article {
 
-  /* Interactive Hover */
-  &:hover {
-    transform: translateY(-2px);
-    transition: transform 0.2s ease;
+  & > h1 {
+    font-size: 2.5rem;
+    line-height: 1.15;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    font-size: 1.65rem;
+    line-height: 1.3;
+    margin-top: 3rem;
+    margin-bottom: 0.85rem;
+    font-weight: 600;
+    border-bottom: none;
+    padding-left: 0.85rem;
+    border-left: 2px solid var(--tertiary);
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    margin-top: 2.25rem;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-top: 1.75rem;
+    margin-bottom: 0.4rem;
+    color: var(--tertiary);
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  h5 {
+    font-family: var(--codeFont);
+    font-size: 0.72rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--gray);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid color-mix(in srgb, var(--gray) 30%, transparent);
   }
 }
 
-/* Floated Images (Right/Left) */
-img[alt$="right"] {
-  float: right;
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
-  width: 300px; 
-  clear: right; 
-  /* Inherit styles */
-  border: 1px solid var(--secondary) !important;
-  box-shadow: 4px 4px 0px var(--tertiary) !important;
+/* ==========================================================================
+   4. IMAGES & FIGURES
+   ========================================================================== */
+
+.center article img,
+.library-grid img {
+  border: 1px solid color-mix(in srgb, var(--secondary) 60%, transparent) !important;
+  box-shadow: 5px 5px 0 color-mix(in srgb, var(--tertiary) 50%, transparent) !important;
   border-radius: 0 !important;
-  padding: 6px !important;
+  padding: 7px !important;
   background-color: var(--light) !important;
+  box-sizing: border-box;
+  max-width: calc(100% - 10px);
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+
+  &:hover {
+    transform: translateY(-3px) rotate(0.3deg);
+    box-shadow: 7px 7px 0 color-mix(in srgb, var(--tertiary) 50%, transparent) !important;
+  }
+}
+
+%floated-image-base {
+  border: 1px solid color-mix(in srgb, var(--secondary) 60%, transparent) !important;
+  box-shadow: 5px 5px 0 color-mix(in srgb, var(--tertiary) 50%, transparent) !important;
+  border-radius: 0 !important;
+  padding: 7px !important;
+  background-color: var(--light) !important;
+  width: 280px;
+  transition: transform 0.25s ease !important;
+  &:hover { transform: translateY(-3px) !important; }
+}
+
+img[alt$="right"] {
+  @extend %floated-image-base;
+  float: right;
+  margin-left: 1.75rem;
+  margin-bottom: 1rem;
+  clear: right;
 }
 
 img[alt$="left"] {
+  @extend %floated-image-base;
   float: left;
-  margin-right: 1.5rem;
+  margin-right: 1.75rem;
   margin-bottom: 1rem;
-  width: 300px;
   clear: left;
-  /* Inherit styles */
-  border: 1px solid var(--secondary) !important;
-  box-shadow: 4px 4px 0px var(--tertiary) !important;
-  border-radius: 0 !important;
-  padding: 6px !important;
-  background-color: var(--light) !important;
 }
 
 /* ==========================================================================
-   4. COMPONENTS
+   5. BLOCKQUOTES
    ========================================================================== */
 
-/* Blockquotes ("Field Reports") */
 blockquote {
-  font-family: var(--codeFont);
-  background-color: rgba(0, 0, 0, 0.03); 
+  background-color: color-mix(in srgb, var(--secondary) 4%, transparent);
   border-left: 2px solid var(--secondary);
-  padding: 1rem;
-  margin: 1.5rem 0;
+  padding: 1.1rem 1.35rem;
+  margin: 2rem 0;
   font-style: normal;
   position: relative;
-  
+
   &::before {
     content: "FIELD REPORT //";
     display: block;
-    font-size: 0.7rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    opacity: 0.7;
+    font-family: var(--codeFont);
+    font-size: 0.62rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--secondary);
+    opacity: 0.75;
+    margin-bottom: 0.65rem;
+  }
+
+  p {
+    font-family: var(--bodyFont);
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 1.75;
+    color: var(--dark);
+    margin: 0;
   }
 }
 
 /* ==========================================================================
-   5. FEATURE: RECENT NOTES (Inkwell Animation)
+   6. RECENT NOTES — Inkwell Animation
    ========================================================================== */
 
 .recent-notes {
   ul {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem; 
+    gap: 0.35rem;
     padding: 0;
-    margin: 1rem 0;
+    margin: 0.75rem 0;
     list-style: none;
   }
 
   li {
-    position: relative; 
-    padding: 1rem 1rem 1rem 3.5rem; 
-    margin: 0 !important; 
-    background-color: transparent; 
-    border: 1px solid transparent; 
-    border-radius: 8px;
+    position: relative;
+    padding: 0.85rem 1rem 0.85rem 3.5rem;
+    margin: 0 !important;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: all 0.2s ease;
+    transition: background-color 0.2s ease, border-color 0.2s ease,
+                box-shadow 0.2s ease, transform 0.2s ease;
 
     &::marker { content: none; }
 
-    /* HOVER STATE */
     &:hover {
       background-color: var(--light);
-      border-color: var(--lightgray);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      border-color: color-mix(in srgb, var(--secondary) 28%, transparent);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
       transform: translateY(-2px);
-      
+
       a.internal { color: var(--secondary); }
     }
-    
-    /* --- ICON LAYER 1: THE POT --- */
+
     &::before {
       content: "";
-      position: absolute; 
+      position: absolute;
       left: 1rem;
-      top: 1rem; 
+      top: 50%;
+      transform: translateY(-50%);
       display: block;
       width: 36px; height: 36px;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
       background-image: url('/static/CustomIcons/InkWell_Pot_Light.webp');
-      z-index: 1; 
+      z-index: 1;
     }
 
-    /* --- ICON LAYER 2: THE FEATHER --- */
     &::after {
       content: "";
-      position: absolute; 
+      position: absolute;
       left: 1rem;
-      top: 1rem; 
+      top: 50%;
+      transform: translateY(-50%);
       display: block;
       width: 36px; height: 36px;
       background-size: contain;
@@ -238,130 +295,129 @@ blockquote {
       background-position: center;
       background-image: url('/static/CustomIcons/InkWell_Feather_Light.webp');
       transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      transform-origin: center;
-      z-index: 2; 
+      transform-origin: center bottom;
+      z-index: 2;
       pointer-events: none;
     }
 
-    /* Animation on Hover */
-    &:hover::after { transform: translateY(-6px); }
+    &:hover::after { transform: translateY(calc(-50% - 7px)); }
   }
 
-  /* Text Styling */
   a.internal {
     font-family: var(--headerFont);
-    font-weight: 700;
-    font-size: 1.1rem !important;
+    font-weight: 600;
+    font-size: 0.95rem !important;
     color: var(--dark);
     text-decoration: none;
-    line-height: 1.2;
-    margin-bottom: 0.25rem;
-    background-color: transparent !important; 
+    line-height: 1.25;
+    margin-bottom: 0.2rem;
+    background-color: transparent !important;
     transition: color 0.2s ease;
   }
 
   .meta {
     font-family: var(--codeFont);
-    font-size: 0.8rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
     color: var(--gray);
     margin: 0;
-    font-style: italic;
+    font-style: normal;
+    text-transform: uppercase;
   }
 }
 
-/* Dark Mode Overrides for Inkwell */
 html[saved-theme="dark"] .recent-notes {
   li::before { background-image: url('/static/CustomIcons/InkWell_Pot_Dark.webp'); }
-  li::after { background-image: url('/static/CustomIcons/InkWell_Feather_Dark.webp'); }
+  li::after  { background-image: url('/static/CustomIcons/InkWell_Feather_Dark.webp'); }
 }
 
 /* ==========================================================================
-   6. FEATURE: START GRID (Where to Start)
+   7. START GRID
    ========================================================================== */
 
 .start-grid {
   ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Desktop: 2 columns */
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.85rem;
     list-style: none;
     padding: 0;
     margin: 0 0 4rem 0;
 
     @media (max-width: 600px) {
-      grid-template-columns: 1fr; /* Mobile: Stack */
+      grid-template-columns: 1fr;
     }
   }
 
   li {
     display: flex;
-    align-items: flex-start; 
-    gap: 1rem; 
+    align-items: flex-start;
+    gap: 0.9rem;
     background-color: var(--light);
     border: 1px solid var(--lightgray);
-    border-radius: 8px;
-    padding: 1rem;
+    border-radius: 6px;
+    padding: 1rem 1.1rem;
     margin: 0;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), inset 0 -1px 0 rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.25s ease;
     cursor: pointer;
-    position: relative; 
+    position: relative;
 
     &:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08), inset 0 -1px 0 rgba(0, 0, 0, 0.04);
       border-color: var(--secondary);
     }
-    
-    /* Base Icon (Item 1: Tea) */
+
     &::before {
       content: "";
       display: block;
-      width: 32px; height: 32px;
+      width: 30px; height: 30px;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      flex-shrink: 0; 
-      margin-top: 2px; 
+      flex-shrink: 0;
+      margin-top: 3px;
       background-image: url('/static/CustomIcons/TeaIcon_Light.webp');
       transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      transform-origin: center;
+      transform-origin: center bottom;
     }
 
     &:hover::before {
-      transform: rotate(-25deg) scale(1.15);
+      transform: rotate(-22deg) scale(1.12);
     }
   }
 
-  /* Link & Text Styling */
   a {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     text-decoration: none;
-    border: none; 
+    border: none;
     width: 100%;
-    background: transparent !important; 
-    padding: 0 !important; 
-    
+    background: transparent !important;
+    padding: 0 !important;
+
     &::after {
       content: '';
-      position: absolute; inset: 0;
+      position: absolute;
+      inset: 0;
     }
 
     strong {
       color: var(--dark);
       font-family: var(--headerFont);
-      font-weight: 700;
-      font-size: 1.1rem;
-      line-height: 1.2;
-      margin-bottom: 0.2rem;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1.25;
+      margin-bottom: 0.25rem;
       transition: color 0.2s ease;
     }
 
     .desc {
       color: var(--gray);
       font-family: var(--bodyFont);
-      font-size: 0.85rem;
-      line-height: 1.3;
+      font-size: 0.82rem;
+      line-height: 1.4;
       font-weight: 400;
     }
   }
@@ -369,73 +425,64 @@ html[saved-theme="dark"] .recent-notes {
   li:hover a strong { color: var(--secondary); }
 }
 
-/* --- ICON OVERRIDES (Targeting Specific Grid Items) --- */
-
-/* Item 1: Tea (Default above, but needs Dark Mode) */
 html[saved-theme="dark"] .start-grid li:nth-child(1)::before {
-    background-image: url('/static/CustomIcons/TeaIcon_Dark.webp');
+  background-image: url('/static/CustomIcons/TeaIcon_Dark.webp');
 }
 
-/* Item 2: Globe */
 .start-grid li:nth-child(2) {
   &::before { background-image: url('/static/CustomIcons/GlobeIcon_Light.webp') !important; }
-  &:hover::before { transform: scale(1.15) !important; }
+  &:hover::before { transform: scale(1.12) !important; }
 }
 html[saved-theme="dark"] .start-grid li:nth-child(2)::before {
   background-image: url('/static/CustomIcons/GlobeIcon_Dark.webp') !important;
 }
 
-/* Item 3: Watch */
 .start-grid li:nth-child(3) {
   &::before { background-image: url('/static/CustomIcons/WatchIcon_Light.webp') !important; }
-  &:hover::before { transform: scale(1.15) !important; }
+  &:hover::before { transform: scale(1.12) !important; }
 }
 html[saved-theme="dark"] .start-grid li:nth-child(3)::before {
   background-image: url('/static/CustomIcons/WatchIcon_Dark.webp') !important;
 }
 
-/* Item 4: Library/Book */
 .start-grid li:nth-child(4) {
   &::before { background-image: url('/static/CustomIcons/BookIcon_Light.webp') !important; }
-  &:hover::before { transform: scale(1.15) !important; }
+  &:hover::before { transform: scale(1.12) !important; }
 }
 html[saved-theme="dark"] .start-grid li:nth-child(4)::before {
   background-image: url('/static/CustomIcons/BookIcon_Dark.webp') !important;
 }
 
 /* ==========================================================================
-   7. PAGE SPECIFIC: LIBRARY
+   8. LIBRARY
    ========================================================================== */
 
-/* 1. Page Width Overrides */
 body[data-slug="library"] {
   .center .breadcrumb-container,
   .center .article-title,
   .center .content-meta,
   .center article {
-    max-width: 100%; 
+    max-width: 100%;
   }
 
-  /* List of books -> 3-column grid */
   .center article ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 1.5rem; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
     padding: 0;
-    list-style: none; 
+    list-style: none;
 
     @media (max-width: 800px) { grid-template-columns: repeat(2, 1fr); }
     @media (max-width: 500px) { grid-template-columns: 1fr; }
   }
 }
 
-/* 2. Library Grid Component */
 .library-grid {
   & > ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Force 3 cols */
-    gap: 2rem;
-    list-style: none; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+    list-style: none;
     padding: 0;
     margin: 0;
 
@@ -449,94 +496,41 @@ body[data-slug="library"] {
     align-items: center;
     text-align: center;
     border: 1px solid var(--lightgray);
-    border-radius: 8px;
-    padding: 1rem;
-    transition: transform 0.2s ease;
+    border-radius: 6px;
+    padding: 1.1rem 0.9rem 1rem;
     background-color: var(--light);
-    
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
     &:hover {
       transform: translateY(-5px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
       border-color: var(--secondary);
     }
 
-    /* Images inside grid */
     img {
-      max-width: 140px; /* Specific size override for grid */
-      margin-bottom: 0.5rem;
+      max-width: 130px;
+      margin-bottom: 0.75rem;
       object-fit: cover;
-      /* Borders inherited from Section 3, but size constrained here */
     }
 
-    /* Links/Text */
     a {
       font-weight: 600;
+      font-size: 0.9rem;
+      line-height: 1.3;
       text-decoration: none;
+      color: var(--dark);
       &.internal { background: none; }
     }
 
     .author {
       display: block;
       font-family: var(--codeFont);
-      font-size: 0.75rem;
+      font-size: 0.68rem;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.08em;
       color: var(--gray);
-      margin-top: 0.25rem;
+      margin-top: 0.3rem;
     }
-  }
-}
-
-/* ==========================================================================
-   TYPOGRAPHY HIERARCHY FIX (v2 - High Specificity)
-   Wraps rules in ".page article" to ensure they override base defaults.
-   ========================================================================== */
-
-.page article {
-
-  /* H1: The Title */
-  & > h1 {
-    font-size: 2.5rem;   
-    line-height: 1.2;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-    font-weight: 600; 
-  }
-
-  /* H2: Major Section */
-  h2 {
-    font-size: 2.0rem;   
-    line-height: 1.3;
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-    border-bottom: none; 
-  }
-
-  /* H3: Sub-section */
-  h3 {
-    font-size: 1.6rem;   
-    line-height: 1.35;
-    margin-top: 2.25rem;
-    margin-bottom: 0.75rem;
-  }
-
-  /* H4: Minor Header */
-  h4 {
-    font-size: 1.35rem; 
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
-    color: var(--secondary); 
-  }
-
-  /* H5: Label / Tiny Header */
-  h5 {
-    font-size: 1.2rem;   
-    font-family: var(--codeFont); 
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-weight: 700;
-    color: var(--gray);
-    margin-top: 1.5rem;
-    margin-bottom: 0.25rem;
   }
 }
