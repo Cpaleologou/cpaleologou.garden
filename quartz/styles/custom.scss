@@ -47,7 +47,7 @@ body::before {
 article p,
 article li {
   font-size: 1.05rem !important;
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   line-height: 1.95 !important;
   color: var(--dark) !important;
 }
@@ -277,7 +277,7 @@ p.content-meta {
 .sidebar.right ul.toc-content {
   padding-left: 0 !important;
   margin: 0.5rem 0 !important;
-  border-left: 1px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
+  //border-left: 1px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
   list-style: none !important;
 }
 
@@ -312,11 +312,11 @@ p.content-meta {
 
 /* Active entry — orange accent, bold italic, full opacity */
 .sidebar.right ul.toc-content > li > a.in-view {
-  font-weight: 700 !important;
+  font-weight: 300 !important;
   font-style: italic !important;
   color: var(--dark) !important;
   opacity: 1 !important;
-  border-left: 2px solid var(--tertiary) !important;
+  border-left: 1px solid var(--tertiary) !important;
   margin-left: -1px !important;
 }
 
