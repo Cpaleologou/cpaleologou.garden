@@ -271,50 +271,38 @@ p.content-meta {
 /* ==========================================================================
    8. TOC ENTRIES
    Confirmed DOM: ul.toc-content.overflow > li.depth-N > a
-   Target behaviour:
-     - Continuous gray left border on all entries
-     - Active (.in-view): orange left border, bold italic, darker color
-     - Inactive: gray, weight 300, low opacity
-     - Depth-1+ entries indent further
    ========================================================================== */
 
-/* Strip the default opacity behaviour from toc.scss so we control it fully */
+/* The gray vertical track — on the ul container */
 .sidebar.right ul.toc-content {
   padding-left: 0 !important;
   margin: 0.5rem 0 !important;
   border-left: 1px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
+  list-style: none !important;
 }
 
 .sidebar.right ul.toc-content > li {
   list-style: none !important;
   padding: 0 !important;
   margin: 0 !important;
-  border-left: 2px solid transparent !important; /* placeholder — overridden on in-view */
 }
 
+/* All entries — inactive state */
 .sidebar.right ul.toc-content > li > a {
   font-family: var(--bodyFont) !important;
   font-size: 0.76rem !important;
   font-weight: 300 !important;
+  font-style: normal !important;
   color: var(--gray) !important;
   opacity: 0.65 !important;
   display: block !important;
-  padding: 0.2rem 0 0.2rem 0.85rem !important;
+  padding: 0.25rem 0 0.25rem 1rem !important;
   line-height: 1.4 !important;
-  transition: opacity 0.3s ease, color 0.3s ease, font-weight 0.1s ease !important;
   text-decoration: none !important;
   background: none !important;
-
-  /* Active — currently in viewport */
-  &.in-view {
-    opacity: 1 !important;
-    color: var(--dark) !important;
-    font-weight: 700 !important;
-    font-style: italic !important;
-    border-left: 2px solid var(--tertiary) !important;
-    margin-left: -1px !important; /* sit on top of the parent border */
-    padding-left: 0.85rem !important;
-  }
+  border-left: 2px solid transparent !important;
+  margin-left: -1px !important;
+  transition: opacity 0.3s ease, color 0.3s ease !important;
 
   &:hover {
     opacity: 0.9 !important;
@@ -322,10 +310,20 @@ p.content-meta {
   }
 }
 
-/* Depth indentation — depth-1 and deeper indent slightly */
+/* Active entry — orange accent, bold italic, full opacity */
+.sidebar.right ul.toc-content > li > a.in-view {
+  font-weight: 700 !important;
+  font-style: italic !important;
+  color: var(--dark) !important;
+  opacity: 1 !important;
+  border-left: 2px solid var(--tertiary) !important;
+  margin-left: -1px !important;
+}
+
+/* Depth-1+ indent */
 .sidebar.right ul.toc-content > li.depth-1 > a,
 .sidebar.right ul.toc-content > li.depth-2 > a {
-  padding-left: 1.5rem !important;
+  padding-left: 1.75rem !important;
   font-size: 0.72rem !important;
 }
 
