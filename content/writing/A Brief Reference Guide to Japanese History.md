@@ -88,19 +88,24 @@ The shogunate did not allow for burials within the city limits of Kamakura. So r
 Kyoto remained the cultural hub of Japan, despite the core governing administration moving to Kamakura. While the original Sanjusangen-do temple was destroyed by a fire, it was rebuilt in 1266. It houses over a thousand life-sized statues which illustrate the hyper-realism valued in the era.
 ## The Ashikaga Period 
 ### Tourism
-## Peak Tokugawa & The Great Peace (*1603 – 1853*)
-
+## The Tokugawa Period & Great Peace (*1603 – 1853*)
 ### Tourism
 ## Late Tokugawa & The Fall of the Bakufu (*1853 – 1867*)
+### Background
+The events of the late Tokugawa period unfold against social and governance structure that was simultaneously comfortable and deeply outdated. The government's dominant ambition for the prior 250 years had been to keep Japan isolated and frozen in time. Politics, culture and economics, all in a permanent stasis while the rest of the world charged forward through the second industrial revolution. Over time, this goal became increasingly difficult to maintain as the economic realities of the country changed, along with external pressures from the outside world.
 
+The official social hierarchy placed the Samurai at the top and merchants at the very bottom. The economic reality was the exact opposite. Trade was viewed by the Samurai elites as morally reprehensible, so after centuries of avoiding it, the merchants held almost all the real wealth in the country and those Samurai suffered in a perpetual state of debt to the merchants. While the economy slow developed, the government fought it almost every step of the way. Every attempt to fix the lop-sided economy was less of a reform and more of a refusal. No attempt was actually made to understand the system and fix it, they just tried to reverse it.
+
+Around 1760, Shogun Tanuma Okitsugu realized what was happening and made a genuine attempt to adapt. He debased the coinage, raised taxes and actually encouraged exports. The economy grew. But Tanuma himself was also an incredibly corrupt individual and his stance towards personal enrichment set the tone for the rest of the administration, and the bureaucracy was set to rot from the inside out. 
+
+In 1783, Mt. Asama erupted. A five-year famine set in across much of the country, brought on by blackened skies and soot covered crop fields. There is documented evidence of cannibalism over this period, due to the extreme state of starvation much of the country suffered under. This was more than an issue of politics for the government, in the eyes of the people, they had lost the mandate from heaven to rule.
+
+A new Shogunate stepped in with a familiar narrative when times are hard: return to the past. The new administration forgave the Samurai debts to the merchants in an attempt to restore social order, however, this backfired completely. Without confidence that their loans were protected, the merchants simply stopped their lending activities entirely. Capital investment collapsed and with it, much of the economy.
 ### Culture & Economics
-
-### Revolution 
-
+### Revolution
 ### Tourism
 
 ## The Meiji Modernization (*1870 - 1900*)
-
 ### New Government
 The period from the 1870s to the 1900s is traditionally recognized worldwide as the Second Industrial Revolution. This was an era of intense technological, social, and political change. Improvements in steel production, electrification, and petroleum usage developed alongside communication advances, such as the telegraph and telephone, and the invention of more efficient processing methods. Interchangeable parts, the assembly line, advanced railway systems, and corporate bureaucracy combined to unlock previously unfathomable economic gains.
 
