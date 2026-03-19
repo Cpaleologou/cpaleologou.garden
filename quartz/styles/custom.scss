@@ -52,7 +52,19 @@ article li {
   color: var(--dark);
 }
 
-/* H6: Pinyon Script flourish — preserved exactly */
+/* Drop cap — targets the actual first <p> inside the article, no class needed.
+   Confirmed DOM: .center article > p is the first paragraph after the header. */
+.center article > p:first-of-type::first-letter {
+  font-family: var(--headerFont);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.8;
+  float: left;
+  margin: 0.05em 0.1em 0 0;
+  color: var(--tertiary);
+}
+
+/* H6: Pinyon Script flourish */
 h6 {
   font-family: 'Pinyon Script', cursive;
   font-weight: 400;
@@ -65,11 +77,29 @@ h6 {
 }
 
 /* ==========================================================================
-   3. CONTENT META & TAGS
+   3. ARTICLE TITLE
+   Confirmed DOM: <h1 class="article-title"> — it IS the h1, not a wrapper.
+   Previous bug: we were targeting .article-title h1 (non-existent child).
    ========================================================================== */
 
-/* ContentMeta component — overrides contentMeta.scss which only sets margin/color */
-.content-meta {
+h1.article-title {
+  font-size: 2.6rem !important;
+  line-height: 1.12 !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: var(--secondary) !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.4rem !important;
+}
+
+/* ==========================================================================
+   4. CONTENT META & TAGS
+   Confirmed DOM: <p class="content-meta" show-comma="true">
+                    <time>Mar 14, 2026</time><span>8 min read</span>
+                  </p>
+   ========================================================================== */
+
+p.content-meta {
   font-family: var(--codeFont) !important;
   text-transform: uppercase !important;
   letter-spacing: 0.12em !important;
@@ -77,15 +107,14 @@ h6 {
   color: var(--gray) !important;
   border-bottom: 1px solid color-mix(in srgb, var(--gray) 35%, transparent) !important;
   padding-bottom: 0.6rem !important;
-  margin-top: 0 !important;
+  margin-top: 0.25rem !important;
   margin-bottom: 1.75rem !important;
   display: flex !important;
   align-items: center !important;
   gap: 1.25rem !important;
   flex-wrap: wrap !important;
 
-  /* The comma-separated spans inside */
-  & > * { color: var(--gray) !important; }
+  time, span { color: var(--gray) !important; }
 }
 
 .center .tags {
@@ -97,98 +126,8 @@ h6 {
 }
 
 /* ==========================================================================
-   4. SIDEBAR COMPONENT HEADINGS
-   These target the exact selectors from the Quartz component SCSS files.
-   ========================================================================== */
-
-/* recentNotes.scss: .recent-notes > h3 { font-size: 1rem } */
-.recent-notes > h3,
-
-/* graph.scss: .graph > h3 { font-size: 1rem } */
-.graph > h3,
-
-/* backlinks.scss: .backlinks > h3 { font-size: 1rem } */
-.backlinks > h3,
-
-/* toc.scss: button.toc-header > h3 { font-size: 1rem } */
-button.toc-header > h3 {
-  font-family: var(--codeFont) !important;
-  font-size: 0.62rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.18em !important;
-  text-transform: uppercase !important;
-  color: var(--gray) !important;
-}
-
-/* TOC button wrapper itself */
-button.toc-header {
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid color-mix(in srgb, var(--gray) 25%, transparent);
-  width: 100%;
-  margin-bottom: 0.25rem;
-}
-
-/* TOC entries — toc.scss: ul.toc-content > li > a */
-ul.toc-content > li > a {
-  font-family: var(--bodyFont) !important;
-  font-size: 0.78rem !important;
-  font-weight: 300 !important;
-  opacity: 0.55;
-
-  &.in-view { opacity: 0.85; }
-}
-
-/* Backlinks entries — backlinks.scss: ul.overflow > li > a */
-.backlinks ul.overflow > li > a {
-  font-family: var(--bodyFont) !important;
-  font-size: 0.78rem !important;
-  font-weight: 300 !important;
-  color: var(--gray) !important;
-
-  &:hover { color: var(--secondary) !important; }
-}
-
-/* RecentNotes entries — recentNotes.scss: .section > .desc > h3 > a */
-.recent-notes .section > .desc > h3 {
-  font-size: 0.92rem !important;
-  font-weight: 600 !important;
-  margin: 0 !important;
-
-  & > a {
-    font-family: var(--headerFont) !important;
-    font-weight: 600 !important;
-    font-size: 0.92rem !important;
-    color: var(--dark) !important;
-    background-color: transparent !important;
-
-    &:hover { color: var(--secondary) !important; }
-  }
-}
-
-/* RecentNotes meta date — .section > .meta */
-.recent-notes .section > .meta {
-  font-family: var(--codeFont) !important;
-  font-size: 0.62rem !important;
-  letter-spacing: 0.08em !important;
-  text-transform: uppercase !important;
-  opacity: 0.7 !important;
-}
-
-/* "See N more →" link */
-.recent-notes > .see-more {
-  font-family: var(--codeFont) !important;
-  font-size: 0.62rem !important;
-  letter-spacing: 0.1em !important;
-  text-transform: uppercase !important;
-  color: var(--tertiary) !important;
-  opacity: 0.85;
-  &:hover { opacity: 1 !important; }
-}
-
-/* ==========================================================================
    5. BREADCRUMBS
-   breadcrumbs.scss only sets layout (flex, gap) — no font rules.
-   We inherit from base which uses var(--bodyFont). Override to mono.
+   Confirmed DOM: .breadcrumb-container > .breadcrumb-element > p / a
    ========================================================================== */
 
 .breadcrumb-container {
@@ -196,9 +135,9 @@ ul.toc-content > li > a {
   margin-bottom: 1.5rem !important;
 }
 
+.breadcrumb-element,
 .breadcrumb-element p,
-.breadcrumb-element a,
-.breadcrumb-element {
+.breadcrumb-element a {
   font-family: var(--codeFont) !important;
   font-size: 0.62rem !important;
   letter-spacing: 0.1em !important;
@@ -209,24 +148,10 @@ ul.toc-content > li > a {
 
 /* ==========================================================================
    6. ARTICLE HEADING HIERARCHY
-   base.scss sets: h1=1.75rem, h2=1.4rem, h3=1.12rem, h4-h6=1rem
-   We override inside .page article for article body only.
    ========================================================================== */
-
-/* Article title — rendered as h1 inside .article-title wrapper */
-.article-title h1 {
-  font-size: 2.6rem !important;
-  line-height: 1.12 !important;
-  font-weight: 700 !important;
-  letter-spacing: -0.02em !important;
-  color: var(--secondary) !important;
-  margin-top: 0 !important;
-  margin-bottom: 0.4rem !important;
-}
 
 .page article {
 
-  /* H2 — with burnt orange left accent bar */
   h2 {
     font-size: 1.65rem;
     line-height: 1.3;
@@ -238,7 +163,6 @@ ul.toc-content > li > a {
     border-left: 2px solid var(--tertiary);
   }
 
-  /* H3 — italic, slightly smaller */
   h3 {
     font-size: 1.3rem;
     line-height: 1.4;
@@ -248,7 +172,6 @@ ul.toc-content > li > a {
     font-style: italic;
   }
 
-  /* H4 — tertiary colour */
   h4 {
     font-size: 1.05rem;
     font-weight: 700;
@@ -259,7 +182,6 @@ ul.toc-content > li > a {
     letter-spacing: 0;
   }
 
-  /* H5 — small mono label with rule above */
   h5 {
     font-family: var(--codeFont);
     font-size: 0.72rem;
@@ -275,7 +197,205 @@ ul.toc-content > li > a {
 }
 
 /* ==========================================================================
-   7. IMAGES & FIGURES — physical photo treatment
+   7. SIDEBAR COMPONENT HEADINGS
+   Confirmed DOM:
+     - .recent-notes > h3 (direct child, plain h3)
+     - .graph > h3 (but note: graph component also has class .desktop-only)
+     - .backlinks > h3
+     - button.toc-header > h3
+
+   These component stylesheets may load AFTER custom.scss in the browser,
+   so we use high-specificity selectors with sidebar context to guarantee
+   we win the cascade regardless of load order.
+   ========================================================================== */
+
+.sidebar.left .recent-notes > h3,
+.sidebar.right .graph > h3,
+.sidebar.right .backlinks > h3,
+.sidebar.right button.toc-header > h3 {
+  font-family: var(--codeFont) !important;
+  font-size: 0.62rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+  color: var(--gray) !important;
+  margin: 0 !important;
+}
+
+/* TOC button — add a fine rule below the heading */
+.sidebar.right button.toc-header {
+  padding-bottom: 0.4rem !important;
+  border-bottom: 1px solid color-mix(in srgb, var(--gray) 25%, transparent) !important;
+  width: 100% !important;
+  margin-bottom: 0.25rem !important;
+}
+
+/* ==========================================================================
+   8. TOC ENTRIES
+   Confirmed DOM: ul.toc-content.overflow > li.depth-0 > a
+   ========================================================================== */
+
+.sidebar.right ul.toc-content > li > a {
+  font-family: var(--bodyFont) !important;
+  font-size: 0.78rem !important;
+  font-weight: 300 !important;
+  opacity: 0.5;
+  transition: opacity 0.2s ease, color 0.2s ease;
+
+  &.in-view {
+    opacity: 0.85 !important;
+  }
+}
+
+/* ==========================================================================
+   9. BACKLINKS ENTRIES
+   Confirmed DOM: .backlinks > ul.overflow > li > a
+   ========================================================================== */
+
+.sidebar.right .backlinks ul.overflow > li > a {
+  font-family: var(--bodyFont) !important;
+  font-size: 0.78rem !important;
+  font-weight: 300 !important;
+  color: var(--gray) !important;
+
+  &:hover { color: var(--secondary) !important; }
+}
+
+/* ==========================================================================
+   10. RECENT NOTES — Inkwell Animation
+   Confirmed DOM:
+     .recent-notes > ul.recent-ul > li.recent-li
+       > .section > .desc > h3 > a.internal
+       > .section > .meta > time
+
+   Previous bugs:
+     - We targeted ul without the .recent-ul class (fine, but confirmed now)
+     - li has class .recent-li (doesn't affect our selector but now confirmed)
+     - meta date is inside <p class="meta"><time> not just <p class="meta">
+   ========================================================================== */
+
+.recent-notes > ul.recent-ul {
+  list-style: none !important;
+  margin-top: 0.5rem !important;
+  padding-left: 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.recent-notes > ul.recent-ul > li.recent-li {
+  position: relative;
+  padding: 0.75rem 0.75rem 0.75rem 3.5rem !important;
+  margin: 0 !important;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+              box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    background-color: var(--light);
+    border-color: color-mix(in srgb, var(--secondary) 28%, transparent);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+    transform: translateY(-2px);
+
+    .section > .desc > h3 > a { color: var(--secondary) !important; }
+  }
+
+  /* ICON LAYER 1: THE POT */
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0.85rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 36px; height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/static/CustomIcons/InkWell_Pot_Light.webp');
+    z-index: 1;
+  }
+
+  /* ICON LAYER 2: THE FEATHER */
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0.85rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 36px; height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/static/CustomIcons/InkWell_Feather_Light.webp');
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform-origin: center bottom;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &:hover::after { transform: translateY(calc(-50% - 7px)); }
+}
+
+/* Entry title */
+.recent-notes .section > .desc > h3 {
+  font-size: 0.92rem !important;
+  font-weight: 600 !important;
+  margin: 0 !important;
+
+  & > a.internal {
+    font-family: var(--headerFont) !important;
+    font-weight: 600 !important;
+    font-size: 0.92rem !important;
+    color: var(--dark) !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    line-height: 1.25 !important;
+
+    &:hover { color: var(--secondary) !important; }
+  }
+}
+
+/* Entry meta — confirmed: <p class="meta"><time datetime="...">Mar 14, 2026</time></p> */
+.recent-notes .section > .meta,
+.recent-notes .section > .meta time {
+  font-family: var(--codeFont) !important;
+  font-size: 0.62rem !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  color: var(--gray) !important;
+  opacity: 0.75 !important;
+  margin: 0 !important;
+}
+
+/* "See N more →" link — confirmed: <p><a href="/writing/">See 1 more →</a></p> */
+.recent-notes > p > a {
+  font-family: var(--codeFont) !important;
+  font-size: 0.62rem !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: var(--tertiary) !important;
+  font-weight: 400 !important;
+  opacity: 0.85;
+
+  &:hover { opacity: 1 !important; }
+}
+
+/* Dark mode icon swap */
+html[saved-theme="dark"] .recent-notes > ul.recent-ul > li.recent-li {
+  &::before { background-image: url('/static/CustomIcons/InkWell_Pot_Dark.webp'); }
+  &::after  { background-image: url('/static/CustomIcons/InkWell_Feather_Dark.webp'); }
+}
+
+/* ==========================================================================
+   11. IMAGES & FIGURES — physical photo treatment
    ========================================================================== */
 
 .center article img,
@@ -326,9 +446,8 @@ img[alt$="left"] {
 }
 
 /* ==========================================================================
-   8. BLOCKQUOTES — "FIELD REPORT //"
-   base.scss sets: border-left: 3px solid var(--secondary); padding-left: 1rem
-   We fully override.
+   12. BLOCKQUOTES — "FIELD REPORT //"
+   base.scss: blockquote { border-left: 3px solid var(--secondary); padding-left: 1rem }
    ========================================================================== */
 
 blockquote {
@@ -352,7 +471,6 @@ blockquote {
     margin-bottom: 0.65rem;
   }
 
-  /* base.scss sets p/li to color: var(--darkgray) — override to body font italic */
   p {
     font-family: var(--bodyFont) !important;
     font-size: 1rem !important;
@@ -364,90 +482,7 @@ blockquote {
 }
 
 /* ==========================================================================
-   9. RECENT NOTES — Inkwell Animation (your icons & animations, untouched)
-   recentNotes.scss uses ul.recent-ul, not a custom class ul — we scope inside
-   ========================================================================== */
-
-.recent-notes {
-
-  /* Override the default ul.recent-ul layout from recentNotes.scss */
-  & > ul.recent-ul {
-    margin-top: 0.5rem !important;
-    padding-left: 0 !important;
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-
-    & > li {
-      margin: 0 !important;
-      position: relative;
-      padding: 0.75rem 0.75rem 0.75rem 3.5rem;
-      background-color: transparent;
-      border: 1px solid transparent;
-      border-radius: 6px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      transition: background-color 0.2s ease, border-color 0.2s ease,
-                  box-shadow 0.2s ease, transform 0.2s ease;
-
-      &:hover {
-        background-color: var(--light);
-        border-color: color-mix(in srgb, var(--secondary) 28%, transparent);
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
-        transform: translateY(-2px);
-
-        .section > .desc > h3 > a { color: var(--secondary) !important; }
-      }
-
-      /* ICON LAYER 1: THE POT */
-      &::before {
-        content: "";
-        position: absolute;
-        left: 0.85rem;
-        top: 50%;
-        transform: translateY(-50%);
-        display: block;
-        width: 36px; height: 36px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-image: url('/static/CustomIcons/InkWell_Pot_Light.webp');
-        z-index: 1;
-      }
-
-      /* ICON LAYER 2: THE FEATHER */
-      &::after {
-        content: "";
-        position: absolute;
-        left: 0.85rem;
-        top: 50%;
-        transform: translateY(-50%);
-        display: block;
-        width: 36px; height: 36px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-image: url('/static/CustomIcons/InkWell_Feather_Light.webp');
-        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        transform-origin: center bottom;
-        z-index: 2;
-        pointer-events: none;
-      }
-
-      &:hover::after { transform: translateY(calc(-50% - 7px)); }
-    }
-  }
-}
-
-/* Dark mode icon swap */
-html[saved-theme="dark"] .recent-notes > ul.recent-ul > li {
-  &::before { background-image: url('/static/CustomIcons/InkWell_Pot_Dark.webp'); }
-  &::after  { background-image: url('/static/CustomIcons/InkWell_Feather_Dark.webp'); }
-}
-
-/* ==========================================================================
-   10. START GRID — custom home page component
+   13. START GRID
    ========================================================================== */
 
 .start-grid {
@@ -538,7 +573,6 @@ html[saved-theme="dark"] .recent-notes > ul.recent-ul > li {
   li:hover a strong { color: var(--secondary); }
 }
 
-/* Start grid icon overrides — your icons, untouched */
 html[saved-theme="dark"] .start-grid li:nth-child(1)::before {
   background-image: url('/static/CustomIcons/TeaIcon_Dark.webp');
 }
@@ -568,7 +602,7 @@ html[saved-theme="dark"] .start-grid li:nth-child(4)::before {
 }
 
 /* ==========================================================================
-   11. LIBRARY PAGE
+   14. LIBRARY PAGE
    ========================================================================== */
 
 body[data-slug="library"] {
