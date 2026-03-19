@@ -6,8 +6,12 @@ publish: 'true'
 date: 2026-03-19T00:00:00.000Z
 ---
 <iframe style="width: 100%; height: 500px; border: none;" srcdoc='
+<style>
+  body { margin: 0; padding: 0; height: 100vh; overflow: hidden; }
+  .tradingview-widget-container { height: 100%; width: 100%; }
+</style>
 <div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px); width:100%"></div>
   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols//" rel="noopener nofollow" target="_blank"><span class="blue-text">TSX:RCI.B quote</span></a><span class="trademark">&nbsp;by TradingView</span></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
   {
