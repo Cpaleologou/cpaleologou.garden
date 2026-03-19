@@ -34,6 +34,11 @@ const FOLDERS_TO_SYNC = [
         name: 'Learning Plans', 
         source: path.join(SOURCE_ROOT, 'learning-plans'),
         dest: './content/learning-plans'
+    },
+    {
+        name: 'Investing', 
+        source: path.join(SOURCE_ROOT, 'investing'),
+        dest: './content/investing'
     }
 ];
 
