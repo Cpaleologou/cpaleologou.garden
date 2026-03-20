@@ -49,16 +49,16 @@ const config: QuartzConfig = {
           textHighlight: "#E8C54788", // Muted Gold: For highlighting text (more natural than neon yellow)
         },
         darkMode: {
-          light: "#121513",          // Deep Forest Black (Background)
-          lightgray: "#1F2622",      // Dark Moss (Card Backgrounds)
-          gray: "#8C9178",           // Sage (Secondary/Icons)
-          darkgray: "#E6E4DC",       // Muted Sage (Sub-headers)
-          dark: "#C5CBA5",           // Bone/Parchment (Main Body Text)
-          secondary: "#E6E4DC",      // Pale Khaki (Headlines)
-          tertiary: "#E07A3E",       // Terracotta (Buttons)
-          highlight: "rgba(197, 203, 165, 0.15)",
-          textHighlight: "#E07A3E88",
-        },
+          light: "#1a2318",       // Deep binding green — background (not black, genuinely green)
+          lightgray: "#243020",   // Slightly lighter green — card/sidebar surfaces  
+          gray: "#7a8a6a",        // Muted sage — secondary text, icons
+          darkgray: "#d4c9a8",    // Aged cream — sub-headers, metadata
+          dark: "#e8dfc4",        // Warm parchment — main body text
+          secondary: "#F0EFE9",   // Aged cream — headlines
+          tertiary: "#c8860a",    // Deeper gold — links/accent (richer than the orange, more gilt)
+          highlight: "rgba(200, 134, 10, 0.12)",
+          textHighlight: "#c8860a88",
+},
       },
     },
   },
