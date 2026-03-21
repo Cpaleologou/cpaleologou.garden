@@ -7,6 +7,7 @@ tags:
 publish: 'true'
 ---
 >In January 2026, I built a little 10-week [[/learning-plans/Introduction To Japanese History|Introduction To Japanese History]] course. This article represents my current knowledge of the country's history, as well as knowledge subsequently gained. Each period also contains a "tourism" section, containing related sites and a short description of their significance to the era.
+
 ![[MapOfJapan.webp| Map of modern Japan]]
 ## Heian Period & Kyoto's Golden Age (*794 – 1185*)
 ### Background
@@ -40,7 +41,9 @@ The Byodo-in Temple is one of the few remaining structures from the Heian period
 #### Daikaku-ji Temple & Osawa Pond (Kyoto)
 The Daikaku Temple was originally built for Emperor Saga (809 - 823). Osawa pond, in front is the oldest surviving artificial forest pond in Japan. Heian nobility often held moon-viewing parties on dragon-headed boats, like those described by Lady Murasaki in her journal.
 >On the day of the imperial visit, His Excellency had the boats poled over to where he could inspect them. They had been specially made for the occasion. They were most impressive; you could almost imagine that the dragon and mythical bird on the prows were alive.
+>
 >*The Diary of Lady Mursaki*
+
 ![[OsawaPond.webp | Daikaku Temple & Osawa Pond]]
 #### Kyoto City Heiankyo Sousei-kan (Kyoto)
 A museum dedicated to the Heian period. It features a 1/1000th model of the city and the palace as well as artifacts such as clothing, art, etc.
