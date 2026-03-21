@@ -5,8 +5,7 @@ tags: null
 publish: 'true'
 ---
 ![[BannerImageWideCA_Final.webp]]
-###### Welcome to my digital garden
-
+###### Welcome
 I'm Christian. This is my digital garden; a collection of notes, half-formed ideas, and occasional essays.
 
 By day, I'm a CPA and Senior Financial Analyst. By temperament, I'm an intellectual tinkerer. That probably sounds more pretentious than I mean it to be, but I'm not sure there's a better word for it. I get absorbed in book rabbit holes, creative projects, and I write to figure out what I think. 
@@ -24,7 +23,6 @@ Essays are organized by **maturity**, rather than chronology or topic. I'm curr
 #Gazetteer - Rare, fully-formed thoughts. Though, I always reserve the right to change my mind.
 
 ## Places to Start
-
 <div class="start-grid">
   <ul>
     <li>
@@ -53,6 +51,3 @@ Essays are organized by **maturity**, rather than chronology or topic. I'm curr
     </li>
   </ul>
 </div>
-
-
-###### Christian P.

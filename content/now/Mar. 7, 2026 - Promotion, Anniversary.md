@@ -1,10 +1,9 @@
 ---
-title: 'Mar. 7, 2026'
+title: 'Mar. 7, 2026 - Promotion, Aniversary'
 publish: 'true'
 date: 2026-03-07T00:00:00.000Z
 ---
-Hello hello,
-
+##### Hello hello,
 Looks like it's been about a month since my last "Now" post. It's been quite busy, but in a good way.
 ## Career
 The first thing I'm excited to share is that I've been interviewing for an internal promotion and new role, and I've gotten the offer! For the past year and a half, I've been working as a Senior Financial Analyst I, supporting our merchandising business and some distribution-related projects. It's been a fantastic learning experience, and I can honestly say that I love what I do. Specifically, I've had the opportunity to learn our Appliances business, our Wireless business (phones and activations), as well as the realities and complexities of our Canadian distribution network. 
@@ -31,5 +30,3 @@ Life is good and the future is bright. I hope you're doing well too.
 
 Ciao Ciao!
 ###### Christian P.
-
-

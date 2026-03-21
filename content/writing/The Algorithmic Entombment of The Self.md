@@ -45,7 +45,6 @@ A process cannot be rushed without ceasing to be a process. As the activity of i
 
 There is no clean resolution to this. Social media is not going away. But understanding that it is not your opinions, nor your autonomy, that is being stolen is at least a more honest account of what's happening. What's being taken is your time to think. It is not a technical problem with a technical solution, but a more precise diagnosis gives us a better place to start.
 ###### Christian P.
-
 ## Further Reading
 - [Filter bubbles in recommender systems: Fact or fallacy—A systematic review](https://wires.onlinelibrary.wiley.com/doi/10.1002/widm.1512)
 - [[When Personal Branding Holds You Back]]

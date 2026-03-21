@@ -43,6 +43,4 @@ The irony is that ownership and responsibility will produce a strong personal br
 Proponents of personal branding might argue that your brand could simply be someone who asks good questions or obsesses over accuracy. But that framing still misses the point. A brand is a static representation; a person is complex, fluid, and free-thinking. The value of a person in the workplace is not expertise on a subject that becomes outdated in a few years - it is the ability to maneuver, adapt, and learn.
 
 People can't create value by coasting on the prestige of a logo on the front of the bus. We have to take the steering wheel, survey the road, and reroute if needed. The only way to do that is to abandon the ego that comes with defining yourself as a brand and embrace the ruthless humility of a driver with eyes on only the destination.
-
-
 ###### Christian P.
