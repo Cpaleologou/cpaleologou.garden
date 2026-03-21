@@ -6,12 +6,9 @@ tags:
 publish: 'true'
 date: 2025-08-11T00:00:00.000Z
 ---
-The geological mix of ores at mining sites across the world is never the same.
-Sites are produced through magma flows in the Earth's mantel and thus always have variance in the exact mineral make up at a given site.
+No two mining sites share the same geological composition. Ore deposits are formed through magma flows in the Earth's mantle, and the exact mineral makeup at any given site is always unique.
 
-The result is that the extraction and refining process for rare earth elements may be similar between two different sites, but it is never the same.
-
-Processes cannot be copy-pasted between locations.
+This means that while extraction and refining processes may be similar across sites, they are never identical. Processes cannot be copy-pasted between locations.
 
 ---
 ## Connections

@@ -5,7 +5,7 @@ tags:
 publish: 'true'
 date: 2025-08-24T00:00:00.000Z
 ---
-Just having mines that hold or extract rare earth ore is not enough to create a valid operation. The extremely complex processes of extraction are tightly kept secrets, that even when known, vary from region to region. So even if minerals are found in North America, for example, we may not have the knowledge to extract them. 
+Just having mines that hold or extract rare earth ore is not enough to create a valid operation. The extremely complex processes of extraction are tightly kept secrets. Even when known, they vary dramatically from region to region. So even if minerals are found in North America, for example, we may not have the knowledge to extract them at economic scale. 
 
 ---
 ## Connections

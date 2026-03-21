@@ -6,9 +6,9 @@ tags:
 publish: 'true'
 date: 2025-08-11T00:00:00.000Z
 ---
-Rare Earth Elements global reserves and especially production, are often higher than 70%, up to 90% concentrated in a single region or country (usually China). This sets of extremely fragile supply chains where natural disaster, political disruption, etc. can essentially cut off the global supply. The result is fast and forceful contraction of product availability and thus rapid increases in price.
+Global reserves of rare earth elements are highly concentrated, and production even more so, often exceeding 70% and sometimes approaching 90% in a single country, usually China. This creates extraordinarily fragile supply chains, where a natural disaster or political disruption can effectively cut off global supply, triggering rapid contraction in product availability and sharp price spikes.
 
-The reverse is also true as resolution of these issues, or purposeful flooding of the market can rapidly decrease prices.
+The reverse is equally true. Resolution of a disruption, or deliberate flooding of the market, can drive prices down just as quickly.
 
 ---
 ## Connections

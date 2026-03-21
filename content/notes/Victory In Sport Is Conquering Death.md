@@ -6,11 +6,11 @@ tags:
 publish: 'true'
 date: 2025-08-09T00:00:00.000Z
 ---
-The enemy in sport, or a duel, is a representation of death. The physical and mental effort of the duel mimics the intense moment of pain, peril or panic that occurs when we face our mortality. 
+The enemy in sport, or in a duel, is a representation of death. The physical and mental effort of combat mimics the intense pain, peril, and panic of facing our own mortality.
 
-In this moment, to win requires one to escape from any consideration of the self. One must leave behind any speculation or stress for tomorrow. There can be no regard for the judgement of others. 
+To win in that moment requires the complete abandonment of self. There is no room for speculation about tomorrow, no regard for the judgment of others.
 
-In this moment we are most alive. In victory we conquer death, and become heros.
+In this moment we are most alive. In victory, we conquer death, and become heroes.
 
 ---
 ## Connections

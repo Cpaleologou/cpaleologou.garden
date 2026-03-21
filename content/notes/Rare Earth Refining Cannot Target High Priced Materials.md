@@ -6,9 +6,7 @@ tags:
 publish: 'true'
 date: 2025-08-24T00:00:00.000Z
 ---
-There is a prescribed order to removing elements from ore. That is, cerium may need to be refined first, then lanthanum, etc.
-
-So the rarer, higher priced ores cannot be targeted. The extraction process must be performed for each subsequent existing mineral found in the ore prior to refining the mineral that is being targeted.
+There is a prescribed order to extracting elements from ore. Cerium may need to be refined first, then lanthanum, and so on. The rarer, higher-value minerals cannot simply be targeted in isolation. Every mineral present in the ore must be processed in sequence before reaching the one being sought.
 
 ---
 ## Connections

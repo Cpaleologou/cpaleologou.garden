@@ -6,21 +6,15 @@ tags:
 publish: 'true'
 date: 2025-08-24T00:00:00.000Z
 ---
-The extraction and processing of rare earths is extremely complicated. At a high level there are 3 steps:
+The extraction and processing of rare earths is extraordinarily complex. At a high level, it involves three steps.
 
-1. **Increase Concentration**
-   Scientists experiment to find a unique solution of acids that will effectively dissolve the rare earth.
-   Each ore is different, so requires a unique cocktail of acids.
-   Once the right blend is found, the target mineral will dissolve into the acid like salt in water.
+**Concentration.** Scientists experiment to find a unique acid solution capable of dissolving the target rare earth. Because every ore is different, each requires its own cocktail. Once the right blend is found, the target mineral dissolves into the acid like salt in water.
 
-2. **Separation**
-   At this point, the mix will be a dark sludgy, radioactive mixture. Centrifuges and filters are used to remove everything but the rare earth mineral.
+**Separation.** At this stage, the mixture is a dark, sludgy, radioactive slurry. Centrifuges and filters are used to remove everything except the target mineral.
 
-3. **Extraction**
+**Extraction.** The acid is evaporated away, leaving behind a greyish powder of the target material.
 
-The acid is then evaporated away, leaving behind an greyish often greyish powder of the target material.
-
-==This whole 3 step process may need to be repeated hundreds of times to get a pure concentration of the rare earth==
+This three-step process may need to be repeated **hundreds** of times to achieve a pure concentration.
 
 ---
 ## Connections

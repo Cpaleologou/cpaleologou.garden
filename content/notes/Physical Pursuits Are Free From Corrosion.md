@@ -13,7 +13,7 @@ Physical pursuits however, have no corrosive effect because they are direct inte
 
 ## Connections
 
-[[The Corrosive Power of Words]]
+[[The Corrosive Nature of Words]]
 
 ---
 

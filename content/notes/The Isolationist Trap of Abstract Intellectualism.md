@@ -12,7 +12,7 @@ As they disconnect increasingly further from reality, their ability to act and j
 ---
 ## Connections
 
-[[The Corrosive Power of Words]]
+[[The Corrosive Nature of Words]]
 
 [[Framework Forcing]]
 

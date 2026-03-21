@@ -19,7 +19,7 @@ _This_, rather than the misinformation itself, is what is causing the fracturing
 ---
 ## Connections
 
-[[The Corrosive Power of Words]]
+[[The Corrosive Nature of Words]]
 
 [[Social Media Is An Excellent Aggregator]]
 

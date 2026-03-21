@@ -6,14 +6,9 @@ tags:
 publish: 'true'
 date: 2025-08-10T00:00:00.000Z
 ---
-
 The discovery of new elements has always brought forth a deluge of new inventions. Now, with such a large periodic table, the possibilities may be endless.
 
-The difficulty though, is the work needed to theorize, formula, and test different material combinations.
-
-Estimating potential material combinations and effects, and simulating the results, is exactly the kind of thing AI is good at.
-
-As new material combinations and effects are discovered, demand for the elements needed to create the new combinations will skyrocket.
+The difficulty though, is the work needed to theorize, formula, and test different material combinations. Estimating potential material combinations and effects, and simulating the results, is exactly the kind of thing AI is good at. As new material combinations and effects are discovered, demand for the elements needed to create the new combinations will skyrocket.
 
 ---
 

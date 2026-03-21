@@ -3,7 +3,7 @@ title: 'Jan. 30, 2026 - Welcome'
 publish: 'true'
 date: 2026-01-30T00:00:00.000Z
 ---
-##### Hello! 
+## Hello! 
 This is the first 'now' post on the site. Thank you for visiting. I'm absolutely terrible at writing casually and without self-editing as I go, which makes my process slow and sometimes unpleasant. 
 
 But! And what I'm excited about with this site, and the digital gardening theme as a whole, is that it's extremely non-performative. There are no metrics, no likes, no subscribers, no tracking or analytics. I don't know you're here. I won't know you've been here. In today's hyper-optimized and industrialized web, I find it really exciting to have a little space for peace and quite. 

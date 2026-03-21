@@ -11,7 +11,7 @@ Experiencing someone through video and audio is incomparable to the real thing, 
 ---
 ## Connections
 
-[[The Corrosive Power of Words]]
+[[The Corrosive Nature of Words]]
 
 [[Atheists & Techno-Optimists - Opposing Questions On Living Meaningfully]]
 

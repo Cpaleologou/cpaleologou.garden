@@ -12,7 +12,7 @@ You can not experience music by describing it. Only by listening with your entir
 ---
 ## Connections
 
-[[The Corrosive Power of Words]]
+[[The Corrosive Nature of Words]]
 
 [[Phenomenology]]
 

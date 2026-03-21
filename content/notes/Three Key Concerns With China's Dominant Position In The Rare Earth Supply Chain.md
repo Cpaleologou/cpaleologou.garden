@@ -8,11 +8,9 @@ tags:
 publish: 'true'
 date: 2025-08-24T00:00:00.000Z
 ---
-There are three main concerns with China's dominant position in the rare earth supply chain
+China's dominant position in the rare earth supply chain raises three principal concerns.
 
-1. China may use access to these critical materials as a "checkmate" lever in geopolitical negotiations or conflict, as has happened with Japan.
-2. National businesses will migrate to China in order to gain preferential access and prices to critical materials.
-3. Once these businesses are in the Chinese market, their technology, key to national sovereignty will be stolen.
+First, China may use access to these critical materials as a geopolitical lever, a checkmate move in negotiations or conflict, as it has already done with Japan. Second, national businesses will migrate to China in order to secure preferential access and pricing. Third, once inside the Chinese market, the technology those businesses carry, technology often critical to national sovereignty, will be stolen.
 
 ---
 ## Connections

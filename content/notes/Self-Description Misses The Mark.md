@@ -17,7 +17,7 @@ I am none of these things. And, being indescribable, am nothing and everything. 
 
 [[You Are Not Your Fucking Khakis]]
 
-[[The Corrosive Power of Words]]
+[[The Corrosive Nature of Words]]
 
 ---
 ## Reference
