@@ -7,7 +7,6 @@ tags:
 publish: 'true'
 ---
 >In January 2026, I built a little 10-week [[/learning-plans/Introduction To Japanese History|Introduction To Japanese History]] course. This article represents my current knowledge of the country's history, as well as knowledge subsequently gained. Each period also contains a "tourism" section, containing related sites and a short description of their significance to the era.
-
 ![[MapOfJapan.webp| Map of modern Japan]]
 ## Heian Period & Kyoto's Golden Age (*794 – 1185*)
 ### Background
@@ -18,7 +17,6 @@ While successful, the plan actually backfired. By the end of the century, the we
 Approximately 50km to the North, the new Capital was established in Heian-kyo (Kyoto). Like Nara, it was heavily modelled on the Chinese Tang-dynasty capital at the time, Chang'an, to project a higher level of authority and legitimacy. The entire city was laid out in a checkerboard pattern that can still be seen in modern arial maps of Kyoto. 
 
 The imperial palace sat at the northern centre of the city, acting as a focal point for all urban activity. Running directly from the gates of the city to the palace was a massive, 90 meter wide, main street. Smaller roads ran left to right, sorting the rest of the buildings into a grid. 
-
 ![[MapOfKyoto.webp | Gemini generated map of Kyoto's grid system]]
 ### Culture
 The Heian period is considered a cultural golden age for Japan. In fact, the culture of the imperial court was _extremely_ obsessive over aesthetic form, appearance and taste. The social status of an individual could be ruined by mismatched colours, or poorly worded poetry.
@@ -26,7 +24,6 @@ The Heian period is considered a cultural golden age for Japan. In fact, the cul
 It was seen as unsavoury of women to speak or write Chinese at the time, so another major cultural development of the time was the invention of **kana**. An alphabet-like writing system, it was the first in Japan to have enough flexibility to allow the writer to express feelings and emotions over purely archival facts. Two great books came out of this period Murasaki Shikibu's _The Tale of Genji_, which may be the worlds first novel, and Sei Shōnagon’s _The Pillow Book_. 
 
 Kana also facilitated the keeping of journals of which Lady Murasaki's gives us a deep look into the high pressure environment of the imperial court. Key themes are a buddhist sense of melancholy on the impermanence of life, loneliness in a punishing social environment, and jealousy or distain for Sei Shōnagon who Lady Murasaki feels is much less impressive than she acts. Descriptions of the palace and the daily routines of it's inhabitants after the birth of the prince also give insight on what it was like to live in that time. 
-
 ![[HeianPeriodCulturalExamples.webp |Examples of Heian Dress, kana written on a paper fan, and the Yamato-e artstyle featuring "blown-off" roofs.]]
 ### Politics & Economics
 Although securing power was the primary motivation for moving the capital from Nara to Kyoto, over the era power eventually shifted away from the emperor to the Fujiwara family through a practice dubbed **Uterine politics**.
@@ -38,17 +35,16 @@ After a series of smallpox epidemics drasitically reduced the population size, t
 Without tax income, the ability for the government to enact policy or even protect and police its citizens collapsed. With rising crimes rates across the country side, farmers and peasants were forced to form their own militias for protection. Literally "to serve", these militias became the first Samurai and began the downfall of the Heian regime. 
 ### Tourism
 #### Byodo-in Temple (Kyoto)
-![[Byodo-inTemple.webp | Byodo-in Temple]]
 The Byodo-in Temple is one of the few remaining structures from the Heian period. Built in 1053, it was one of the villas of the Fujiwara family.
+![[Byodo-inTemple.webp | Byodo-in Temple]]
 #### Daikaku-ji Temple & Osawa Pond (Kyoto)
-![[OsawaPond.webp | Daikaku Temple & Osawa Pond]]
 The Daikaku Temple was originally built for Emperor Saga (809 - 823). Osawa pond, in front is the oldest surviving artificial forest pond in Japan. Heian nobility often held moon-viewing parties on dragon-headed boats, like those described by Lady Murasaki in her journal.
-
 >On the day of the imperial visit, His Excellency had the boats poled over to where he could inspect them. They had been specially made for the occasion. They were most impressive; you could almost imagine that the dragon and mythical bird on the prows were alive.
->- *The Diary of Lady Mursaki*
+>*The Diary of Lady Mursaki*
+![[OsawaPond.webp | Daikaku Temple & Osawa Pond]]
 #### Kyoto City Heiankyo Sousei-kan (Kyoto)
-![[Heian-kyoSoseikan.webp | Miniature models of Kyoto and the Palace]]
 A museum dedicated to the Heian period. It features a 1/1000th model of the city and the palace as well as artifacts such as clothing, art, etc.
+![[Heian-kyoSoseikan.webp | Miniature models of Kyoto and the Palace]]
 ## Warriors Take Power (*1185 – 1333*)
 ### The Kamakura Shogunate
 As the people of Japan became increasingly dependent on the new Samurai warrior class for protection, the Samurai themselves realized they held the real power, not the empire. Taira family, rulers at the time, were eventually defeated after a series of battles and insurrections, later known as the **Gempei Wars**. 
@@ -77,14 +73,14 @@ As the culture of the period shifted from the siloed and abstract life of the He
 ![[Heiji_Monogatari_Emaki.webp | Heiji Monogatari Emaki - one of the most famous emakimono scenes of the era]]
 ### Tourism
 #### Tsurugaoka Hachimangu Shrine (Kamakura)
-![[TsurugaokaHachiman.webp]]
 The Tsurugaoka Hachimangu Shrine is the foundational political and spiritual shrine in Kamakura. Minamoto no Yorimoto, the first Shogun, moved the shrine to its current location in 1180. The approaching _sandō_ leads all the way from the sea to the temple and is lined with traditional Japanese cherry trees.
+![[TsurugaokaHachiman.webp]]
 #### The Yagura Tombs (Kamakura)
-![[TheYaguraTombs.webp]]
 The shogunate did not allow for burials within the city limits of Kamakura. So rather than traditional cemeteries, thousands of cave tombs called _yagura_ were carved into the soft stone of the surrounding hills to house the remains of samurai and priests.
+![[TheYaguraTombs.webp]]
 #### Sanjusangen-do (Kyoto) 
-![[Sanjusangen-do.webp]]
 Kyoto remained the cultural hub of Japan, despite the core governing administration moving to Kamakura. While the original Sanjusangen-do temple was destroyed by a fire, it was rebuilt in 1266. It houses over a thousand life-sized statues which illustrate the hyper-realism valued in the era.
+![[Sanjusangen-do.webp]]
 ## The Ashikaga Period 
 ### Tourism
 ## The Tokugawa Period & Great Peace (*1603 – 1853*)
@@ -119,12 +115,21 @@ The Bakufu had few options. In desperation, they did something they hadn't done 
 
 In the end, the government had no choice but to concede to Perry's demands of opening their markets to trade. The consequences were immediate, catastrophic, and plunged Japan further into decay. The country had been isolated for so long that its markets bore almost no relation to the outside world. Gold, set by tradition at a 1:5 ratio against silver domestically, traded at roughly 1:15 globally. The arbitrage opportunity was spotted by foreign merchants instantly. They exchanged silver for gold in Japan, sailed to Hong Kong, and converted it back at triple the rate. Wealth drained out of the country. The government debased its currency to compensate, but this only triggered a surge of hyperinflation. Food prices soared and the people went hungry again.
 
-The rebel factions that emerged from this moment were not interested in reform. The most notorious, the _Shishi_ or "Men of Spirit," wanted to provoke enough chaos that the government would be forced into open war with the West. In 1860, they publicly assassinated Ii Naosuke — one of the most powerful men in the country — in front of the gates of Edo Castle. As the centre lost its grip, the provinces began to act on their own. Choshu and Satsuma, long hostile to the Bakufu, issued orders in 1863 to fire on Western ships and expel all foreigners. A combined British, French, and Dutch fleet responded by sailing in and levelling both provinces to the ground.
+Unlike the past famines though, this time the government and the people had an external cause to blame. Having a target to direct their anger resulted in a large number of rebel, domestic terroristic groups. The most famous of these were the _Shishi_ or "Men of Spirit". Their goal was to essentially provoke enough chaos internally that the government would be forced into open conflict with theWest. In 1860, in front of the gates of Edo, they publically assassinated Li Naosuke, one of the most powerful men in the country. The administrative centre of the country was losing its grip on the social and political order. Provinces on the outskirts, like Choshu and Satsuma begun to take matters into their own hands, and in 1863 issued orders to fire on Western ships and expel all foreigners. A combined fleet of British, French and Dutch ships responded by sailing in and levelling both provinces to the ground. 
 
-The defeat was total — but it was also clarifying. The leaders of Choshu and Satsuma grasped, with finality, that the old order was finished. The only remaining question was who would replace it. Financed by a colonial-style sugar monopoly in their territory, they began importing Western firearms, and — after two centuries of prohibition — armed the peasant class. When the Bakufu dispatched an army to crush them, it lost. The Shogunate's own military, defeated by a provincial force equipped with foreign guns, could no longer pretend to be the unquestioned power in Japan.
+It was a catastrophe. It was also clarifying. The remaining leaders of Choshu and Satsuma finally understood that the old order was no longer a viable option. The only question was who would replace it. Maybe them? Financed by their colonial-style sugar monopoly, they began importing and hoarding Western firearms. Technologically, they were far more advanced than anything the Bakufu was using. But the real force-multiplier for them came through the repealling of two centuries of firearm prohibition. In other words, they armed the peasant class. 
 
-The final Shogun, Tokugawa Keiki, read the situation clearly enough to attempt a graceful exit. He proposed resigning and returning formal authority to the Emperor, while remaining in place as a kind of prime minister — the regime preserved in a new form. The imperialist factions refused the compromise. They hired _ronin_ and thugs to keep burning, looting, and destabilizing, ensuring the Shogunate would be destroyed rather than quietly reformed. The regime that had governed Japan for over two and a half centuries didn't end with a decisive battle. It dissolved — its authority consumed from every direction at once until there was simply nothing left to defend.
+Upon hearing of this, the Bakufu dispatched its army to march across the country and end the rising rebellion. It was defeated, and in that defeat lost its right to claim unquestioned power in Japan. The final Shogun, Tokugawa Keiki, saw the writting on the walls. He attempted to structure a graceful exit. He proposed resigning and returning formal authority to the Emperor, while remaining in place as a kind of "prime minister". This was refused by multiple parties. They hired mercenaries called _ronin_ to continue the burning, looting and destabilizing of the establishment to ensure the destruction of the Shogunate, rather than reformation. In the end, there was no major battle, no restructuring or passing of power. The regime that had ruled Japan for two and a half centuries, consumed from every direction at once, simply dissolved.
 ### Tourism
+#### Nijō Castle (Kyoto)
+In 1867, the final Shogun, Tokugawa Yoshinobu, officially declared the return of political power to the Emperor. Thus it is the place where the two and half century long Shogunate regime came to an end. 
+![[NijoCastleKyoto.webp]]
+#### Ryozen Museum (Kyoto)
+The Ryozen Museum is entirely dedicated to the history of the Bakumatsu (end of the Bakufu) and the Meiji restoration. It features a large collection of artifacts and exhibits detailing the various factions in conflict over the period.
+![[RyozenMuseum.webp]]
+#### Shokason Academy (Hagi)
+Further East, in the Yamaguchi Prefecture, this shrine is regarded as one of the intellectual birthplaces of the revolution. Many of the young radicals who would go on to shape modern Japan were educated here.
+![[ShokasonAcademy.webp]]
 ## The Meiji Modernization (*1870 - 1900*)
 ### New Government
 The period from the 1870s to the 1900s is traditionally recognized worldwide as the Second Industrial Revolution. This was an era of intense technological, social, and political change. Improvements in steel production, electrification, and petroleum usage developed alongside communication advances, such as the telegraph and telephone, and the invention of more efficient processing methods. Interchangeable parts, the assembly line, advanced railway systems, and corporate bureaucracy combined to unlock previously unfathomable economic gains.
@@ -192,12 +197,11 @@ Eventually, this system spiraled out of control. Attempting to take more land in
 Finally, in 1929, the Great Depression hit. The common people suffered greatly. All faith in Western-style politics and economics was lost. Without public support, the government—already broadly seen as corrupt and ineffective—lost what authority it had left. The military stepped in, promising safety and protection by taking what was needed from the rest of the world by force. In just a few years, the experiment of democracy in Japan fell apart.
 ### Tourism
 #### Tokyo Station Marunouchi Building (Tokyo)
-![[Marunouchi_Station_HaraKei.webp | Tokyo Station Marunouchi Building and Hara Kei Plaque.]]
 The south exit of the Tokyo Station Murunouchi Building contains a plaque that marks the exact spot where Prime Minister Hara Kei was assassinated in 1921.
-
+![[Marunouchi_Station_HaraKei.webp | Tokyo Station Marunouchi Building and Hara Kei Plaque.]]
 #### Peace Osaka (Osaka)
-![[PeaceMuseumOsaka.webp]]
 Many museums across Japan focus on the damage that was done to Japan. Peace Osaka focuses on the damage done by Japan to both the outer world and to its own people. Exhibits include the "Peace Preservation Law" and the Tokko who were the special police force used to arrest and monitor thousands of left-wing protestors.
+![[PeaceMuseumOsaka.webp]]
 #### Birthplace of Rice Riots (Uozu)
-![[BirthplaceOfRiceRiots.webp | A small memorial for the birthplace of the Rice Riots in 1918.]]
 In the small town of Uozu a small memorial can be found marking the birthplace of the rice riots in 1918. Started by a small group of fisherman wives, the riots spread across the country and led to the appointing of Hara Kei as Prime Minister.
+![[BirthplaceOfRiceRiots.webp | A small memorial for the birthplace of the Rice Riots in 1918.]]
