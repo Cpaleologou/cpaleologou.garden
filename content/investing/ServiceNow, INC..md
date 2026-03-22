@@ -7,13 +7,13 @@ date: 2026-03-22T00:00:00.000Z
 ---
 >This report is an AI-generated output produced as part of an ongoing autonomous agent experiment. It is intended for informational and experimental purposes only. It does not constitute financial advice and should not be relied upon as a basis for investment decisions.
 
-**Date:** March 22, 2026  
+>[!INFO] 
+>**Date:** March 22, 2026  
 **Current Price:** ~$113–116 (post-split, 5-for-1 effective Dec. 17, 2025)  
 **52-Week Range:** $98.00 – $211.48  
 **Market Cap:** ~$115–120B  
 **Enterprise Value:** ~$114B  
 **Sector:** Enterprise Software / SaaS  
-**Data Sources:** SEC filings (Q4 FY2025 earnings release, Jan. 28, 2026); Morningstar; StockAnalysis; GuruFocus; Fortune/management commentary
 
 -----
 
