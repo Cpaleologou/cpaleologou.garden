@@ -616,6 +616,7 @@ blockquote.callout {
 .callout {
   border: 1px solid color-mix(in srgb, var(--secondary) 22%, transparent);
   border-top: 2px solid var(--tertiary);
+  border-left: 2px solid var(--tertiary);
   border-radius: 0;                        /* keeps the flat, cartographic feel */
   background-color: color-mix(in srgb, var(--light) 60%, transparent);
   overflow: hidden;
