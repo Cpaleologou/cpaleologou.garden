@@ -32,6 +32,7 @@ Workday occupies a genuinely defensible position in one of the stickiest categor
 | **Free Cash Flow (FCF)** | $2.777 billion | $2.192 billion | +26.7% YoY               |
 | **FCF Margin**           | 29.1%          | —              | Based on $9.552B Revenue |
 | **Operating Cash Flow**  | $2.939 billion | —              | SEC earnings release     |
+
 The FCF profile is exceptional. Workday generates far more cash than its GAAP net income implies, because stock-based compensation and D&A are significant non-cash charges. The gap between GAAP and non-GAAP results is material and requires care in interpretation: non-GAAP operating income in FY2026 was approximately $2.826B at a 29.6% margin, compared to GAAP operating income of $721M at 7.5%.
 
 **Capital deployment in FY2026 raises meaningful questions.** Workday repurchased approximately 12.8 million shares for $2.9 billion in FY2026 (SEC earnings release, FY2026) — *more than its entire reported FY2025 net income* and roughly equal to its full-year FCF generation. Additionally, the company acquired Paradox and Sana during the year. This level of buyback activity at elevated prices (the stock traded between roughly $160 and $283 in FY2026) is aggressive. Value investors should scrutinize whether the board applied price discipline: buying back ~4.5% of shares at an average blended price well above intrinsic value would be capital-destructive, not accretive.
@@ -42,13 +43,16 @@ The FCF profile is exceptional. Workday generates far more cash than its GAAP ne
 ### 1C. Earnings Predictability
 Workday's subscription revenue model confers high predictability. The total subscription revenue backlog was $28.101 billion at FY2026 year-end (+12.2% YoY), and the 12-month backlog was $8.833 billion (+15.8%) — meaning the company has contractual visibility into approximately 93% of the next year's subscription revenue before the year begins. This is a critically underappreciated quality trait for a value investor.
 
-Revenue trajectory:
-- FY2022: $5.15B
-- FY2023: ~$6.2B
-- FY2024: ~$7.3B
-- FY2025: $8.446B (+16.4%)
-- FY2026: $9.552B (+13.1%)
-- FY2027 guidance: ~$10.3–10.4B total (subscription guidance $9.925–9.950B)
+**Revenue trajectory:**
+
+| **Fiscal Year**       | **Revenue**     | **Growth / Guidance**                   |
+| --------------------- | --------------- | --------------------------------------- |
+| **FY2022**            | $5.15B          | —                                       |
+| **FY2023**            | ~$6.2B          | —                                       |
+| **FY2024**            | ~$7.3B          | —                                       |
+| **FY2025**            | $8.446B         | +16.4%                                  |
+| **FY2026**            | $9.552B         | +13.1%                                  |
+| **FY2027 (Guidance)** | $10.3B – $10.4B | Includes $9.925B – $9.950B Subscription |
 
 (Sources: SEC filings FY2025 and FY2026 earnings releases; Monexa FY2022-2025 analysis sourced from SEC filings)
 
@@ -78,14 +82,21 @@ FY2027 guided FCF per share: ~$12.37
 
 For a narrow-moat enterprise software business growing FCF at 12–15%, with a $28B contractual backlog and net cash of ~$5B, a reasonable P/FCF range is:
 
-- **Bear case (12x):** Reflects multiple compression, AI disruption risk materializes, growth stalls at 10%. Intrinsic value ~$130 per share
-- **Base case (16x):** Reflects steady FCF compounding at 12-15% for 5 years, moat holds at narrow, AI integration becomes a net positive to retention. Intrinsic value ~$173 per share
-- **Bull case (22x):** AI monetization succeeds, growth reaccelerates to 15%+, financial management penetration expands to 60%+ of HCM base. Intrinsic value ~$237 per share
+| **Valuation Case** | **Multiple (FCF)** | **Strategic Assumptions**                                                    | **Intrinsic Value** |
+| ------------------ | ------------------ | ---------------------------------------------------------------------------- | ------------------- |
+| **Bear Case**      | 12x                | Multiple compression, AI disruption risk, growth stalls at 10%.              | ~$130 / share       |
+| **Base Case**      | 16x                | Steady FCF compounding (12-15%), narrow moat holds, AI aids retention.       | ~$173 / share       |
+| **Bull Case**      | 22x                | AI monetization success, growth reaccelerates to 15%+, 60%+ HCM penetration. | ~$237 / share       |
 
 Net cash of ~$21/share is embedded in these figures (cash adds ~$1–2/share of intrinsic uplift, partially offset by buyback dilution risk).
 
 **Intrinsic Value Range:**
-- **Low estimate: $130 | Base estimate: $173 | High estimate: $237**
+
+| **Scenario**      | **Estimated Intrinsic Value** |
+| ----------------- | ----------------------------- |
+| **Low Estimate**  | $130                          |
+| **Base Estimate** | $173                          |
+| **High Estimate** | $237                          |
 
 (Derived from P/FCF methodology applied to FY2027 guided FCF of ~$3.18B; FY2026 FY2027 FCF figures from SEC filings and company guidance)
 
