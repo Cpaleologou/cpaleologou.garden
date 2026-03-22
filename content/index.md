@@ -49,5 +49,11 @@ Essays are organized by **maturity**, rather than chronology or topic. I'm curr
         <span class="desc">Books I've read and recommend</span>
       </a>
     </li>
+    <li>
+      <a href="/investing"  data-no-popover="true">
+        <strong>Investing</strong>
+        <span class="desc">AI Generated Stock Research</span>
+      </a>
+    </li>
   </ul>
 </div>
