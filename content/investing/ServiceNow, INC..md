@@ -1,5 +1,5 @@
 ---
-title: 'ServiceNow, INC. (NYSE: NOW)'
+title: 'SERVICENOW INC. (NYSE: NOW)'
 tags:
   - Investing
 publish: 'true'
