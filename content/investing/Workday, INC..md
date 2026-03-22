@@ -27,11 +27,11 @@ Workday occupies a genuinely defensible position in one of the stickiest categor
 **Moat Verdict: Narrow Moat** (downgraded from wide). This assessment aligns with Morningstar's March 2026 revision, which lowered its rating "following a review of artificial intelligence's potential disruption to the global technology sector." The downgrade is directionally correct as a risk flag, though arguably premature as a conclusion. The switching cost moat is structural and LLM-agnostic — AI cannot help with the rigid one-to-one mapping of data and business logic required in an enterprise migration. Where the moat is genuinely at risk is in the *application layer*: if AI-native interfaces reduce the UX differentiation that Workday has historically commanded, the relative value proposition narrows. The honest appraisal is that Workday's core moat (data custody + switching costs) remains intact, but the *width* is under genuine uncertainty for the first time.
 ### 1B. Capital Allocation Quality
 
-**FY2026 Free Cash Flow:** $2.777 billion (+26.7% YoY) (SEC earnings release, FY2026)  
-**FY2025 Free Cash Flow:** $2.192 billion (SEC earnings release, FY2025)  
-**FY2026 FCF Margin:** 29.1% (FCF $2.777B / Revenue $9.552B)  
-**FY2026 Operating Cash Flow:** $2.939 billion
-
+| **Metric**               | **FY2026**     | **FY2025**     | **Notes / Source**       |
+| ------------------------ | -------------- | -------------- | ------------------------ |
+| **Free Cash Flow (FCF)** | $2.777 billion | $2.192 billion | +26.7% YoY               |
+| **FCF Margin**           | 29.1%          | —              | Based on $9.552B Revenue |
+| **Operating Cash Flow**  | $2.939 billion | —              | SEC earnings release     |
 The FCF profile is exceptional. Workday generates far more cash than its GAAP net income implies, because stock-based compensation and D&A are significant non-cash charges. The gap between GAAP and non-GAAP results is material and requires care in interpretation: non-GAAP operating income in FY2026 was approximately $2.826B at a 29.6% margin, compared to GAAP operating income of $721M at 7.5%.
 
 **Capital deployment in FY2026 raises meaningful questions.** Workday repurchased approximately 12.8 million shares for $2.9 billion in FY2026 (SEC earnings release, FY2026) — *more than its entire reported FY2025 net income* and roughly equal to its full-year FCF generation. Additionally, the company acquired Paradox and Sana during the year. This level of buyback activity at elevated prices (the stock traded between roughly $160 and $283 in FY2026) is aggressive. Value investors should scrutinize whether the board applied price discipline: buying back ~4.5% of shares at an average blended price well above intrinsic value would be capital-destructive, not accretive.
