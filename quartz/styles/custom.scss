@@ -589,319 +589,48 @@ blockquote:not(.callout) {
 }
 
 /* ==========================================================================
-   12b. CALLOUTS — >[!type] Obsidian-flavoured callouts
-   Quartz renders these as: blockquote.callout[data-callout="TYPE"]
-     > .callout-title > .callout-icon + .callout-title-inner
-     > .callout-content > p
-
-   HOW THIS WORKS AGAINST THE QUARTZ SOURCE (quartz/styles/callouts.scss):
-   That file sets structural rules on .callout and .callout-title without
-   !important: padding, border-radius, background-color via --bg, border via
-   --border, and color via --color. It also uses SVG mask icons on
-   .callout-icon. We defeat it by:
-     1. Overriding the --bg / --border / --color CSS variables at the
-        [data-callout] level so the source file's var() calls resolve to our
-        values rather than its hardcoded hex strings.
-     2. Using !important on every structural property the source sets without
-        it (padding, border-radius, background-color, border, color, display).
-     3. Hiding .callout-icon via display:none !important and injecting our
-        own glyph via .callout-title::before.
-
-   Design intent: flat, cartographic, editorial. Shares the typographic
-   voice of the Field Report motif — no radiused corners, no coloured fills,
-   no card shadows. Signalling comes from ruled borders, mono labels, and
-   glyph prefixes drawn from the site palette.
+   12. BLOCKQUOTES — "FIELD REPORT //"
+   Scoped to plain blockquotes only; .callout blockquotes are handled in §12b.
+   base.scss: blockquote { border-left: 3px solid var(--secondary); padding-left: 1rem }
    ========================================================================== */
-
-
-/* ── Step 1: Reset the blockquote wrapper ── */
-blockquote.callout {
-  border-left: none !important;
-  padding: 0 !important;
-  margin: 1.75rem 0 !important;
+ 
+blockquote:not(.callout) {
+  background-color: color-mix(in srgb, var(--secondary) 4%, transparent) !important;
+  border-left: 2px solid var(--secondary) !important;
+  padding: 1.1rem 1.35rem !important;
+  margin: 2rem 0 !important;
   font-style: normal !important;
-  background: none !important;
   position: relative;
-  &::before { content: none !important; }
-}
-
-
-/* ── Step 2: Shell — override all Quartz structural defaults ──
-   The source file sets: padding: 0 1rem; border-radius: 5px;
-   background-color: var(--bg); border: 1px solid var(--border);
-   We must !important every one of these. ── */
-.callout {
-  /* Neutralise Quartz's --bg and --border variables at the root */
-  --bg: color-mix(in srgb, var(--light) 55%, transparent);
-  --border: color-mix(in srgb, var(--secondary) 18%, transparent);
-  --color: var(--tertiary);           /* used by .callout-title color: var(--color) */
-
-  padding: 0 !important;              /* source sets padding: 0 1rem */
-  border-radius: 0 !important;        /* source sets border-radius: 5px */
-  background-color: var(--bg) !important;
-  border: 1px solid var(--border) !important;
-  border-top: 2px solid var(--tertiary) !important;
-  border-left: 2px solid var(--tertiary) !important;
-  overflow: hidden !important;
-
-
-  /* ── Title bar ──
-     Source sets: display:flex; align-items:flex-start; gap:5px;
-     padding:1rem 0; color:var(--color)
-     We keep flex but override padding and kill the colour bleed. ── */
-  .callout-title {
-    display: flex !important;
-    align-items: center !important;
-    gap: 0.45rem !important;
-    padding: 0.5rem 1.1rem 0.45rem !important;   /* source: padding: 1rem 0 */
-    background-color: color-mix(in srgb, var(--secondary) 4%, transparent) !important;
-    border-bottom: 1px solid color-mix(in srgb, var(--secondary) 10%, transparent) !important;
-    color: var(--secondary) !important;           /* override color: var(--color) bleed */
-
-    /* Mask-icon element — hide it, we use a CSS glyph instead */
-    .callout-icon {
-      display: none !important;
-    }
-
-    /* fold icon — keep it but restyle to match */
-    .fold-callout-icon {
-      width: 0.65rem !important;
-      height: 0.65rem !important;
-      flex: 0 0 0.65rem !important;
-      background-color: var(--gray) !important;
-      opacity: 0.55 !important;
-      margin-left: auto !important;
-    }
-
-    /* Mono uppercase label */
-    .callout-title-inner {
-      font-family: var(--codeFont) !important;
-      font-size: 0.60rem !important;
-      font-weight: 700 !important;
-      letter-spacing: 0.20em !important;
-      text-transform: uppercase !important;
-      color: var(--secondary) !important;
-      opacity: 0.80;
-
-      /* The title text lives inside a <p> inside .callout-title-inner */
-      p {
-        color: var(--secondary) !important;
-        margin: 0 !important;
-        font-size: inherit !important;
-        font-family: inherit !important;
-        font-weight: inherit !important;
-        letter-spacing: inherit !important;
-        text-transform: inherit !important;
-      }
-    }
-
-    /* CSS glyph prefix */
-    &::before {
-      content: "◇";
-      font-family: var(--codeFont);
-      font-size: 0.62rem;
-      font-weight: 700;
-      color: var(--tertiary);
-      opacity: 0.90;
-      flex-shrink: 0;
-    }
+ 
+  &::before {
+    content: "FIELD REPORT //";
+    display: block;
+    font-family: var(--codeFont);
+    font-size: 0.62rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--secondary);
+    opacity: 0.75;
+    margin-bottom: 0.65rem;
   }
-
-
-  /* ── Body ──
-     Source sets: display:grid with transition on .callout-content > *
-     We keep the grid but add our padding. ── */
-  & > .callout-content {
-    padding: 0.85rem 1.1rem 0.95rem !important;   /* source has no padding here */
-
-    p {
-      font-family: var(--bodyFont) !important;
-      font-size: 0.95rem !important;
-      font-style: normal !important;
-      font-weight: 300 !important;
-      line-height: 1.75 !important;
-      color: var(--dark) !important;
-      margin: 0 0 0.55rem !important;
-      &:last-child { margin-bottom: 0 !important; }
-    }
-
-    code {
-      font-family: var(--codeFont);
-      font-size: 0.85em;
-      background-color: color-mix(in srgb, var(--secondary) 8%, transparent);
-      padding: 0.1em 0.35em;
-      border-radius: 0;
-    }
+ 
+  p {
+    font-family: var(--bodyFont) !important;
+    font-size: 1rem !important;
+    font-style: italic !important;
+    line-height: 1.75 !important;
+    color: var(--dark) !important;
+    margin: 0 !important;
   }
 }
-
-
-/* =========================================================================
-   Per-type overrides
-   Override --bg and --border so that Quartz's own var() calls resolve to
-   our values, then set the structural border properties directly too.
-   ========================================================================= */
-
-/* ── DEFAULT / NOTE ── */
-.callout[data-callout],
-.callout[data-callout="note"] {
-  --border: color-mix(in srgb, var(--secondary) 18%, transparent);
-  --bg: color-mix(in srgb, var(--light) 55%, transparent);
-  --color: var(--secondary);
-  border-top-color: color-mix(in srgb, var(--secondary) 55%, transparent) !important;
-  border-left-color: color-mix(in srgb, var(--secondary) 55%, transparent) !important;
-  .callout-title::before { content: "◇"; color: var(--secondary); opacity: 0.65; }
-}
-
-/* ── INFO ── */
-.callout[data-callout="info"] {
-  --border: color-mix(in srgb, var(--secondary) 18%, transparent);
-  --bg: color-mix(in srgb, var(--light) 55%, transparent);
-  border-top-color: color-mix(in srgb, var(--secondary) 65%, transparent) !important;
-  border-left-color: color-mix(in srgb, var(--secondary) 65%, transparent) !important;
-  .callout-title {
-    &::before { content: "◈"; color: var(--secondary); opacity: 0.70; }
-    .callout-title-inner { color: var(--secondary) !important; opacity: 0.70; }
-    .callout-title-inner p { color: var(--secondary) !important; }
-  }
-}
-
-/* ── TIP / HINT ── */
-.callout[data-callout="tip"],
-.callout[data-callout="hint"] {
-  --border: color-mix(in srgb, var(--secondary) 18%, transparent);
-  --bg: color-mix(in srgb, var(--light) 55%, transparent);
-  border-top-color: var(--tertiary) !important;
-  border-left-color: var(--tertiary) !important;
-  .callout-title {
-    &::before { content: "→"; color: var(--tertiary); }
-    .callout-title-inner { color: var(--tertiary) !important; opacity: 0.85; }
-    .callout-title-inner p { color: var(--tertiary) !important; }
-  }
-}
-
-/* ── WARNING / CAUTION ── */
-.callout[data-callout="warning"],
-.callout[data-callout="caution"] {
-  --border: color-mix(in srgb, var(--secondary) 18%, transparent);
-  --bg: color-mix(in srgb, var(--tertiary) 4%, transparent);
-  border-top-color: var(--tertiary) !important;
-  border-left-color: var(--tertiary) !important;
-  background-color: var(--bg) !important;
-  .callout-title {
-    background-color: color-mix(in srgb, var(--tertiary) 6%, transparent) !important;
-    border-bottom-color: color-mix(in srgb, var(--tertiary) 14%, transparent) !important;
-    &::before { content: "△"; color: var(--tertiary); }
-    .callout-title-inner { color: var(--tertiary) !important; opacity: 1; }
-    .callout-title-inner p { color: var(--tertiary) !important; }
-  }
-}
-
-/* ── DANGER / BUG ── */
-.callout[data-callout="danger"],
-.callout[data-callout="bug"] {
-  --border: color-mix(in srgb, var(--secondary) 18%, transparent);
-  --bg: color-mix(in srgb, var(--tertiary) 5%, transparent);
-  border-top-color: color-mix(in srgb, var(--tertiary) 90%, #600 10%) !important;
-  border-left-color: color-mix(in srgb, var(--tertiary) 90%, #600 10%) !important;
-  background-color: var(--bg) !important;
-  .callout-title {
-    background-color: color-mix(in srgb, var(--tertiary) 8%, transparent) !important;
-    border-bottom-color: color-mix(in srgb, var(--tertiary) 18%, transparent) !important;
-    &::before { content: "✕"; color: var(--tertiary); }
-    .callout-title-inner { color: var(--tertiary) !important; opacity: 1; }
-    .callout-title-inner p { color: var(--tertiary) !important; }
-  }
-}
-
-/* ── QUOTE ── */
-.callout[data-callout="quote"] {
-  --bg: transparent;
-  --border: color-mix(in srgb, var(--gray) 50%, transparent);
-  border: none !important;
-  border-left: 2px solid color-mix(in srgb, var(--gray) 50%, transparent) !important;
-  background-color: transparent !important;
-  .callout-title { display: none !important; }
-  & > .callout-content p { font-style: italic !important; color: color-mix(in srgb, var(--dark) 75%, transparent) !important; }
-}
-
-/* ── EXAMPLE / ABSTRACT / SUMMARY ── */
-.callout[data-callout="example"],
-.callout[data-callout="abstract"],
-.callout[data-callout="summary"] {
-  border-top-color: color-mix(in srgb, var(--secondary) 45%, transparent) !important;
-  border-left-color: color-mix(in srgb, var(--secondary) 45%, transparent) !important;
-  .callout-title::before { content: "≡"; }
-}
-
-/* ── SUCCESS / CHECK / DONE ── */
-.callout[data-callout="success"],
-.callout[data-callout="check"],
-.callout[data-callout="done"] {
-  border-top-color: color-mix(in srgb, var(--dark) 70%, transparent) !important;
-  border-left-color: color-mix(in srgb, var(--dark) 70%, transparent) !important;
-  .callout-title::before { content: "✓"; color: var(--dark); opacity: 0.75; }
-}
-
-/* ── QUESTION / FAQ / HELP ── */
-.callout[data-callout="question"],
-.callout[data-callout="faq"],
-.callout[data-callout="help"] {
-  border-top-color: color-mix(in srgb, var(--secondary) 50%, transparent) !important;
-  border-left-color: color-mix(in srgb, var(--secondary) 50%, transparent) !important;
-  .callout-title::before { content: "?"; font-size: 0.7rem; }
-}
-
-/* ── TODO ── */
-.callout[data-callout="todo"] {
-  border-top-color: var(--tertiary) !important;
-  border-left-color: var(--tertiary) !important;
-  .callout-title::before { content: "○"; color: var(--tertiary); }
-}
-
-
-/* =========================================================================
-   Dark-mode intensity corrections for warning / danger
-   ========================================================================= */
-html[saved-theme="dark"] {
-  .callout[data-callout="warning"],
-  .callout[data-callout="caution"],
-  .callout[data-callout="danger"],
-  .callout[data-callout="bug"] {
-    --bg: color-mix(in srgb, var(--tertiary) 7%, transparent);
-    background-color: var(--bg) !important;
-    .callout-title {
-      background-color: color-mix(in srgb, var(--tertiary) 10%, transparent) !important;
-    }
-  }
-}
-
-
-/* =========================================================================
-   Collapsed state
-   The source file animates via height:0 on children — we leave that intact
-   and just handle the fold icon rotation, which the source does via
-   .is-collapsed > .callout-title > .fold-callout-icon { transform: rotateZ(-90deg) }
-   Our only addition is the ::after chevron on is-collapsible titles.
-   ========================================================================= */
-.callout.is-collapsible .callout-title {
-  cursor: pointer;
-  user-select: none;
-  /* Source handles collapse animation; we only adjust the fold icon opacity */
-  .fold-callout-icon { opacity: 0.45 !important; }
-}
-
-
-/* =========================================================================
-   Nested callouts
-   ========================================================================= */
-.callout-content .callout {
-  margin: 0.75rem 0 !important;
-  border-left-width: 1px !important;
-  border-top-width: 1px !important;
-  --bg: transparent;
-  background-color: transparent !important;
-}
+ 
+/* ==========================================================================
+   12b. CALLOUTS
+   Styling lives in quartz/styles/callouts.scss — edited directly.
+   Nothing to do here.
+   ========================================================================== */
+ 
 
 /* ==========================================================================
    13. START GRID

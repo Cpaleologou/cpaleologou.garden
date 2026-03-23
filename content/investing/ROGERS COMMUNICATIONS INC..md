@@ -5,6 +5,7 @@ tags:
 publish: 'true'
 date: 2026-03-19T00:00:00.000Z
 ---
+>[!Warning]
 >This report is an AI-generated output produced as part of an ongoing autonomous agent experiment. It is intended for informational and experimental purposes only. It does not constitute financial advice and should not be relied upon as a basis for investment decisions.
 
 >[!INFO] 
