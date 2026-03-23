@@ -594,10 +594,27 @@ blockquote:not(.callout) {
      > .callout-title > .callout-icon + .callout-title-inner
      > .callout-content > p
 
-   Design intent: shares the palette/typographic voice but reads as a
-   distinct register from Field Reports. Field Reports are editorial,
-   first-person, italic. Callouts are structural, informational, upright.
+   Design intent: flat, cartographic, editorial. Shares the
+   typographic voice of the Field Report motif — no radiused corners,
+   no coloured fills, no card shadows. All signalling is done through
+   ruled borders, mono labels, and glyph prefixes drawn from the
+   same palette as the wider design system.
+
+   Light-mode palette reference:
+     --light    #F0EFE9   bone white / paper
+     --secondary #1A2421  olive drab / ink (headlines & labels)
+     --tertiary  #CC5500  burnt orange / accent
+     --dark      #4B5320  dark forest / body text
+     --gray      #8C9178  sage / muted
+
+   Dark-mode palette reference:
+     --light    #1a2318   deep binding green / background
+     --secondary #F0EFE9  aged cream / headlines
+     --tertiary  #c8860a  deeper gold / accent
+     --dark      #e8dfc4  warm parchment / body text
+     --gray      #7a8a6a  muted sage / muted
    ========================================================================== */
+
 
 /* ── Base reset: undo base.scss blockquote defaults ── */
 blockquote.callout {
@@ -608,52 +625,57 @@ blockquote.callout {
   background: none !important;
   position: relative;
 
-  /* Strip the Field Report ::before pseudo-element */
   &::before { content: none !important; }
 }
 
+
 /* ── Callout shell ── */
 .callout {
-  border: 1px solid color-mix(in srgb, var(--secondary) 22%, transparent);
+  /* Structural border: left + top ruled in tertiary, remainder in faint secondary */
+  border: 1px solid color-mix(in srgb, var(--secondary) 18%, transparent);
   border-top: 2px solid var(--tertiary);
   border-left: 2px solid var(--tertiary);
-  border-radius: 0;                        /* keeps the flat, cartographic feel */
-  background-color: color-mix(in srgb, var(--light) 60%, transparent);
+  border-radius: 0;
+  background-color: color-mix(in srgb, var(--light) 55%, transparent);
   overflow: hidden;
+
 
   /* ── Title bar ── */
   .callout-title {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.55rem 1.1rem 0.5rem;
-    background-color: color-mix(in srgb, var(--secondary) 5%, transparent);
-    border-bottom: 1px solid color-mix(in srgb, var(--secondary) 12%, transparent);
+    gap: 0.45rem;
+    padding: 0.5rem 1.1rem 0.45rem;
+    background-color: color-mix(in srgb, var(--secondary) 4%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, var(--secondary) 10%, transparent);
 
-    /* Hide Quartz's SVG icon — we use a CSS glyph instead */
+    /* Quartz injects an SVG icon — suppress it in favour of the CSS glyph */
     .callout-icon { display: none !important; }
 
+    /* Mono uppercase label — same register as Field Report's "FIELD REPORT" stamp */
     .callout-title-inner {
       font-family: var(--codeFont) !important;
-      font-size: 0.62rem !important;
+      font-size: 0.60rem !important;
       font-weight: 700 !important;
-      letter-spacing: 0.18em !important;
+      letter-spacing: 0.20em !important;
       text-transform: uppercase !important;
       color: var(--secondary) !important;
-      opacity: 0.85;
+      opacity: 0.80;
     }
 
-    /* Minimal glyph prefix, type-aware */
+    /* CSS glyph prefix — overridden per type below */
     &::before {
       font-family: var(--codeFont);
       font-size: 0.62rem;
       font-weight: 700;
-      letter-spacing: 0.08em;
       color: var(--tertiary);
-      opacity: 0.9;
+      opacity: 0.90;
       flex-shrink: 0;
+      /* default fallback glyph */
+      content: "◇";
     }
   }
+
 
   /* ── Body ── */
   .callout-content {
@@ -662,90 +684,163 @@ blockquote.callout {
     p {
       font-family: var(--bodyFont) !important;
       font-size: 0.95rem !important;
-      font-style: normal !important;          /* upright — not italic like Field Reports */
+      font-style: normal !important;
       font-weight: 300 !important;
       line-height: 1.75 !important;
       color: var(--dark) !important;
-      margin: 0 0 0.6rem !important;
+      margin: 0 0 0.55rem !important;
       &:last-child { margin-bottom: 0 !important; }
+    }
+
+    /* Inline code inside callout content */
+    code {
+      font-family: var(--codeFont);
+      font-size: 0.85em;
+      background-color: color-mix(in srgb, var(--secondary) 8%, transparent);
+      padding: 0.1em 0.35em;
+      border-radius: 0;             /* flat, no pill */
     }
   }
 }
 
-/* ── Per-type glyphs & accent tints ── */
 
-/* INFO */
+/* =========================================================================
+   Per-type overrides
+   Hierarchy: border-top accent > title bar tint > glyph
+   Keep it minimal — a single accent colour change per variant is enough.
+   ========================================================================= */
+
+/* ── INFO ── informational / reference */
 .callout[data-callout="info"] {
-  border-top-color: color-mix(in srgb, var(--secondary) 70%, transparent);
-  .callout-title::before { content: "◈"; }
-  .callout-title-inner { color: var(--secondary) !important; }
+  border-top-color: color-mix(in srgb, var(--secondary) 65%, transparent);
+  border-left-color: color-mix(in srgb, var(--secondary) 65%, transparent);
+  .callout-title {
+    &::before { content: "◈"; color: var(--secondary); opacity: 0.70; }
+    .callout-title-inner { color: var(--secondary) !important; opacity: 0.70; }
+  }
 }
 
-/* NOTE */
+/* ── NOTE ── default annotation */
 .callout[data-callout="note"] {
-  border-top-color: color-mix(in srgb, var(--secondary) 70%, transparent);
-  .callout-title::before { content: "◇"; }
+  border-top-color: color-mix(in srgb, var(--secondary) 55%, transparent);
+  border-left-color: color-mix(in srgb, var(--secondary) 55%, transparent);
+  .callout-title::before { content: "◇"; color: var(--secondary); opacity: 0.65; }
 }
 
-/* WARNING / CAUTION */
+/* ── TIP / HINT ── directive, action-oriented */
+.callout[data-callout="tip"],
+.callout[data-callout="hint"] {
+  border-top-color: var(--tertiary);
+  border-left-color: var(--tertiary);
+  .callout-title {
+    &::before { content: "→"; color: var(--tertiary); }
+    .callout-title-inner { color: var(--tertiary) !important; opacity: 0.85; }
+  }
+}
+
+/* ── WARNING / CAUTION ── elevated concern, still recoverable */
 .callout[data-callout="warning"],
 .callout[data-callout="caution"] {
   border-top-color: var(--tertiary);
+  border-left-color: var(--tertiary);
   background-color: color-mix(in srgb, var(--tertiary) 4%, transparent);
+
   .callout-title {
     background-color: color-mix(in srgb, var(--tertiary) 6%, transparent);
     border-bottom-color: color-mix(in srgb, var(--tertiary) 14%, transparent);
     &::before { content: "△"; color: var(--tertiary); }
-    .callout-title-inner { color: var(--tertiary) !important; }
+    .callout-title-inner { color: var(--tertiary) !important; opacity: 1; }
   }
 }
 
-/* DANGER / BUG */
+/* ── DANGER / BUG ── high-severity, stop-and-read */
 .callout[data-callout="danger"],
 .callout[data-callout="bug"] {
-  border-top-color: color-mix(in srgb, var(--tertiary) 90%, #800 20%);
+  /* Slightly more saturated than warning — deeper into the tertiary */
+  border-top-color: color-mix(in srgb, var(--tertiary) 90%, #600 10%);
+  border-left-color: color-mix(in srgb, var(--tertiary) 90%, #600 10%);
   background-color: color-mix(in srgb, var(--tertiary) 5%, transparent);
+
   .callout-title {
-    background-color: color-mix(in srgb, var(--tertiary) 7%, transparent);
+    background-color: color-mix(in srgb, var(--tertiary) 8%, transparent);
     border-bottom-color: color-mix(in srgb, var(--tertiary) 18%, transparent);
     &::before { content: "✕"; color: var(--tertiary); }
-    .callout-title-inner { color: var(--tertiary) !important; }
+    .callout-title-inner { color: var(--tertiary) !important; opacity: 1; }
   }
 }
 
-/* TIP / HINT */
-.callout[data-callout="tip"],
-.callout[data-callout="hint"] {
-  border-top-color: color-mix(in srgb, var(--dark) 55%, transparent);
-  .callout-title::before { content: "→"; }
-}
-
-/* QUOTE */
+/* ── QUOTE ── pure blockquote, no label chrome */
 .callout[data-callout="quote"] {
-  border-top-color: color-mix(in srgb, var(--gray) 60%, transparent);
-  border-top-width: 1px;
-  border-left: 2px solid color-mix(in srgb, var(--gray) 40%, transparent) !important;
-  .callout-title { display: none; }      /* pure quote — no label needed */
-  .callout-content p { font-style: italic !important; }
+  border-top: none;                 /* no accent top rule — reads as a quotation */
+  border-left: 2px solid color-mix(in srgb, var(--gray) 50%, transparent) !important;
+  border-right: none;
+  border-bottom: none;
+  background: transparent;
+
+  .callout-title { display: none; } /* suppress label bar entirely */
+
+  .callout-content p {
+    font-style: italic !important;
+    color: color-mix(in srgb, var(--dark) 75%, transparent) !important;
+  }
 }
 
-/* EXAMPLE / ABSTRACT / SUMMARY */
+/* ── EXAMPLE / ABSTRACT / SUMMARY ── structured enumeration */
 .callout[data-callout="example"],
 .callout[data-callout="abstract"],
 .callout[data-callout="summary"] {
   border-top-color: color-mix(in srgb, var(--secondary) 45%, transparent);
+  border-left-color: color-mix(in srgb, var(--secondary) 45%, transparent);
   .callout-title::before { content: "≡"; }
 }
 
-/* SUCCESS / CHECK / DONE */
+/* ── SUCCESS / CHECK / DONE ── confirmation / resolved */
 .callout[data-callout="success"],
 .callout[data-callout="check"],
 .callout[data-callout="done"] {
-  border-top-color: color-mix(in srgb, var(--dark) 60%, transparent);
-  .callout-title::before { content: "✓"; }
+  border-top-color: color-mix(in srgb, var(--dark) 70%, transparent);
+  border-left-color: color-mix(in srgb, var(--dark) 70%, transparent);
+  .callout-title::before { content: "✓"; color: var(--dark); opacity: 0.75; }
 }
 
-/* ── Foldable callout toggle ── */
+/* ── QUESTION / FAQ ── open question, unresolved thread */
+.callout[data-callout="question"],
+.callout[data-callout="faq"],
+.callout[data-callout="help"] {
+  border-top-color: color-mix(in srgb, var(--secondary) 50%, transparent);
+  border-left-color: color-mix(in srgb, var(--secondary) 50%, transparent);
+  .callout-title::before { content: "?"; font-size: 0.7rem; }
+}
+
+/* ── TODO ── actionable, pending */
+.callout[data-callout="todo"] {
+  border-top-color: var(--tertiary);
+  border-left-color: var(--tertiary);
+  .callout-title::before { content: "○"; color: var(--tertiary); }
+}
+
+
+/* =========================================================================
+   Dark-mode intensity corrections for warning / danger
+   The gold tertiary (#c8860a) is less saturated than burnt orange (#CC5500),
+   so the tint percentages need a small bump to read at equivalent weight.
+   ========================================================================= */
+html[saved-theme="dark"] {
+  .callout[data-callout="warning"],
+  .callout[data-callout="caution"],
+  .callout[data-callout="danger"],
+  .callout[data-callout="bug"] {
+    background-color: color-mix(in srgb, var(--tertiary) 7%, transparent);
+    .callout-title {
+      background-color: color-mix(in srgb, var(--tertiary) 10%, transparent);
+    }
+  }
+}
+
+
+/* =========================================================================
+   Foldable callout toggle
+   ========================================================================= */
 .callout.is-collapsible .callout-title {
   cursor: pointer;
   user-select: none;
@@ -753,10 +848,11 @@ blockquote.callout {
   &::after {
     content: "▾";
     margin-left: auto;
-    font-size: 0.65rem;
+    font-size: 0.60rem;
+    font-family: var(--codeFont);
     color: var(--gray);
-    opacity: 0.6;
-    transition: transform 0.2s ease;
+    opacity: 0.55;
+    transition: transform 0.18s ease;
   }
 }
 
@@ -764,23 +860,20 @@ blockquote.callout {
   transform: rotate(-90deg);
 }
 
-/* ── Dark mode adjustments ── */
-html[saved-theme="dark"] .callout {
-  background-color: color-mix(in srgb, var(--lightgray) 40%, transparent);
-  border-color: color-mix(in srgb, var(--secondary) 18%, transparent);
-
-  .callout-title {
-    background-color: color-mix(in srgb, var(--secondary) 8%, transparent);
-    border-bottom-color: color-mix(in srgb, var(--secondary) 15%, transparent);
-  }
+/* Hide content when collapsed (Quartz toggles a class, not display) */
+.callout.is-collapsed .callout-content {
+  display: none;
 }
 
-html[saved-theme="dark"] .callout[data-callout="warning"],
-html[saved-theme="dark"] .callout[data-callout="caution"],
-html[saved-theme="dark"] .callout[data-callout="danger"],
-html[saved-theme="dark"] .callout[data-callout="bug"] {
-  background-color: color-mix(in srgb, var(--tertiary) 7%, transparent);
-  .callout-title { background-color: color-mix(in srgb, var(--tertiary) 10%, transparent); }
+
+/* =========================================================================
+   Nested callouts — maintain left-rail rhythm without double borders
+   ========================================================================= */
+.callout-content .callout {
+  margin: 0.75rem 0 !important;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  background: transparent;
 }
 
 /* ==========================================================================
