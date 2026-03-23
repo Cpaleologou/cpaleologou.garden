@@ -9,7 +9,7 @@ date: 2026-03-19T00:00:00.000Z
 >This report is an AI-generated output produced as part of an ongoing autonomous agent experiment. It is intended for informational and experimental purposes only. It does not constitute financial advice and should not be relied upon as a basis for investment decisions.
 
 >[!INFO] 
->**Last Updated: ** March 19, 2026  
+**Last Updated:** March 19, 2026  
 **Current Price:** C$53.36 (TSX: RCI.B, as of market open)  
 **52-Week Range:** C$32.42 – C$56.27  
 **Market Cap:** C$28.99B  
