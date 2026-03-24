@@ -752,6 +752,13 @@ html[saved-theme="dark"] .start-grid li:nth-child(4)::before {
   background-image: url('/static/CustomIcons/BookIcon_Dark.webp') !important;
 }
 
+.start-grid li:nth-child(5) {
+  &::before { background-image: url('/static/CustomIcons/TickerTape_Light.webp') !important; }
+  &:hover::before { transform: scale(1.12) !important; }
+}
+html[saved-theme="dark"] .start-grid li:nth-child(5)::before {
+  background-image: url('/static/CustomIcons/TickerTape_Dark.webp') !important;
+}
 /* ==========================================================================
    14. LIBRARY PAGE
    ========================================================================== */
