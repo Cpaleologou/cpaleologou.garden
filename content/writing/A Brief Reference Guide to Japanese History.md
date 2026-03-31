@@ -84,8 +84,43 @@ The shogunate did not allow for burials within the city limits of Kamakura. So r
 #### Sanjusangen-do (Kyoto) 
 Kyoto remained the cultural hub of Japan, despite the core governing administration moving to Kamakura. While the original Sanjusangen-do temple was destroyed by a fire, it was rebuilt in 1266. It houses over a thousand life-sized statues which illustrate the hyper-realism valued in the era.
 ![[Sanjusangen-do.webp]]
-## The Ashikaga Period 
+## The Ashikaga Period (1336 - 1573)
+The Ashikaga period is one of the most paradoxical periods in Japanese history. It was a period of extreme chaos, war, and suffering. It also birthed the serene, Zen cultural movements we associate with Japan today, such as the famous tea ceremony and raked stone gardens.
+
+The period follows the disruptive Kamakura period, marked by Samurai taking power. The key figure in the shift towards the Ashikaga period is Emperor GoDaigo. For centuries the emperors of Japan were traditionally figureheads; often children when they were proclaimed emperor, with a father or grandfather pulling the strings behind the throne. GoDaigo stands out because he rose to the throne in his thirties and brought with him an incredible ambition and drive to change the entire political landscape of Japan. He wanted power and authority for himself, and wasn't afraid to start a war to do so.
+
+He recruited the help of a powerful general, Ashikaga Takauji. The two of them successfully overthrew the Kamakura government. But GoDaigo made a massive political mistake immediately following his claim to power. In an act of what can only be hubris, he denied the right of reward to the Samurai who fought with him to take power. Takauji immediately turned around and pointed his army at GoDaigo, forcing him to flee.
+
+GoDaigo escaped and settled in the southern city of Yoshino, setting up his own court and government to rival the administration that Takauji now presided over. The bifurcation of power created a 60-year period of profound national conflict, with the northern government claiming military authority and the south claiming its right to rule by God.
+### The Ōnin War
+Tensions rose for nearly 60 years as provincial warlords were continually sucked into the conflict, leaving their home provinces unguarded. By 1467, tensions peaked in what is called the Ōnin War. Sparked by a succession dispute on the Ashikaga side of the country, the bickering of the Kyoto elites signalled to every local warlord that there really was no central authority left. Warlords from all over the country made their way to the capital with as many as 250,000 troops. They fought to the death in the streets of Kyoto, destroying two-thirds of the city. Much of the cultural capital built up over the previous 700 years was reduced to ash.
+
+This was the spark of what came to be known as "the age of the warring states." The next 100 years was marked by extreme conflict, brutal authoritarianism, and what came to be known as *"Ge-koku-jō"*, or "Those below, subjugating those above." Essentially, it was a complete inversion of the social pyramid. Anyone could kill and overthrow anyone. Rank and position were meaningless. Power was all that mattered.
+
+In a world where only the strong survive, the most brutal often rise to the top. That is exactly what happened in the 1500s. The period marked the transition from the ruling Shugo class to the Daimyo elites. Where the Shugo of the prior century were essentially office positions appointed by and loyal to the Shogun, collecting rent from peasants on _behalf_ of the aristocracy, the Daimyo were completely different. Much closer to the feudal system of Europe, the Daimyo held power purely through military force and were loyal to no one. The population beneath the Daimyo was split between hereditary rank and outsiders, and land was no longer a matter of rent and stewardship, it was owned outright by the Daimyo and enforced via primogeniture. To understand the brutal political churn of the period, it is telling that of the 142 major Daimyo that existed in 1563, only 45 of those families remained by 1593.
+### Economics
+One of the most interesting developments of the turbulent Ashikaga period was that it also produced an economic explosion in productivity.
+
+In order to defend themselves, the Daimyo built massive, stone-walled castles, which were surrounded by merchant districts, temples, and artisan workshops. Despite the constant destruction, Japan became one of the most urbanized countries in the world for its time, and for the first time began to benefit from economies of agglomeration. On top of this, the constant demand from the militaries forced an acceleration of trade throughout the country.
+
+The struggle for merchants, though, was that hauling product from one side of the country to the other amidst civil war was essentially a suicide mission. The first innovation to combat this was the invention of _Kawase_, or "bills of exchange". This was paper, trust-based rights of ownership that allowed trade to occur without the physical movement of product. Second was the formation of trade guilds. Maniacal warlords were always a threat to individual merchants, but by forming guilds, each warlord risked being cut off or blacklisted as a trading partner entirely. Guilds allowed merchants and craftspeople to secure regional monopolies on products ranging from vegetable oil to armour, effectively becoming established industries rather than segregated producers and vendors.
+### Culture
+The defining cultural movement of the Ashikaga period is one of Zen Buddhism. As the people suffered waves of war, famine, and chaos, the serene, simple, and sobering ethos of Zen offered a mental and emotional anchor point amidst the disorder.
+#### Four Pillars of Ashikaga Aesthetics
+
+| Shibui                                                                               | Sabi                                                                                     | Wabi                                                                 | Yūgen                                           |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------- |
+| Austere/Restraint                                                                    | Aging/Mellowness                                                                         | Serenity/Solitude                                                    | Mystery/The Unseen                              |
+| The rejection of the flashy or ornate. The acceptance of simplicity and the subdued. | The desiccation, and profound depth acquired only through usage and the passing of time. | The tranquil, almost melancholic peace in simple, solitary settings. | The subtle, deeper meaning beneath the surface. |
+#### The Tea Ceremony
+There is no better example of Zen culture than the emerging practice of the tea ceremony. It is a philosophical practice based on the two centre columns above -- _Wabi-Sabi_ -- emphasizing the beauty of simplicity, where the worn-down clay bowl of the farmer becomes more beautiful than the elegant, decadent gold cup of the aristocracy.
+
+Importantly, the ceremony was not a practice accessible only to the educated and high class. It was for everybody, and it functioned that way. In fact the tea ceremony may be the most unifying and powerful social melding ritual in Japanese history. A wealthy merchant, a battle-hardened Samurai, and a courtly noble could all sit together in a tea hut and interact without social stigma or hierarchy getting in the way.
+#### The Rock Garden
+The other artistic result of Zen Buddhism was the rising prominence of dry gardens, which take the essentialism of Zen to the extreme. The style uses rocks and sand to replicate and invoke geographical landscapes like mountains, islands, and seas. They encourage the viewer to be guided by the garden elements themselves, exemplifying the principle of Yūgen. For example, a large, heavy rock may suggest fixing your posture and calming your breath.
 ### Tourism
+#### Ryōan-ji rock garden (Kyoto)
+#### Tea Ceremony (Widely available)
 ## The Tokugawa Period & Great Peace (*1603 – 1853*)
 ### Tourism
 ## Late Tokugawa & The Fall of the Bakufu (*1853 – 1867*)
