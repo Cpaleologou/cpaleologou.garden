@@ -40,6 +40,7 @@ The Byodo-in Temple is one of the few remaining structures from the Heian period
 ![[Byodo-inTemple.webp | Byodo-in Temple]]
 #### Daikaku-ji Temple & Osawa Pond (Kyoto)
 The Daikaku Temple was originally built for Emperor Saga (809 - 823). Osawa pond, in front is the oldest surviving artificial forest pond in Japan. Heian nobility often held moon-viewing parties on dragon-headed boats, like those described by Lady Murasaki in her journal.
+
 >On the day of the imperial visit, His Excellency had the boats poled over to where he could inspect them. They had been specially made for the occasion. They were most impressive; you could almost imagine that the dragon and mythical bird on the prows were alive.
 >
 >*The Diary of Lady Mursaki*
@@ -120,7 +121,15 @@ Importantly, the ceremony was not a practice accessible only to the educated and
 The other artistic result of Zen Buddhism was the rising prominence of dry gardens, which take the essentialism of Zen to the extreme. The style uses rocks and sand to replicate and invoke geographical landscapes like mountains, islands, and seas. They encourage the viewer to be guided by the garden elements themselves, exemplifying the principle of Yūgen. For example, a large, heavy rock may suggest fixing your posture and calming your breath.
 ### Tourism
 #### Ryōan-ji rock garden (Kyoto)
+This is the most famous rock garden in Japan and widely considered a masterpiece of minimalist Zen philosophy. There are 15 natural rocks arranged in mossy groupings surrounded by raked gravel. The star feature is that from the viewing platform, at least one rock is always hidden from view. It exemplifies Yūgen by highlighting the limitations of physical existence and the natural truth that there is always more we are unaware of. 
+![[Ryōan-ji.jpg]]
 #### Tea Ceremony (Widely available)
+The most authentic destinations to experience the tea ceremony are Kyoto and Uji. However, it is possible to find similar experiences in Tokyo, Osaka and elsewhere. The original tea ceremony, founded by Sen no Rikyu, is a multi-hour event that starts with a meal, followed by a thick tea and finished with a thinner tea. Nowadays though ceremonies are truncated to just a thin tea.
+![[TeaCeremony.png]]
+#### Kinkaku-ji & Ginkaku-ji (Kyoto)
+The Golden Pavilion and the Silver Pavillion, respectively. These two structures tell a wonderful story of the Ashikaga period. The first, Kinkaku-ji, was build by the third Shogun at the height of the dynasty. The second, Ginkaku-ji, was built by the eighth shogun. It was originally commissioned as a retirement retreat, however it was never finished as the Ōnin War consumed everything. It was never actually plated in silver and remains as a quiet, weathered structure displaying the arc of the Ashikaga period. 
+On a fun note, these two towers are also the inspiration for the Tin Tower and the Brass tower of Ecruteak City in Pokemon Gold and Silver. 
+![[GoldSilverPavillions.webp]]
 ## The Tokugawa Period & Great Peace (*1603 – 1853*)
 ### Tourism
 ## Late Tokugawa & The Fall of the Bakufu (*1853 – 1867*)
