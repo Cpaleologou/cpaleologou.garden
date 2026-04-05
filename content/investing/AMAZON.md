@@ -6,15 +6,13 @@ tags:
 publish: 'true'
 ---
 # AI Investment Committee — AMZN
-*Generated: 4/3/2026, 7:54:30 PM EST*
 
 ---
-
 ## 🔍 Data Scout
 
 # AMZN — ANALYST-GRADE DATA REPORT
 ### Amazon.com, Inc. | Data Scout — Investment Committee Filing
-**Report Date:** April 3, 2026 | All figures sourced from provided financial data package unless otherwise cited.
+All figures sourced from provided financial data package unless otherwise cited.
 
 ---
 

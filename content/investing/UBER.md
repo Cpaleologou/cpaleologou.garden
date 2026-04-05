@@ -6,10 +6,8 @@ tags:
 publish: 'true'
 ---
 # AI Investment Committee — UBER
-*Generated: 4/4/2026, 8:26:13 PM EST*
 
 ---
-
 ## 🔍 Data Scout
 
 # UBER — DATA SCOUT REPORT

@@ -1,5 +1,5 @@
 ---
-title: 'ROGERS COMMUNICATIONS INC. (TSX: RCI.B / NYSE: RCI)'
+title: ROGERS COMMUNICATIONS INC.
 tags:
   - '#Investing'
 publish: 'true'

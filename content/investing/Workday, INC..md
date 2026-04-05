@@ -1,5 +1,5 @@
 ---
-title: 'WORKDAY, INC. (NASDAQ: WDAY)'
+title: 'WORKDAY, INC.'
 tags:
   - '#Investing'
 publish: 'true'
