@@ -1,6 +1,6 @@
 ---
 title: A Brief Reference Guide to Japanese History
-date: 2026-03-09T00:00:00.000Z
+date: 2026-04-01T00:00:00.000Z
 tags:
   - '#Japan'
   - '#Surveyed'
