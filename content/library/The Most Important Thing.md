@@ -9,9 +9,10 @@ date: 2026-04-10T00:00:00.000Z
 <div class="book-header">
   <img src="/assets/TheMostImportThingCover.jpg" alt="The Most Important Thing">
   <div class="book-header-meta">
+    <p class="book-genre">Investing · 2011</p>
     <p class="book-author">Howard Marks</p>
     <hr>
-    <p>Uncommon Sense For The Thoughtful Investor</p>
+    <p class="book-subtitle">Uncommon Sense For The Thoughtful Investor</p>
     <p class="book-date-read">Read Mar. 29, 2026</p>
   </div>
 </div>

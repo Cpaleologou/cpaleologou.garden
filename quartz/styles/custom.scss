@@ -843,14 +843,6 @@ body[data-slug="library"] {
 
 /* ==========================================================================
    15. BOOK HEADER COMPONENT
-   Usage in markdown:
-     <div class="book-header">
-       <img src="/assets/cover.jpg" alt="Book Title">
-       <div class="book-header-meta">
-         <p class="book-author">Author Name</p>
-         <p>Description text…</p>
-       </div>
-     </div>
    ========================================================================== */
 
 .book-header {
@@ -866,7 +858,6 @@ body[data-slug="library"] {
     gap: 1.5rem;
   }
 
-  /* Reset the global photo treatment for the cover */
   img {
     width: 200px !important;
     flex-shrink: 0;
@@ -896,30 +887,43 @@ body[data-slug="library"] {
   flex-direction: column;
   justify-content: flex-start;
   padding-top: 0.25rem;
+  gap: 0;
+
+  .book-genre {
+    font-family: var(--codeFont) !important;
+    font-size: 0.65rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.18em !important;
+    text-transform: uppercase !important;
+    color: var(--gray) !important;
+    margin: 0 0 0.5rem 0 !important;
+    opacity: 0.75;
+  }
 
   .book-author {
     font-family: var(--bodyFont) !important;
     font-size: 1.15rem !important;
     font-weight: 300 !important;
     color: var(--gray) !important;
-    margin: 0 0 0.75rem 0 !important;
+    margin: 0 0 0.6rem 0 !important;
     line-height: 1.3 !important;
   }
 
   hr {
     border: none !important;
     border-top: 1.5px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
-    margin: 0 0 0.85rem 0 !important;
+    margin: 0 0 0.6rem 0 !important;
     width: 2.5rem !important;
     box-shadow: none !important;
   }
 
-  p:not(.book-author):not(.book-date-read) {
-    font-size: 1.05rem !important;
-    font-weight: 300 !important;
-    line-height: 1.75 !important;
-    color: var(--dark) !important;
-    margin: 0 !important;
+  .book-subtitle {
+    font-family: var(--headerFont) !important;
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+    line-height: 1.25 !important;
+    color: var(--secondary) !important;
+    margin: 0 0 1.25rem 0 !important;
   }
 
   .book-date-read {
@@ -929,6 +933,8 @@ body[data-slug="library"] {
     letter-spacing: 0.12em !important;
     text-transform: uppercase !important;
     color: var(--gray) !important;
-    margin: 0.75rem 0 0 0 !important;
+    margin: 0 !important;
+    padding-top: 0.75rem !important;
+    border-top: 1px solid color-mix(in srgb, var(--gray) 20%, transparent) !important;
   }
 }
