@@ -23,4 +23,4 @@ Since prices reflect the perception of a stock, rather than its value, it follow
 ---
 ## Reference
 
-[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)
+[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing-Uncommon-Sense-for-the-Thoughtful-Investor)

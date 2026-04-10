@@ -22,4 +22,4 @@ You can buy a stock at an elevated price, and it can continue to go up for sever
 ---
 ## Reference
 
-[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)
+[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing-Uncommon-Sense-for-the-Thoughtful-Investor)

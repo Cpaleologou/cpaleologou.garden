@@ -6,7 +6,8 @@ tags:
 publish: 'true'
 date: 2026-04-10T00:00:00.000Z
 ---
-## By Howard Marks · Read Mar. 29, 2026
+![[TheMostImportThingCover.jpg]]
+### By Howard Marks · Read Mar. 29, 2026
 ---
 ## Summary
 **The Most Important Thing** is a collection of essays and reflections on lessons learned about investing and markets through Marks' career as a value investor.

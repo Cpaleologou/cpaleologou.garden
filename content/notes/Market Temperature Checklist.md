@@ -41,4 +41,4 @@ The above exercise is meant to provide a temperature check on whether the market
 ---
 ## Reference
 
-[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)
+[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing-Uncommon-Sense-for-the-Thoughtful-Investor)
