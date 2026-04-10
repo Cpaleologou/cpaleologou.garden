@@ -917,12 +917,23 @@ body[data-slug="library"] {
     box-shadow: none !important;
   }
 
+  .book-title {
+  font-family: var(--headerFont) !important;
+  font-size: 1.75rem !important;
+  font-weight: 700 !important;
+  line-height: 1.15 !important;
+  color: var(--secondary) !important;
+  margin: 0 0 0.2rem 0 !important;
+  }
+
   .book-subtitle {
     font-family: var(--headerFont) !important;
-    font-size: 1.4rem !important;
-    font-weight: 600 !important;
-    line-height: 1.25 !important;
+    font-size: 1.05rem !important;
+    font-weight: 300 !important;
+    font-style: italic !important;
+    line-height: 1.3 !important;
     color: var(--secondary) !important;
+    opacity: 0.75;
     margin: 0 0 1.25rem 0 !important;
   }
 
