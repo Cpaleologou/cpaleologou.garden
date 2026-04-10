@@ -20,4 +20,4 @@ This means that while extraction and refining processes may be similar across si
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

@@ -20,4 +20,4 @@ Investing in such firms - especially in markets with tailwinds - can reduce down
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

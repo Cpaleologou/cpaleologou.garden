@@ -26,4 +26,4 @@ This three-step process may need to be repeated **hundreds** of times to achieve
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

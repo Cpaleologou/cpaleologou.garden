@@ -18,4 +18,4 @@ Due to the risk associated with becoming dependent on a single rare earth materi
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

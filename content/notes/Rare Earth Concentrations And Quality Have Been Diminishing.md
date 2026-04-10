@@ -22,4 +22,4 @@ This is leading to a situation where the low hanging fruit as been picked. _Cete
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

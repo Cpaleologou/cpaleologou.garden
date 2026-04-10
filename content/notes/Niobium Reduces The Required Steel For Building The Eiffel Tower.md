@@ -22,4 +22,4 @@ That represents a ~71% decrease in raw materials.
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

@@ -22,4 +22,4 @@ First, China may use access to these critical materials as a geopolitical lever,
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

@@ -20,4 +20,4 @@ What can be said is that demand will likely outpace most forecasts. Technologica
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

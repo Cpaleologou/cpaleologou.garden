@@ -21,4 +21,4 @@ Just having mines that hold or extract rare earth ore is not enough to create a 
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

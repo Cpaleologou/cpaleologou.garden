@@ -16,4 +16,4 @@ Metalloids are valuable for technology because they conduct electricity under so
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

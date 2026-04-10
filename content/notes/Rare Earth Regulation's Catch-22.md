@@ -17,4 +17,4 @@ ESG movements successfully suppress demand for conflict resources in countries l
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

@@ -17,4 +17,4 @@ Despite that not being "significant", it is enough that through expansion or con
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

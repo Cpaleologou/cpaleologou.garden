@@ -24,4 +24,4 @@ What appears to be a resilient pyramid-like supply chain to businesses at the to
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

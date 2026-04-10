@@ -17,4 +17,4 @@ As technology continues to advance, break throughs in physicals, chemistry, biol
 ---
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)

@@ -19,4 +19,4 @@ The average age of the North American mining workforce is ~60 y/o and facing ret
 
 ## Reference
 
-� The Elements of Power
+[🟢 The Elements of Power](/library/The-Elements-of-Power)
