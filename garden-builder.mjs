@@ -52,7 +52,7 @@ const FOLDERS_TO_SYNC = [
 // create a new book note. Example:
 // "The Ethics of Authenticity": "/notes/book-ethics-of-authenticity"
 const BOOK_LINK_MAP = {
-    "🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor": "/library/The-Most-Important-Thing-Uncommon-Sense-for-the-Thoughtful-Investor"
+    "🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor": "/library/The-Most-Important-Thing"
 };
 
 // --- EXECUTION ---

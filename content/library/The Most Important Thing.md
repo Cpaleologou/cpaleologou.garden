@@ -1,13 +1,20 @@
 ---
-title: The Most Important Thing - Uncommon Sense For The Thoughtful Investor
+title: The Most Important Thing
 tags:
   - Book
   - Investing
 publish: 'true'
 date: 2026-04-10T00:00:00.000Z
 ---
-![[TheMostImportThingCover.jpg]]
-### By Howard Marks · Read Mar. 29, 2026
+<div class="book-header">
+  <img src="/assets/TheMostImportantThingCover.jpg" alt="The Most Important Thing">
+  <div class="book-header-meta">
+    <p class="book-author">Howard Marks</p>
+    <hr>
+    <p>Uncommon Sense For The Thoughtful Investor</p>
+    <p class="book-date-read">Read Mar. 29, 2026</p>
+  </div>
+</div>
 ---
 ## Summary
 **The Most Important Thing** is a collection of essays and reflections on lessons learned about investing and markets through Marks' career as a value investor.

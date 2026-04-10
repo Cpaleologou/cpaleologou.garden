@@ -23,4 +23,4 @@ Trying to create or manufacture a narrative to justify the next big thing almost
 ---
 ## Reference
 
-[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing-Uncommon-Sense-for-the-Thoughtful-Investor)
+[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)

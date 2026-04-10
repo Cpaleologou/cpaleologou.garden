@@ -21,4 +21,4 @@ Prices reflect the consensus interpretation of all available information which w
 ---
 ## Reference
 
-[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing-Uncommon-Sense-for-the-Thoughtful-Investor)
+[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)
