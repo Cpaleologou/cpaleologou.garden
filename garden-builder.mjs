@@ -39,8 +39,21 @@ const FOLDERS_TO_SYNC = [
         name: 'Investing', 
         source: path.join(SOURCE_ROOT, 'investing'),
         dest: './content/investing'
+    },
+    {
+        name: 'Library', 
+        source: path.join(SOURCE_ROOT, 'library'),
+        dest: './content/library'
     }
 ];
+
+// Maps Readwise source note titles (exact filename without .md) to their
+// published book note paths in the garden. Add an entry here whenever you
+// create a new book note. Example:
+// "The Ethics of Authenticity": "/notes/book-ethics-of-authenticity"
+const BOOK_LINK_MAP = {
+    "🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor": "/library/The Most Important Thing"
+};
 
 // --- EXECUTION ---
 async function buildGarden() {
@@ -146,7 +159,11 @@ async function buildGarden() {
             coreFilename = path.basename(coreFilename);
 
             if (publicFiles.has(coreFilename)) {
-                return match; 
+                return match;
+            } else if (BOOK_LINK_MAP[coreFilename]) {
+                const alias = linkTarget.split('|')[1];
+                const displayText = alias ? alias : coreFilename;
+                return `[${displayText}](${BOOK_LINK_MAP[coreFilename]})`;
             } else {
                 // Private/missing link: Pretty-print text
                 let displayText = linkTarget.split('|')[0].split('#')[0]; 

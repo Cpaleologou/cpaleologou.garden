@@ -131,6 +131,8 @@ The Golden Pavilion and the Silver Pavillion, respectively. These two structures
 On a fun note, these two towers are also the inspiration for the Tin Tower and the Brass tower of Ecruteak City in Pokemon Gold and Silver. 
 ![[GoldSilverPavillions.webp]]
 ## The Tokugawa Period & Great Peace (*1603 – 1853*)
+
+
 ### Tourism
 ## Late Tokugawa & The Fall of the Bakufu (*1853 – 1867*)
 ### Background
