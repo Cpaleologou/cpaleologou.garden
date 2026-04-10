@@ -6,14 +6,56 @@ publish: 'true'
 ## Non-fiction I Frequently Think About
 
 <div class="library-grid">
-- [![Breakneck](Breakneck.webp)](https://www.google.ca/books/edition/Breakneck/yMFEEQAAQBAJ?hl=en) **Breakneck: China's Quest to Engineer the Future** <span class="author">by Dan Wang</span>
-- [![The Ethics of Authenticity](EthicsOfAuthenticity.jpg)](https://www.google.ca/books/edition/The_Ethics_of_Authenticity/adnIDwAAQBAJ?hl=en&gbpv=0) **The Ethics of Authenticity** <span class="author">by Charles Taylor</span>
-- [![What It Takes](WhatItTakes.jpg)](https://www.google.ca/books/edition/What_it_Takes/pzuyxgEACAAJ?hl=en) **What It Takes: Lessons in the Pursuit of Excellence** <span class="author">by Stephen A. Schwarzman</span>
-- [![Range: Why Generalists Triumph in a Specialized World](Range.jpg)](https://www.google.ca/books/edition/Range/TzG5wgEACAAJ?hl=en) **Range: Why Generalists Triumph in a Specialized World** <span class="author">by David Epstein</span>
-- [![Why Fish Don’t Exist](WhyFishDontExist.jpg)](https://www.google.ca/books/edition/Why_Fish_Don_t_Exist/n7abxgEACAAJ?hl=en) **Why Fish Don’t Exist: A Story of Loss, Love, and the Hidden Order of Life** <span class="author">by Lulu Miller</span>
-- [![Thinking in Bets](ThinkingInBets.jpg)](https://www.google.ca/books/edition/Thinking_in_Bets/CI-RDwAAQBAJ?hl=en) **Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts** <span class="author">by Annie Duke</span>
-- [![Deep Work](DeepWork.jpg)](https://www.google.ca/books/edition/Deep_Work/lZpFCgAAQBAJ?hl=en) **Deep Work: Rules for Focused Success in a Distracted World** <span class="author">by Cal Newport</span>
-- [![Why We Sleep](WhyWeSleep.webp)](https://www.google.ca/books/edition/Why_We_Sleep/mIh4swEACAAJ?hl=en) **Why We Sleep: Unlocking the Power of Sleep and Dreams** <span class="author">by Matthew Walker</span>
-- [![The Great Game](TheGreatGame.jpg)](https://www.google.ca/books/edition/The_Great_Game/o6JNEAAAQBAJ?hl=en) **The Great Game: The Struggle for Empire in Central Asia** <span class="author">by Peter Hopkirk</span>
-
+  <ul>
+    <li>
+      <a href="/notes/book-most-important-thing"><img src="/assets/TheMostImportThingCover.jpg" alt="The Most Important Thing"></a>
+      <a href="/notes/book-most-important-thing">The Most Important Thing</a>
+      <span class="author">Howard Marks</span>
+    </li>
+    <li>
+      <a href="https://www.google.ca/books/edition/Breakneck/yMFEEQAAQBAJ?hl=en"><img src="/assets/Breakneck.webp" alt="Breakneck"></a>
+      <a href="https://www.google.ca/books/edition/Breakneck/yMFEEQAAQBAJ?hl=en">Breakneck: China's Quest to Engineer the Future</a>
+      <span class="author">Dan Wang</span>
+    </li>
+    <li>
+      <a href="https://www.google.ca/books/edition/The_Ethics_of_Authenticity/adnIDwAAQBAJ?hl=en&gbpv=0"><img src="/assets/EthicsOfAuthenticity.jpg" alt="The Ethics of Authenticity"></a>
+      <a href="https://www.google.ca/books/edition/The_Ethics_of_Authenticity/adnIDwAAQBAJ?hl=en&gbpv=0">The Ethics of Authenticity</a>
+      <span class="author">Charles Taylor</span>
+    </li>
+    <li>
+      <a href="https://www.google.ca/books/edition/What_it_Takes/pzuyxgEACAAJ?hl=en"><img src="/assets/WhatItTakes.jpg" alt="What It Takes"></a>
+      <a href="https://www.google.ca/books/edition/What_it_Takes/pzuyxgEACAAJ?hl=en">What It Takes: Lessons in the Pursuit of Excellence</a>
+      <span class="author">Stephen A. Schwarzman</span>
+    </li>
+    <li>
+      <a href="https://www.google.ca/books/edition/Range/TzG5wgEACAAJ?hl=en"><img src="/assets/Range.jpg" alt="Range"></a>
+      <a href="https://www.google.ca/books/edition/Range/TzG5wgEACAAJ?hl=en">Range: Why Generalists Triumph in a Specialized World</a>
+      <span class="author">David Epstein</span>
+    </li>
+    <li>
+      <a href="https://www.google.ca/books/edition/Why_Fish_Don_t_Exist/n7abxgEACAAJ?hl=en"><img src="/assets/WhyFishDontExist.jpg" alt="Why Fish Don't Exist"></a>
+      <a href="https://www.google.ca/books/edition/Why_Fish_Don_t_Exist/n7abxgEACAAJ?hl=en">Why Fish Don't Exist</a>
+      <span class="author">Lulu Miller</span>
+    </li>
+    <li>
+      <a href="https://www.google.ca/books/edition/Thinking_in_Bets/CI-RDwAAQBAJ?hl=en"><img src="/assets/ThinkingInBets.jpg" alt="Thinking in Bets"></a>
+      <a href="https://www.google.ca/books/edition/Thinking_in_Bets/CI-RDwAAQBAJ?hl=en">Thinking in Bets</a>
+      <span class="author">Annie Duke</span>
+    </li>
+    <li>
+      <a href="https://www.google.ca/books/edition/Deep_Work/lZpFCgAAQBAJ?hl=en"><img src="/assets/DeepWork.jpg" alt="Deep Work"></a>
+      <a href="https://www.google.ca/books/edition/Deep_Work/lZpFCgAAQBAJ?hl=en">Deep Work: Rules for Focused Success in a Distracted World</a>
+      <span class="author">Cal Newport</span>
+    </li>
+    <li>
+      <a href="https://www.google.ca/books/edition/Why_We_Sleep/mIh4swEACAAJ?hl=en"><img src="/assets/WhyWeSleep.webp" alt="Why We Sleep"></a>
+      <a href="https://www.google.ca/books/edition/Why_We_Sleep/mIh4swEACAAJ?hl=en">Why We Sleep: Unlocking the Power of Sleep and Dreams</a>
+      <span class="author">Matthew Walker</span>
+    </li>
+    <li>
+      <a href="https://www.google.ca/books/edition/The_Great_Game/o6JNEAAAQBAJ?hl=en"><img src="/assets/TheGreatGame.jpg" alt="The Great Game"></a>
+      <a href="https://www.google.ca/books/edition/The_Great_Game/o6JNEAAAQBAJ?hl=en">The Great Game: The Struggle for Empire in Central Asia</a>
+      <span class="author">Peter Hopkirk</span>
+    </li>
+  </ul>
 </div>
