@@ -52,7 +52,7 @@ const FOLDERS_TO_SYNC = [
 // create a new book note. Example:
 // "The Ethics of Authenticity": "/notes/book-ethics-of-authenticity"
 const BOOK_LINK_MAP = {
-    "🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor": "/library/The Most Important Thing"
+    "🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor": "/library/The-Most-Important-Thing"
 };
 
 // --- EXECUTION ---
@@ -163,7 +163,7 @@ async function buildGarden() {
             } else if (BOOK_LINK_MAP[coreFilename]) {
                 const alias = linkTarget.split('|')[1];
                 const displayText = alias ? alias : coreFilename;
-                return `[${displayText}](${BOOK_LINK_MAP[coreFilename]})`;
+                return `[${displayText}](${encodeURI(BOOK_LINK_MAP[coreFilename])})`;
             } else {
                 // Private/missing link: Pretty-print text
                 let displayText = linkTarget.split('|')[0].split('#')[0]; 
