@@ -47,7 +47,7 @@ There is no clean resolution to this. Social media is not going away. But unders
 ###### Christian P.
 ## Further Reading
 - [Filter bubbles in recommender systems: Fact or fallacy—A systematic review](https://wires.onlinelibrary.wiley.com/doi/10.1002/widm.1512)
-- [[When Personal Branding Holds You Back]]
+- [[You Are Not A Brand]]
 - [How To Do Nothing](https://www.google.ca/books/edition/How_to_Do_Nothing/OMBkDwAAQBAJ?hl=en&gbpv=0)
 - [Essence Is Fluttering](https://aeon.co/essays/how-to-be-yourself-when-you-have-no-self-lessons-from-zhuangzi?utm_source=Aeon+Newsletter&utm_campaign=63aa6924a1-EMAIL_CAMPAIGN_2025_09_01&utm_medium=email&utm_term=0_-4ef8a26106-838209624)
 - [Your Phone Is The Reason You Have No Identity](https://theweeklyscrapbook.substack.com/p/your-phone-is-the-reason-you-have?r=2pfh5i&utm_medium=ios&shareImageVariant=overlay&triedRedirect=true)

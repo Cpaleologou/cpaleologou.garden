@@ -24,7 +24,6 @@ date: 2026-04-10T00:00:00.000Z
 
 ---
 ## Takeaways
-
 ### Why Rare Earths Matter
 The Eiffel Tower, when built, required 7,000 tonnes of steel. Today, if even a small amount of Niobium is added to the steel alloy, the strength of the steel would be increased enough that only 2,000 tonnes would be needed — a ~71% decrease in raw materials. This is one illustration of a broader pattern: small quantities of rare elements can dramatically change the properties of the materials they touch.
 

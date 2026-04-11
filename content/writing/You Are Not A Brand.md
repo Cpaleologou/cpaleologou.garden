@@ -1,5 +1,5 @@
 ---
-title: When Personal Branding Holds You Back
+title: You Are Not A Brand
 tags:
   - '#Surveyed'
 publish: 'true'
