@@ -52,47 +52,10 @@ First-level thinking takes the fear at face value. Second-level thinking asks wh
 The other thing second level thinking implies is that the market temperature should be considered as well before acting. Marks provides a framework. Ask whether the economy is vibrant or sluggish. Whether lenders are eager or hesitant. Whether other investors are optimistic or distressed. Whether asset prices are high or low. Whether capital markets are loose or tight. In the words of Marks, if most of your answers cluster in the left column, hold onto your wallets.
 
 I built a skill for Claude to do exactly this and here is the output:
+
+--- 
+
 <div>
-<style>
-
-.mmt-header { font-size: 20px; font-weight: 500; margin: 1.5rem 0 0.25rem; color: var(--color-text-primary); }
-
-.mmt-sub { font-size: 13px; color: var(--color-text-secondary); margin-bottom: 1.5rem; }
-
-.score-bar { display: flex; gap: 8px; margin-bottom: 1.5rem; align-items: stretch; border-radius: var(--border-radius-md); overflow: hidden; height: 40px; }
-
-.score-seg { display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 500; }
-
-.seg-left { background: #F7C1C1; color: #791F1F; }
-
-.seg-split { background: #FAC775; color: #633806; }
-
-.seg-right { background: #C0DD97; color: #27500A; }
-
-table { width: 100%; border-collapse: collapse; font-size: 13px; }
-
-th { text-align: left; font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: .04em; color: var(--color-text-secondary); padding: 6px 8px; border-bottom: 0.5px solid var(--color-border-tertiary); }
-
-td { padding: 8px 8px; vertical-align: top; border-bottom: 0.5px solid var(--color-border-tertiary); line-height: 1.45; }
-
-tr:last-child td { border-bottom: none; }
-
-.pair-label { font-weight: 500; color: var(--color-text-primary); }
-
-.evidence { color: var(--color-text-secondary); font-size: 12px; margin-top: 2px; }
-
-.badge { display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: 11px; font-weight: 500; white-space: nowrap; }
-
-.badge-left { background: #F7C1C1; color: #791F1F; }
-
-.badge-right { background: #C0DD97; color: #27500A; }
-
-.badge-split { background: #FAC775; color: #633806; }
-
-</style>
-
-  
-
 <h2 class="sr-only">Howard Marks Market Temperature — April 2026: 13 Left, 5 Split, 4 Right</h2>
 
   
@@ -358,6 +321,7 @@ tr:last-child td { border-bottom: none; }
 </table>
 </div>
 
+--- 
 Firmly on the side of risk. Buffett might say "Be greedy when others are fearful, and fearful when others are greedy." But Marks makes another important point on fear as well. The more subtle and pernicious side of fear does not manifest in panic selling, but rather paralysis. You watch prices fall and tell yourself to wait until things are clearer, until the bottom is in. But things are never clearer at the bottom. The narrative is always worst exactly when the price is most attractive. 
 
 The fact is that, as discussed above, even a well-reasoned position can go against you for months or years. An undervalued stock can fall further. The antidote to panic and fear is a rational analysis: not necessarily a quantitative model, but a qualitative thesis, and well-reasoned thesis breakers. That is what gives you the confidence to hold through the discomfort of being early, and separate a signal that you were wrong from emotional noise. 
