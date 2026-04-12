@@ -47,7 +47,7 @@ body::before {
 article p,
 article li {
   font-size: 1.075rem !important;
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   line-height: 1.85 !important;
   color: var(--dark) !important;
 }
@@ -57,7 +57,7 @@ article li {
 .center article > p:first-of-type::first-letter {
   font-family: var(--headerFont);
   font-size: 4.75rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 0.76;
   float: left;
   margin: 0.06em 0.08em 0 0;
