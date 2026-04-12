@@ -780,171 +780,31 @@ body[data-slug="index"] {
     display: none !important;
   }
 
-  /* base.scss sets min-width: 100% on .center — override both */
+  /* base.scss sets min-width: 100% on .center which overrides max-width.
+     Override both so the column stays readable and has right breathing room. */
   .center {
     min-width: 0 !important;
     max-width: 800px !important;
   }
 
-  /* h2 section headings */
+  /* Welcome h6 — primary visual anchor */
+  article h6 {
+    margin-top: 3rem !important;
+    margin-bottom: 0.85rem !important;
+    font-size: 3em !important;
+    opacity: 1 !important;
+  }
+
+  /* Intro prose */
+  article > p {
+    line-height: 2.05 !important;
+    font-size: 1.05rem !important;
+  }
+
+  /* h2 sections */
   article h2 {
     margin-top: 3.5rem !important;
   }
-}
-
-/* ------------------------------------------------------------------
-   16a. HERO LEDE
-   ------------------------------------------------------------------ */
-
-.home-hero {
-  padding: 2.5rem 0 2.25rem;
-  border-bottom: 1px solid color-mix(in srgb, var(--gray) 20%, transparent);
-  margin-bottom: 2.75rem;
-}
-
-.home-lede {
-  font-family: var(--headerFont) !important;
-  font-size: 1.85rem !important;
-  font-weight: 700 !important;
-  line-height: 1.35 !important;
-  color: var(--secondary) !important;
-  letter-spacing: -0.02em !important;
-  margin: 0 0 0.9rem !important;
-}
-
-.home-tagline {
-  font-family: var(--codeFont) !important;
-  font-size: 0.68rem !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.15em !important;
-  color: var(--gray) !important;
-  opacity: 0.75;
-  margin: 0 !important;
-}
-
-/* ------------------------------------------------------------------
-   16b. TWO-COLUMN RECENT CONTENT
-   ------------------------------------------------------------------ */
-
-.home-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  margin-bottom: 0.5rem;
-
-  @media (max-width: 600px) {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-}
-
-.home-col-heading {
-  font-family: var(--headerFont) !important;
-  font-size: 1.05rem !important;
-  font-weight: 700 !important;
-  color: var(--dark) !important;
-  background: none !important;
-  padding: 0 !important;
-  border-radius: 0 !important;
-  display: block !important;
-  margin-bottom: 0.35rem !important;
-  text-decoration: none !important;
-  line-height: normal !important;
-
-  &:hover { color: var(--tertiary) !important; }
-}
-
-.home-col-desc {
-  font-family: var(--bodyFont) !important;
-  font-size: 0.82rem !important;
-  font-weight: 300 !important;
-  color: var(--gray) !important;
-  line-height: 1.5 !important;
-  margin: 0 0 0.9rem !important;
-}
-
-.home-col-list {
-  list-style: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-
-  li {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: baseline !important;
-    gap: 1rem !important;
-    padding: 0.55rem 0 !important;
-    margin: 0 !important;
-    border-bottom: 1px solid color-mix(in srgb, var(--gray) 15%, transparent) !important;
-
-    &:first-child {
-      border-top: 1px solid color-mix(in srgb, var(--gray) 15%, transparent) !important;
-    }
-
-    a {
-      font-family: var(--bodyFont) !important;
-      font-size: 0.86rem !important;
-      font-weight: 400 !important;
-      color: var(--dark) !important;
-      background: none !important;
-      padding: 0 !important;
-      border-radius: 0 !important;
-      line-height: 1.4 !important;
-      flex: 1 !important;
-
-      &:hover { color: var(--tertiary) !important; }
-    }
-  }
-}
-
-.home-col-date {
-  font-family: var(--codeFont) !important;
-  font-size: 0.6rem !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.08em !important;
-  color: var(--gray) !important;
-  opacity: 0.7;
-  white-space: nowrap !important;
-  flex-shrink: 0 !important;
-}
-
-/* ------------------------------------------------------------------
-   16c. MATURITY LEGEND
-   ------------------------------------------------------------------ */
-
-.maturity-legend {
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 0.65rem !important;
-  margin: 1.25rem 0 0 !important;
-}
-
-.maturity-item {
-  display: flex !important;
-  align-items: baseline !important;
-  gap: 0.9rem !important;
-}
-
-.maturity-tag {
-  font-family: var(--codeFont) !important;
-  font-size: 0.65rem !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.1em !important;
-  background-color: var(--lightgray) !important;
-  border: 1px solid color-mix(in srgb, var(--gray) 55%, transparent) !important;
-  border-radius: 4px !important;
-  padding: 0.2rem 0.65rem !important;
-  color: var(--secondary) !important;
-  white-space: nowrap !important;
-  flex-shrink: 0 !important;
-}
-
-.maturity-desc {
-  font-family: var(--bodyFont) !important;
-  font-size: 0.85rem !important;
-  font-weight: 300 !important;
-  color: var(--gray) !important;
-  line-height: 1.5 !important;
 }
 /* ==========================================================================
    14. LIBRARY PAGE
