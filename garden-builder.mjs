@@ -53,7 +53,8 @@ const FOLDERS_TO_SYNC = [
 // "The Ethics of Authenticity": "/notes/book-ethics-of-authenticity"
 const BOOK_LINK_MAP = {
     "🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor": "/library/The-Most-Important-Thing",
-    "🟢 The Elements of Power": "/library/The-Elements-of-Power"
+    "🟢 The Elements of Power": "/library/The-Elements-of-Power",
+    "🟢 Breakneck": "/library/Breakneck"
 };
 
 // --- EXECUTION ---

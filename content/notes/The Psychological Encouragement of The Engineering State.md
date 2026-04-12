@@ -28,4 +28,4 @@ Understanding why the Chinese government has spent so many resources on building
 ---
 ## Reference
 
-� Breakneck
+[🟢 Breakneck](/library/Breakneck)
