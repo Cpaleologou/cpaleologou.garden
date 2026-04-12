@@ -768,47 +768,49 @@ html[saved-theme="dark"] .start-grid li:nth-child(5)::before {
 
 body[data-slug="index"] {
 
+  // "Welcome" h6 — override Pinyon Script; render as large italic Playfair Display
   article h6 {
-    margin-top: 3rem !important;
-    margin-bottom: 0.85rem !important;
-    font-size: 3em !important;
+    font-family: var(--headerFont) !important;
+    font-size: 3.5rem !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    color: var(--secondary) !important;
+    letter-spacing: -0.025em !important;
+    line-height: 1.05 !important;
+    margin-top: 2.5rem !important;
+    margin-bottom: 1.75rem !important;
     opacity: 1 !important;
   }
 
-  // Lede paragraph — first <p> gets the left-border pullquote treatment.
-  // If this lands on the wrong paragraph, inspect the DOM and adjust
-  // the nth-of-type number — Quartz sometimes injects elements before body copy.
-  article > p:first-of-type {
-    border-left: 3px solid var(--tertiary);
-    padding-left: 1.25rem;
+  // Lede — first h2 ("I'm Christian...") gets left-border pullquote treatment.
+  // Overrides the global italic section-heading style for this element only.
+  article > h2:first-of-type {
+    border-left: 3px solid var(--tertiary) !important;
+    padding-left: 1.25rem !important;
     font-family: var(--headerFont) !important;
-    font-size: 1.2rem !important;
+    font-size: 1.35rem !important;
     font-weight: 400 !important;
-    line-height: 1.5 !important;
+    font-style: normal !important;
+    line-height: 1.45 !important;
     color: var(--dark) !important;
+    margin-top: 0 !important;
     margin-bottom: 1.5rem !important;
-
-    // Suppress the drop cap on the lede — it conflicts with the border treatment
-    &::first-letter {
-      font-size: inherit !important;
-      float: none !important;
-      font-weight: inherit !important;
-      margin: 0 !important;
-      color: inherit !important;
-    }
   }
 
-  // Second paragraph — the italic garden subhead
-  article > p:nth-of-type(2) {
+  // Subhead — first h3 ("This is my digital garden...")
+  article > h3:first-of-type {
     font-family: var(--headerFont) !important;
+    font-size: 1.15rem !important;
+    font-weight: 400 !important;
     font-style: italic !important;
-    font-size: 1.05rem !important;
     color: var(--tertiary) !important;
+    margin-top: 0 !important;
     margin-bottom: 1.75rem !important;
+    line-height: 1.5 !important;
   }
 
-  // Third paragraph — restore drop cap here ("Most of what's here...")
-  article > p:nth-of-type(3)::first-letter {
+  // Drop cap on first body paragraph ("Most of what's here...")
+  article > p:first-of-type::first-letter {
     font-family: var(--headerFont);
     font-size: 4.75rem;
     font-weight: 400;
@@ -818,12 +820,17 @@ body[data-slug="index"] {
     color: var(--tertiary);
   }
 
+  // All body paragraphs — reset any stray styles, ensure clean rendering
   article > p {
+    font-family: var(--bodyFont) !important;
+    font-style: normal !important;
+    color: var(--dark) !important;
     line-height: 1.9 !important;
     font-size: 1.05rem !important;
   }
 
-  article h2 {
+  // "About This Garden" / "Places to Start" — subsequent h2s keep section style
+  article > h2:not(:first-of-type) {
     margin-top: 3.5rem !important;
   }
 }
