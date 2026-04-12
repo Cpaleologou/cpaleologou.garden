@@ -765,30 +765,6 @@ html[saved-theme="dark"] .start-grid li:nth-child(5)::before {
    ========================================================================== */
 
 body[data-slug="index"] {
-  /* Collapse right sidebar column at desktop */
-  @media (min-width: 1200px) {
-    .page > #quartz-body {
-      grid-template-columns: 320px auto !important;
-      grid-template-areas:
-        "grid-sidebar-left grid-header"
-        "grid-sidebar-left grid-center"
-        "grid-sidebar-left grid-footer" !important;
-    }
-  }
-
-  .sidebar.right {
-    display: none !important;
-  }
-
-  /* base.scss sets min-width: 100% and margin: auto on .center.
-     Override so it pins left and doesn't float into the middle of the grid cell. */
-  .center {
-    min-width: 0 !important;
-    max-width: 800px !important;
-    margin-left: 0 !important;
-    margin-right: auto !important;
-  }
-
   /* Welcome h6 — primary visual anchor */
   article h6 {
     margin-top: 3rem !important;
