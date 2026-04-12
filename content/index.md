@@ -4,15 +4,14 @@ Date: null
 tags: null
 publish: 'true'
 ---
-###### I'm Christian — a CPA and sr. financial analyst writing on history, philosophy, technology and finance. 
-This is my digital garden; a collection of notes, half-formed ideas, and occasional essays.
+###### Welcome
+## I'm Christian — a CPA and sr. financial analyst writing on history, philosophy, technology and finance. 
 
-By day, I'm a CPA and Senior Financial Analyst. By temperament, I'm an intellectual tinkerer. That probably sounds more pretentious than I mean it to be, but I'm not sure there's a better word for it. I get absorbed in book rabbit holes, creative projects, and I write to figure out what I think. 
+#### This is my digital garden; a collection of notes, half-formed ideas, and occasional essays.
 
 Most of what's here is incomplete. Fragments about learning, history, technology and philosophy. Some pieces mature into something coherent. Most stay messy. Many have spelling errors. I'm more interested in exploration than polish.
 
 ## About This Garden
-
 Essays are organized by **maturity**, rather than chronology or topic. I'm currently re-reading _The Great Game_ by Peter Hopkirk, and I've taken inspiration from those 19th-century explorers who risked their lives to dutifully chart and map 'the great unknown'.
 
 #TerraIncognita - Raw notes and observations. Potentially wrong. Don't take these too seriously.
