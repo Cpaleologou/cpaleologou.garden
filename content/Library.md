@@ -9,7 +9,7 @@ publish: 'true'
 
 - [![ElementsofPower](ElementsofPower.webp)](/library/The-Elements-of-Power) **The Elements of Power** <span class="author">by David S. Abraham</span>
 - [![TheMostImportThingCover](TheMostImportThingCover.jpg)](/library/The-Most-Important-Thing) **The Most Important Thing** <span class="author">by Howard Marks</span>
-- [![Breakneck](Breakneck.webp)](https://www.google.ca/books/edition/Breakneck/yMFEEQAAQBAJ?hl=en) **Breakneck: China's Quest to Engineer the Future** <span class="author">by Dan Wang</span>
+- [![Breakneck](Breakneck.webp)](/library/Breakneck) **Breakneck: China's Quest to Engineer the Future** <span class="author">by Dan Wang</span>
 - [![The Ethics of Authenticity](EthicsOfAuthenticity.jpg)](https://www.google.ca/books/edition/The_Ethics_of_Authenticity/adnIDwAAQBAJ?hl=en&gbpv=0) **The Ethics of Authenticity** <span class="author">by Charles Taylor</span>
 - [![What It Takes](WhatItTakes.jpg)](https://www.google.ca/books/edition/What_it_Takes/pzuyxgEACAAJ?hl=en) **What It Takes: Lessons in the Pursuit of Excellence** <span class="author">by Stephen A. Schwarzman</span>
 - [![Range: Why Generalists Triumph in a Specialized World](Range.jpg)](https://www.google.ca/books/edition/Range/TzG5wgEACAAJ?hl=en) **Range: Why Generalists Triumph in a Specialized World** <span class="author">by David Epstein</span>
