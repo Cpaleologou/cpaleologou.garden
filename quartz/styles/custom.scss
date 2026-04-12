@@ -780,11 +780,13 @@ body[data-slug="index"] {
     display: none !important;
   }
 
-  /* base.scss sets min-width: 100% on .center which overrides max-width.
-     Override both so the column stays readable and has right breathing room. */
+  /* base.scss sets min-width: 100% and margin: auto on .center.
+     Override so it pins left and doesn't float into the middle of the grid cell. */
   .center {
     min-width: 0 !important;
     max-width: 800px !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
   }
 
   /* Welcome h6 — primary visual anchor */
