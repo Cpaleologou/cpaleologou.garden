@@ -765,9 +765,7 @@ html[saved-theme="dark"] .start-grid li:nth-child(5)::before {
    ========================================================================== */
 
 body[data-slug="index"] {
-  /* Collapse right sidebar column at desktop — right components are already
-     conditionally hidden via layout.ts, but we also fix the grid so the
-     freed column space is given to the center. */
+  /* Collapse right sidebar column at desktop */
   @media (min-width: 1200px) {
     .page > #quartz-body {
       grid-template-columns: 320px auto !important;
@@ -782,55 +780,28 @@ body[data-slug="index"] {
     display: none !important;
   }
 
-  /* Cap center column so body text stays readable at wide viewports */
+  /* base.scss sets min-width: 100% on .center which overrides max-width.
+     Override both so the column stays readable and has right breathing room. */
   .center {
+    min-width: 0 !important;
     max-width: 800px !important;
   }
 
-  /* Hero image — strip the photo-frame treatment; render as a clean banner */
-  .center article > p:first-child img {
-    border: none !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    background-color: transparent !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 0 0.25rem !important;
-    border-radius: 3px !important;
-    display: block !important;
-
-    &:hover {
-      transform: none !important;
-      box-shadow: none !important;
-    }
-  }
-
-  /* Prevent drop-cap on the image paragraph */
-  .center article > p:first-of-type::first-letter {
-    font-size: inherit !important;
-    font-weight: inherit !important;
-    float: none !important;
-    margin: 0 !important;
-    color: inherit !important;
-    line-height: inherit !important;
-    font-family: inherit !important;
-  }
-
-  /* Welcome h6 — give it room to breathe directly below the hero */
+  /* Welcome h6 — primary visual anchor now that the image is gone */
   article h6 {
-    margin-top: 2rem !important;
-    margin-bottom: 0.75rem !important;
-    font-size: 2.75em !important;
+    margin-top: 3rem !important;
+    margin-bottom: 0.85rem !important;
+    font-size: 3em !important;
     opacity: 1 !important;
   }
 
-  /* Intro prose — slightly more open */
+  /* Intro prose */
   article > p {
     line-height: 2.05 !important;
     font-size: 1.05rem !important;
   }
 
-  /* h2 sections on index — a touch more top breathing room */
+  /* h2 sections */
   article h2 {
     margin-top: 3.5rem !important;
   }

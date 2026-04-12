@@ -4,7 +4,6 @@ Date: null
 tags: null
 publish: 'true'
 ---
-![[BannerImageWideCA_Final.webp]]
 ###### Welcome
 I'm Christian. This is my digital garden; a collection of notes, half-formed ideas, and occasional essays.
 
