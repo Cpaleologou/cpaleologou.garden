@@ -21,7 +21,7 @@ body::before {
 }
 
 /* Cartographic left margin rule */
-.page {
+.center {
   border-left: 1px dashed color-mix(in srgb, var(--dark) 25%, transparent);
   padding-left: 2.25rem;
   box-sizing: border-box;
