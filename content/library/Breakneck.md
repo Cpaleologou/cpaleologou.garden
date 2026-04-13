@@ -19,7 +19,9 @@ date: 2026-04-12T00:00:00.000Z
     <p class="book-date-read">Read Dec. 19, 2025</p>
   </div>
 </div>
+
 ## Summary
+
 **Sentence 1.** {{Core argument or premise of the book.}}
 **Sentence 2.** {{Key framework, methodology, or structure the author uses.}}
 **Sentence 3.** {{Why it matters — the main takeaway or implication.}}
