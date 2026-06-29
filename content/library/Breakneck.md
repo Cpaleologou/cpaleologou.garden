@@ -19,12 +19,8 @@ date: 2026-04-12T00:00:00.000Z
     <p class="book-date-read">Read Dec. 19, 2025</p>
   </div>
 </div>
-
 ## Summary
-
-**Sentence 1.** {{Core argument or premise of the book.}}
-**Sentence 2.** {{Key framework, methodology, or structure the author uses.}}
-**Sentence 3.** {{Why it matters — the main takeaway or implication.}}
+China’s rise is best understood through the lens of an “engineering state,” a government dominated by engineers who prioritize building, control, and measurable outcomes over individual rights or organic development. This framework explains China’s contradictions: spectacular infrastructure and national pride on one side, authoritarian social controls and catastrophic policy failures on the other. The deeper warning is that when durable systems depend on transmitted knowledge and adaptive process, and states that mistake permanence for strength may be building sandcastles that struggle to last against the waves of time.
 
 ---
 ## Notes

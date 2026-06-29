@@ -7,6 +7,7 @@ publish: 'true'
 
 <div class="library-grid">
 
+- [![CapitalReturnsCover](CapitalReturnsCover.jpeg)](/library/Capital-Returns) **Capital Returns** <span class="author">by Edward Chancellor</span>
 - [![ElementsofPower](ElementsofPower.webp)](/library/The-Elements-of-Power) **The Elements of Power** <span class="author">by David S. Abraham</span>
 - [![TheMostImportThingCover](TheMostImportThingCover.jpg)](/library/The-Most-Important-Thing) **The Most Important Thing** <span class="author">by Howard Marks</span>
 - [![Breakneck](Breakneck.webp)](/library/Breakneck) **Breakneck: China's Quest to Engineer the Future** <span class="author">by Dan Wang</span>

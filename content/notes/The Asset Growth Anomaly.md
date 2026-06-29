@@ -19,8 +19,7 @@ The anomaly is that the opposite is also true. Asset contracting activities, suc
 The linked note was created in 2024, when the world was probably most optimistic about AI. Since then, and as of today, several companies have seen incredible run ups in their market caps. Other companies, notably the hyper scalers - Meta, Amazon, Microsoft, and Google - have invested unfathomable amounts of capital in AI data centre build outs to which it is still unclear if a return will be captured. While there is evidence of revenue from AI labs like Anthropic and OpenAI, there is also evidence that the cost of LLMs is unsustainable. 
 The asset-growth anomaly would imply that these hyperscalers are likely to underperform for the foreseeable future, even if they are seeing appreciation in their stock price today (Google, Amazon).
 
-
 ---
 ## Reference
 
-� Capital Returns
+[[Capital Returns#^971935]]

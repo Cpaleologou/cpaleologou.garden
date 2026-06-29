@@ -18,7 +18,6 @@ date: 2026-04-10T00:00:00.000Z
     <p class="book-date-read">Read Aug. 9, 2025</p>
   </div>
 </div>
-
 ## Summary
 **The Elements of Power** explores how our modern high-tech existence relies on a complex and often invisible supply chain of rare metals, such as lithium and indium, found in the deepest corners of the periodic table. David S. Abraham details the geopolitical, environmental, and economic tensions that arise as nations scramble to secure these finite resources, which are essential for everything from smartphones to green energy technologies.
 
