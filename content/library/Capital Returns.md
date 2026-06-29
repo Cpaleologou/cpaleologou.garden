@@ -18,6 +18,7 @@ date: 2026-06-25T00:00:00.000Z
     <p class="book-date-read">Read Jun. 14, 2026</p>
   </div>
 </div>
+
 ## Summary
 Most investors focus on understanding and valuing a business by modelling demand-side economics. This approach is rife with assumptions and predictions that consistently produce unsatisfactory results across the asset-management industry. The **Capital Returns** methodology flips the script by assessing the supply-side flows of capital into an industry, allowing the analyst to find businesses that have strong economic prospects ahead of them without reliance on models that overemphasize the need to predict the future. By focusing on what is sure — the here and now — **Capital Returns** promises a simpler process and better returns for investors via superior gains and minimized losses.
 
@@ -96,6 +97,7 @@ Consider two businesses, each earning $1,000 today. Business A trades at 10x ear
 | 3    | $1,103     | $10,000 | 9x    | 5%       | $1,690     | $20,000 | 11.8x | 30%      |
 | 4    | $1,158     | $10,000 | 8.6x  | 5%       | $2,197     | $20,000 | 9.1x  | 30%      |
 | 5    | $1,216     | $10,000 | 8.2x  | —        | $2,856     | $20,000 | 7.0x  | —        |
+
 By year four, Business A is earning roughly $1,158 — a P/E of about 8.6x at its original price. Business B is earning roughly $2,197 — a P/E of just over 9x at its original price. The businesses are now valued similarly. But Business B, still growing, almost certainly has more runway, stronger competitive position, and better long-term economics. The investor who bought it in year one at 20x paid what looked like a premium for something that turned out to have been cheap.
 
 The framework does not change: you still cannot overpay. A high multiple paid for growth that never arrives is simply a bad investment. But a disciplined value investor who relies exclusively on low earnings multiples as a filter for "value" should not be surprised to find that many businesses they passed on went on to significantly outperform the ones they bought.
