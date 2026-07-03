@@ -28,12 +28,6 @@ Essays are organized by **maturity**, rather than chronology or topic. I'm curr
       </a>
     </li>
     <li>
-      <a href="/learning-plans" data-no-popover="true">
-        <strong>Self Learning Plans</strong>
-        <span class="desc">Custom plans for self-directed learning</span>
-      </a>
-    </li>
-    <li>
       <a href="/now"  data-no-popover="true">
         <strong>Now</strong>
         <span class="desc">What I'm doing currently</span>

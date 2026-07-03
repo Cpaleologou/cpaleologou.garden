@@ -18,7 +18,7 @@ This is a deep dive into Nintendo's business. The first five sections will aim t
 ---
 ## Table of Contents
 1. Business Overview
-2. Business Quality
+2. Business Quality Assessment
 3. Financial Deep Dive
 4. Moat Analysis
 5. Risk Framework
@@ -51,20 +51,20 @@ A parent or grandparent purchasing for a child is a meaningfully different dynam
 
 **Roblox Faces Real Safety Concerns Among Parents[^7]**
 
-![[Roblox safety concerns.webp]]
+![[RobloxSafetyConcerns.webp]]
 
 **The Adult Gamer**
 The second customer relationship is the adult gamer who is purchasing the console and games for themselves. It is likely that the majority of this cohort are nostalgia-driven gamers who played Nintendo games in their childhood and are seeking to re-experience their favourite characters and games in adult years. This implies another trade-off Nintendo must balance in their products: games must be fun for both adults and children. This is again more difficult than it appears on first glance as games must find an equilibrium between difficulty, complexity and attention-span that works for vastly different levels of mental development. 
 ### Market Structure
 According to NewZoo research, the global gaming industry represents approximately $200B USD in global sales, sourced from ~4.5B gamers. Almost half of these dollars come from the Asia-pacific region, with North America and Europe producing the majority of the remaining 50%. The Middle East, Africa and Latin America only represent ~9% of global revenues.[^8]
 
-![[Global Gaming Industry Revenues (2025), per NewZoo.webp]]
+![[GlobalGamingIndustryRevenues2025_perNewZoo.webp]]
 
 In FY26, Nintendo's video game platform revenue was ~14B USD[^9] and active player count was ~130M[^10].  This implies that even with decades of history, the business remains materially under-penetrated in the wider market.
 
 Nintendo's reported revenue by geography illustrates how the business is over-indexed on North America and Europe relative to the industry overall, while Asia-Pacific remains under-penetrated. China has historically been, and is expected to remain, limited to Nintendo's business as operating in China requires compliance with CCP standards that make it difficult for consoles games to compete with PC and mobile gaming[^11].
 
-![[Nintendo FY26 Revenue by Geography.webp]]
+![[NintendoFY26RevenuebyGeography.webp]]
 
 **Revenue by geography (FY26):**
 
@@ -80,7 +80,7 @@ The Switch 2 launch was disproportionately strong in Rest-of-World, hinting at s
 ### Console Gaming
 
 **Global Gaming Revenues by Platform**
-![[Global Gaming Revenues by Platform, per Newzoo.webp]]
+![[GlobalGamingRevenuesByPlatform_perNewzoo.webp]]
 
 While the console market experienced rapid growth during the pandemic, in 2026, the console market is now mature and slow-growing. By the end of the decade, consoles will likely be the smallest gaming platform by player growth:
 
@@ -97,10 +97,8 @@ A newer segment of the console market has opened: Valve's "Steam Deck" and the R
 Nintendo has  3-5 revenue streams, depending on how you split the products. I have split them into 4 groups based on the data reported in their investor package, as these groups allow for back-calculation of several metrics in later sections of the report.
 
 **In order of size:**
-
 #### **1. Console hardware (~40–60% of revenue).** 
 Unlike other console makers, who's consoles serve as loss-leaders for the games, Nintendo actually makes money on hardware. This is part of the cultural philosophy of the business and goes back to company roots. 
-
 #### **2. First-party software, physical + digital (~25–50% of revenue).** 
 The engine and cash cow for the business. First-party titles carry ~80%+ gross margins. Digital sales mix still lags meaningfully behind competitors, providing opportunity for further improvement in the profitability of the segment.
 
@@ -123,167 +121,70 @@ Approximately 34M+ active Nintendo accounts are subscribed to Nintendo Switch On
 
 The other important item to note in regards to NSO is the difference in pricing between the tiers. While the lower tier is only $20 USD per month, the higher tier option is $50. Given there is essentially zero marginal cost difference between the two tiers, it is more profitable for Nintendo to move a base tier subscriber to the higher tier, than it is to gain a new base tier subscriber. If Nintendo is able to continuous add value to the expansion tier, such as through restricted access to additional game content, the profitability of the segment will increase dramatically, without needing to grow the current subscriber base.
 
-The Nintendo eShop on the other hand
+In terms of third-party software, the original Switch built a real third-party marketplace that translates directly to the Switch 2 while preserving players' existing libraries. The difference maker though, is that Switch 2 is considerably more powerful than the Switch 1. For the first time, some of the most popular games ever made (The Witcher 3, Cyberpunk 2077, Elden Ring) will be able to run at high performance on Nintendo hardware, in handheld mode. Indie favourites (Stardew Valley, Silksong, Hades II) are also available. The significance is that, historically, gamers who wanted to play these third party games *and* Nintendo games needed to buy two consoles. The Switch 2 provides a reasonable solution for only buying one console, while getting the portability benefit that the Switch form factor provides.
 
+**Nintendo eShop Expansion:**
+![[Eshop-1.webp]]
 #### **4. Licensing, theme parks & film (~3–5% of revenue).** 
 Super Nintendo World, the Super Mario Bros. Movie ($1.4B box office), Pokémon merchandise. These monetize the IP without cannibalizing the core business.
+### The Console Cycle
+The structure of these revenue streams lead us towards the most important thing to understand for reading Nintendo's financials: **where you are in the console cycle.**  This is a company that will look completely different in a launch year versus a peak year. A launch year like fiscal 2026 shows revenue nearly doubling (+98.6%) as hardware volume surges, while the years immediately preceding a launch (fiscal 2025, -30.3%) show revenue troughing as the prior platform's software tail winds down and buyers wait for the new device. An investor unfamiliar with this pattern who extrapolates any single year's growth rate in either direction will misprice the business badly.
 
+![[Nintendo_Revenue_Across_A_Console_Cycle_JPY.webp]]
 
+![[Net_Income_Across_The_Console_Cycle_JPY.webp]]
 
-
-
-
-
-
----
-### Nintendo's Trap
-In 2026, the console market is now mature and slow-growing. By the end of the decade, consoles will likely be the smallest gaming platform by player growth:
-
-- **PC players:** forecast 3.1% CAGR (2025–2028), accelerating vs. 2022–2025
-- **Console players:** 2.5% — the slowest-growing platform, largely saturated in key markets
-- **Mobile players:** 4.5% — fastest-growing, driven by the Middle East, North Africa, and Southeast Asia
-
-Nintendo's strategy depends on the synthesis of software and hardware. It can't expand materially into other platforms without disrupting the core model - control over the entire gaming experience provided by proprietary consoles and a protected margin on game distribution. Growth has to come from somewhere else.
-### Where Growth Could Come From
-Given Nintendo reliance on it's consoles, future growth beyond slow secular growth is limited to a few strategies.
-
-**1. IP monetization into new categories**
-Nintendo has been historically hesitant to monetize it's IP through chanels outside gaming for fear of diluting its value. That is starting to change as two major Mario animation movies have been released in 2023 and 2026, respectively, with development in words for a Legend of  Zelda live-action movie scheduled for 2027.
-Nintendo has also expanded its IP footprint through a licensing partnership with Universal Studios for "Super Mario World" theme parks. 
-
-![[Movie Release Cadence.webp]]
-![[SuperNintendoWorld.webp]]
-
-**2. Increased ARPU & Margin Improvement**
-Nintendo can find growth in its core gaming business segment by increasing is average revenue per user and improving the margins on its current business. 
-
-One potential solution for this 
-
-![[Eshop.webp]]
-- New gaming geographies — though these tend to have lower GDP per capita and are mobile-first, which cuts against Nintendo's model
-
-Concretely, this shows up as: movies and theme parks (the Super Mario Bros. Movie, Super Nintendo World at Universal), a growing third-party/eShop/NSO library, and a new Singapore/Southeast Asia expansion entity (Nintendo Singapore Pte. Ltd., wholly owned, founded September 2025) aimed at business acceleration in the region.
-
-[CHART: Growth levers four-panel — movies/parks, third-party eShop, Singapore expansion]
-
-### Red Flag?
-
-Nintendo's own framing (the "Nintendo Entertainment Experience" wheel — movies, mobile apps, merchandise, real-world experiences, all orbiting the core video game platform) makes clear the company sees these adjacencies as *peripheral* to the core gaming business. They're a way to connect with and acquire new gaming customers — not a replacement for, or even an equal partner to, gaming itself.
-
-In other words: gaming stays at the center of the ecosystem, not the IP. Whether that's the right call is genuinely a matter for the investor to decide. It's conservative. It also may be leaving money on the table relative to a Disney-style IP-monetization-first approach.
-
-[CHART: Nintendo Entertainment Experience wheel diagram]
-
-### Who Is Nintendo's Competition?
-
-The obvious comparison is Sony and Microsoft — but in reality, Nintendo doesn't compete directly with either.
-
-| | Nintendo | Sony (PlayStation) | Microsoft (Xbox) |
-|---|---|---|---|
-| Core audience | Families, children, casual gamers | Teens, young adults, core gamers | Core/hardcore gamers, PC crossover |
-| Primary moat | Exclusive IP + family brand | AAA exclusives + developer relationships | Subscription (Game Pass) + ecosystem |
-| Hardware strategy | Closed, proprietary, profitable | Closed, proprietary, loss-leader | Console + PC, open platform push |
-| Mobile gaming | Minimal, cautious | Growing (via Bungie) | Not a strategic focus |
-
-Sony and Microsoft can't replicate Nintendo's trust with parents. Nintendo, in turn, isn't chasing hardcore gamers. Different customer entirely.
-
-**The real threat is outside the console category.** It's mobile, Roblox, Minecraft — user-generated gaming that behaves more like YouTube than traditional gaming. If kids aren't spending time in Nintendo's ecosystem, the emotional attachment that drives 30 years of repeat purchasing never forms in the first place.
-
-- **29%** of Roblox's player base is 10–15 years old (reported data doesn't even capture under-10s)
-- **~2.5 hours** average daily time spent by Roblox users
-- **80%** of Roblox users access via mobile
-
-[CHART: Roblox stat cards]
+![[Free_Cash_Flow_Across_The_Console_Cycle_JPY.webp]]
 
 ---
-
-## 3. Revenue
-
-### Four Revenue Streams
-
-
-
-### Nintendo Switch Online, Expanded
-
-| | NSO | NSO + Expansion Pack |
-|---|---|---|
-| Price | $19.99/yr | $49.99/yr |
-| GameCube, GBA, N64, Virtual Boy classics | ✕ | ✓ |
-| Zelda: TOTK — Switch 2 Edition upgrade pack | ✕ | ✓ |
-
-[CHART: NSO tier comparison table]
-
-Some numbers worth sitting with: only **27%** of annual gamers are subscribed 
-### Third-Party Software, Expanded
-
-Switch 1 built a real third-party marketplace that translates digitally to Switch 2 while preserving players' existing libraries. But Switch 2's horsepower is a genuine step-change: for the first time, some of the most popular games ever made — The Witcher 3, Cyberpunk 2077, Elden Ring — run at high performance on Nintendo hardware, in handheld mode. That's a genuinely unique experience nobody else offers. Indie darlings (Stardew Valley, Silksong, Hades II) round out the library.
-
-[CHART: Switch 2 third-party title grid]
-
-### The Console Cycle — The Most Important Thing to Understand
-
-The single most important lens for reading Nintendo's financials: **where you are in the hardware cycle.** The same company looks completely different in a launch year versus a peak year.
-
-| | Launch Years | Peak Cycle Years |
-|---|---|---|
-| Operating margin | ~8–15% | ~25–35% |
-| Free cash flow | Weak/negative | Very strong (¥350B+ in peak years) |
-| Software attach | Low initially (12–24 months to build library) | 8–10 titles/console |
-
-[CHART: Operating income / revenue / margin bar-and-line chart, FY17–FY26]
-
-**What's different this cycle:**
-
-- **More diversified product mix.** NSO, a larger third-party library, growing IP revenue, and Switch 2's backwards compatibility all provide a bigger available game base than in prior cycles — potentially less cyclicality going forward, which could support a re-rating.
-- **A repriced console.** Switch 2 launched at $449 vs. Switch 1's $299. The strength of the launch could partly reflect pent-up demand from an unusually long Switch 1 life cycle (lowering expected future hardware sales), but it also means a larger install base for game sales earlier in this cycle.
-- **Digital mix.** Digital sales grew materially over the Switch 1 lifecycle; Switch 2 should see structurally higher margins earlier as a result.
-
----
-
-## 4. Business Quality Metrics
+## Business Quality Assessment
 
 ### A Note on Nintendo's Accounting
-
 Nintendo reports under **J-GAAP**, not IFRS or US GAAP, which changes how the numbers should be read:
 
 - **R&D is expensed, not capitalized**, which makes reported margins look conservative relative to IFRS peers.
-- **The ~32% stake in The Pokémon Company** flows through equity income, not consolidated revenue — meaning operating income, free cash flow, and the balance sheet all *understate* the true economic scale of the Pokémon relationship. Pokémon sits on the balance sheet at cost plus retained earnings, not fair value, despite being the best-selling media franchise of all time.
+- **The ~32% stake in The Pokémon Company** flows through equity income, not consolidated revenue. This means that operating income, free cash flow, and the balance sheet all *understate* the true economic scale of the Pokémon relationship. Pokémon sits on the balance sheet at cost plus retained earnings, not fair value, despite being the best-selling media franchise of all time.
 
 **Bottom line:** most of the standard measures we'd use to assess Nintendo are naturally conservative because of how the company chooses to account for and report the business.
+### ROIC Analysis
+Nintendo's return on invested capital tells the console-cycle story almost perfectly: 
+- 6.8% in FY17, at the launch of the Switch 1. 
+- 27% in FY18
+- ~40% between FY20 and FY24, normalizing for the pandemic.
+- ~20% in FY25 as the business ramped up for the launch of the Switch 2, building inventory without the revenues to compliment it.
+- 22% in FY26 at the launch of the Switch 2.declining steadily to 15.6% (FY23), 
 
-### Is Nintendo Creating Value? — ROIC
+![[Return_On_Invested_Capital_FY17-FY26.webp]]
 
-ROIC tells you, for every dollar invested in the business, what the return actually is. WACC is the cost of that capital — for Nintendo, estimated at 8–10% given no debt and low risk. When ROIC > WACC, growth compounds value. When ROIC < WACC, growth destroys it, even as revenue rises.
+The relevant question is not "what is ROIC today?" but "what does ROIC average across a full seven-to-eight-year cycle?". On that basis, given Nintendo has no debt and WACC is limited to the cost of equity, the business as certainly cleared its cost of capital by a wide margin every year since at least 2017.
 
-**Nintendo's track record: 20%+ ROIC consistently since the Switch launched in 2017** — well above the 8–10% WACC estimate. And because Nintendo carries no debt, that WACC is almost entirely equity cost, which makes the 20%+ figure more impressive, not less.
+The other key item to note from the chart above is the improvement in the ROIC between the Switch 1 launch year and the Switch 2 launch year. The improvement represents meaningful improvement in the stability of the business through the NSO subscription, backwards compatibility of games on the Switch 2, third-party games, and IP licensing revenues, all working to raise the baseline of the business, regardless of console-cycle timing.
 
-[CHART: ROIC by fiscal year, FY17–FY26]
+**Peer triangulation:** 
+Nintendo is difficult to comp against competitors given the cycle dynamics and the fact that its nearest competitors are massive conglomerates. However, we can attempt to triangulating against a business like Apple who operates a similar hardware/software model, Capcom as another Japanese game developer, and EA as an international game developer with strong franchises like EAFC (previously FIFA).
 
-ROIC compresses at hardware launch because Nintendo ramps invested capital — R&D, inventory, manufacturing, distribution — before revenue catches up. The shape: 6.8% at Switch 1 launch (FY17), climbing to a 59.5% pandemic peak (FY21), settling into the high-30s/low-40s through average cycle years, then compressing again to ~20% during the Switch 2 ramp (FY25–26).
+![[ROIC_Nintendo_vs_Apple.webp]]
 
-**Peer triangulation:** Nintendo is genuinely hard to comp given the cycle dynamics and the fact that its nearest competitors are massive conglomerates. Triangulating against Apple (hardware/software model), Capcom (Japanese software quality), and EA (pure-software benchmark):
+![[ROIC_Nintendo_vs_EA__Capcom.webp]]
 
-- **Apple** comparison is flattering for Nintendo as a quality business outside console-release years.
+**Takeaways:**
+- **Apple** comparison looks flattering for Nintendo as a quality business outside console-release years.
 - **Capcom** tracks roughly even, except in hardware upgrade years.
-- **EA** — Nintendo looks notably strong against a pure-software peer with far more aggressive microtransaction reliance. EA, by this comparison, looks mismanaged.
+- **EA** looks notably worse even as pure-software peer with far more aggressive micro-transaction implementation. 
+### Free Cash Flow Profile
+Each of Nintendo's lines of business has a completely different FCF conversion profile (FCF ÷ Net Income):
 
-[CHART: ROIC vs. Apple / ROIC vs. EA & Capcom]
+**Hardware (consoles) — low conversion.** Manufacturing, distribution, and inventory investment compress cash. Volatile, and heavily dependent on proximity to a launch. Low conversion here is structurally expected — it funds the install base.
 
-### Is Nintendo Capturing That Value in Cash?
+**Software (games + NSO) — high conversion.** Near-zero marginal cost on digital sales. Digital should be approaching 90–100% conversion by nature. NSO subscriptions collect cash upfront so should actually be over 100%.
 
-Nintendo is really three businesses stitched together, each with a completely different FCF conversion profile (FCF ÷ Net Income):
+**IP licensing (parks, film) — high conversion.** Very high conversion, predictable, low-capex. Still small (3–5% of revenue) but growing, and the Super Mario Bros. Movie's $1.4B box office demonstrates real scale potential if Nintendo ever leaned in harder.
 
-**Hardware (consoles) — <10% conversion.** Manufacturing, distribution, and inventory investment compress cash. Volatile, and heavily dependent on proximity to a launch. Low conversion here is structurally expected — it funds the install base.
+Blended FCF conversion, then, depends entirely on segment mix, which depends entirely on where you are in the hardware cycle.
 
-**Software (games + NSO) — 70–95%+ conversion.** Near-zero marginal cost on digital sales. Digital should be approaching 90–100% conversion by nature, but Nintendo actually lags the industry on digital mix (55% vs. Sony's 76%) — again, a margin-expansion opportunity hiding in plain sight.
+![[Free_Cash_Flow_Conversion_FY17_-_FY26.webp]]
 
-**IP licensing (parks, film) — ~70–95% conversion.** Very high conversion, predictable, low-capex. Still small (3–5% of revenue) but growing — and the Super Mario Bros. Movie's $1.4B box office demonstrates real scale potential if Nintendo ever leaned in harder.
-
-Blended FCF conversion, then, depends entirely on segment mix — which depends entirely on where you are in the hardware cycle.
-
-[CHART: FCF margin / net income / FCF bar-and-line, FY17–FY26]
-
-**Reading the actual track record:** FCF conversion tracks the hardware cycle almost exactly as you'd expect. The one anomaly is COVID — FY20–21 FCF spiked on pulled-forward demand, but the scale of that FCF conversion suggests the spike came mostly from *games*, not consoles, which is a useful data point for forecasting how Switch 2's cycle might behave.
+**Reading the actual track record:** FCF conversion tracks the hardware cycle almost exactly as you'd expect, and the multi-year average represents a strong steady-state ability to generate cash. The one anomaly is FY21, during the Covid-19 pandemic. FCF and earnings spiked on pulled-forward demand, and the scale of that FCF conversion suggests the spike came mostly from *games*, not consoles. The spike also created a large tax liability needing to be paid in FY22, creating the gap between FCF and net earnings in that year.
 
 ### Gross Margin Structure
 
