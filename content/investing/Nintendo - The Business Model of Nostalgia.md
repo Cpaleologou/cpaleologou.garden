@@ -98,10 +98,10 @@ Nintendo has  3-5 revenue streams, depending on how you split the products. I ha
 
 **In order of size:**
 
-**1. Console hardware (~40–60% of revenue).** 
+#### **1. Console hardware (~40–60% of revenue).** 
 Unlike other console makers, who's consoles serve as loss-leaders for the games, Nintendo actually makes money on hardware. This is part of the cultural philosophy of the business and goes back to company roots. 
 
-**2. First-party software, physical + digital (~25–50% of revenue).** 
+#### **2. First-party software, physical + digital (~25–50% of revenue).** 
 The engine and cash cow for the business. First-party titles carry ~80%+ gross margins. Digital sales mix still lags meaningfully behind competitors, providing opportunity for further improvement in the profitability of the segment.
 
 **Sony's reported digital mix:**[^12]
@@ -110,7 +110,7 @@ The engine and cash cow for the business. First-party titles carry ~80%+ gross m
 **Nintendo's reported digital mix:**[^13]
 ![[NintendoDigitalMix.webp]]
 
-**3. Third-party software & Nintendo Switch Online (~8–10% of revenue).** 
+#### **3. Third-party software & Nintendo Switch Online (~8–10% of revenue).** 
 Approximately 34M+ active Nintendo accounts are subscribed to Nintendo Switch Online services. This pass allows access to a deep library of retro games, modern game expansion packs, and online gameplay.
 
 **Nintendo Switch Online Features:**[^14]
@@ -123,7 +123,10 @@ Approximately 34M+ active Nintendo accounts are subscribed to Nintendo Switch On
 
 The other important item to note in regards to NSO is the difference in pricing between the tiers. While the lower tier is only $20 USD per month, the higher tier option is $50. Given there is essentially zero marginal cost difference between the two tiers, it is more profitable for Nintendo to move a base tier subscriber to the higher tier, than it is to gain a new base tier subscriber. If Nintendo is able to continuous add value to the expansion tier, such as through restricted access to additional game content, the profitability of the segment will increase dramatically, without needing to grow the current subscriber base.
 
-**4. Licensing, theme parks & film (~3–5% of revenue).** Super Nintendo World, the Super Mario Bros. Movie ($1.4B box office), Pokémon merchandise. These monetize the IP without cannibalizing the core business.
+The Nintendo eShop on the other hand
+
+#### **4. Licensing, theme parks & film (~3–5% of revenue).** 
+Super Nintendo World, the Super Mario Bros. Movie ($1.4B box office), Pokémon merchandise. These monetize the IP without cannibalizing the core business.
 
 
 
