@@ -20,14 +20,14 @@ date: 2026-06-25T00:00:00.000Z
 </div>
 
 ## Summary
-Most investors focus on understanding and valuing a business by modelling demand-side economics. This approach is rife with assumptions and predictions that consistently produce unsatisfactory results across the asset-management industry. The **Capital Returns** methodology flips the script by assessing the supply-side flows of capital into an industry, allowing the analyst to find businesses that have strong economic prospects ahead of them without reliance on models that overemphasize the need to predict the future. By focusing on what is sure — the here and now — **Capital Returns** promises a simpler process and better returns for investors via superior gains and minimized losses.
+Most investors focus on understanding and valuing a business by modelling demand-side economics. This approach is rife with assumptions and predictions that consistently produce unsatisfactory results across the asset-management industry. The **Capital Returns** methodology flips the script by assessing the supply-side flows of capital into an industry, allowing the analyst to find businesses that have strong economic prospects ahead of them without reliance on models that overemphasize the need to predict the future. By focusing on what is sure — the here and now — **Capital Returns** promises a simpler process and better returns for investors.
 
 ---
 ## Takeaways
 ### The Asset Growth Anomaly
-It seems obvious to most investors that big capital investments lead to big future returns. A company pours money into new infrastructure, expands capacity, builds out operations, and eventually all that capital expenditure gets “turned on”, leading to growth. The market prices this in and the stock reflects that optimism. However, as pointed out by [Marathon Asset Management]([https://www.marathonfund.com](https://www.marathonfund.com/)) this expectation is incorrect and not only leads to investment underperformance, but hints towards a fundamental misunderstanding investors hold in their minds when it comes to business analysis.
+It seems obvious to most investors that big capital investments lead to big future returns. A company pours money into new infrastructure, expands capacity, builds out operations, and eventually all that capital expenditure gets “turned on”, leading to growth. The market prices this in and the stock reflects that optimism. However, as pointed out by [Marathon Asset Management]([https://www.marathonfund.com](https://www.marathonfund.com/)), this expectation is incorrect and not only leads to investment underperformance, but hints towards a fundamental misunderstanding investors hold in their minds when it comes to business analysis.
 
-Referencing a paper in the *Journal of Finance*, a phenomenon called the *asset-growth anomaly* showed that across a wide range of companies, asset expansion activities were systematically followed by poor future returns. This is equity or debt financing used to fund acquisitions or infrastructure build outs that consistently fail to produce the results investors expect.
+Referencing a paper in the *Journal of Finance*, a phenomenon called the *asset-growth anomaly* showed how across a wide range of companies, asset expansion activities were frequently followed by poor future returns. Equity and debt financing, used to fund acquisitions or infrastructure build outs, consistently fail to produce the results investors expect.
 
 What’s more striking, is that the reverse was equally true. Asset contraction activities such as share buybacks, debt repayment, spin-offs, and dividend initiation tend to precede periods of outperformance. 
 
@@ -52,7 +52,7 @@ The Marathon capital cycle works as follows.
 2. That success attracts capital. Competitors enter the market, investment floods in, supply expands. The offering becomes commoditised, margins compress, returns deteriorate. What looked like a great industry becomes a crowded one.
 3. The cycle turns. Poor returns drive capital out. Competitors exit or collapse. The firms that remain find themselves in a pseudo-oligopoly, able to exercise pricing discipline and compete on quality rather than racing each other to the margin floor. Returns recover and the best risk-adjusted opportunity arrives.
 
-![[charti.3.webp]]
+![[CapitalCycleChart.webp]]
 
 Strong demand growth, Marathon argues, is often the direct cause of value destruction. It attracts too much capital, and that capital destroys the returns that attracted it in the first place.
 ### How To Use The Capital Cycle

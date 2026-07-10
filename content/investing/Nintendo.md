@@ -1,5 +1,5 @@
 ---
-title: Nintendo - The Business Model of Nostalgia
+title: Nintendo
 Last Updated: 2026-07-02T00:00:00.000Z
 tags:
   - '#Surveyed'
@@ -19,7 +19,7 @@ This is a deep dive into Nintendo's business. The first five sections will aim t
 ## Table of Contents
 1. Business Overview
 2. Business Quality Assessment
-3. Financial Deep Dive
+3. Balance Sheet Health
 4. Moat Analysis
 5. Risk Framework
 6. Management & Capital Allocation
@@ -185,74 +185,133 @@ Blended FCF conversion, then, depends entirely on segment mix, which depends ent
 ![[Free_Cash_Flow_Conversion_FY17_-_FY26.webp]]
 
 **Reading the actual track record:** FCF conversion tracks the hardware cycle almost exactly as you'd expect, and the multi-year average represents a strong steady-state ability to generate cash. The one anomaly is FY21, during the Covid-19 pandemic. FCF and earnings spiked on pulled-forward demand, and the scale of that FCF conversion suggests the spike came mostly from *games*, not consoles. The spike also created a large tax liability needing to be paid in FY22, creating the gap between FCF and net earnings in that year.
-
 ### Gross Margin Structure
+Using information provided in Nintendo's financial reporting, it is possible to estimate the gross margins on each of the four revenue segments.
 
-**Nintendo FY26 derived margins:**
+|                         | FY26 Revenue (¥B) | Est. Gross Margin |
+| ----------------------- | ----------------- | ----------------- |
+| Hardware sales          | ¥1,493            | 15%               |
+| First-party software    | ¥556              | 80%               |
+| Third-party games & NSO | ¥190              | 95%               |
+| IP-related sales        | ¥74               | 85%               |
+| **Total**               | **¥2,313**        | **39.3%**         |
+Looking back historically once again demonstrates the impact of the console cycle on the business. Gross margin ran 55-61% through fiscal 2022-2025 as the aging Switch's revenue mix skewed toward high-margin digital software late in its life. It then fell sharply to 39.3% in fiscal 2026 as the margin-thin hardware became a much larger share of the revenue mix in the launch year. Expect gross margin to climb back toward the mid-50s as the digital software tail builds over Switch 2's life, the same pattern the original Switch traced.
 
-| | FY26 Revenue (¥B) | Est. Gross Margin |
-|---|---|---|
-| Hardware sales | ¥1,493 | 15% |
-| First-party software | ¥556 | 80% |
-| Third-party games & NSO | ¥190 | 95% |
-| IP-related sales | ¥74 | 85% |
-| **Total** | **¥2,313** | **39.4%** |
-
-[CHART: Gross profit margin — EA vs. Capcom vs. Take-Two]
-
-Nintendo's gross margins beat competitors in most categories: PlayStation and Xbox famously lose money on consoles; Nintendo's software margins run well above Capcom and Take-Two; EA is comparable on paper but leans heavily on microtransactions to get there. Nintendo has genuine pricing power — visible in its evergreen title strategy and infrequent discounting.
+![[Nintendo_Gross_Profit_Margins.webp]]
 
 ---
+## 3. Balance Sheet Health
 
-## 5. Financial Statements
+![[Nintendo_Net_Debt.webp]]
 
-### What the P&L Actually Shows — SG&A
+This is as close to a fortress balance sheet as exists in consumer entertainment. Total debt is effectively zero across the entire observable history. This is obviously great. Nintendo's balance sheet is managed so that it can never go out of business due to debt and has the best chance possible at being around 10,20, 100 years from now. It is a long term view and that is what I like to see in businesses. 
 
-[CHART: SG&A % of revenue, FY17–FY26]
+The more nuanced discussion is actually whether this is too much cash. At over **¥2 trillion (~$14B)**, Nintendo's cash pile represents roughly **25%** of its entire market cap. In a Japanese interest rate environment, where rate have sat near zero for decades, that is cash that is effectively being burned away by inflation, rather than being reinvested back into the business, or redistributed to shareholders. 
 
-Higher SG&A in years surrounding a console launch is expected and shows up clearly in the data. The more important takeaway: mid-cycle operating costs sit consistently around **15%** of revenue and grow slowly relative to gross profit. That means mid-cycle operating leverage is reliable — a real positive for modeling purposes.
+This is actually a long running problem with the Japanese corporate environment, and since 2023, the Tokyo Stock Exchange (TSE) has begun to push heavy pressure on it's listed businesses to act in a more cost of capital aware manner.[^16] This is a step in the right direction, and may actually represent significant upside in Nintendo and the Japanese market as a whole as a broad shift to better capital allocation could drive re-ratings across the exchange. Furthermore, since the Covid-19 pandemic, Japan has seen persistently high inflation rates. While this has furthered the acceleration of cash deterioration, high inflation may actually be pushing Japanese business culture toward meaningful change in how capital it managed.[^18]
 
-### What the P&L Actually Shows — Marketing
+**Japan Inflation Rate (10Y)**[^17]
+![[Japan_Inflation_Rate.webp]]
+
+For Nintendo though, the cash discussion deserves a bit more nuance. Nintendo's cash to operating expense ratio over the last ten years, has actually maintained remarkable stability between the range of 4-6 years. In fact, the periods of higher cash can also be specifically seen to sit during key periods of uncertainty in Nintendo's history. FY17 marked the launch of the Switch 1, FY21 and years following marked the pandemic, and FY24 marked the ramp up for the Switch 2. 
+
+![[Nintendo_Cash_to_Operating_Expenses.webp]]
+
+Pairing this finding with comments from Nintendo's leadership in the past, we can begin to form an understanding of why Nintendo feels it is important to hold such a large cash position.[^19]
+
+ **1. Console transition insurance.** 
+For decades, Nintendo has chosen to take genuinely boundary-pushing risks with its hardware in order to create *unique* gaming experiences. The gameboy, the Wii, the Switch, were all massive gamble that paid off, but were uncertain to do so at the time. In fact, these gambles have not always paid off. The Wii U, the little know successor of the Wii, sold only 13.5M units[^20] , and is the clearest example of the failures that taking big swings can produce. **Staying debt-free means keeping enough cash on hand to survive a fully failed console cycle -- about 4-5 years.**
+
+**2. Hype protection.** 
+If Nintendo were reliant on debt or equity markets, it would need to pre-announce consoles and games much earlier in order to raise funding for developing. In the gaming industry, hype is closer to a resource than an effect and must be managed in order to maximize sales of a product. Being self-reliant on capital allows Nintendo to do that to the best of its ability.
+
+**3. Preferred access to partners.** 
+Nintendo believes it gets preferential vendor treatment because it can guarantee long-term obligations, backed by the size of the cash pile. This is more relevant than ever in a world where AI data centre demand is pushing component prices higher across the entire electronics sector.[^21]
+
+At the same time, over the past 10 years, Nintendo has returned roughly 67% of its free cash flow to shareholders. 
+
+![[Nintendo_Free_Cash_Flow_vs_Buy_Backs__Dividends.webp]]
+
+So, based on the above analysis, I don't think it is fair to label Nintendo as a cash hoarder along with some of their Japanese-listed peers. Rather, Nintendo is business with a long term view and the *ability* to remain self-funded while taking big risks in the pursuit to surprise and delight their customers, *at the cost* of holding a large cash balance. This not something to hold against them, it is rare to see a business take such a long term view, especially in a industry that is otherwise rife with poor management.  But, it is something of recognize in one's evaluation of the business, since this cash balance is unlikely to ever be available to shareholders via distributions.
+## 4. Moat Analysis
+### Intangible Assets
+The IP is, and has been for the company's modern history, the dominant source of Nintendo's moat. Mario, Zelda, Donkey Kong, Animal Crossing and the others, were created inside Nintendo and have been continuously developed by the same internal studios for decades. Pokémon is partially-owned through Nintendo's 32% stake in The Pokémon Company alongside Game Freak and Creatures Inc[^22]. 
+This is fundamentally different from a publisher that licenses characters from a studio or acquires franchises through M&A. Nintendo effectively operates its creative pipeline end to end, which means that there is no royalty leakage, no licensing renewal risk, and complete control over how and when characters appear across games, film, and theme parks.
+
+The Buffett moat test asks:  *"if I handed a potential disruptor an unlimited cheque book, could they replicate and displace the business?"*. 
+
+To this, the answer is an overwhelming **"no"**. Competitors have tried to buy their way to comparable IP depth. In 2023, Microsoft purchased Activision-Blizzard (Call of Duty, Candy Crush, World of Warcraft) $68.7 billion  and still lack anything resembling Nintendo's family-franchise breadth[^23].
+
+The strength of the IP, however, is not just due to its breadth, but its durability. Nintendo's stewardship of the characters, trademarks, etc. has also lead to an unusually cultural significance of the characters and games created throught the following features.
+#### Multi-Generational Renewal
+Most legacy IP eventually becomes a nostalgia play. It's valuable to the generation that grew up with it and decays with each new cohort that doesn't discover it fresh. The advantage Nintendo has been able to create is that the core characters are re-introduced to new children roughly every console generation *because* previous generations are fans of the characters and games. Nintendo's spend considerable effort to make games that a fun for all ages and that can be played by young and old people together. Mario Kart is simple and fun for the whole family, Super Smash Bros. is great for sibling co-op.
+
+**Nintendo's Multi-Generational Strategy:[^24]**
+![[NintendoFamilyStrategy.webp]]
+
+By being able to satisfy both audiences - adults and children - success in one generation of gamers, predicts success in the next generation. 
+#### Creative Culture
+Many of Nintendo's core IP (Mario, The Legend of Zelda, Donkey Kong, Starfox, etc.) were created by one person, Shigeru Miyamoto. Normally, this would create significant key-man risk as Miyamoto is now in his 70s. However, Nintendo has taken careful steps to practice deliberate succession planning. The best example of this is the continued excellence in metascores that The Legend of Zelda has received, even after directorial control was passed on to Eiji Aonuma years ago[^25].
+
+**Legend of Zelda Games, Metascores:**[^26]
+![[LegendofZeldaGames1986-2026Metascores.webp]]
+
+#### IP Enforcement
+One of the most important qualities to see in a management team is that they understand their moat and that they take steps to protect and widen it. For a moat built on IP, this means taking legal protective measures. Undefended IP erodes brand value, risks overexposure or audience fatigue as unsanctioned reproductions satisfy audiences. One of factors that most contributes to the durability of Nintendo's moat is the full pipeline control the company has over it's IP and thus discretion over the cadence of releases. For example, a mainline Mario platformer games are only released every 4-6 years.[^27] In fact, a current threat to Pokemon is the explosion in popularity of fan-created content, named "ROM hacks"[^28]. These are the result of Pokemon fans reverse-engineering the code base of old games in order to utilize the assets and create and share their own version of games for free within the community. The quality of these games varies widely, but on a fundamental level, they effectively provide an unlimited pool of novel Pokemon content for free. There is a very real threat that nostalgic fans of Pokemon choose to get their kicks of these games rather than official Pokemon games on the Switch 2. 
+
+In fact, Nintendo has been incredibly aggressive against pursuing DMCA take downs and legal action against emulation and pirating of their IP.[^29] This has been to the point that it has actually become controversial to the core fans who see their work as hommage to Nintendo's art and not alternatives to the main games. While it is not the place of this report to judge the proper extent to which legal action should be legally pursued, it would be reassuring for an investor of Nintendo that they take it so seriously. It would likely be worse for Nintendo if the IP of Pokemon or Mario was damaged than if some fans are upset about not being able to make their own games from Nintendo's assets. 
+### Cost Advantages
+#### Underpowered by design
+Nintendo does not compete on hardware cost leadership. The console is deliberately under-spec'd relative to Sony and Microsoft to hit a lower price point and preserve margin, a strategy that has worked for multiple consecutive console generations.
+
+This is actually a key strategic advantage for Nintendo. In 2026, the video game industry has been in a genuine capital-cycle reckoning: roughly 45,000 jobs were eliminated industry-wide between 2022 and mid-2025, and the 2026 GDC State of the Game Industry survey found a third of American game workers had been laid off in the prior two years, rising to two-thirds among triple-A studio staff specifically.[^30]. At the time of writing this report, on July 6th 2026, Microsoft-Xbox has announced major restructuring activities.[^31] It is my view that this is the textbook back-half of an overexpansion cycle, coupled with rising development costs due to the availability of **powerful PC and console hardware** that tempts developers into making massive, costly games.
+
+**The Capital Cycle, per [[04-Projects/Youtube/1-Ideas/Capital Returns|Capital Returns]]:**
+![[CapitalCycleChart.webp]]
+
+In 2021, when the pandemic trapped people in their homes, a surge in demand, coupled with cheap capital, incentivized publishers to invest massively. When the pandemic receded and interest rates normalized, the industry faced a glut of supply against falling demand, and in 2026 the industry is still working off that glut.[^32]
+
+However, while normalized demand and rising rates have acted as a trigger, my opinion is that structural cost increases across the industry are also at play. Triple-A development budgets have exploded since 2022, mainly driven by increased staffing requirements needed to produce the insanely high-quality detail required by games that aim to achieve real-world graphical fidelity on modern hardware.[^33] The desired realism of these games means that simple items, like a bush, can no longer just be an _abstraction_ of a bush that asks the user to imagine the detail, but must actually provide that detail by rendering every individual branch and leaf, plus the complex physics that govern how those leaves move in the wind. Extrapolated across continent-sized game maps, it is no wonder that staffing requirements and development timelines are putting pressure on margins.
+
+For a comparison of how far graphics have come, see below. The first image is a screenshot from the Triple-A game "Skyrim," released in 2011 (credit to Reddit user No-Leek7262).[^34] The second is a screenshot released by Rockstar Entertainment, developer of the soon-to-be-released Grand Theft Auto VI.
+
+**The Elder Scrolls V, Skyrim - Graphics, 2011:**
+![[Skyrim-vanilla2011.webp]]
+
+**GTA VI Graphics, 2026:**[^35]
+![[GTA6_MountKalagaNationalPark.webp]]
+
+The expansion of what games _can be_ has led to an enormous swelling in the cost of what it takes to create one. These triple-A games now take 5, 7, even 10 years to develop. The budget of Grand Theft Auto VI, expected to release in Fall 2026, is estimated to have exceeded a billion dollars. With costs this high, it is far more difficult for developers to turn a profit, and the only likely long-term outcome, in my opinion, is a major rethinking, by the industry, of what a game should be.
+
+In capital-cycle terms, the industry broadly sits in a "capital exiting, supply contracting" quadrant, which is historically the point in the cycle where returns for the disciplined survivors start rising back above the cost of capital, precisely because competitors have destroyed capital rather than deployed it well. Nintendo is _the_ disciplined survivor. It is one of the few companies in the sector positioned to harvest the cleared field rather than being part of the wreckage.
+
+Set against that backdrop, Nintendo's strategy looks less like frugality and more like foresight. Nintendo never entered this arms race in graphical fidelity. The Switch 2, like its predecessors, is built on mature, lower-cost components, which are not only a cost advantage that allows Nintendo to turn a profit on its consoles, but also act as a ceiling on the fidelity its first-party studios need to achieve. This, in turn, functions as a limiter against the AAA cost inflation discussed above.
+
+ Nintendo's advantage, however, is not that it refuses to play the game. It is that it _never_ played the game. This is the key point. The Switch 2 is meaningfully more powerful than the Switch 1, yes, but Nintendo's customers do not _expect_ cutting edge performance graphics, so Nintendo faces meaningfully less pressure than its competitors to deliver that. The rest of the industry — what remains after the purge — will inherit a more favourable competitive landscape, but must still chase ever-more-impressive graphics, because that is what their customers expect. The next Elder Scrolls, Grand Theft Auto, even Call of Duty, cannot go backwards in graphical delivery without majorly disappointing their user base. Nintendo — even as its own headcount and development costs have risen — has simply opted out of that race, freeing it to focus on making fun, innovative games. That is what makes this a genuinely durable advantage and not just cost discipline dressed up as strategy. It is the relationship with the customer, and the expectations that relationship carries, compared to what the competition faces.
+
+
+
+
+
+
+#### What the P&L Actually Shows — Marketing
 
 [CHART: Advertising-to-revenue % — EA vs. Take-Two vs. Nintendo FY26 vs. Nintendo FY23]
 
 Nintendo massively underspends on marketing relative to peers — a hallmark of genuine brand power and a structural cost advantage. The Super Mario Odyssey reveal trailer pulled 60M YouTube views on its own. That's effectively free advertising once production cost is covered. **The IP itself does the marketing.**
+#### Revenue per Employee
 
-### The Balance Sheet: No Debt, No Problem?
+#### R&D as percentage of Revenue
 
-Nintendo carries a net cash position of over **¥2 trillion (~$14B)** — roughly 25% of its market cap. For most companies, that would signal a capital allocation failure. For Nintendo, the honest answer is more nuanced.
+### Pricing Power
 
-[CHART: Cash-to-operating-expenses ratio, FY15–FY26]
+#### Game prices over time
 
-Nintendo has zero financial debt — no refinancing risk, no covenant constraints, no interest expense. The company's stated (and inferred) reasons for the cash pile:
+## Opportunities
 
-- **Console transition insurance.** Nintendo takes genuinely boundary-pushing risks with its hardware, and it doesn't always pay off — the Wii U being the clearest example. Staying debt-free means keeping enough cash on hand to survive a fully failed console cycle.
-- **Hype protection.** If Nintendo were reliant on debt or equity markets, it would need to pre-announce consoles and games much earlier, killing the surprise and hype that helps sell hardware.
-- **Preferred access to partners.** Nintendo believes it gets preferential vendor treatment because it can guarantee long-term obligations, backed by the size of the cash pile.
+### Pokemon As The Blueprint
 
-**The honest criticism:** this strategy is deeply conservative by any measure. The Wii U was a failed generation, and Nintendo never touched the pile. Instead it sits largely idle, earning near-zero returns through over a decade of sub-1% Japanese interest rates.
 
-[CHART: Japanese interest rates 2017–2026 / Dividend yield ~50%, FY17–FY26]
-
-That said, Nintendo isn't the cash hoarder its reputation suggests — dividend yield (as % of net income) has run at roughly **50%** over the period shown. Conservative, yes. Hoarding, not really.
-
-### Cash Flow: The Lie Detector
-
-The cash flow statement is the hardest financial document to manipulate. For Nintendo, it largely confirms the thesis, with a few things worth understanding.
-
-[CHART: Cash from operations vs. net income, FY17–FY26]
-
-Operating cash flow and net income have become less correlated and more volatile in recent years. Three things explain most of the gap:
-
-1. **2021–2022 were blowout pandemic years**, which created large, irregular tax liabilities paid out in subsequent years.
-2. **Yen weakness** in recent years has generated FX gains that show up on the income statement but aren't cash.
-3. **The Switch 2 launch required a massive inventory build**, which is a real cash use ahead of the corresponding revenue recognition.
-
-None of this is a red flag — it's a genuinely cash-generative business with structural characteristics that naturally separate operating cash from net income in certain years. Worth understanding, not worth worrying about.
-
----
-
-*Part 2 picks up with the moat (IP, switching costs, network effects, cost advantages, pricing power), the key risks, a management assessment, and the valuation work — reverse DCF, base case, and a verdict. Send me your questions or pushback in the meantime.*
 
 ---
 
@@ -271,3 +330,23 @@ None of this is a red flag — it's a genuinely cash-generative business with st
 [^13]: Fiscal Year Ended March 2026 Earnings Release/ Financial Results Briefing (Online), https://www.nintendo.co.jp/ir/pdf/2026/260508_5e.pdf
 [^14]: https://www.nintendo.com/us/online/compare-memberships/
 [^15]: https://www.sony.com/en/SonyInfo/IR/library/presen/business_segment_meeting/pdf/2025/GNS_E.pdf
+[^16]: https://corpgov.law.harvard.edu/2025/10/21/tokyo-stock-exchange-initiative-on-cost-of-capital-and-stock-price-conscious-management/
+[^17]: https://tradingeconomics.com/japan/inflation-cpi
+[^18]: https://youtu.be/6muaDM9mIEc?si=gYBBtFTQ0jcH5PCA
+[^19]: https://www.nintendo.co.jp/ir/en/events/080425qa/05.html
+[^20]: https://en.wikipedia.org/wiki/Wii_U
+[^21]: https://finance.yahoo.com/technology/articles/12-billion-electronics-retailer-says-144813046.html
+[^22]: https://en.wikipedia.org/wiki/The_Pok%C3%A9mon_Company
+[^23]: https://blogs.microsoft.com/on-the-issues/2024/10/15/one-year-activision-blizzard/
+[^24]: https://www.nintendo.co.jp/ir/pdf/2025/251105e.pdf
+[^25]: https://zelda.fandom.com/wiki/Eiji_Aonuma
+[^26]: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
+[^27]: https://en.wikipedia.org/wiki/List_of_video_games_featuring_Mario
+[^28]: Link not provided for legal purposes, however, fan made games can be found extremely easily through google search.
+[^29]: https://en.wikipedia.org/wiki/Intellectual_property_protection_by_Nintendo
+[^30]: https://en.wikipedia.org/wiki/2022%E2%80%932026_video_game_industry_layoffs
+[^31]: https://www.youtube.com/watch?v=LHbS3L2isl0
+[^32]: https://tech-insider.org/video-game-industry-layoffs-2026/
+[^33]: https://youtu.be/nvhmBqRjtBQ?si=wqASX0QFJYiVm51q
+[^34]: https://www.reddit.com/r/skyrim/comments/1in7e50/graphical_evolution_of_skyrim_vanilla_modded/
+[^35]: https://www.rockstargames.com/VI/media/screenshots

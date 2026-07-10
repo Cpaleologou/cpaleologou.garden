@@ -1,9 +1,19 @@
 @use "./base.scss";
 
 /* ==========================================================================
+   MODERN EDITORIAL REFRESH — July 2026
+   Direction: keep the warm olive/bone/burnt-orange palette and the site's
+   personality (icons, drop cap), but optimize for the reader: real font
+   weights, larger labels, higher contrast, calmer decoration, softer depth.
+   Fonts (set in quartz.config.ts): Newsreader / Source Serif 4 / IBM Plex Mono.
+   ========================================================================== */
+
+/* ==========================================================================
    1. GLOBAL LAYOUT & BACKGROUND
    ========================================================================== */
 
+/* Paper texture — kept, but as a whisper rather than a statement.
+   Disabled in dark mode where multiply blending muddied the text. */
 body::before {
   content: "";
   position: fixed;
@@ -15,21 +25,19 @@ body::before {
   background-repeat: repeat;
   background-size: auto;
   mix-blend-mode: multiply;
-  opacity: 0.35;
+  opacity: 0.14;
   pointer-events: none;
   z-index: -1;
 }
 
-/* Cartographic left margin rule */
-.center {
-  border-left: 1px dashed color-mix(in srgb, var(--dark) 25%, transparent);
-  padding-left: 2.25rem;
-  box-sizing: border-box;
+html[saved-theme="dark"] body::before {
+  display: none;
+}
 
-  @media (max-width: 600px) {
-    border-left: none;
-    padding-left: 0;
-  }
+/* The dashed "cartographic" left rule is retired — it read as clutter
+   and stole horizontal space from the text column. */
+.center {
+  box-sizing: border-box;
 }
 
 /* Sidebar scroll fix */
@@ -40,57 +48,72 @@ body::before {
   &::-webkit-scrollbar { display: none; }
 }
 
+/* Visible keyboard focus everywhere */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
 /* ==========================================================================
    2. TYPOGRAPHY — body copy
    ========================================================================== */
 
 article p,
 article li {
-  font-size: 1.075rem !important;
-  font-weight: 300 !important;
-  line-height: 1.85 !important;
+  font-size: 1.0625rem !important;
+  font-weight: 400 !important;
+  line-height: 1.75 !important;
   color: var(--dark) !important;
 }
 
-/* Drop cap — targets the actual first <p> inside the article, no class needed.
+/* Drop cap — kept as the one flourish articles get.
    Confirmed DOM: .center article > p is the first paragraph after the header. */
 .center article > p:first-of-type::first-letter {
   font-family: var(--headerFont);
-  font-size: 4.75rem;
-  font-weight: 300;
-  line-height: 0.76;
+  font-size: 3.9rem;
+  font-weight: 500;
+  line-height: 0.8;
   float: left;
-  margin: 0.06em 0.08em 0 0;
+  margin: 0.05em 0.12em 0 0;
   color: var(--tertiary);
 }
 
-/* H6: Pinyon Script flourish */
+/* H6 — the Pinyon Script flourish is retired for legibility.
+   Now a quiet small heading. (Homepage hero h6 overridden in §16.) */
 h6 {
-  font-family: 'Pinyon Script', cursive;
-  font-weight: 400;
-  font-size: 1.9em;
+  font-family: var(--headerFont);
+  font-weight: 600;
+  font-size: 1rem;
   margin-top: 1.75rem;
   margin-bottom: 0.4rem;
-  line-height: 1.15;
+  line-height: 1.3;
   color: var(--secondary);
-  opacity: 0.85;
 }
 
 /* ==========================================================================
    3. ARTICLE TITLE
    Confirmed DOM: <h1 class="article-title"> — it IS the h1, not a wrapper.
-   Previous bug: we were targeting .article-title h1 (non-existent child).
    ========================================================================== */
 
 h1.article-title {
-  font-size: 2.75rem !important;
-  line-height: 1.1 !important;
-  font-weight: 400 !important;
-  font-style: italic !important;
-  letter-spacing: -0.025em !important;
+  font-size: 2.5rem !important;
+  line-height: 1.12 !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  letter-spacing: -0.02em !important;
   color: var(--secondary) !important;
   margin-top: 0 !important;
-  margin-bottom: 0.4rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 /* ==========================================================================
@@ -103,10 +126,10 @@ h1.article-title {
 p.content-meta {
   font-family: var(--codeFont) !important;
   text-transform: uppercase !important;
-  letter-spacing: 0.12em !important;
-  font-size: 0.68rem !important;
+  letter-spacing: 0.08em !important;
+  font-size: 0.75rem !important;
   color: var(--gray) !important;
-  border-bottom: 1px solid color-mix(in srgb, var(--gray) 35%, transparent) !important;
+  border-bottom: 1px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
   padding-bottom: 0.6rem !important;
   margin-top: 0.25rem !important;
   margin-bottom: 0.75rem !important;
@@ -123,8 +146,7 @@ p.content-meta {
 
 /* Tags
    DOM: ul.tags > li > a.internal.tag-link
-   base.scss adds a "#" via a.internal.tag-link::before { content: "#" }
-   We suppress that and style the pills to match the target. */
+   base.scss adds a "#" via a.internal.tag-link::before — suppressed. */
 .center .tags {
   display: flex !important;
   flex-wrap: wrap !important;
@@ -141,15 +163,15 @@ p.content-meta {
 
   a.internal.tag-link {
     font-family: var(--codeFont) !important;
-    font-size: 0.68rem !important;
+    font-size: 0.72rem !important;
     font-weight: 400 !important;
-    letter-spacing: 0.12em !important;
+    letter-spacing: 0.06em !important;
     text-transform: uppercase !important;
-    color: var(--secondary) !important;
-    background-color: var(--lightgray) !important;
-    border: 1px solid var(--gray) !important;
-    border-radius: 4px !important;
-    padding: 0.3rem 0.75rem !important;
+    color: var(--darkgray) !important;
+    background-color: color-mix(in srgb, var(--lightgray) 55%, transparent) !important;
+    border: 1px solid color-mix(in srgb, var(--gray) 40%, transparent) !important;
+    border-radius: 999px !important;
+    padding: 0.25rem 0.75rem !important;
     line-height: normal !important;
     display: inline-block !important;
     transition: border-color 0.2s ease, color 0.2s ease !important;
@@ -158,8 +180,8 @@ p.content-meta {
     &::before { content: "" !important; }
 
     &:hover {
-      border-color: var(--secondary) !important;
-      color: var(--secondary) !important;
+      border-color: var(--tertiary) !important;
+      color: var(--tertiary) !important;
     }
   }
 }
@@ -178,38 +200,44 @@ p.content-meta {
 .breadcrumb-element p,
 .breadcrumb-element a {
   font-family: var(--codeFont) !important;
-  font-size: 0.62rem !important;
-  letter-spacing: 0.1em !important;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.06em !important;
   text-transform: uppercase !important;
   color: var(--gray) !important;
   font-weight: 400 !important;
 }
 
+.breadcrumb-element a:hover {
+  color: var(--tertiary) !important;
+}
+
 /* ==========================================================================
    6. ARTICLE HEADING HIERARCHY
+   Hierarchy now carried by size + weight, not italics and borders.
    ========================================================================== */
 
 .page article {
 
   h2 {
-    font-size: 1.7rem;
-    line-height: 1.3;
-    margin-top: 3.5rem;
-    margin-bottom: 1rem;
-    font-weight: 400;
-    font-style: italic;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    margin-top: 3rem;
+    margin-bottom: 0.85rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.01em;
     border-bottom: none;
-    padding-left: 1rem;
-    border-left: 3px solid var(--tertiary);
+    padding-left: 0;
+    border-left: none;
   }
 
   h3 {
-    font-size: 1.3rem;
-    line-height: 1.4;
+    font-size: 1.25rem;
+    line-height: 1.35;
     margin-top: 2.25rem;
     margin-bottom: 0.6rem;
     font-weight: 600;
-    font-style: italic;
+    font-style: normal;
   }
 
   h4 {
@@ -217,17 +245,18 @@ p.content-meta {
     font-weight: 700;
     margin-top: 1.75rem;
     margin-bottom: 0.4rem;
-    color: var(--tertiary);
+    color: var(--darkgray);
     text-transform: none;
     letter-spacing: 0;
   }
 
+  /* h5 keeps its role as a small "eyebrow" label, at a readable size */
   h5 {
     font-family: var(--codeFont);
-    font-size: 0.72rem;
+    font-size: 0.78rem;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.1em;
     color: var(--gray);
     margin-top: 2rem;
     margin-bottom: 0.5rem;
@@ -239,14 +268,10 @@ p.content-meta {
 /* ==========================================================================
    7. SIDEBAR COMPONENT HEADINGS
    Confirmed DOM:
-     - .recent-notes > h3 (direct child, plain h3)
-     - .graph > h3 (but note: graph component also has class .desktop-only)
+     - .recent-notes > h3
+     - .graph > h3
      - .backlinks > h3
      - button.toc-header > h3
-
-   These component stylesheets may load AFTER custom.scss in the browser,
-   so we use high-specificity selectors with sidebar context to guarantee
-   we win the cascade regardless of load order.
    ========================================================================== */
 
 .sidebar.left .recent-notes > h3,
@@ -254,15 +279,15 @@ p.content-meta {
 .sidebar.right .backlinks > h3,
 .sidebar.right button.toc-header > h3 {
   font-family: var(--codeFont) !important;
-  font-size: 0.60rem !important;
+  font-size: 0.72rem !important;
   font-weight: 500 !important;
-  letter-spacing: 0.16em !important;
+  letter-spacing: 0.1em !important;
   text-transform: uppercase !important;
   color: var(--gray) !important;
   margin: 0 !important;
 }
 
-/* TOC button — add a fine rule below the heading */
+/* TOC button — fine rule below the heading */
 .sidebar.right button.toc-header {
   padding-bottom: 0.4rem !important;
   border-bottom: 1px solid color-mix(in srgb, var(--gray) 25%, transparent) !important;
@@ -286,38 +311,38 @@ p.content-meta {
   list-style: none !important;
   padding: 0 !important;
   margin: 0 !important;
-  border-left: 1px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
+  border-left: 2px solid color-mix(in srgb, var(--gray) 25%, transparent) !important;
 }
 
 /* All entries — inactive state */
 .sidebar.right ul.toc-content > li > a {
   font-family: var(--bodyFont) !important;
-  font-size: 0.76rem !important;
-  font-weight: 300 !important;
+  font-size: 0.85rem !important;
+  font-weight: 400 !important;
   font-style: normal !important;
-  color: var(--gray) !important;
-  opacity: 0.65 !important;
+  color: var(--darkgray) !important;
+  opacity: 0.75 !important;
   display: block !important;
   padding: 0.25rem 0 0.25rem 1rem !important;
-  line-height: 1.4 !important;
+  line-height: 1.45 !important;
   text-decoration: none !important;
   background: none !important;
-  transition: opacity 0.3s ease, color 0.3s ease !important;
+  transition: opacity 0.2s ease, color 0.2s ease !important;
 
   &:hover {
-    opacity: 0.9 !important;
-    color: var(--secondary) !important;
+    opacity: 1 !important;
+    color: var(--tertiary) !important;
   }
 }
 
-/* Active entry — li gets orange border, a gets bold italic */
+/* Active entry — li gets accent border, a gets weight (not italics) */
 .sidebar.right ul.toc-content > li:has(> a.in-view) {
-  border-left: 1px solid var(--tertiary) !important;
+  border-left: 2px solid var(--tertiary) !important;
 }
 
 .sidebar.right ul.toc-content > li > a.in-view {
-  font-weight: 300 !important;
-  font-style: italic !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
   color: var(--dark) !important;
   opacity: 1 !important;
 }
@@ -326,13 +351,12 @@ p.content-meta {
 .sidebar.right ul.toc-content > li.depth-1 > a,
 .sidebar.right ul.toc-content > li.depth-2 > a {
   padding-left: 1.75rem !important;
-  font-size: 0.72rem !important;
+  font-size: 0.8rem !important;
 }
 
 /* ==========================================================================
    9. BACKLINKS ENTRIES
    Confirmed DOM: .backlinks > ul.overflow > li > a
-   Target: bodyFont, ~0.9rem, olive color, hairline separator between entries
    ========================================================================== */
 
 .sidebar.right .backlinks ul.overflow {
@@ -350,12 +374,12 @@ p.content-meta {
 
 .sidebar.right .backlinks ul.overflow > li > a {
   font-family: var(--bodyFont) !important;
-  font-size: 0.82rem !important;
-  font-weight: 300 !important;
+  font-size: 0.88rem !important;
+  font-weight: 400 !important;
   color: var(--dark) !important;
   background: none !important;
   padding: 0 !important;
-  line-height: 1.35 !important;
+  line-height: 1.4 !important;
   display: block !important;
   text-decoration: none !important;
 
@@ -363,21 +387,15 @@ p.content-meta {
 }
 
 /* ==========================================================================
-   10. RECENT NOTES — Inkwell Animation
+   10. RECENT NOTES — Inkwell Animation (kept — it's the site's signature)
    Confirmed DOM:
      .recent-notes > ul.recent-ul > li.recent-li
        > .section > .desc > h3 > a.internal
        > .section > .meta > time
-
-   Previous bugs:
-     - We targeted ul without the .recent-ul class (fine, but confirmed now)
-     - li has class .recent-li (doesn't affect our selector but now confirmed)
-     - meta date is inside <p class="meta"><time> not just <p class="meta">
    ========================================================================== */
- 
-/* Header row — h3 and see-more link sit on the same line */
+
+/* Header row */
 .recent-notes > h3 {
-  /* Bottom border on the heading row */
   border-bottom: 1px solid color-mix(in srgb, var(--gray) 25%, transparent) !important;
   padding-bottom: 0.4rem !important;
   margin-bottom: 0.25rem !important;
@@ -399,20 +417,19 @@ p.content-meta {
   margin: 0 !important;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   transition: background-color 0.2s ease, border-color 0.2s ease,
-              box-shadow 0.2s ease, transform 0.2s ease;
+              box-shadow 0.2s ease;
 
   &:hover {
     background-color: var(--light);
-    border-color: color-mix(in srgb, var(--secondary) 28%, transparent);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
-    transform: translateY(-2px);
+    border-color: color-mix(in srgb, var(--gray) 35%, transparent);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 
-    .section > .desc > h3 > a { color: var(--secondary) !important; }
+    .section > .desc > h3 > a { color: var(--tertiary) !important; }
   }
 
   /* ICON LAYER 1: THE POT */
@@ -453,47 +470,45 @@ p.content-meta {
 
 /* Entry title */
 .recent-notes .section > .desc > h3 {
-  font-size: 0.92rem !important;
-  font-weight: 400 !important;
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
   margin: 0 !important;
 
   & > a.internal {
     font-family: var(--headerFont) !important;
-    font-weight: 400 !important;
+    font-weight: 500 !important;
     font-size: 1rem !important;
     color: var(--dark) !important;
     background-color: transparent !important;
     padding: 0 !important;
     border-radius: 0 !important;
-    line-height: 1.25 !important;
+    line-height: 1.3 !important;
 
-    &:hover { color: var(--secondary) !important; }
+    &:hover { color: var(--tertiary) !important; }
   }
 }
 
-/* Entry meta — confirmed: <p class="meta"><time datetime="...">Mar 14, 2026</time></p> */
+/* Entry meta — <p class="meta"><time datetime="...">Mar 14, 2026</time></p> */
 .recent-notes .section > .meta,
 .recent-notes .section > .meta time {
   font-family: var(--codeFont) !important;
-  font-size: 0.62rem !important;
-  letter-spacing: 0.08em !important;
+  font-size: 0.7rem !important;
+  letter-spacing: 0.05em !important;
   text-transform: uppercase !important;
   color: var(--gray) !important;
-  opacity: 0.75 !important;
   margin: 0 !important;
 }
 
-/* "See N more →" link — confirmed: <p><a href="/writing/">See 1 more →</a></p> */
+/* "See N more →" link — <p><a href="/writing/">See 1 more →</a></p> */
 .recent-notes > p > a {
   font-family: var(--codeFont) !important;
-  font-size: 0.62rem !important;
-  letter-spacing: 0.1em !important;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.06em !important;
   text-transform: uppercase !important;
   color: var(--tertiary) !important;
   font-weight: 400 !important;
-  opacity: 0.85;
 
-  &:hover { opacity: 1 !important; }
+  &:hover { text-decoration: underline !important; }
 }
 
 /* Dark mode icon swap */
@@ -503,38 +518,37 @@ html[saved-theme="dark"] .recent-notes > ul.recent-ul > li.recent-li {
 }
 
 /* ==========================================================================
-   11. IMAGES & FIGURES — physical photo treatment
+   11. IMAGES & FIGURES
+   The hard offset "physical photo" shadow is retired for a modern,
+   quiet elevation. Rounded corners, no rotation on hover.
    ========================================================================== */
 
 .center article img,
 .library-grid img {
-  border: 1px solid color-mix(in srgb, var(--secondary) 60%, transparent) !important;
-  box-shadow: 5px 5px 0 color-mix(in srgb, var(--tertiary) 50%, transparent) !important;
-  border-radius: 0 !important;
-  padding: 7px !important;
+  border: 1px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 8px !important;
+  padding: 0 !important;
   background-color: var(--light) !important;
   box-sizing: border-box;
-  max-width: calc(100% - 10px);
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 2rem auto;
-  transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+  transition: box-shadow 0.25s ease !important;
 
   &:hover {
-    transform: translateY(-3px) rotate(0.3deg);
-    box-shadow: 7px 7px 0 color-mix(in srgb, var(--tertiary) 50%, transparent) !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08), 0 12px 32px rgba(0, 0, 0, 0.08) !important;
   }
 }
 
 %floated-image-base {
-  border: 1px solid color-mix(in srgb, var(--secondary) 60%, transparent) !important;
-  box-shadow: 5px 5px 0 color-mix(in srgb, var(--tertiary) 50%, transparent) !important;
-  border-radius: 0 !important;
-  padding: 7px !important;
+  border: 1px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 8px !important;
+  padding: 0 !important;
   background-color: var(--light) !important;
   width: 280px;
-  transition: transform 0.25s ease !important;
-  &:hover { transform: translateY(-3px) !important; }
 }
 
 img[alt$="right"] {
@@ -554,88 +568,42 @@ img[alt$="left"] {
 }
 
 /* ==========================================================================
-   12. BLOCKQUOTES — "FIELD REPORT //"
-   Scoped to plain blockquotes only; .callout blockquotes are handled in §12b.
-   base.scss: blockquote { border-left: 3px solid var(--secondary); padding-left: 1rem }
+   12. BLOCKQUOTES
+   The "FIELD REPORT //" label is retired. Quotes now read as quotes:
+   accent border, upright text, quiet background.
+   Scoped to plain blockquotes only; .callout is styled in callouts.scss.
    ========================================================================== */
 
 blockquote:not(.callout) {
   background-color: color-mix(in srgb, var(--secondary) 4%, transparent) !important;
-  border-left: 2px solid var(--secondary) !important;
-  padding: 1.1rem 1.35rem !important;
+  border-left: 3px solid var(--tertiary) !important;
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 1.25rem !important;
   margin: 2rem 0 !important;
   font-style: normal !important;
-  position: relative;
 
-  &::before {
-    content: "FIELD REPORT //";
-    display: block;
-    font-family: var(--codeFont);
-    font-size: 0.62rem;
-    font-weight: 500;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--secondary);
-    opacity: 0.75;
-    margin-bottom: 0.65rem;
-  }
+  &::before { content: none !important; }
 
   p {
     font-family: var(--bodyFont) !important;
-    font-size: 1rem !important;
-    font-style: italic !important;
-    line-height: 1.75 !important;
+    font-size: 1.02rem !important;
+    font-style: normal !important;
+    line-height: 1.7 !important;
     color: var(--dark) !important;
     margin: 0 !important;
   }
+
+  p + p { margin-top: 0.75rem !important; }
 }
 
-/* ==========================================================================
-   12. BLOCKQUOTES — "FIELD REPORT //"
-   Scoped to plain blockquotes only; .callout blockquotes are handled in §12b.
-   base.scss: blockquote { border-left: 3px solid var(--secondary); padding-left: 1rem }
-   ========================================================================== */
- 
-blockquote:not(.callout) {
-  background-color: color-mix(in srgb, var(--secondary) 4%, transparent) !important;
-  border-left: 2px solid var(--secondary) !important;
-  padding: 1.1rem 1.35rem !important;
-  margin: 2rem 0 !important;
-  font-style: normal !important;
-  position: relative;
- 
-  &::before {
-    content: "FIELD REPORT //";
-    display: block;
-    font-family: var(--codeFont);
-    font-size: 0.62rem;
-    font-weight: 500;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--secondary);
-    opacity: 0.75;
-    margin-bottom: 0.65rem;
-  }
- 
-  p {
-    font-family: var(--bodyFont) !important;
-    font-size: 1rem !important;
-    font-style: italic !important;
-    line-height: 1.75 !important;
-    color: var(--dark) !important;
-    margin: 0 !important;
-  }
-}
- 
 /* ==========================================================================
    12b. CALLOUTS
    Styling lives in quartz/styles/callouts.scss — edited directly.
    Nothing to do here.
    ========================================================================== */
- 
 
 /* ==========================================================================
-   13. START GRID
+   13. START GRID (custom icons kept)
    ========================================================================== */
 
 .start-grid {
@@ -658,18 +626,17 @@ blockquote:not(.callout) {
     gap: 0.9rem;
     background-color: var(--light);
     border: 1px solid var(--lightgray);
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 1rem 1.1rem;
     margin: 0;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), inset 0 -1px 0 rgba(0, 0, 0, 0.04);
-    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.25s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
     cursor: pointer;
     position: relative;
 
     &:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08), inset 0 -1px 0 rgba(0, 0, 0, 0.04);
-      border-color: var(--secondary);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+      border-color: color-mix(in srgb, var(--tertiary) 55%, transparent);
     }
 
     &::before {
@@ -709,21 +676,21 @@ blockquote:not(.callout) {
       font-family: var(--headerFont);
       font-weight: 600;
       font-size: 1rem;
-      line-height: 1.25;
+      line-height: 1.3;
       margin-bottom: 0.25rem;
       transition: color 0.2s ease;
     }
 
     .desc {
-      color: var(--gray);
+      color: var(--darkgray);
       font-family: var(--bodyFont);
-      font-size: 0.82rem;
-      line-height: 1.4;
+      font-size: 0.85rem;
+      line-height: 1.45;
       font-weight: 400;
     }
   }
 
-  li:hover a strong { color: var(--secondary); }
+  li:hover a strong { color: var(--tertiary); }
 }
 
 html[saved-theme="dark"] .start-grid li:nth-child(1)::before {
@@ -768,14 +735,14 @@ html[saved-theme="dark"] .start-grid li:nth-child(5)::before {
 
 body[data-slug="index"] {
 
-  // "Welcome" h6 — override Pinyon Script; render as large italic Playfair Display
+  // "Welcome" h6 — hero treatment. Italic Newsreader keeps the old warmth.
   article h6 {
     font-family: var(--headerFont) !important;
-    font-size: 3.5rem !important;
-    font-weight: 400 !important;
+    font-size: 3.25rem !important;
+    font-weight: 500 !important;
     font-style: italic !important;
     color: var(--secondary) !important;
-    letter-spacing: -0.025em !important;
+    letter-spacing: -0.02em !important;
     line-height: 1.05 !important;
     margin-top: 2.5rem !important;
     margin-bottom: 1.75rem !important;
@@ -783,7 +750,6 @@ body[data-slug="index"] {
   }
 
   // Lede — first h2 ("I'm Christian...") gets left-border pullquote treatment.
-  // Overrides the global italic section-heading style for this element only.
   article > h2:first-of-type {
     border-left: 3px solid var(--tertiary) !important;
     padding-left: 1.25rem !important;
@@ -809,31 +775,32 @@ body[data-slug="index"] {
     line-height: 1.5 !important;
   }
 
-  // Drop cap on first body paragraph ("Most of what's here...")
+  // Drop cap on first body paragraph
   article > p:first-of-type::first-letter {
     font-family: var(--headerFont);
-    font-size: 4.75rem;
-    font-weight: 300;
-    line-height: 0.76;
+    font-size: 3.9rem;
+    font-weight: 500;
+    line-height: 0.8;
     float: left;
-    margin: 0.06em 0.08em 0 0;
+    margin: 0.05em 0.12em 0 0;
     color: var(--tertiary);
   }
 
-  // All body paragraphs — reset any stray styles, ensure clean rendering
+  // All body paragraphs — clean rendering
   article > p {
     font-family: var(--bodyFont) !important;
     font-style: normal !important;
     color: var(--dark) !important;
-    line-height: 1.9 !important;
-    font-size: 1.05rem !important;
+    line-height: 1.75 !important;
+    font-size: 1.0625rem !important;
   }
 
-  // "About This Garden" / "Places to Start" — subsequent h2s keep section style
+  // Subsequent h2s keep section style
   article > h2:not(:first-of-type) {
-    margin-top: 3.5rem !important;
+    margin-top: 3rem !important;
   }
 }
+
 /* ==========================================================================
    14. LIBRARY PAGE
    ========================================================================== */
@@ -877,16 +844,15 @@ body[data-slug="library"] {
     align-items: center;
     text-align: center;
     border: 1px solid var(--lightgray);
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 1.1rem 0.9rem 1rem;
     background-color: var(--light);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
-    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
 
     &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
-      border-color: var(--secondary);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+      border-color: color-mix(in srgb, var(--tertiary) 55%, transparent);
     }
 
     img {
@@ -897,8 +863,8 @@ body[data-slug="library"] {
 
     a {
       font-weight: 600;
-      font-size: 0.9rem;
-      line-height: 1.3;
+      font-size: 0.92rem;
+      line-height: 1.35;
       text-decoration: none;
       color: var(--dark);
       &.internal { background: none; }
@@ -907,9 +873,9 @@ body[data-slug="library"] {
     .author {
       display: block;
       font-family: var(--codeFont);
-      font-size: 0.68rem;
+      font-size: 0.72rem;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.05em;
       color: var(--gray);
       margin-top: 0.3rem;
     }
@@ -937,18 +903,18 @@ body[data-slug="library"] {
     width: 200px !important;
     flex-shrink: 0;
     object-fit: cover;
-    border: 1px solid color-mix(in srgb, var(--secondary) 40%, transparent) !important;
-    box-shadow: 4px 4px 0 color-mix(in srgb, var(--tertiary) 35%, transparent) !important;
-    padding: 6px !important;
+    border: 1px solid color-mix(in srgb, var(--gray) 35%, transparent) !important;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.10), 0 10px 28px rgba(0, 0, 0, 0.08) !important;
+    padding: 0 !important;
     background-color: var(--light) !important;
-    border-radius: 0 !important;
+    border-radius: 6px !important;
     margin: 0 !important;
     display: block !important;
     transition: none !important;
 
     &:hover {
       transform: none !important;
-      box-shadow: 4px 4px 0 color-mix(in srgb, var(--tertiary) 35%, transparent) !important;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.10), 0 10px 28px rgba(0, 0, 0, 0.08) !important;
     }
 
     @media (max-width: 600px) {
@@ -966,20 +932,19 @@ body[data-slug="library"] {
 
   .book-genre {
     font-family: var(--codeFont) !important;
-    font-size: 0.65rem !important;
+    font-size: 0.72rem !important;
     font-weight: 500 !important;
-    letter-spacing: 0.18em !important;
+    letter-spacing: 0.1em !important;
     text-transform: uppercase !important;
     color: var(--gray) !important;
     margin: 0 0 0.5rem 0 !important;
-    opacity: 0.75;
   }
 
   .book-author {
     font-family: var(--bodyFont) !important;
-    font-size: 1.15rem !important;
-    font-weight: 300 !important;
-    color: var(--gray) !important;
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+    color: var(--darkgray) !important;
     margin: 0 0 0.6rem 0 !important;
     line-height: 1.3 !important;
   }
@@ -993,30 +958,29 @@ body[data-slug="library"] {
   }
 
   .book-title {
-  font-family: var(--headerFont) !important;
-  font-size: 1.75rem !important;
-  font-weight: 700 !important;
-  line-height: 1.15 !important;
-  color: var(--secondary) !important;
-  margin: 0 0 0.2rem 0 !important;
+    font-family: var(--headerFont) !important;
+    font-size: 1.75rem !important;
+    font-weight: 600 !important;
+    line-height: 1.15 !important;
+    color: var(--secondary) !important;
+    margin: 0 0 0.2rem 0 !important;
   }
 
   .book-subtitle {
     font-family: var(--headerFont) !important;
     font-size: 1.05rem !important;
-    font-weight: 300 !important;
+    font-weight: 400 !important;
     font-style: italic !important;
-    line-height: 1.3 !important;
-    color: var(--secondary) !important;
-    opacity: 0.75;
+    line-height: 1.35 !important;
+    color: var(--darkgray) !important;
     margin: 0 0 1.25rem 0 !important;
   }
 
   .book-date-read {
     font-family: var(--codeFont) !important;
-    font-size: 0.68rem !important;
+    font-size: 0.72rem !important;
     font-weight: 400 !important;
-    letter-spacing: 0.12em !important;
+    letter-spacing: 0.08em !important;
     text-transform: uppercase !important;
     color: var(--gray) !important;
     margin: 0 !important;

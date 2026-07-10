@@ -17,7 +17,7 @@ The result of such “scientific” modelling is an overconfidence in “the mod
 ---
 ## Connections
 
-Buffett’s 4 Purchase Decision Criteria
+[[Buffett’s 4 Purchase Decision Criteria]]
 
 **Link Explanation:**
 While not direction mentioned in the linked note, Buffett famously never used excel or relied on complex models to calculate the precise value of a stock. The trickiness, though, is that one of the core purchase decision criteria is that the stock must be attractively priced relative to owner’s value. That is hard to figure out without a discounted cash flow model. I think the better method is to run a discounted cash flow, but keep it very simple and try to understand the input in basic terms. This might be something like “how many units does X business need to sell each year to be worth it? Can they realistically do this based on past growth and the TAM? Then it’s simply a matter of being strict on a deep margin of safety requirement before any purchase decision is made. 

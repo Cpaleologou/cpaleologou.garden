@@ -5,7 +5,7 @@ tags:
 publish: 'true'
 date: 2026-06-10T00:00:00.000Z
 ---
-![[charti.3.webp]]
+![[CapitalCycleChart.webp]]
 
 The capital returns cycle, developed by Marathon Management Partners, is an investing framework that focuses on identifying opportunities through the analysis of supply-side dynamics.
 Many times when assessing a business, investors focus on the opportunity by trying to estimate and predict demand for the products or services that business provides. This is inherently difficult and complicated. Marathon argues that understanding the supply-side dynamics of the industry is easier and thus more likely to lead to success.

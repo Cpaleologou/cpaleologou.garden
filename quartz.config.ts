@@ -24,41 +24,41 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: {
-          name: "Playfair Display",
-          weights: [500, 600, 700],
+          name: "Newsreader",
+          weights: [400, 500, 600, 700],
         },
         body: {
-          name: "Merriweather",
-          weights: [300, 400],
+          name: "Source Serif 4",
+          weights: [400, 600],
         },
         code: {
-          name: "Courier Prime",
-          weights: [400, 700],
+          name: "IBM Plex Mono",
+          weights: [400, 500],
         },
       },
       colors: {
         lightMode: {
           light: "#F0EFE9",        // Bone White: The main paper background
-          lightgray: "#D8D6CC",    // Stone Grey: For subtle borders or inactive elements
-          gray: "#8C9178",         // Sage: For secondary icons or disabled text
-          darkgray: "#1A2421",     // Olive Drab: For subheaders and secondary text
-          dark: "#4B5320",         // Dark Forest: The "almost black" for main body text
+          lightgray: "#DBD8CC",    // Stone Grey: For subtle borders or inactive elements
+          gray: "#6E7460",         // Deepened sage: secondary text/icons — now WCAG-legible on bone
+          darkgray: "#3E4438",     // Dark olive-grey: sub-headers and secondary text
+          dark: "#23281E",         // Near-black olive: main body text (high contrast)
           secondary: "#1A2421",    // Olive Drab: Primary Brand Color (Headlines)
-          tertiary: "#CC5500",     // Burnt Orange: Accent color for buttons/links
-          highlight: "rgba(75, 83, 32, 0.10)", // Very faint Olive for hover states
-          textHighlight: "#E8C54788", // Muted Gold: For highlighting text (more natural than neon yellow)
+          tertiary: "#B34D00",     // Burnt Orange, deepened for link contrast on bone
+          highlight: "rgba(75, 83, 32, 0.08)", // Very faint Olive for hover states
+          textHighlight: "#E8C54766", // Muted Gold: for highlighting text
         },
         darkMode: {
           light: "#1a2318",       // Deep binding green — background (not black, genuinely green)
-          lightgray: "#243020",   // Slightly lighter green — card/sidebar surfaces  
-          gray: "#7a8a6a",        // Muted sage — secondary text, icons
+          lightgray: "#26311f",   // Slightly lighter green — card/sidebar surfaces
+          gray: "#8fa07c",        // Muted sage, lightened for contrast — secondary text, icons
           darkgray: "#d4c9a8",    // Aged cream — sub-headers, metadata
-          dark: "#e8dfc4",        // Warm parchment — main body text
+          dark: "#ece5d0",        // Warm parchment — main body text (slightly brighter)
           secondary: "#F0EFE9",   // Aged cream — headlines
-          tertiary: "#c8860a",    // Deeper gold — links/accent (richer than the orange, more gilt)
-          highlight: "rgba(200, 134, 10, 0.12)",
-          textHighlight: "#c8860a88",
-},
+          tertiary: "#d99b2e",    // Gold, brightened for link contrast on deep green
+          highlight: "rgba(217, 155, 46, 0.12)",
+          textHighlight: "#d99b2e55",
+        },
       },
     },
   },
