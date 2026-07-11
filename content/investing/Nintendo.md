@@ -312,6 +312,34 @@ In fact, Nintendo has been incredibly aggressive against pursuing DMCA take down
 
 ### Cost Advantages
 
+#### Operating Cost Advantages
+
+**Advertising % of Revenue - Nintendo vs. Competitors:**[^36]
+
+![[AdvertisingToRevenue.webp]]
+
+Nintendo spent roughly 6% of revenue on advertising in fiscal 2026 and about 5.8% in fiscal 2023, against EA's approximately 13% and Take-Two's approximately 30%. 
+
+This is a direct demonstration of the strength of Nintendo's IP. Both competitors were selected because they themselves have strong IP - EA with EAFC (formerly FIFA), for example, and Take-Two with the GTA series, Red-Dead Redemption, and more. Regardless of whether Nintendo is in a console launch year, or a regular mid-cycle year, a new Mario or Zelda entry is so beloved and culturally relevant that the game alone performs the demand-generation work a media budget would otherwise have to buy. 
+
+**Revenue per Employee - Nintendo vs. Competitors:**[^38]
+
+![[R&D as _ of Revenue.webp]]
+
+Nintendo's R&D intensity has run in roughly a 6-12% of revenue range across fiscal 2017 through fiscal 2025, spiking to around 12% in both fiscal 2017 and fiscal 2025 which are the two years bracketing a hardware-transition R&D ramp (Switch's 2017 launch cycle and Switch 2's development-heavy pre-launch year), set against a temporarily smaller revenue base. 
+
+Even at that cyclical high, Nintendo's ratio sits well below EA's, which has climbed steadily from roughly 25% to roughly 34% of revenue over the same stretch. EA is funding an escalating graphical fidelity and live-service arms race that consumes a rising share of every revenue dollar, while Nintendo's R&D burden has stayed roughly flat as a share of revenue even through its own console transition. 
+
+Tellingly, Nintendo's R&D intensity tracks closer to Apple's (roughly 5-8% of a vastly larger revenue base) than to a fellow games publisher's. This again shows the similarity of the businesses, and how Nintendo behaves more like a disciplined hardware company protecting margin than like a content studio caught in a production-cost spiral.
+
+**Revenue per Employee - Nintendo vs. Competitors:**[^37]
+
+![[Revenue per Employee.webp]]
+
+Nintendo has generated somewhere between roughly 2x and nearly 4x the revenue per employee of Square Enix and Capcom in every year of the sample.
+
+The improvement of the gap at the trough, is the most important observation. Again, we are in a period where development costs are soaring and the number of employees needed to make games has expanded dramatically. The persistent gap is a demonstration of how Nintendo has largely avoided the live-service permanent-team model, and gets outsized per-employee economics from evergreen franchises that don't need to be rebuilt from scratch each console cycle the way a typical publisher's back catalog does. 
+
 #### Underpowered by design
 
 Nintendo does not compete on hardware cost leadership. The console is deliberately under-spec'd relative to Sony and Microsoft to hit a lower price point and preserve margin, a strategy that has worked for multiple consecutive console generations.
@@ -342,23 +370,65 @@ In capital-cycle terms, the industry broadly sits in a "capital exiting, supply 
 
 Set against that backdrop, Nintendo's strategy looks less like frugality and more like foresight. Nintendo never entered this arms race in graphical fidelity. The Switch 2, like its predecessors, is built on mature, lower-cost components, which are not only a cost advantage that allows Nintendo to turn a profit on its consoles, but also act as a ceiling on the fidelity its first-party studios need to achieve. This, in turn, functions as a limiter against the AAA cost inflation discussed above.
 
- Nintendo's advantage, however, is not that it refuses to play the game. It is that it _never_ played the game. This is the key point. The Switch 2 is meaningfully more powerful than the Switch 1, yes, but Nintendo's customers do not _expect_ cutting edge performance graphics, so Nintendo faces meaningfully less pressure than its competitors to deliver that. The rest of the industry — what remains after the purge — will inherit a more favourable competitive landscape, but must still chase ever-more-impressive graphics, because that is what their customers expect. The next Elder Scrolls, Grand Theft Auto, even Call of Duty, cannot go backwards in graphical delivery without majorly disappointing their user base. Nintendo — even as its own headcount and development costs have risen — has simply opted out of that race, freeing it to focus on making fun, innovative games. That is what makes this a genuinely durable advantage and not just cost discipline dressed up as strategy. It is the relationship with the customer, and the expectations that relationship carries, compared to what the competition faces.
+ Nintendo's advantage, however, is not that it refuses to play the game. The is a management choice, not a moat. It is that it _never_ played the game. This is the key point. Nintendo's customers do not **_expect_** cutting edge performance graphics, The Switch 2 is meaningfully more powerful than the Switch 1, yes, they can't fall too far behind. But in the technology industry, swimming in the wake of the bleating edge is materially cheaper and more sustainable. As long as your customers don't expect you to deliver cutting edge performance, being able to swim in that wake permanently is a competitive advantage.
 
-#### What the P&L Actually Shows — Marketing
+The rest of the industry, whatever remains after the purge, will inherit a more favourable competitive landscape, but must still chase ever-more-impressive graphics, because that is what their customers expect. The next Elder Scrolls, Grand Theft Auto, even Call of Duty, cannot go backwards in graphical delivery without majorly disappointing their user base. Nintendo, even as its own headcount and development costs have risen, can focus on where it's real strength comes from: fun and innovative games. That is what makes this a genuinely durable advantage and not just cost discipline dressed up as strategy. It is the relationship with the customer, and the expectations that relationship carries, compared to what the competition faces.
 
-[CHART: Advertising-to-revenue % — EA vs. Take-Two vs. Nintendo FY26 vs. Nintendo FY23]
+#### Is This Really A Moat?
 
-Nintendo massively underspends on marketing relative to peers — a hallmark of genuine brand power and a structural cost advantage. The Super Mario Odyssey reveal trailer pulled 60M YouTube views on its own. That's effectively free advertising once production cost is covered. **The IP itself does the marketing.**
+None of this is really a pure cost advantage story in its own right. Advertising spend is low because the IP itself generates demand. R&D stays contained because the IP doesn't require constant fidelity escalation to remain compelling. Revenue per employee is high because a comparatively small workforce controls assets on evergreen franchises. Each efficiency metric here is downstream of the IP moat, not an independent source of advantage. That has two divergent implications: it means the cost advantage should be very durable for as long as the IP itself stays culturally relevant, but it also means these three metrics would likely normalize toward peer levels together, not independently, if that underlying moat ever weakened.
 
-#### Revenue per Employee
+### Network Effects & Switching Costs
 
-#### R&D as percentage of Revenue
+Network effects and switchings costs are the weakest leg of Nintendo's moat and the investor would not be wrong to largely ignore them in their investment thesis. However, it is worth understanding them, as these are areas where Nintendo's competitors do have advantages, and where Nintendo could strengthen its business. 
+
+The traditional network effects of social media don't exist on Nintendo's core business. Mario doesn't get more valuable because more people play Mario. What does exist is an indirect version via the eShop: a larger install base gives third-party developers more reason to target Switch, which produces more games, which gives buyers more reason to purchase the console. 
+
+Fundamentally, the Switch 2's third-party lineup is materially stronger than the original Switch's at the same point in its life. Cyberpunk 2077, Devil May Cry 5, Final Fantasy VII Rebirth, Hogwarts Legacy, and Assassin's Creed Shadows are all live on Switch 2 already, a lineup the original Switch didn't approach until several years into its run. 
+
+**Nintendo Switch 2 Selected Titles:**
+
+![[Eshop-1.webp]]
+
+That's real evidence the flywheel is turning faster this cycle. But it depends entirely on hardware being powerful enough to port to. The Switch 2 is meaningfully more powerful than the Switch 1, which means some of the most popular games of all time - Cyberpunk, Eldin Ring, etc. all play well on the system. For the most dedicated gamers, maybe it's not enough, but for most people the performance on these games is good enough.
+
+![[Switch2vsPS5Pro.webp]]
+
+The issue, however, is the same as always for Nintendo. Gaming demands don't stop and it is unlikely that newer games are able to run as well on the Switch 2 as they do on more powerful hardware.  The same underpowered-console choice that produces the cost advantage described above also caps how far this network effect can compound.
+
+Simultaneously, the Switch platform struggles on network effects against Playstation, Xbox and PC because it doesn't have a meaningful social graph. Competitive gaming lives almost entirely elsewhere: Fortnite, Call of Duty, and League of Legends are the dominant social and competitive titles among teens, none of them meaningfully present on Switch. Teenagers who game socially have a real, structural reason to choose a competitor.
+
+This lack of network effects in turn lowers the switching costs for gamers to move to other platforms, and creates what I think of as the Nintendo Gamer Lifecycle, described below.
+
+![[GamerLifeCycle.webp]]
 
 ### Pricing Power
 
-#### Game prices over time
+Like the cost advantages discussed above, pricing power here is a downstream consequence of the IP moat rather than an independent source of it. But it shows up clearly enough in the data that it deserves its own look rather than being folded into the IP discussion.
 
-## Opportunities
+It must be understood going into this discussion that games usually do not have a long shelf-life. According to an analysis performed by vaulted games, top-rated AAA titles, on average, hits their first discount within about two months of release and reaches 33-50% off by the six-month mark. Nintendo' first-party titles, on the other hand, typically take six to twelve months for even a modest markdown and rarely exceed 33% off even then. [^39]  Where this becomes materially apparent is when we look at the price history of core Nintendo games against core Playstation games side-by-side. 
+
+"The Legend of Zelda: Tears of the Kingdom" is one of Nintendo most hyped, and best selling games in recent years. We can see from the chart below that after being launched in 2023, the game received essentially zero discounting across the following 3 years, until months after the launch of the Switch 2. From that point on, the Switch 2 version of the game also did not experience any major discounting for another year.
+
+> As an aside, I'm not sure why this chart from CamelCamelCamel contains data going back to 2021. There may be some contamination of data from Legend of Zelda: Breath of the Wild. 
+
+**Legend of Zelda: Tears of The Kingdom Price History (Switch 1):**[^40]
+
+![[TearsOfTheKingdomPriceHistoryCamel.webp]]
+
+**Legend of Zelda: Tears of The Kingdom Price History (Switch 2):**[^41]
+
+![[TearsOfTheKingdomPriceHistorySwitch2Camel.webp]]
+
+The best comparison I can think of for Playstation is their title "God of War: Ragnarok". It is a Sony first-party exclusive, extending a franchise that has existed since 2005.[^43] It is available with full text and audio in almost every major language, it has over 200k ratings on the Playstation store alone, and it's average rating is 4.8/5.[^44] It is by all measures an excellent game and the closest thing Sony has to a home-run. Yet, after launching in 2022 for $70, it was already selling at over 50% off within a year, and was permanently repriced to roughly half its original MSRP within about twelve months. 
+
+**God of War: Ragnarok (Playstation 5):**[^42]
+
+![[GodOfWarRagnarokPriceHistoryCamel.webp]]
+
+What matter here is that this is not Sony failing to execute. This is the state of normalcy in the gaming industry for all players - except Nintendo. The difference is almost half a decade of sales at full margins, versus running as fast as you can to stay in one place. It is a good of a picture as we can get of the pricing power Nintendo holds and the power of its IP.
+
+## 5. Risks & Opportunities
 
 ### Pokemon As The Blueprint
 
@@ -399,3 +469,12 @@ Nintendo massively underspends on marketing relative to peers — a hallmark of 
 [^33]: https://youtu.be/nvhmBqRjtBQ?si=wqASX0QFJYiVm51q
 [^34]: https://www.reddit.com/r/skyrim/comments/1in7e50/graphical_evolution_of_skyrim_vanilla_modded/
 [^35]: https://www.rockstargames.com/VI/media/screenshots
+[^36]: Data pulled manually from each companies' financial reports.
+[^37]: Data pulled manually from each companies' financial reports.
+[^38]: Data pulled manually from each companies' financial reports.
+[^39]: https://vaulted.games/blog/how-long-should-you-wait-to-buy-a-new-game-a-price-drop-timeline
+[^40]: https://camelcamelcamel.com/product/B097B2YWFX?context=search
+[^41]: https://camelcamelcamel.com/product/B0F66DXJNM?context=search
+[^42]: https://camelcamelcamel.com/product/B0B61YDF5V
+[^43]: https://en.wikipedia.org/wiki/God_of_War_(franchise)
+[^44]: https://www.playstation.com/en-ca/games/god-of-war-ragnarok/
