@@ -39,4 +39,4 @@ The note linked above features a discussion surrounding the failings of the P/E 
 
 ## Reference
 
-[[Capital Returns#^b8e539]]
+� Capital Returns

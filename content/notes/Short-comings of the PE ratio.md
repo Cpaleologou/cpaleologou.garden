@@ -27,4 +27,4 @@ The linked note explains how there are two different kinds of candidates for inv
 
 ## Reference
 
-[[Capital Returns#^3c6d9f]]
+� Capital Returns

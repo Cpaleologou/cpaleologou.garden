@@ -36,4 +36,4 @@ This is in fact a topic discussed in the book at length. That is, the fact that 
 
 ## Reference
 
-[[Capital Returns#^e94d14]]
+� Capital Returns

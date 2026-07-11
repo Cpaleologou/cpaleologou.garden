@@ -24,4 +24,4 @@ The asset-growth anomaly would imply that these hyperscalers are likely to under
 
 ## Reference
 
-[[Capital Returns#^971935]]
+� Capital Returns

@@ -30,4 +30,4 @@ The linked note discusses how to assess the viability of a firm for investment w
 
 ## Reference
 
-[[Capital Returns#^8475c2]]
+� Capital Returns
