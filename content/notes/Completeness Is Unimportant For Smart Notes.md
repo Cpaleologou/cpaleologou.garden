@@ -13,11 +13,13 @@ This is not a something to worry about because it is not the point of the notes.
 Despite creating a personal wiki being an nice concept for understanding the process of the notes, it is not a perfect analogy. For Wikipedia, completeness is an issue because the goal is to capture as much information on a given topic as possible. However, with smart notes, it is a tool for thinking and forming connections and new ideas, not capturing all information. 
 
 ---
+
 ## Quote
 
 >Because the slip-box is not intended to be an encyclopedia, but a tool to think with, we don’t need to worry about completeness. We don’t need to write anything down just to bridge a gap in a note sequence.
 
 ---
+
 ## Connections
 
 [[Develop understanding to remember better]]
@@ -27,6 +29,7 @@ Despite creating a personal wiki being an nice concept for understanding the pro
 [[Zettelkasten Method vs. Standard Methods]]
 
 ---
+
 ## Reference
 
 Book: How to Take Smart Notes

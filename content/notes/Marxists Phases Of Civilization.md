@@ -18,6 +18,7 @@ The 6 key phased are:
 6. Communism
 
 ---
+
 ## Connections
 
 [[Inequality Rises When Capital Valuations Increase Faster Than GDP]]
@@ -25,6 +26,7 @@ The 6 key phased are:
 [[Market Forces Work Because They Remove The Need For Trust]]
 
 ---
+
 ## Reference
 
 � At the Existentialist Café

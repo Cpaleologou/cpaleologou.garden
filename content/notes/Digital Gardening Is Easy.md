@@ -10,6 +10,7 @@ To garden digitally does not take a significant amount of time. By accepting tha
 By eliminating the need to be authoritatively correct, the burden for heavy research to support your point is no longer immediate. You can do a little bit everyday and let it accumulate into a mature thought at whatever pace they need to mature at.
 
 ---
+
 ## Connections
 
 [[Digital Gardening Is About Process]]
@@ -19,6 +20,7 @@ By eliminating the need to be authoritatively correct, the burden for heavy rese
 A lot can be said for the process of note taking, learning and digital gardening. Systems can be built and shared and sold. But the reality is that the process itself is easy. You just have to get started and the methodology will create itself.
 
 ---
+
 ## Reference
 
 � A Brief History & Ethos of the Digital Garden

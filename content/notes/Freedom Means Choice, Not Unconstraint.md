@@ -11,11 +11,13 @@ Freedom is often misunderstood as the ability to act randomly, or to move withou
 In the mind of Sartre, freedom means we can choose how we act in any given moment *despite* our constraints.
 
 ---
+
 ## Connections
 
 [[Authentic Living Requires Acceptance of Death]]
 
 ---
+
 ## Reference
 
 � At the Existentialist Café

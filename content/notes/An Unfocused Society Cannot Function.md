@@ -9,6 +9,7 @@ date: 2026-01-19T00:00:00.000Z
 The ability for individuals to act in coordination and cooperation requires each individual to obtain a certain level of focus, through which the collective can also exhibit focus towards the intended goal.
 
 ---
+
 ## Connections
 
 [[Self-Discovery Requires Dialogue With The World]]
@@ -19,6 +20,7 @@ It is loosely related to the idea of an unfocused society being unable to functi
 As a result society itself becomes an unconnected, drifting mass of parts, rather than a coherent whole.
 
 ---
+
 ## Reference
 
 � How to Do Nothing

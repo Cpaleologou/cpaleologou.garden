@@ -15,6 +15,7 @@ I like the colours, the typography combinations between the headers, body and me
 I'm sure some people will look at the site and think it looks messy, or out-dated. But I'm proud of it and because of that I like to *be* here. And because I like to be here, I spend more time re-reading my own notes and thoughts which helps me form new ones in a deeply pleasurable virtuous cycle.
 
 ---
+
 ## Connections
 
 [[When Digital Gardening, Plan Long Term]]
@@ -30,6 +31,7 @@ The Great Game - Original Documents
 These are some of the documents I was inspired by while styling this garden. 
 
 ---
+
 ## Reference
 
 #Original 

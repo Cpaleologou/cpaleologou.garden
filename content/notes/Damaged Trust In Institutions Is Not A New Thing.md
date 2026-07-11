@@ -11,6 +11,7 @@ After World War 2, for example, Europe had been ruined, horrific news of Nazi de
 Any consideration of innate human morality or goodwill in leadership had been laid bare.
 
 ---
+
 ## Connections
 
 [[3 Attributes of a High Quality Information Stream]]
@@ -20,6 +21,7 @@ Any consideration of innate human morality or goodwill in leadership had been la
 [[Truth is less important than trust]]
 
 ---
+
 ## Reference
 
 � At the Existentialist Café

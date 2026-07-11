@@ -11,6 +11,7 @@ Most people live horribly inauthentic lives trying to satisfy the beliefs, value
 But, when we think of the most magnetic leaders, those that people beg to follow in an almost cult-like matter, it is because those leaders live authentically. They are charming, inspiring, seemingly intelligent, because they have conviction in their way of life, and that is attractive.
 
 ---
+
 ## Connections
 
 [[Authenticity Cannot Be Commoditized]]
@@ -20,6 +21,7 @@ But, when we think of the most magnetic leaders, those that people beg to follow
 [[Appeal Is A Product Of Authenticity]]
 
 ---
+
 ## Reference
 
 #Original 

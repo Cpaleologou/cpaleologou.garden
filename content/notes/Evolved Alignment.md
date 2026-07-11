@@ -14,11 +14,13 @@ Only those that are in better alignment than the last will be moved forward.
 Of course this can only happen if models are open sourced and widely available. Otherwise, the AI will evolve to best serve the needs of its creator, which would not face as wide a of selective pressures and thus be less likely to be in alignment with all people.
 
 ---
+
 ## Connections
 
 [[Darwin's Solution For Nature's Chaos]]
 
 ---
+
 ## Reference
 
 #Original

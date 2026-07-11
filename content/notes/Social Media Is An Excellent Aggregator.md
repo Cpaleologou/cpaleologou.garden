@@ -11,6 +11,7 @@ Social media acts as an aggregator of content. With everyone posting on the same
 A refined information flow should aim to mimic the best attributes of social media, while leaving the worst behind. A refined application flow therefore needs to also be an aggregator. All the information I need should be in one place, one app.
 
 ---
+
 ## Connections
 
 [[AI Search Is Not The Optimal Solution For Refined Information]]
@@ -18,6 +19,7 @@ A refined information flow should aim to mimic the best attributes of social med
 [[3 Attributes of a High Quality Information Stream]]
 
 ---
+
 ## Reference
 
 #Original

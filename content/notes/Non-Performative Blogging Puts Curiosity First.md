@@ -15,6 +15,7 @@ It is a "pick-your-path experience" in the words of Maggie Appleton. Straying fr
 Philosophically, this structure treats curiosity as the highest virtue. It is optimized for the reader to follows their own interests, at their own pace, rather than being funnelled towards a sales pipeline or 'impressive' works.
 
 ---
+
 ## Connections
 
 [[Digital Gardening & Bottom Up Profiles]]
@@ -24,7 +25,7 @@ Philosophically, this structure treats curiosity as the highest virtue. It is op
 Digital gardening is a more authentic way to blog and communicate for both the reader and the writer. From the writer's side, you are building a representation of your work and thoughts from the bottom up. From the reader's perspective, the capability to define your own experiences, led by curiosity is prioritized over engagement and mindless consumption.
 
 ---
+
 ## Reference
 
 � A Brief History & Ethos of the Digital Garden
-

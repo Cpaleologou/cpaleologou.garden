@@ -13,6 +13,7 @@ The citizens of Chinese have immense pride for the rapid growth of their country
 For a country with over 1 billion people, this is indispensable and serves as a legitimating force for the national identity and the Communist party.
 
 ---
+
 ## Connections
 
 [[Exponential Technology Creates Spiritual Deflation]]
@@ -26,6 +27,7 @@ This is, in some ways, a counter argument to the note of spiritual deflation cau
 Understanding why the Chinese government has spent so many resources on building things requires the analytical perspective of the "engineering society."
 
 ---
+
 ## Reference
 
 [🟢 Breakneck](/library/Breakneck)

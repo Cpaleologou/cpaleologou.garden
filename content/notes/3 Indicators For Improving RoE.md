@@ -12,6 +12,7 @@ The capital cycle framework provides three indicators for assessing businesses t
 3. Management that understands this and are acting to push the first two features further.
 
 ---
+
 ## Connections
 
 [[Capital Cycle Purchase Candidates]]
@@ -20,6 +21,7 @@ The capital cycle framework provides three indicators for assessing businesses t
 The linked note provides two types of businesses that are candidates for investment under the capital cycle framework. There is some cross over between these notes, however what the current note adds is that fact that management should be *aware* of the capital cycle, their own place in it, and be acting to intensify the qualities of the business and cycle that drive returns.
 
 ---
+
 ## Reference
 
 [[Capital Returns#^89039b]]

@@ -13,6 +13,7 @@ An example of this can be seen in the price of Yahoo stock in the dotcom era. Th
 The **efficient market hypothesis** therefore explains how prices move based on new information and average perception, but it does not guarantee they arrive at the right answer.
 
 ---
+
 ## Connections
 
 [[Second-Level Thinking]]
@@ -21,6 +22,7 @@ The **efficient market hypothesis** therefore explains how prices move based on 
 If the efficient market hypothesis is often right, but sometimes wrong, beating the market depends on disagreement with the broad consensus. Second-level thinking is a tool for thinking through the consensus and the second-order implications, which may or may not lead to a well-founded counter-factual opinion.
 
 ---
+
 ## Reference
 
 [🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)

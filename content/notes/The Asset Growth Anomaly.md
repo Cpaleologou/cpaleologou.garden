@@ -11,6 +11,7 @@ A paper in the Journal of Finance, however, found the opposite to be true, and d
 The anomaly is that the opposite is also true. Asset contracting activities, such as buy backs, debt prepayments, spin-offs, and dividends initiation, are often followed by positive returns. 
 
 ---
+
 ## Connections
 
 [[Opportunities in AI]]
@@ -20,6 +21,7 @@ The linked note was created in 2024, when the world was probably most optimistic
 The asset-growth anomaly would imply that these hyperscalers are likely to underperform for the foreseeable future, even if they are seeing appreciation in their stock price today (Google, Amazon).
 
 ---
+
 ## Reference
 
 [[Capital Returns#^971935]]

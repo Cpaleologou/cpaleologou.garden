@@ -15,11 +15,13 @@ On top on this, the extraction and refining process to turn ore into pure minera
 For this reason, the rarity of REEs comes from their availability and difficulty to produce in large quantities, rather than their general existence on earth.
 
 ---
+
 ## Connections
 
 [[Why Metalloids Are Needed For Technology]]
 
 ---
+
 ## Reference
 
 Source: https://en.wikipedia.org/wiki/Rare-earth_element#

@@ -11,6 +11,7 @@ date: 2025-09-06T00:00:00.000Z
 Tyler Durden in Fight Club tells this directly to the audience. He reminds them that their possessions, all the things they own and desire to own, are not them. The audience, as people, are more than their capitalist desire to consume and they are allowing this distraction to ruin their life.
 
 ---
+
 ## Connections
 
 [[The Awakened Individual Must Have Projects]]
@@ -18,6 +19,7 @@ Tyler Durden in Fight Club tells this directly to the audience. He reminds them 
 [[Authentic Living Requires Acceptance of Death]]
 
 ---
+
 ## Reference
 
 Source: Fight Club

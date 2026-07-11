@@ -11,6 +11,7 @@ Even something as simple, yet profound, as the choice to continue living each da
 This contextual horizon of the world we inhabit and the time we are born is _given_ to us, not created by us. We can only make judgements and decisions in front of it.
 
 ---
+
 ## Connections
 
 [[We Are Temporal Beings]]
@@ -22,6 +23,7 @@ This contextual horizon of the world we inhabit and the time we are born is _giv
 [[Beliefs Require A Background of Culture To Be Valid]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

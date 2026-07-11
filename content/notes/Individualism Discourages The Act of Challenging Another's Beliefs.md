@@ -10,6 +10,7 @@ A well accepted phenomenon of Individualism is that it implies that each person 
 The implicit problem with this is that since a belief system is now an individual decision, others no longer have the right to challenge that belief system out of respect for the other person.
 
 ---
+
 ## Connections
 
 [[Individualism Flattens Our Life Experience]]
@@ -19,6 +20,7 @@ The implicit problem with this is that since a belief system is now an individua
 [[Loss Of Institutional Trust Led To A Greater Sense Of Responsibility]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

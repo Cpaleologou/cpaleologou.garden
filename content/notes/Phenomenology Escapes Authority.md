@@ -11,6 +11,7 @@ The singular key aspect of practicing phenomenology is to describe a phenomena a
 By requiring the thinker to be true to their own lived personal experience, phenomenology allows us to escape authority who may be trying to influence our perspective.
 
 ---
+
 ## Connections
 
 [[Short-Comings Of Phenomenology]]
@@ -18,6 +19,7 @@ By requiring the thinker to be true to their own lived personal experience, phen
 [[Sartre Refused The Nobel Prize To Stay Independent]]
 
 ---
+
 ## Reference
 
 � At the Existentialist Café

@@ -19,6 +19,7 @@ Examples of this are not hard to find:
 Sometimes, the only thing scarier than China's problems are the government's solutions. The government cannot allow its population to flourish for fear of losing control over them. This in turn holds the government from achieving its long term goals.
 
 ---
+
 ## Connections
 
 [[The Psychological Encouragement of The Engineering State]]
@@ -32,6 +33,7 @@ Like anything else, the engineering state has pros and cons. This link highlight
 Framework forcing, discussed in the linked note, is the idea that we often try to fit the world into our preferred frameworks, rather than adapt our frameworks to reality, or select new frameworks to use for our understanding. The engineering state seems more prone to this than other states and seems to be a direct cause of many of China's issues such as the one-child policy or debt caused by the "growth at all costs" mentality.
 
 ---
+
 ## Reference
 
 [🟢 Breakneck](/library/Breakneck)

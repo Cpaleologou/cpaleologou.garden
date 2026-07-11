@@ -13,6 +13,7 @@ Today though, for many important industries, the raw materials at the bottom of 
 What appears to be a resilient pyramid-like supply chain to businesses at the top of the chain is actually more like a diamond. The whole stack depends on a single or condensed supplier creating a massive vulnerability vector from the entire industry.
 
 ---
+
 ## Connections
 
 [[Rare Earth Elements Are Not Rare]]
@@ -22,6 +23,7 @@ What appears to be a resilient pyramid-like supply chain to businesses at the to
 [[Rare Earth Supply Concentration Creates Huge Fragility]]
 
 ---
+
 ## Reference
 
 [🟢 The Elements of Power](/library/The-Elements-of-Power)

@@ -11,6 +11,7 @@ Global reserves of rare earth elements are highly concentrated, and production e
 The reverse is equally true. Resolution of a disruption, or deliberate flooding of the market, can drive prices down just as quickly.
 
 ---
+
 ## Connections
 
 [[Saudi Arabia Can Control The Price of Oil With Not A Lot Of Market Share]]
@@ -20,6 +21,7 @@ The reverse is equally true. Resolution of a disruption, or deliberate flooding 
 [[Why Metalloids Are Needed For Technology]]
 
 ---
+
 ## Reference
 
 [🟢 The Elements of Power](/library/The-Elements-of-Power)

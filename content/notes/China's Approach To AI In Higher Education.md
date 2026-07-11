@@ -13,11 +13,13 @@ Chinese universities, instead, are leaning into the new technology. 46 universit
 These are not just available to students in computer science or machine learning, but all students, despite their area of focus.
 
 ---
+
 ## Connections
 
 [[Opportunities in AI]]
 
 ---
+
 ## Reference
 
 � Chinese Universities Want Students to Use More AI, Not Less

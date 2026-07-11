@@ -10,6 +10,7 @@ There needs to be a level of access control and restriction to a refined informa
 A refined information stream requires the user to be in control. They access information when it is best for them to consume it.
 
 ---
+
 ## Connections
 
 [[Social Media Is An Excellent Aggregator]]
@@ -17,6 +18,7 @@ A refined information stream requires the user to be in control. They access inf
 [[3 Attributes of a High Quality Information Stream]]
 
 ---
+
 ## Reference
 
 #Original

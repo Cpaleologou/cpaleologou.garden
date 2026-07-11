@@ -13,6 +13,7 @@ These trade forces actually mimic those of people trading scarce resources. That
 What's amazing is that the fungi have actually figured this out. They actively mine phosphorous in places throughout their wide network where the mineral is common, transfer it to places where it is scarce, and then sell it at a profit to the trees. They buy low, sell high.
 
 ---
+
 ## Quote
 
 >"In one set of experiments, she found that plant roots were able to supply carbon preferentially to fungal strains that provided them with more phosphorus. In return, fungi that received more carbon from the plant supplied it with yet more phosphorus. Exchange was in some sense negotiated between the two depending on the availability of resources.
@@ -20,6 +21,7 @@ She was interested in how this would affect the fungus’s trading decisions in 
 Kiers identified a strategy of “buy low, sell high.” The fungus actively transported phosphorus—using its dynamic microtubule “motors”—from areas of abundance, where it fetched a low price when exchanged with a plant root, to areas of scarcity, where it was in higher demand and fetched a higher price. By doing so, the fungus was able to transfer a greater proportion of its phosphorus to the plant at the more favorable exchange rate, thus receiving larger quantities of carbon in return."
 
 ---
+
 ## Connections
 
 [[Zombie Fungus]]
@@ -27,6 +29,7 @@ Kiers identified a strategy of “buy low, sell high.” The fungus actively tra
 [[Market Forces Work Because They Remove The Need For Trust]]
 
 ---
+
 ## Reference
 
 Book: Entangled Life

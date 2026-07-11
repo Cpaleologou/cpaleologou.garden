@@ -13,11 +13,13 @@ Since the 1990's the Chinese government has been filled with politicians whose e
 It also explains why China, in so many ways, resembles a right-wing dictatorship - providing low welfare, enforcing traditional gender roles, and blocking immigration. Namely, it is because the engineering mind seeks to control outcomes, and this requires **social engineering**.
 
 ---
+
 ## Connections
 
 [[Our Words Fail To Describe The US and Chinese Systems]]
 
 ---
+
 ## Reference
 
 [🟢 Breakneck](/library/Breakneck)

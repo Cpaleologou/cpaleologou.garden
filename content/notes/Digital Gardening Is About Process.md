@@ -8,6 +8,7 @@ date: 2026-02-01T00:00:00.000Z
 Digital Gardening is not about creating finished works for presentation to an audience. It is a non-performative act. Like a real garden, it can be public or private. The important thing is that it is a *personal* space to tend to information and ideas over time to allow them to flourish. It is about process rather than structure or permanence. 
 
 ---
+
 ## Connections
 
 [[Many Great Works Are Unfinished]]
@@ -28,6 +29,7 @@ A digital garden provides the **space** as a personal, distraction-free environm
 Almost by definition, it also provides the **time** for ideas to mature through the meandering process of tending to ideas. 
 
 ---
+
 ## Reference
 
 � 🌱 My Blog Is a Digital Garden, Not a Blog

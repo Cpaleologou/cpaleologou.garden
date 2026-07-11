@@ -11,6 +11,7 @@ For years China has subsidized the rare earth mining industry within its borders
 Now though, there is an issue of overcapacity creating unsustainably low prices. Subsidies are being pulled back as a response and major mines are shutting down because of it.
 
 ---
+
 ## Connections
 
 [[Rare Earth Supply Concentration Creates Huge Fragility]]
@@ -18,6 +19,7 @@ Now though, there is an issue of overcapacity creating unsustainably low prices.
 [[Three Key Concerns With China's Dominant Position In The Rare Earth Supply Chain]]
 
 ---
+
 ## Reference
 
 � Israeli Strike Kills Gaza Journalists

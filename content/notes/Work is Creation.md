@@ -11,6 +11,7 @@ We tend to think of "work" as a job, a task or the time and effort spent to earn
 I think changing the word "work" to "creating" makes a small difference in how people, including myself, may respond to philosophical ideas of finding meaning, such as "in work."
 
 ---
+
 ## Connections
 
 [[Jobs Don't Give People Meaning]]
@@ -20,6 +21,7 @@ I think changing the word "work" to "creating" makes a small difference in how p
 [[Finding Yourself Requires Creation]]
 
 ---
+
 ## Reference
 
 #Original

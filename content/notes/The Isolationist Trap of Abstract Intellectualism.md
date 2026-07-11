@@ -10,6 +10,7 @@ Many intellectuals become overly obsessed in their own mental models of the worl
 As they disconnect increasingly further from reality, their ability to act and judge coherently with the rest of society, and perhaps standard moral frameworks erodes. In this stage, they embody a kind of oblivious, yet egotistical characterlessness.
 
 ---
+
 ## Connections
 
 [[The Corrosive Nature of Words]]
@@ -17,6 +18,7 @@ As they disconnect increasingly further from reality, their ability to act and j
 [[Framework Forcing]]
 
 ---
+
 ## Reference
 
 � At the Existentialist Café

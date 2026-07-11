@@ -14,6 +14,7 @@ For example, if a person is told repeatedly that they are not capable of somethi
 2. To succeed at that thing may require recognition or interaction with others. If the belief that they are unable to succeed is widespread, the world may conspire unconsciously to hold them back from succeeding.
 
 ---
+
 ## Connections
 
 [[Beliefs Require A Background of Culture To Be Valid]]
@@ -21,6 +22,7 @@ For example, if a person is told repeatedly that they are not capable of somethi
 [[Defining One's Self Requires Differentiating and Associating Personal Qualities With Others]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

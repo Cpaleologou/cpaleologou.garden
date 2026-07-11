@@ -11,6 +11,7 @@ Increased individualism encourages people to create their own system of values a
 In turn, individuals create new forms of conformance in systems that are potentially less tested by millennia.
 
 ---
+
 ## Connections
 
 [[Self-fufilment Led To Poorly Structured Belief Systems]]
@@ -18,6 +19,7 @@ In turn, individuals create new forms of conformance in systems that are potenti
 [[Exponential Technology Creates Spiritual Deflation]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

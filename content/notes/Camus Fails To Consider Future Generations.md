@@ -11,6 +11,7 @@ Camus fails to consider the possibility that leaving behind a better or more bea
 If in Camus' eyes it is important for me to live life to the fullest, it's important for others too. And if it is important for those that are alive, it is important for those that will be alive.
 
 ---
+
 ## Connections
 
 [[We Matter Because We Matter To Someone Else]]
@@ -18,6 +19,7 @@ If in Camus' eyes it is important for me to live life to the fullest, it's impor
 [[We Are Temporal Beings]]
 
 ---
+
 ## Reference
 
 � The Myth of Sisyphus and Other Essays

@@ -22,20 +22,22 @@ Fixtures on the other hand are leading indicators. If we use stats to assess whi
 From a more serious perspective, this concept is particularly important for goal setting. My goal setting method involves filtering my goals down to weekly targets. When setting these targets though, it's best to take time to consider if the target is a leading indicator or a lagging indicator.
 
 ---
+
 ## Quote
 
 >"In other words, lead measures turn your attention to improving the behaviors you directly control in the near future that will then have a positive impact on your long-term goals."
 "I used to focus on lag measures, such as papers published per year. These measures, however, lacked influence on my day-to-day behavior because there was nothing I could do in the short term that could immediately generate a noticeable change to this long-term metric."
 
 ---
+
 ## Connections
 
 [[Progressive Overload Is A Law of Human Improvement]]
 
 ---
+
 ## Reference
 
 Book: Deep Work
 Author: Cal Newport
 Location: 1544 & 1548
-

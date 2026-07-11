@@ -6,7 +6,6 @@ tags:
 publish: 'true'
 date: 2025-09-28T00:00:00.000Z
 ---
-
 If too much AI slop and inauthentic content is posted to social media, users will begin to lose trust with the platforms.
 
 For example, while I think there is a place for AI interior design images, I also think most people want to see interior designs that are real.

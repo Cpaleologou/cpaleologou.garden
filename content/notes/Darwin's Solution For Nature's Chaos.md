@@ -17,12 +17,14 @@ If variation in genetics, within species and across species, is the only sure st
 Where can we use variation in our own lives to make them better? To make ourselves stronger and more adaptable.
 
 --- 
+
 ## Quote
 
 >"And then there was that key point in On the Origin of Species. That crucial point that somehow both David and before him Francis Galton had missed. What does Darwin say is the best way of building a strong species, of allowing it to endure into the future, to withstand the blows of Chaos in all her mighty forms—flood, drought, rising sea levels, fluctuating temperatures, invasions of competitors, predators, pests? Variation. Variation in genes, and hence in behaviour and physical traits. Homogeneity is a death sentence. To rid a species of its mutants and outliers is to make that species dangerously vulnerable to the elements.
 You never know which traits could prove useful as conditions change."
 
 ---
+
 ## Connections
 
 [[Evolved Alignment]]
@@ -30,6 +32,7 @@ You never know which traits could prove useful as conditions change."
 [[Life Is A Process, Not A Thing]]
 
 ---
+
 ## Reference
 
 Book: Why Fish Don't Exist

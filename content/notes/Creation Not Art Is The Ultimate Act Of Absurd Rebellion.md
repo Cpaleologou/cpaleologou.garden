@@ -14,6 +14,7 @@ Yet, if the artist begins to believe that creation is the purpose of life or tha
 The artist must then be able to recognize that the art is nothing but a byproduct from their *act* of creation. They must be able to walk away from it and leave it behind.
 
 ---
+
 ## Connections
 
 [[Finding Yourself Requires Creation]]
@@ -25,6 +26,7 @@ The artist must then be able to recognize that the art is nothing but a byproduc
 [[Explanations Of Meaning Are Top Down Rather Than Bottom Up]]
 
 ---
+
 ## Reference
 
 � The Myth of Sisyphus and Other Essays

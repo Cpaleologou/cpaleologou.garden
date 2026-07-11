@@ -13,11 +13,13 @@ China is essentially a right-wing dictatorship, providing low welfare support, e
 In both cases, the typical words we use to describe and understand the systems is wildly inaccurate and leads to misunderstandings.
 
 ---
+
 ## Connections
 
 [[Framework Forcing]]
 
 ---
+
 ## Reference
 
 [🟢 Breakneck](/library/Breakneck)

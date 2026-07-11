@@ -6,7 +6,6 @@ tags:
 publish: 'true'
 date: 2025-11-15T00:00:00.000Z
 ---
-
 Those who accept the absurd might make the mistake in thinking that since external value systems are not considered, there are no longer any morals or ethics.
 They may embrace this dark nihilism, since without a god, there cannot be good or bad.
 

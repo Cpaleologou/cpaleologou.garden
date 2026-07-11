@@ -15,6 +15,7 @@ Furthermore, on Earth and Mars, there is very little evidence of this period occ
 It is yet another example of how seemingly valid and widely accepted science, which other theories are built off, actually misleads experts and contributes to a culture of closed mindedness.
 
 ---
+
 ## Connections
 
 [[Framework Forcing]]
@@ -24,6 +25,7 @@ It is yet another example of how seemingly valid and widely accepted science, wh
 [[The Certainty of Vulcan's Existence]]
 
 ---
+
 ## Reference
 
 � It’s Time to Rethink How We Study Life’s Origins. It Emerged Far Earlier, and Far Quicker, Than We Once Thought Possible

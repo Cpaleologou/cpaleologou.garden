@@ -18,11 +18,13 @@ Yet, the fan groups continue to organize protests against the Glazers, and now I
 Because that is what the organization was created to do. 
 
 ---
+
 ## Connections
 
 [[We Matter Because We Matter To Someone Else]]
 
 ---
+
 ## Reference
 
 #Original 

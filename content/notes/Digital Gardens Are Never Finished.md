@@ -9,6 +9,7 @@ While articles and essays are refined, published and frozen, works within a digi
 Because these pieces are never 'finished', it is essential to communicate their level of maturity to the reader. By categorizing each work on a spectrum of development, the focus shifts from a final product to the continuous growth of an idea.
 
 ---
+
 ## Connections
 
 [[Digital Gardening Is About Process]]
@@ -18,6 +19,7 @@ Because these pieces are never 'finished', it is essential to communicate their 
 The focus on act of curating information in a digital garden is supported by the classification system of maturity rather than theme or date. By focusing on maturity, works and ideas can always be returned to in order to refine, adjust, or prune as related information is gained by the gardener.
 
 ---
+
 ## Reference
 
 � A Brief History & Ethos of the Digital Garden

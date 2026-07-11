@@ -14,6 +14,7 @@ For example, if writing an article on the history of Venice, rather than describ
 >“Venice is interesting because it was *an empire with no farms*.” And there we have our title: “Empires Without Farms”. An apparent paradox, which intrigues the reader..."
 
 ---
+
 ## Connections
 
 [[Three Golden Rules For Writing]]
@@ -22,6 +23,7 @@ For example, if writing an article on the history of Venice, rather than describ
 If these three rules, along with hooking a reader within the first few sentences can be mastered, a writer will see significant improvement in their ability to communicate their point.
 
 ---
+
 ## Reference
 
 � First, Make Me Care

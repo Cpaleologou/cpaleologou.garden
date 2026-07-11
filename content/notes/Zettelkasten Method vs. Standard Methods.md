@@ -20,11 +20,13 @@ In realty the process is circular. We think something, we research, we change ou
 The process is messy and impossible to fit into a rigid structure. That's why we need a fluid system for it as well.
 
 ---
+
 ## Quote
 
 >"if you go with the recommendations of the Writing Center of the University of Wisconsin, the rough order is always the same: Make a decision on what to write about, plan your research, do your research, write. Interestingly enough, these road maps usually come with the concession that this is only an idealised plan and that in reality, it rarely works like that. This is certainly true. Writing can’t be that linear. The obvious question is: If that is true, why not root the course of action in reality instead?"
 
 ---
+
 ## Connections
 
 [[Turning Book Notes into Permanent Notes]]
@@ -34,6 +36,7 @@ The process is messy and impossible to fit into a rigid structure. That's why we
 [[Finding Meaning in Work]]
 
 ---
+
 ## Reference
 
 Book: How to Take Smart Notes

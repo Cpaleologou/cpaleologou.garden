@@ -13,11 +13,13 @@ To win in that moment requires the complete abandonment of self. There is no roo
 In this moment we are most alive. In victory, we conquer death, and become heroes.
 
 ---
+
 ## Connections
 
 [[Physical Pursuits Are Free From Corrosion]]
 
 ---
+
 ## Reference
 
 � Sun & Steel

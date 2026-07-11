@@ -21,6 +21,7 @@ When this happens, in the period following capital retreat, a pseudo-oligopoly c
 > The primary driver of healthy corporate profitability is a favourable supply side — not high rates of demand growth. Hence, it is possible for there to be rapid growth in an industry which brings little or no benefit to investors. In fact, strong growth in demand is often the direct cause of value destruction as it encourages a flood of capital into the industry, eroding returns. 
 
 ---
+
 ## Connections
 
 [[In Risky Markets, Leaders Provide The Best Risk-Adjusted Returns]]
@@ -39,6 +40,7 @@ The capital cycle is essentially a tool for exercising second level thinking. By
 The capital cycle is a methodology that is inherently useful for investors with a preference to act on the present, rather than try to predict the future. Forecasting demand in a DCF model is a process rife with assumptions and errors. Simultaneously, assess the current industrial landscape for whether capital and competition is retreating is a decision one can make on present information and thus have more assurity that one is directionally correct. 
 
 ---
+
 ## Reference
 
 [[Capital Returns#^3d59d1]]

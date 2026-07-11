@@ -11,11 +11,13 @@ Free markets work so spectacularly because I do not need to trust you in order t
 The free market aligns the incentives of people so that acting in their own best interest is rewarding, thereby minimizing the need for trust.
 
 ---
+
 ## Connections
 
 [[Truth is less important than trust]]
 
 ---
+
 ## Reference
 
 � First You Don’t Hear Other Views. Then You Can’t Trust Them. Your Personal Information Network Entraps You Just Like a Cult

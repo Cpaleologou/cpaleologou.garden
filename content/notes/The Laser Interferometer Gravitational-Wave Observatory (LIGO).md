@@ -6,7 +6,6 @@ tags:
 publish: 'true'
 date: 2025-08-02T00:00:00.000Z
 ---
-
 The LIGOs are two massive above ground machines and physics projects, based in Washington and Louisiana. It's purpose is to detect gravitational waves by sensing the changes in the distance it takes for a laser beam to travel the distance of its long channels. These fluctuations in distance amount to less than the width of a proton.
 
 It is a level of sensitivity akin to measuring the movement of Alpha Centauri, the closest star to our own, down to the width of a hair.

@@ -10,6 +10,7 @@ Social media forces us to define ourselves top-down. Your facebook profile is a 
 Digital gardens offer the opportunity to slowly define yourself from the bottom up. By sharing snippets of information that has resonated with you over years, and then growing that information into fully formed opinion, you are building a deep and nuanced representation of who you are and have been.
 
 ---
+
 ## Connections
 
 [[Defining Oneself Is Degrading]]
@@ -20,8 +21,7 @@ Sartre believed that defining oneself was a degrading experience. To limit your 
 Through this lense, digital gardening promotes a closer approximation of who we are because it is in theory both infinite and grown rather than set.
 
 ---
+
 ## Reference
 
 � A Brief History & Ethos of the Digital Garden
-
-

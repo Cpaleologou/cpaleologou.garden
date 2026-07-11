@@ -17,6 +17,7 @@ How often have you watched a video explaining something interesting, only to rea
 Our ways of accessing information are optimized for engagement, not understanding. The result is a discombobulated, scrambled mess of information in our head that keeps us 'flat' to what is actually going on in the world.
 
 ---
+
 ## Connections
 
 [[Non-Performative Blogging Puts Curiosity First]]
@@ -37,6 +38,7 @@ In the note linked above, I developed the understanding that an audio-video expe
 Where the connect lies though, is that this current note describes the *macro*  separation from reality. That is, not just how the audio-video experience strips context, but how the platform it is served on also contributes to the amount of context that is removed.
 
 ---
+
 ## Reference
 
 � How to Do Nothing

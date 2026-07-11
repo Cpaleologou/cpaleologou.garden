@@ -18,6 +18,7 @@ Thus, if you matter to me. Or I matter to you. We Matter. There is meaning.
 It is not a lie, nor is it a twisting of words. It is just a fact. We Matter.
 
 ---
+
 ## Quote
 
 >"And that’s when it hit me. That it was not a lie to say that Anna matters. Or that Mary matters. Or that—hold on to your seat—you matter, Reader.
@@ -26,6 +27,7 @@ And so it must be with humans, with us. From the perspective of the stars or inf
 "In tangible, concrete ways human beings matter to this planet, to society, to one another. It was not a lie to say so."
 
 ---
+
 ## Connections
 
 [[Moral Subjectivism]]
@@ -33,6 +35,7 @@ And so it must be with humans, with us. From the perspective of the stars or inf
 [[A Horizon of Context Required To Equate Value]]
 
 ---
+
 ## Reference
 
 Book: Why Fish Don't Exist

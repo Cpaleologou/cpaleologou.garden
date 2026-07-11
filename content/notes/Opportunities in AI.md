@@ -12,16 +12,14 @@ Compounded and extrapolated this represents huge growth.
 
 ![[IMG_4028.png]]
 
-
 ---
+
 ## Connections
 
 [[The Layers of AI]]
 
 ---
+
 ## Reference: 
 
 Source: https://youtu.be/5p248yoa3oE?si=GOcfnl6IGuXQlWa0
-
-
-

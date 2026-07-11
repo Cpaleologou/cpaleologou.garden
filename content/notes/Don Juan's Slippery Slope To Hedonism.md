@@ -11,6 +11,7 @@ In the myth of Sisyphus, Camus makes the argument for 'Don Juanism'. He argues t
 My concern is that is this can quickly be misunderstood to lean into hedonism and pursuing pleasure in the moment, rather than seeking depth of experience in line with your values.
 
 ---
+
 ## Connections
 
 [[Freedom Means Choice, Not Unconstraint]]
@@ -18,6 +19,7 @@ My concern is that is this can quickly be misunderstood to lean into hedonism an
 [[Authentic Living Requires Acceptance of Death]]
 
 ---
+
 ## Reference
 
 #Original 

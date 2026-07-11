@@ -11,11 +11,13 @@ In essence, a lethal strike from an enemy is metaphorically required to shock th
 It is only in this moment when life can be recognized for its true value.
 
 ---
+
 ## Connections
 
 [[We Matter Because We Matter To Someone Else]]
 
 ---
+
 ## Reference
 
 � Sun & Steel

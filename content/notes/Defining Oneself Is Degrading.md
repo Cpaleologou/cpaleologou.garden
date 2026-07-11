@@ -15,6 +15,7 @@ In reality we are free consciousnesses who are able to act as we want at any tim
 For instance, rather than being a CPA, I have trained as a CPA until this moment, but I am free to abandon that identity if I choose to at any moment.
 
 ---
+
 ## Connections
 
 [[Political Party Loyalty Requires One To Stop Thinking]]
@@ -26,6 +27,7 @@ For instance, rather than being a CPA, I have trained as a CPA until this moment
 [[You Are Not Your Fucking Khakis]]
 
 ---
+
 ## Reference
 
 � At the Existentialist Café

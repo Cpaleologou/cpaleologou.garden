@@ -11,11 +11,13 @@ He would start projects constantly, discarding old ones mid-way through. This bo
 In the world of philosophy, he suffered from shiny-object syndrome, always wanting to explore something new.
 
 ---
+
 ## Connections
 
 [[How To Reconcile Discipline With Authentic Passions]]
 
 ---
+
 ## Reference
 
 � At the Existentialist Café

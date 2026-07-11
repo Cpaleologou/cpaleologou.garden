@@ -11,6 +11,7 @@ In risky markets, market leaders with established production, secure reserves, a
 Investing in such firms - especially in markets with tailwinds - can reduce downside risk while preserving upside.
 
 ---
+
 ## Connections
 
 [[Private Investors Shy Away From Rare Earth Mining]]
@@ -18,6 +19,7 @@ Investing in such firms - especially in markets with tailwinds - can reduce down
 [[The Layers of AI]]
 
 ---
+
 ## Reference
 
 [🟢 The Elements of Power](/library/The-Elements-of-Power)

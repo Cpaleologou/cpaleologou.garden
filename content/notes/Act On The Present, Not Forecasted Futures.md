@@ -10,6 +10,7 @@ Most investors try to predict the future either thematically, or via their assum
 The better practices is to read the current environment (market temperature, valuations, credit conditions) and let that dictate your posture. In other words, be **responsive**, not reactive or try to be proactive. 
 
 ---
+
 ## Connections
 
 [[Pusher (tennis)]]
@@ -23,6 +24,7 @@ A pusher in tennis is a patient player who sits back, returns the ball, and simp
 You won't find every deal that exists in the universe, but simply by playing the game, you will see massive opportunities. You don't need to go looking for them, you just need to survive long enough so that you are able to take advantage of the opportunities when they arise. 
 
 ---
+
 ## Reference
 
 [🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)

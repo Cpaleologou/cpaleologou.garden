@@ -15,11 +15,13 @@ The factory worker on a manufacturing line isn't discovering meaning in repetiti
 The meaning, for most, comes despite work—not because of it.
 
 ---
+
 ## Connections
 
 [[Finding Meaning in Work]]
 
 ---
+
 ## Reference
 
 � 89 Responses to “ChatGPT and the Meaning of Life Guest Post by Harvey Lederman”

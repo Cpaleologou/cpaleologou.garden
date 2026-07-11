@@ -13,6 +13,7 @@ And without possession there is no moral or social guardrail of theft. It is jus
 But, this is not the only way of looking at things. You could also look at it spiritually or sentimentally and bury the locket.
 
 ---
+
 ## Connections
 
 [[Instrumental Reason]]
@@ -20,6 +21,7 @@ But, this is not the only way of looking at things. You could also look at it sp
 [[Instrumental Reasoning Is a Symptom of First-Principals Thinking]]
 
 ---
+
 ## Reference
 
 #Original 

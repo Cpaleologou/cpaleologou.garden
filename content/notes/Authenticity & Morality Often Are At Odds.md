@@ -11,6 +11,7 @@ Authenticity requires some level of originality in thought and action, since eac
 This, though, can create a conflict with morality because, on a broad societal level, our personal desires and impulses go against cultural themes of morality.
 
 ---
+
 ## Connections
 
 [[Narcissistic Authenticity Drives The Individual Towards Instrumental Reasoning]]
@@ -24,6 +25,7 @@ This, though, can create a conflict with morality because, on a broad societal l
 [[The Horizon of Context Is Given To Us]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

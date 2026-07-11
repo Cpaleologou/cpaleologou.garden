@@ -15,11 +15,13 @@ In _The Myth of Sisyphus_, Camus describes consciousness as a spotlight we aim a
 The key difference: Heidegger makes the universe the revealer, Camus makes us the illuminators.
 
 ---
+
 ## Connections
 
 [[We Are Temporal Beings]]
 
 ---
+
 ## Reference
 
 #Original

@@ -10,11 +10,13 @@ Saudi Arabia controls just 16% of global reserves and 10% of production capabili
 Despite that not being "significant", it is enough that through expansion or contraction of supply they can influence the price of oil enough that they essentially control it.
 
 ---
+
 ## Connections
 
 [[Rare Earth Elements Are Not Rare]]
 
 ---
+
 ## Reference
 
 [🟢 The Elements of Power](/library/The-Elements-of-Power)

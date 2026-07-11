@@ -11,6 +11,7 @@ Yet, as our understandings and explanations grow more encompassing, we reach a p
 But, in that action, our understanding of the universe returns to "poetry".
 
 ---
+
 ## Connections
 
 [[Science Removed The Explanations For Our Suffering]]
@@ -18,6 +19,7 @@ But, in that action, our understanding of the universe returns to "poetry".
 [[Framework Forcing]]
 
 ---
+
 ## Reference
 
 � The Myth of Sisyphus and Other Essays

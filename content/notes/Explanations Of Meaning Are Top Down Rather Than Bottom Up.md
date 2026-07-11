@@ -16,6 +16,7 @@ He calls this "philosophical suicide". Neither of these make arguments from the 
 This is, he says, because any time one tries to do this, they in essence fail. You meet the absurd. 
 
 ---
+
 ## Connections
 
 [[A Horizon of Context Required To Equate Value]]
@@ -23,6 +24,7 @@ This is, he says, because any time one tries to do this, they in essence fail. Y
 [[Science Removed The Explanations For Our Suffering]]
 
 ---
+
 ## Reference
 
 � The Myth of Sisyphus and Other Essays

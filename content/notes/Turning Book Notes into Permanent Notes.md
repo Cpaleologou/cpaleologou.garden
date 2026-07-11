@@ -15,11 +15,13 @@ Look for notes written in your own words that still catch your attention. If a n
 - Add connections to other ideas or notes
 
 ---
+
 ## Quote
 
 >"While it’s important to capture your idea before they go, it’s equally important to be selective with what you keep. Dilution of your library is a real possibility."
 
 ---
+
 ## Connections
 
 [[Capturing Ideas]]
@@ -27,6 +29,7 @@ Look for notes written in your own words that still catch your attention. If a n
 [[Finding Meaning in Work]]
 
 ---
+
 ## Reference
 
 Book: How to Take Smart Notes

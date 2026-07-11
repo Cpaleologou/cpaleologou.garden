@@ -18,18 +18,20 @@ The researcher wondered, naturally, what would happen if the worms were trained,
 
 Unbelievably, the answer is yes. They remembered. The findings suggest that there may be something to memory beyond the boundary of our brain.
 
-
 ---
+
 ## Quote
 
 >"Researchers at Tufts University have illustrated this in striking experiments using flatworms. Flatworms are well-studied model organisms because of their ability to regenerate. If the head of a flatworm is cut off, it sprouts another head, brain and all. Flatworms can also be trained. The researchers wondered whether, if they trained a flatworm to remember features of its environment and then cut off its head, it would retain the memory when it has grown a new head and brain. Remarkably, the answer is yes. The flatworms’ memory appeared to reside in a part of their body outside the brain. These experiments suggest that even within the body of brain-dependent animals, the flexible networks that underpin complex behaviors need not be limited to a small region inside the head."
 
 ---
+
 ## Connections
 
 [[Develop understanding to remember better]]
 
 ---
+
 ## Reference
 
 Book: Entangled Life

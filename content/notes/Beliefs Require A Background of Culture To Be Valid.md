@@ -13,6 +13,7 @@ For example, a person cannot validly claim that wiggling their toes in the mud i
 Perhaps the person can claim that it is spiritually significant as it allows you to connect with nature. But, since a justification has now been given, it can be questioned and debated.
 
 ---
+
 ## Connections
 
 [[Self-Discovery Requires Dialogue With The World]]
@@ -24,6 +25,7 @@ Perhaps the person can claim that it is spiritually significant as it allows you
 [[We Are Temporal Beings]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

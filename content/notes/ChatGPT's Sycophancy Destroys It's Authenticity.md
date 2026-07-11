@@ -13,6 +13,7 @@ An idea or creation cannot be judged by ChatGPT or other AI models that exhibit 
 Thus, they only they are not a form of dialogue with the world.
 
 ---
+
 ## Connections
 
 [[How To Determine Authenticity]]
@@ -24,6 +25,7 @@ Thus, they only they are not a form of dialogue with the world.
 [[Self-Discovery Requires Dialogue With The World]]
 
 ---
+
 ## Reference
 
 #Original 

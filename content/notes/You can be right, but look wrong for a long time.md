@@ -13,6 +13,7 @@ A level-headed investor should remember that a falling stock does not mean you w
 To hold through those periods though, is what makes investing difficult. The only viable solution is to perform solid analysis think about the theory from different angles and develop internal conviction. That is how one can stay unemotional as you try to hold through the gap between being right and being proven right.
 
 ---
+
 ## Connections
 
 [[Prices Reflect Perception, Not Truth]]
@@ -21,6 +22,7 @@ To hold through those periods though, is what makes investing difficult. The onl
 Since prices reflect the perception of a stock, rather than its value, it follows logically that new information is required to change the markets perception and thus the price. If you disagree with the market based on currently available information, that disagreement is likely to continue until information arises that forces the market to change. Since material information is released infrequently, the gap between your opinion and the market's opinion can last a very long time. 
 
 ---
+
 ## Reference
 
 [🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)

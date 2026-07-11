@@ -11,6 +11,7 @@ We often operate through life as if we are free. We set goals, make plans, and h
 Yet, accepting that we will die, means more than our decisions being pointless. It also means that we don't _have_ to do anything. We will die, and thus we can do as we please.
 
 ---
+
 ## Connections
 
 [[Freedom Means Choice, Not Unconstraint]]
@@ -20,6 +21,7 @@ Yet, accepting that we will die, means more than our decisions being pointless. 
 [[We Matter Because We Matter To Someone Else]]
 
 ---
+
 ## Reference
 
 � The Myth of Sisyphus and Other Essays

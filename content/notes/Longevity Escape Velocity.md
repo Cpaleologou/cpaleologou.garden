@@ -11,12 +11,13 @@ The point of scientific and medical advancement where we have the ability to ext
 ![[Longevity_Escape_Velocity.webp]]
 
 ---
+
 ## Connections
 
 [[AI Will Supercharge Materials Science]]
 
 ---
+
 ## Reference
 
 [Wikipedia](https://en.wikipedia.org/wiki/Longevity_escape_velocity)
-

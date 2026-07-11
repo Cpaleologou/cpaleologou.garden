@@ -12,6 +12,7 @@ At first the researchers were confused by its output - it seemed nonsensical. Ye
 The AI's design improved output by 10-15%, which when dealing with such fine margins, is an incredible amount.
 
 ---
+
 ## Connections
 
 [[The Laser Interferometer Gravitational-Wave Observatory (LIGO)]]
@@ -19,6 +20,7 @@ The AI's design improved output by 10-15%, which when dealing with such fine mar
 [[Cognitive Revolution]]
 
 ---
+
 ## References
 
 � AI Comes Up with Bizarre Physics Experiments. But They Work. Quanta Magazine

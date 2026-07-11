@@ -13,6 +13,7 @@ Humans are incredibly complex and are constantly changing. No word or combinatio
 I am none of these things. And, being indescribable, am nothing and everything. As such, I am free.
 
 ---
+
 ## Connections
 
 [[You Are Not Your Fucking Khakis]]
@@ -20,6 +21,7 @@ I am none of these things. And, being indescribable, am nothing and everything. 
 [[The Corrosive Nature of Words]]
 
 ---
+
 ## Reference
 
 � At the Existentialist Café

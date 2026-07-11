@@ -11,6 +11,7 @@ Industrialized, capitalist culture has relied on mobility of humans to travel fo
 As we move from our birthplaces, we settle in massive urban environments where the nature of life shifts from intense regular face-to-face interaction, to rare, unfriendly touch points out of chance, requirement or convenience. 
 
 ---
+
 ## Connections
 
 [[Home Comfort's Effect On Loneliness]]
@@ -20,6 +21,7 @@ As we move from our birthplaces, we settle in massive urban environments where t
 [[Individualism Flattens Our Life Experience]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

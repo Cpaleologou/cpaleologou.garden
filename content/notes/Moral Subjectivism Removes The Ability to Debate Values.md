@@ -13,6 +13,7 @@ You can point out logic gaps, or unintended consequences of someones belief, but
 The only criteria is emotional appeal.
 
 ---
+
 ## Connections
 
 [[Moral Subjectivism]]
@@ -22,6 +23,7 @@ The only criteria is emotional appeal.
 [[Individualism Discourages The Act of Challenging Another's Beliefs]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

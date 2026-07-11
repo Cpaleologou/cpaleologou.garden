@@ -13,6 +13,7 @@ When you try to identify the next big thing, you are in essence paying for a pro
 A safe way to straddle being in the market and being opportunistic is to DCA into index funds, until an opportunity arises, when it does, either divert you DCA into the opportunity, sell to buy, or deploy cash reserves.  
 
 ---
+
 ## Connections
 
 [[High Prices Are The Primary Source Of Risk]]
@@ -21,6 +22,7 @@ A safe way to straddle being in the market and being opportunistic is to DCA int
 Trying to create or manufacture a narrative to justify the next big thing almost definitionally requires buying at a high price because the asset is not successful yet but has a promise attached to it. This creates more risk, as there is more room for the price of the asset to fall.
 
 ---
+
 ## Reference
 
 [🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)

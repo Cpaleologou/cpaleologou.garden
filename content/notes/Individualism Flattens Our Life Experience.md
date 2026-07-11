@@ -11,6 +11,7 @@ The mind has only so much capacity to think any given day. The more we focus on 
 In this way, almost by definition, our world view of what matters is flattened and narrowed.
 
 ---
+
 ## Connections
 
 [[Finding Meaning in Work]]
@@ -18,6 +19,7 @@ In this way, almost by definition, our world view of what matters is flattened a
 [[The Awakened Individual Must Have Projects]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

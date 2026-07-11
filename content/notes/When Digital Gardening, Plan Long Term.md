@@ -12,6 +12,7 @@ There is nothing inherently wrong with platforms like Notion, Evernote, etc. But
 I am using Obsidian and Quartz, because it is all just based on markdown files in my iCloud which are then hosted on Github pages when pushed to the public garden. This gives me ownership, control, two places of storage and enough stylistic freedom to make my garden my own without needing to be a developer.
 
 ---
+
 ## Connections
 
 [[Digital Gardens Are Never Finished]]
@@ -19,9 +20,8 @@ I am using Obsidian and Quartz, because it is all just based on markdown files i
 **Link Explanation:**
 If the garden is a lifetime project, it makes sense to plan long term for the inevitability of change and unpredictability that life will throw at you.
 
-
 ---
+
 ## Reference
 
 � A Brief History & Ethos of the Digital Garden
-

@@ -10,6 +10,7 @@ Phenomenology focuses obsessively on thinking about the way the world exists thr
 You can not experience music by describing it. Only by listening with your entire being.
 
 ---
+
 ## Connections
 
 [[The Corrosive Nature of Words]]
@@ -17,6 +18,7 @@ You can not experience music by describing it. Only by listening with your entir
 [[Phenomenology]]
 
 ---
+
 ## Reference
 
 � At the Existentialist Café

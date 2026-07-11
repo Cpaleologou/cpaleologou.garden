@@ -10,6 +10,7 @@ As religion and other frameworks have lost their importance to each individual, 
 Instrumental Reasoning is the valuing of everything on an economic efficiency scale. Cost-benefit analysis.
 
 ---
+
 ## Connections
 
 [[Science Removed The Explanations For Our Suffering]]
@@ -17,6 +18,7 @@ Instrumental Reasoning is the valuing of everything on an economic efficiency sc
 [[Organizations Do What They Are Designed To Do, Regardless of Need]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

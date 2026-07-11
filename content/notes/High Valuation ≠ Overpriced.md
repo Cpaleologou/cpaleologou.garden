@@ -27,6 +27,7 @@ Had Business B grown at 5% rather than 30%, its Year 5 P/E would still be over 1
 The framework does not change; only the required understanding of what one is paying for. However, it should also be understood that great businesses **deserve** higher valuations. If an investor relies only on low earning multiples to assess “value”, they should not be surprised in the future to find that many businesses they passed on have outperformed those who once appeared cheaper.
 
 ---
+
 ## Connections
 
 [[Short-comings of the PE ratio]]
@@ -35,6 +36,7 @@ The framework does not change; only the required understanding of what one is pa
 The note linked above features a discussion surrounding the failings of the P/E ratio based on its inability to consider the *quality* of earnings. The current note discusses another issue inherent in the P/E, in that it does not factor growth into the metric. So while valuation of a business via the P/E can be useful, it is not appropriate as a basis for decision making alone. 
 
 ---
+
 ## Reference
 
 [[Capital Returns#^b8e539]]

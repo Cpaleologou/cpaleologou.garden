@@ -16,13 +16,14 @@ Those who were interrupted were still thinking about the puzzle, even after movi
 
 The implication of attention residue then, is that if we are constantly being interrupted in our work by new emails we not only lose the time it tasks to check and reply to those emails, but also the extra time it takes for our brains to get back on track afterwards. Even if don’t check those emails, seeing and hearing that notification pop-up means that our brains are getting pulled out of focus.
 
-
 ---
+
 ## Quote
 
 “People experiencing attention residue after switching tasks are likely to demonstrate poor performance on that next task,”
 
 ---
+
 ## Connections
 
 [[Changing Tasks v. Rest]]
@@ -30,6 +31,7 @@ The implication of attention residue then, is that if we are constantly being in
 [[Finding Meaning in Work]]
 
 ---
+
 ## Reference
 
 Book: Deep Work

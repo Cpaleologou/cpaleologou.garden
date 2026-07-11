@@ -6,7 +6,6 @@ tags:
 publish: 'true'
 date: 2026-01-28T00:00:00.000Z
 ---
-
 Writing can be improved very quickly by adhering to 3 simple rules:
 
 ### Rule 1: Who did what? (Use Active Voice)

@@ -10,6 +10,7 @@ It's difficult to argue against the idea that good habits leads to domain specif
 There is, thus, an argument to be made that habit building is not an enabler of an authentic life. 
 
 ---
+
 ## Connections
 
 [[How To Reconcile Discipline With Authentic Passions]]
@@ -17,6 +18,7 @@ There is, thus, an argument to be made that habit building is not an enabler of 
 [[Authenticity Cannot Be Commoditized]]
 
 ---
+
 ## Reference
 
 #Original 

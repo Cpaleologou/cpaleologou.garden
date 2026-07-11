@@ -12,6 +12,7 @@ The amount of risk embedded in an investment decision comes from what you pay, n
 Bullish sentiment drives prices up and above the value of the asset, so the best and simplest form of risk management is avoiding overpaying for overpriced assets.
 
 ---
+
 ## Connections
 
 [[Outcomes Don't Communicate Risk]]
@@ -20,6 +21,7 @@ Bullish sentiment drives prices up and above the value of the asset, so the best
 You can buy a stock at an elevated price, and it can continue to go up for several months, or even years. If you sold at the top, you would've made a nice amount of gain. However, that does not mean you didn't take on excessive risk when the stock was purchased.
 
 ---
+
 ## Reference
 
 [🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)

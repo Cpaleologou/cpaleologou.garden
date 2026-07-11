@@ -16,11 +16,13 @@ There is no official definition or criteria for what qualifies an element as a m
 ![[ElementsRecognizedAsMetalloids.png|400]]
 
 ---
+
 ## Connections
 
 [[Why Metalloids Are Needed For Technology]]
 
 ---
+
 ## Reference
 
 Source:  https://en.wikipedia.org/wiki/Metalloid#Properties

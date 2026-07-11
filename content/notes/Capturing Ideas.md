@@ -11,13 +11,14 @@ The brain often comes up ideas when we least expect them. This means that, often
 The solution is to design processes in your life to capture ideas easily. 
 We want to make it as frictionless as possible.
 
-
 ---
+
 ## Quote
 
 >"You need something to capture ideas whenever and wherever they pop into your head. Whatever you use, it should not require any thoughts, attention or multiple steps to write it down."
 
 ---
+
 ## Connections
 
 [[Finding Meaning in Work]]
@@ -29,5 +30,3 @@ We want to make it as frictionless as possible.
 Book: How to Take Smart Notes
 Author: Sönke Ahrens
 Location: 505
-
-

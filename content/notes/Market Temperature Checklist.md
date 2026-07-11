@@ -31,6 +31,7 @@ A structured qualitative scan to tell you whether the market is in a risky or op
 | Popular Qualities   | Aggressiveness Broad Reach / Caution and Discipline Selectivity                                                                                                 |
 
 ---
+
 ## Connections
 
 [[Overpriced ≠ Going Down Tomorrow]]
@@ -39,6 +40,7 @@ A structured qualitative scan to tell you whether the market is in a risky or op
 The above exercise is meant to provide a temperature check on whether the market is overpriced or underpriced. However, we know from the linked note that this does not mean it is going down tomorrow. In fact, it could continue rising for *years.* The implication is that investors should either commit to a DCA strategy of always being in the market, or hold off, with the understanding that they may be missing out on some gains.
 
 ---
+
 ## Reference
 
 [🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)

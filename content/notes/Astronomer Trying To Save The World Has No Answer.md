@@ -11,11 +11,13 @@ Farnocchia, an astronomer, was under the immense task of tracking the most dange
 If a man responsible for ensuring the world doesn't end can respond with "I don't know yet", its okay for you to also admit this as well.
 
 ---
+
 ## Connections
 
 [[Truth is less important than trust]]
 
 ---
+
 ## Reference
 
 � Inside the hunt for the most dangerous asteroid ever

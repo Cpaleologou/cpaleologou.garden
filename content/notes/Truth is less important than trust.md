@@ -17,6 +17,7 @@ Now, with the internet and social media, we face an overabundance of authorities
 _This_, rather than the misinformation itself, is what is causing the fracturing of our cultures and society.
 
 ---
+
 ## Connections
 
 [[The Corrosive Nature of Words]]
@@ -24,6 +25,7 @@ _This_, rather than the misinformation itself, is what is causing the fracturing
 [[Social Media Is An Excellent Aggregator]]
 
 ---
+
 ## Reference
 
 � First You Don’t Hear Other Views. Then You Can’t Trust Them. Your Personal Information Network Entraps You Just Like a Cult

@@ -13,6 +13,7 @@ For example, a marketing team may use a Google dashboard to track the performanc
 The tools we use subtly shift the evaluation criteria. It moves us away from building a strong resonate brand founded on big ideas to chasing short-term uplift on a chart.
 
 ---
+
 ## Connections
 
 [[Instrumental Reason]]
@@ -22,6 +23,7 @@ Our societal world views have been flattened over the past 2-3 centuries. We hav
 Technoplasmosis is a manifestation of instrumental reasoning as we focus on growing numbers on a dashboard over making decisions with lasting impact.
 
 ---
+
 ## Reference
 
 https://www.thedrum.com/opinion/technoplasmosis-the-hidden-parasite-controlling-modern-marketing

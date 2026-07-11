@@ -15,12 +15,13 @@ The small daily things you do that expand your horizons in terms of skill develo
 These are the big changes which come in the form of major commitments that completely shift us into a new phase of life. Such as changing careers, moving to another country, going backpacking for several months, starting a family, etc.
 
 ---
+
 ## Connections
 
 [[Life Is A Process, Not A Thing]]
 
 ---
+
 ## Reference
 
 #Original 
-

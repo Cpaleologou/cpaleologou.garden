@@ -19,11 +19,13 @@ L3: Developer tool (APIs) - ChatGPT, Rapidfire - extremely competitive, likely t
 L4: Software Application - Able to target specific use cases for a fraction of the cost that AI used to cost.
 
 ---
+
 ## Connections
 
 [[Opportunities in AI]]
 
 ---
+
 ## Reference:
 
  https://youtu.be/5p248yoa3oE?si=GOcfnl6IGuXQlWa0

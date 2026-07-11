@@ -11,6 +11,7 @@ The one thing we all know to be true is that we will one day die. It could be sa
 To live authentically requires acceptance of our own death.
 
 ---
+
 ## Connections
 
 [[Jobs Don't Give People Meaning]]
@@ -20,6 +21,7 @@ To live authentically requires acceptance of our own death.
 [[Longevity Escape Velocity]]
 
 ---
+
 ## Reference
 
 #Original 

@@ -14,6 +14,7 @@ The increased bias of focus on the self in each individual results in belief sys
 - The avoidance of personal involvement in discomforting global issues due to the stress they impose on the individual and their inability to affect it directly.
 
 ---
+
 ## Connections
 
 [[Individualism Flattens Our Life Experience]]
@@ -21,6 +22,7 @@ The increased bias of focus on the self in each individual results in belief sys
 [[Individualism Discourages The Act of Challenging Another's Beliefs]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

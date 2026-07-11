@@ -19,6 +19,7 @@ Now, while this is obviously comedic, there is a lot of truth here. The three mo
 You need space away from people and distractions and stressors to think deeply and originally, as well as time to destress, take in experiences and knowledge and formula new ideas.
 
 ---
+
 ## Connections
 
 [[Why we need to take breaks]]
@@ -30,6 +31,7 @@ You need space away from people and distractions and stressors to think deeply a
 [[Walking and Learning]]
 
 ---
+
 ## Reference
 
 � How to Do Nothing

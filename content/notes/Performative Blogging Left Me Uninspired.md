@@ -12,6 +12,7 @@ I worried that someone I respect would see my writing and think I'm an idiot, or
 Accepting the unfinished quality of my work, I feel the digital gardening ethos has set me free in many ways. Sharing more of my process, including my little notes and toy-ideas, means that somethings **are** wrong. It means that there is no top-down defined niche. And ultimately, it means there is little proliferation of my work because I am not writing for an algorithm. I'm simply building a garden of networked thoughts and ideas for myself to enjoy and for others to visit.
 
 ---
+
 ## Connections
 
 [[Non-Performative Blogging Puts Curiosity First]]
@@ -21,6 +22,7 @@ Accepting the unfinished quality of my work, I feel the digital gardening ethos 
 Digital gardening is not about growing an audience or communicating expertise. It is an act of learning and sharing that process. In that way, the environment is calmer, fostering creativity and inspiration rather than smothering it.
 
 ---
+
 ## Reference
 
 � Networked Thought

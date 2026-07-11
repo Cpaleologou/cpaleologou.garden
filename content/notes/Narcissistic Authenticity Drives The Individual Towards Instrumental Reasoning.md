@@ -11,6 +11,7 @@ The ideal of authenticity is often misunderstood and misrepresented as an excuse
 This tinted form of authenticity pushes the individual towards a pattern of thinking that treats everything and everyone around them as a means to an end - to which that end is whatever goals or desires that person has. 
 
 ---
+
 ## Connections
 
 [[Instrumental Reason]]
@@ -18,6 +19,7 @@ This tinted form of authenticity pushes the individual towards a pattern of thin
 [[Moral Subjectivism]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

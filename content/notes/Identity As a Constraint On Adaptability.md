@@ -11,6 +11,7 @@ Defining one's self via a personal history, opinion, or values is a dangerous wa
 In a world of rapid acceleration, one can not rely on their knowledge of the past to thrive. Adaptability becomes more important than structure. In fact, "survival" by definition implies something staying the same, or continuing to exist in the same way. The harder you work to define yourself, the more external forces that put pressure on that definition feel like mortal threats to your existence. If you build a structure of identity that is inflexible to change, you will have to "*die*" in order to survive in a world that looks different than the past.
 
 ---
+
 ## Connections
 
 [[Defining Oneself Is Degrading]]
@@ -29,6 +30,7 @@ The note linked provides an intriguing contrast to the note above. While the not
 The linked note argues for a literal acceptance of death in order to live authentically. The current note essentially argues for a metaphorical embrace of death in order for an individual to occupy a position of flexibility and adaptability in a world that is increasingly being reincarnated as something new every few years or decades.
 
 ---
+
 ## Reference
 
 � Essence Is Fluttering

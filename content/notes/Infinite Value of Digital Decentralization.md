@@ -17,11 +17,13 @@ The value of the technology then, becomes at least equal to the value of the inf
 Making the internet itself infinitely valuable.
 
 ---
+
 ## Connections
 
 [[The Difficulty of Saving Husslr's Work From Nazis]]
 
 ---
+
 ## Reference
 
 #Original 

@@ -11,6 +11,7 @@ Our ability to make decisions and act in the world, relies on a durability to wh
 It is a form of spiritual deflation. The rapid shifting of the most efficient way of doing things discourages taking action in the present because any skills or knowledge gained may be less valuable tomorrow than it is today.
 
 ---
+
 ## Connections
 
 [[Durability Is Foundational To Direction And Action]]
@@ -20,6 +21,7 @@ It is a form of spiritual deflation. The rapid shifting of the most efficient wa
 [[Instrumental Reason]]
 
 ---
+
 ## Reference
 
 #Original 

@@ -30,6 +30,7 @@ An always changing catch-all bucket for skills we realize we need to quickly lea
 Think, cooking once you move out of your parents home, parenting once you conceive, a new application or software upon starting a new job.
 
 ---
+
 ## Connections
 
 [[Develop understanding to remember better]]
@@ -41,6 +42,7 @@ Zeitlkasten Method Boxes
 [[3 Attributes of a High Quality Information Stream]]
 
 ---
+
 ## Reference
 
 � How to Create a 12-Week Self-Education Plan

@@ -18,6 +18,7 @@ It is impossible to define our self-identity in pure isolation for several reaso
    If you consider yourself to be athletic, yet you consistently find yourself slower and weaker than those around you, and those around you do not consider yourself to be athletic, you would have to be delusional to continue with that belief.
 
 ---
+
 ## Connections
 
 [[Defining One's Self Requires Differentiating and Associating Personal Qualities With Others]]
@@ -29,6 +30,7 @@ It is impossible to define our self-identity in pure isolation for several reaso
 [[We Are Temporal Beings]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

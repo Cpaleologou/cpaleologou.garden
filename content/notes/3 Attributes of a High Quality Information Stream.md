@@ -5,7 +5,6 @@ tags:
 publish: 'true'
 date: 2025-07-30T00:00:00.000Z
 ---
-
 There are three main qualities I want and value in an ideal information stream:
 
 1. Balanced

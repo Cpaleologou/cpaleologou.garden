@@ -13,6 +13,7 @@ The problem with this goes beyond our dwindling attention spans and aggressive p
 It acts like a preservative rather than a fertilizer. This keeps us static, predictable, and easier to advertise to. It also stop us from developing as individuals.
 
 ---
+
 ## Connections
 
 [[Digital Gardening & Bottom Up Profiles]]
@@ -25,8 +26,8 @@ Social media is effectively a sorting algorithm. It shoves the individual into a
 **Link Explanation:**
 Social media workflows show you content that engages you and then require to you curate and define yourself into the niches you've been influenced by via the content you share. It works as an identity curating machine. However that identity is heavy biased towards advertising streams that the platform can profit from. The identity can also become an issue because once you've defined your identity, it now needs to die in order for you to adapt to a changing world. That is a painful process and it is often easier to cling to your self-definition rather than grow into something new. This is made especially difficult if the content you are being pushed towards watching is the same that pushed you to define yourself in that old way originally.
 
-
 ---
+
 ## Reference
 
 � How to Do Nothing

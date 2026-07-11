@@ -6,6 +6,7 @@ publish: 'true'
 date: 2026-02-01T00:00:00.000Z
 ---
 ## Why Digital Gardening Inspires Me To Do The Hard Work Of Self-Learning
+
 ### Performative Posting Is Spiritually Degrading
 
 *Goal: 
@@ -62,6 +63,7 @@ How to get started. But also how the value comes over the long term.
 [[Compounding Value Of Digital Gardens]]
 
 ---
+
 ## Connected Notes
 
 [[John Cleese's 5 Factors For Creativity]]
@@ -93,6 +95,7 @@ How to get started. But also how the value comes over the long term.
 [[Performative Blogging Left Me Uninspired]]
 
 ---
+
 ## Further Reading
 
 [My Blog is a Digital Garden, Not a Blog](https://joelhooks.com/digital-garden/)

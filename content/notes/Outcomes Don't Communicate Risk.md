@@ -11,6 +11,7 @@ Positive outcomes don't confirm a decision was correct, and negative outcomes do
 Since risk is unobservable both before and after the fact, the **quantitative** models we use to measure it are only as reliable as the judgements and assumptions baked into them. Often this involves extrapolating historical information into the future. They create an illusion of precision around something that resists measurement by nature. The risk assessments are therefore **qualitative** and forward-looking. They reason about what could go wrong, rather than extrapolating what has already occurred.
 
 ---
+
 ## Connections
 
 [[Second-Level Thinking]]
@@ -24,6 +25,7 @@ Second-level thinking is the tool required to build strong qualitative models th
 Quarterly earnings are by-and-large lagging indicators. They only in form us of what has happened. The price of a stock however, is the attempt by the market to synthesize leading indicators - interest rates, credit cycle, demand growth - into a single number. 
 
 ---
+
 ## Reference
 
 [🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)

@@ -13,6 +13,7 @@ Yet, this is not really productivity. This is workaholism. The valuing of spendi
 Really, productivity is about being efficient so that you can spend less time working, and more time unconcerned with "management" and more time living authentically.
 
 ---
+
 ## Connections
 
 [[Instrumental Reason Explains The Demand For "Productivity"]]
@@ -24,6 +25,7 @@ Really, productivity is about being efficient so that you can spend less time wo
 [[How To Reconcile Discipline With Authentic Passions]]
 
 ---
+
 ## Reference
 
 #Original

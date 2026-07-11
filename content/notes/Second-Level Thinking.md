@@ -34,6 +34,7 @@ This is not an endorsement to invest in Workday or other SAAS companies, but by 
 - What happens to price if the consensus is right — or if I'm right instead?
 
 ---
+
 ## Connections
 
 [[In Risky Markets, Leaders Provide The Best Risk-Adjusted Returns]]
@@ -42,7 +43,7 @@ This is not an endorsement to invest in Workday or other SAAS companies, but by 
 The current situation in software (03-30-2026), is one of extreme fear. Many massive companies are down 30-50% from their highs, including hyper-scalers like Microsoft. While the AI impact discussed above may be true, there are other unanswered questions as to how AI may affect SAAS companies, such as their pricing models which are traditionally seat based. All-in-all, we are in a high risk situation. While that can be a good time to buy, the linked note above, reminds us that it is wise to stick to market leaders if choosing to invest. The established core is there for a reason and thus provides access to upside returns while minimizing downside risk.
 
 ---
+
 ## Reference
 
 [🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)
-

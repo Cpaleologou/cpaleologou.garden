@@ -13,11 +13,13 @@ The Cognitive Revolution is the period of time in which the brain of Homo Sapien
 - The ability to communicate extremely effectively with each other.
 
 ---
+
 ## Connections
 
 The Value of Compute
 
 ---
+
 ## Reference
 
 Book: Sapiens

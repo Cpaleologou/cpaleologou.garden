@@ -11,6 +11,7 @@ Traditional economic models are ill-equipped to forecast long-term demand for ra
 What can be said is that demand will likely outpace most forecasts. Technological improvement compounds exponentially.
 
 ---
+
 ## Connections
 
 [[AI Will Supercharge Materials Science]]
@@ -18,6 +19,7 @@ What can be said is that demand will likely outpace most forecasts. Technologica
 [[Why Metalloids Are Needed For Technology]]
 
 ---
+
 ## Reference
 
 [🟢 The Elements of Power](/library/The-Elements-of-Power)

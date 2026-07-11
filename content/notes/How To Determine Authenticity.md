@@ -18,6 +18,7 @@ Authenticity requires the following to be true:
 	- The sharing or testing of the thing with others. Without discourse, any meaning is delusion.
 
 ---
+
 ## Connections
 
 [[Authenticity Cannot Be Commoditized]]
@@ -29,6 +30,7 @@ Authenticity requires the following to be true:
 [[A Horizon of Context Required To Equate Value]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

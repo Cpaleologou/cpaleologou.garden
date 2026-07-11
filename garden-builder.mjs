@@ -57,6 +57,87 @@ const BOOK_LINK_MAP = {
     "🟢 Breakneck": "/library/Breakneck"
 };
 
+// --- MARKDOWN SPACING NORMALIZER ---
+// Obsidian is forgiving about missing blank lines; Quartz's renderer is not.
+// This pass enforces consistent spacing so notes render the same way the
+// vault does, regardless of how sloppily the blank lines were typed:
+//   - blank line before AND after headings
+//   - blank line before AND after standalone images
+//   - blank line before tables, and after their last row
+//   - blank line before blockquotes/callouts (not after — preserves lazy
+//     continuation lines that belong to the quote)
+//   - blank line around fenced code blocks (contents left untouched)
+//   - runs of 2+ blank lines collapsed to one
+// Lists are deliberately NOT touched: inserting blanks there flips tight
+// lists to loose ones and changes rendering.
+function normalizeSpacing(body) {
+    const isBlank    = (l) => l.trim() === '';
+    const isHeading  = (l) => /^#{1,6}\s/.test(l);
+    const isImage    = (l) => /^\s*(!\[\[[^\]]+\]\]|!\[[^\]]*\]\([^)]+\))\s*$/.test(l);
+    const isTableRow = (l) => /^\s*\|/.test(l);
+    const isQuote    = (l) => /^\s*>/.test(l);
+    const isFence    = (l) => /^\s*(```|~~~)/.test(l);
+
+    const lines = body.split('\n');
+    const out = [];
+    let inFence = false;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        const next = i + 1 < lines.length ? lines[i + 1] : null;
+
+        // Code fences: pad around the block, never touch its contents
+        if (isFence(line)) {
+            if (!inFence && out.length && !isBlank(out[out.length - 1])) out.push('');
+            out.push(line);
+            if (inFence && next !== null && !isBlank(next)) out.push('');
+            inFence = !inFence;
+            continue;
+        }
+        if (inFence) {
+            out.push(line);
+            continue;
+        }
+
+        const prev = out.length ? out[out.length - 1] : null;
+
+        const needsSpaceBefore =
+            isHeading(line) ||
+            isImage(line) ||
+            (isTableRow(line) && prev !== null && !isTableRow(prev)) ||
+            (isQuote(line) && prev !== null && !isQuote(prev));
+
+        if (needsSpaceBefore && prev !== null && !isBlank(prev)) out.push('');
+
+        out.push(line);
+
+        const needsSpaceAfter =
+            isHeading(line) ||
+            isImage(line) ||
+            (isTableRow(line) && next !== null && !isTableRow(next));
+
+        if (needsSpaceAfter && next !== null && !isBlank(next)) out.push('');
+    }
+
+    // Collapse runs of blank lines to a single blank line
+    const collapsed = [];
+    let blanks = 0;
+    for (const l of out) {
+        if (isBlank(l)) {
+            if (++blanks === 1) collapsed.push('');
+        } else {
+            blanks = 0;
+            collapsed.push(l);
+        }
+    }
+
+    // Trim leading/trailing blank lines
+    while (collapsed.length && isBlank(collapsed[0])) collapsed.shift();
+    while (collapsed.length && isBlank(collapsed[collapsed.length - 1])) collapsed.pop();
+
+    return collapsed.join('\n');
+}
+
 // --- EXECUTION ---
 async function buildGarden() {
     console.log("🌱 Starting Garden Build...");
@@ -179,6 +260,9 @@ async function buildGarden() {
             content.data.date = content.data.Date; 
             delete content.data.Date;              
         }                                        
+
+        // --- SPACING NORMALIZER ---
+        finalBody = normalizeSpacing(finalBody);
 
         // Write File
         const finalContent = matter.stringify(finalBody, content.data);

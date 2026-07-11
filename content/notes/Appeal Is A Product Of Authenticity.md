@@ -11,6 +11,7 @@ Medium, the writing platform, was founded on the idea that the internet is most 
 The authentic voice of a regular person is what makes it different and interesting to an audience.
 
 ---
+
 ## Connections
 
 [[Digital Fitness]]
@@ -18,6 +19,7 @@ The authentic voice of a regular person is what makes it different and interesti
 [[Finding Meaning in Work]]
 
 ---
+
 ## Reference
 
 � Fell in a Hole, Got Out.

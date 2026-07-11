@@ -12,6 +12,7 @@ When I'm walking for example, I am typically more relaxed. My mind kind of "unfo
 When lifting though, I notice that my mind tends towards a more sporatic, almost ADHD way of creative thought. I have many different creative ideas that I need to constantly be writing down.
 
 ---
+
 ## Connections
 
 [[Walking and Learning]]
@@ -19,6 +20,7 @@ When lifting though, I notice that my mind tends towards a more sporatic, almost
 [[Capturing Ideas]]
 
 ---
+
 ## Reference
 
 #Original 

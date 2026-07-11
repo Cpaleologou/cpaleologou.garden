@@ -11,6 +11,7 @@ There is a Chinese story called the useless tree, which tells the story of a log
 The lesson is that the tree survives by being unhelpful for those trying to use it for their own purpose. And thus, the "usefulness" of something, is not necessarily what makes it valuable.
 
 ---
+
 ## Connections
 
 [[Instrumental Reason]]

@@ -17,6 +17,7 @@ There are only two rules to effectively use the method:
 [[Zettelkasten Method vs. Standard Methods]]
 
 ---
+
 ## Reference:
 
 Person: Vicky Zhao

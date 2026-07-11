@@ -13,6 +13,7 @@ Rather, significant events, like a famine or particularly brutal storm initiated
 Later this tradition, dictating that a new era had began, was used by Emperors to add weight to their legitimacy and communicate that change was coming.
 
 ---
+
 ## Connections
 
 [[We Are Temporal Beings]]
@@ -22,6 +23,7 @@ This is a loose connection, but I think it is interesting how the measurement of
 Perhaps this indicates the Heian court's disconnection from the common people. Regardless, despite the differences in unit of measurement, time, history and context are inescapable for all conscious creatures.
 
 ---
+
 ## Reference
 
 � The Diary of Lady Murasaki

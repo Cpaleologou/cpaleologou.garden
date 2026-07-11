@@ -11,6 +11,7 @@ No two mining sites share the same geological composition. Ore deposits are form
 This means that while extraction and refining processes may be similar across sites, they are never identical. Processes cannot be copy-pasted between locations.
 
 ---
+
 ## Connections
 
 [[Rare Earth Mines Can Take Decades To Reach Production]]
@@ -18,6 +19,7 @@ This means that while extraction and refining processes may be similar across si
 [[Rare Earth Supply Concentration Creates Huge Fragility]]
 
 ---
+
 ## Reference
 
 [🟢 The Elements of Power](/library/The-Elements-of-Power)

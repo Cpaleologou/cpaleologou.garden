@@ -5,7 +5,6 @@ tags:
 publish: 'true'
 date: 2025-07-30T00:00:00.000Z
 ---
-
 Asking an AI agent to browse the internet and bring back news is not the right solution for a refined information stream.
 
 The first issue is that currently, it takes too long. You have to prompt it, wait for it to do the research and then come back to you. I want information to come to me which I can then instantly get more detail on or disregard. I want it to prompt me in a way.

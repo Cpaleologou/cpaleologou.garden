@@ -13,6 +13,7 @@ Concentration determines the bar required for a mine to be profitable, and quali
 This is leading to a situation where the low hanging fruit as been picked. _Ceteris paribus_, Time and energy costs will increase in the future.
 
 ---
+
 ## Connections
 
 [[Rare Earth Elements Are Not Rare]]
@@ -20,6 +21,7 @@ This is leading to a situation where the low hanging fruit as been picked. _Cete
 [[Rare Earth Mines Can Take Decades To Reach Production]]
 
 ---
+
 ## Reference
 
 [🟢 The Elements of Power](/library/The-Elements-of-Power)

@@ -13,6 +13,7 @@ To get better and bench press, you must continually add more weight to the bar i
 However, this concept applies far beyond the reach of sport science. It is certainly true for skill acquisition. But it may also be true in terms of less tangibly measurable fields like charity, faith, or creative thinking.
 
 ---
+
 ## Connections
 
 [[The Only Solution Is To Keep Going]]
@@ -20,6 +21,7 @@ However, this concept applies far beyond the reach of sport science. It is certa
 [[Finding Meaning in Work]]
 
 ---
+
 ## Reference
 
 � Sun & Steel

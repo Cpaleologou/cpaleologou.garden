@@ -11,6 +11,7 @@ The market prices stories. If you buy the consensus narrative, you'll be paying 
 Not only that, but the narrative is always most compelling at the peak. The most undervalued assets appear the absolute worst, with the ugliest stories at their bottom.
 
 ---
+
 ## Connections
 
 [[Prices Reflect Perception, Not Truth]]
@@ -19,6 +20,7 @@ Not only that, but the narrative is always most compelling at the peak. The most
 Prices reflect the consensus interpretation of all available information which we tend to weave into a narrative to explain the movements of the stock market. Being story-creatures, these narratives can be wildly compelling in both directions. However, in hindsight they are often irrelevant, misguided, or outright wrong. It's better to think independently and form your own narratives to give yourself a chance of being contrarian.
 
 ---
+
 ## Reference
 
 [🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/library/The-Most-Important-Thing)

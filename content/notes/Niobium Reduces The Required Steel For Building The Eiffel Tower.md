@@ -13,6 +13,7 @@ Today, if even a small amount of Niobium is added to the steel alloy, the streng
 That represents a ~71% decrease in raw materials.
 
 ---
+
 ## Connections
 
 [[Rare Earth Supply Concentration Creates Huge Fragility]]
@@ -20,6 +21,7 @@ That represents a ~71% decrease in raw materials.
 [[AI Will Supercharge Materials Science]]
 
 ---
+
 ## Reference
 
 [🟢 The Elements of Power](/library/The-Elements-of-Power)

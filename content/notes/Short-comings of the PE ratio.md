@@ -15,6 +15,7 @@ Another fundamental question as to the quality of earnings, is the conversion of
 Given the choice between two businesses with the same earnings growth and potential, the investor should be prepared to pay materially more for a business with stronger FCF conversion (FCF / Net Income or EBITDA) on those earnings.
 
 ---
+
 ## Connections
 
 [[Capital Cycle Purchase Candidates]]
@@ -23,6 +24,7 @@ Given the choice between two businesses with the same earnings growth and potent
 The linked note explains how there are two different kinds of candidates for investment purposes under the capital returns methodology. The key is that under both circumstances, the earnings *quality*, or the ability for the business to generate cash over a long period of time is the fundamental driver of what makes a business good. The connection with this note is that the price to earnings is not the metrics that should be used to assess the quality of the business, but P/OCF or P/FCF, depending on the type of investment being assessed.
 
 ---
+
 ## Reference
 
 [[Capital Returns#^3c6d9f]]

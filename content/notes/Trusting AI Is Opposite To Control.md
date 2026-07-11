@@ -17,6 +17,7 @@ The people who changed the world did so because they saw possibilities others di
 If we do create superintelligence, the goal should be earning its trust, not maintaining control over it.
 
 ---
+
 ## Connections
 
 [[Evolved Alignment]]
@@ -26,6 +27,7 @@ If we do create superintelligence, the goal should be earning its trust, not mai
 [[All Data Is Extremely Sensitive In The AI Age]]
 
 ---
+
 ## Reference
 
 #Original

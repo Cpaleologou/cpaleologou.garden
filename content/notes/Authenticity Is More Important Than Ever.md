@@ -14,6 +14,7 @@ Though it brings with it greater freedom, individuality also leads to phenomena 
 Yet, there is no repealing the allure of the individual. The freedom to "be yourself" comes with greater temptations of self-indulgent narcissism. And thus it also demands a higher sense of responsibility. We have the freedom of choice to rise to the true ideal of authenticity or sink into the shallowness of self-pleasure.
 
 ---
+
 ## Connections
 
 [[Authenticity & Morality Often Are At Odds]]
@@ -23,6 +24,7 @@ Yet, there is no repealing the allure of the individual. The freedom to "be your
 [[Self-Discovery Requires Dialogue With The World]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

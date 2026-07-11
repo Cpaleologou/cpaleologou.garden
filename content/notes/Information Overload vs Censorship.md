@@ -15,6 +15,7 @@ This is a quote from Berardi. He is saying that censorship is the least of our p
 As a form on control,  instead of trying to hide or manipulate the truth, it is easier to just overwhelming someone with so many possible truths that they can't make sense of the world anymore.
 
 ---
+
 ## Connections
 
 [[Truth is less important than trust]]
@@ -30,6 +31,7 @@ Soft despotism is the idea that as people become more focused on themselves, the
 This seems related to information overload vs. censorship because the soothing of the people appears partially connected to the onslaught of constant entertainment that people face. There is enough engaging content that one could reasonably spend their entire life consuming entertainment without needing to question the state of their life or society they live.
 
 ---
+
 ## Reference
 
 � How to Do Nothing

@@ -15,6 +15,7 @@ The issue is that without context all you see is a collection of meaningless obj
 It follows that if there is no other significance to them, the only logical thing to ask is "What can I do with them to benefit me?".
 
 ---
+
 ## Connections
 
 [[Instrumental Reason]]
@@ -24,6 +25,7 @@ It follows that if there is no other significance to them, the only logical thin
 [[Instrumental Reason Forces Technological Solutions]]
 
 ---
+
 ## Reference
 
 � The Ethics of Authenticity

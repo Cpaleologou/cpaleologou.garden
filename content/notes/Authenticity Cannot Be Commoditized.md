@@ -13,6 +13,7 @@ The very act of commoditization, that is, mass producing something strips the au
 Thus, authenticity cannot be commoditized.
 
 ---
+
 ## Connections
 
 [[How To Reconcile Discipline With Authentic Passions]]
@@ -20,6 +21,7 @@ Thus, authenticity cannot be commoditized.
 [[Appeal Is A Product Of Authenticity]]
 
 ---
+
 ## Reference
 
 #Original

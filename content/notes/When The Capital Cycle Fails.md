@@ -19,6 +19,7 @@ The result of this, from an investment perspective however, is that when capacit
 A leader or management team with unusual ability to allocate capital efficiently is another scenario where the capital cycle fails to predict results. In this example, Bunzl, the British food packing enterprise is used to highlight an example where the management team has an unique ability to add value via bolt-on acquisitions, that the market does not give them credit  for. Analysts forecast out the cash flows based on currently operations, but fail to take into account that these acquisitions are continuous and accretive.
 
 ---
+
 ## Connections
 
 [[The Capital Cycle]]
@@ -32,6 +33,7 @@ While the capital cycle is fundamental to understanding buying opportunities in 
 This is in fact a topic discussed in the book at length. That is, the fact that the Chinese market is very difficult to invest in for several reasons. However, fundamentally, all these reasons come back to an overbearing CCP involvement in the market. Either propping up certain industries, building out excess capacity, or outright intervention, as what happened with Jack Ma in 2020.
 
 ---
+
 ## Reference
 
 [[Capital Returns#^e94d14]]

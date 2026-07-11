@@ -12,6 +12,7 @@ At the time, it was seen as indecent for a woman to know how to write in Chinese
 The rise in ability to write in Kana, led to a golden age of literature, mainly led by women. Not only does this represent one of the first times women were able to express their unique point of view in written word, but it also led to the first-ever novel "The Tale of Genji", written by Lady Murasaki herself.
 
 ---
+
 ## Connections
 
 [[Lady Murasaki's Melancholy Of The Intellectual]]
@@ -19,6 +20,7 @@ The rise in ability to write in Kana, led to a golden age of literature, mainly 
 [[The Corrosive Nature of Words]]
 
 ---
+
 ## Reference
 
 � The Diary of Lady Murasaki

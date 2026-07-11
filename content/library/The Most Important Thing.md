@@ -19,32 +19,43 @@ date: 2026-04-10T00:00:00.000Z
 </div>
 
 ## Summary
+
 **The Most Important Thing** is a collection of essays and reflections about investing and markets through Marks' career as a value investor.
 Marks is a strong believer in the reality that markets can be inefficient, that contrarian thinking is the only way to beat the market, and that understanding where we are in the credit cycle is imperative for long-term survival.
 Beating the market over the long term is not easy, but by staying unemotional, thinking one step ahead and being patient, it is possible. The book shares lessons and frameworks for how to do just that.
 
 ---
+
 ## Takeaways
+
 I studied economics in university, which means I learned the empirically tested idea that you cannot beat the market. The efficient market hypothesis says prices reflect all available information, meaning that over time, no investor can hold an edge long enough to consistently outperform. In classrooms this is a law, not a debate. Yet in reality, Warren Buffett happened, Howard Marks happened. There are decades of documented outperformance by a select few. 
 
 If the theory is right, the evidence shouldn't exist. If the evidence is real, the theory is incomplete. So which is it? And what does that gap mean for how you should actually invest if beating the market is on your to-do list?
+
 ### Why The Market Is Wrong
+
 Between January 2000 and September 2001, Yahoo traded on the NASDAQ at an all time high of $118 and an all time low of $8. So while the business remained largely the same over that period, in hindsight we can clearly see that neither price was justified. The market was therefore wrong, at least once. Not in a theoretical sense. Wrong on the price tag itself. 
 
 The dot-com bubble is one of the clearest examples of why markets make mistakes: narrative. Humans are story creatures. We try to explain our past and our futures with meaningful arcs of facts and speculation so that the infinite chaos of the universe makes sense. And the market, being a collective of humans, prices stories more than it prices businesses. When everyone believes the same story, the price reflects that belief rather than the underlying value. And since narratives are most compelling at their peak, when you've just seen prices rise beyond what anyone expected, they are also most persuasive at the worst moment. This is how people lose money. But on the flip side, the most undervalued assets tend to look their worst at bottom, when their ugly narratives look most perverse.
 
 This creates a third problem; one that I've found fascinating since I read about it in *Thinking In Bets* several years ago: You cannot learn from results. Just as a successful outcome doesn't necessarily mean you made a wise decision, a stock that went up after you bought it does not mean the purchase was wise. While economics textbooks define risk as volatility, Marks describes it in a more useful and intuitive way: the probability of loss at the moment of decision. Lucky outcomes do not retroactively reduce that probability and unlucky outcomes don't retroactively increase it. Risk is tough to gauge in the moment, but what we do know is that even the most data-backed financial models impose assumptions about the future that are fundamentally also just a story. 
+
 ### What Risk Actually Is
+
 Once you accept that risk is just the probability of loss, and that prices and real value can diverge for extended periods of time, the nature of risk becomes a lot clearer. Risk is not a property of an asset. Apple as a business has no risk. Risk is a property of the *price* you pay relative to the value you receive. When the market is bullish, prices are pushed up above value, and the gap between price and value is where the risk lives. According to Marks, the simplest form of risk management then is not a diversification strategy, or a stop-loss rule. It is just the discipline to avoid overpaying. 
 
 That sounds a lot easier than it is in reality. Like most investing concepts, there is a humbling caveat attached. Identifying an overpriced market or asset does not mean you have identified a correction. In other words, over priced does not mean going down tomorrow. Markets can stay wrong for much longer than any rational model would suggest. An overpriced market can continue to rise for *years*. That is why standard advice is to just buy the index. Timing the market is too hard; you have to be right twice, once on direction and once on timing. Even if you're right on the first, you're likely to miss badly on the second. 
+
 ### How To Win: Second Level Thinking
+
 If prices are driven by consensus, then earning returns above the market requires disagreeing with consensus in ways that turn out to be right. This is what Marks calls second-level thinking. The first level investor asks whether the company is good or bad. The second-level investor asks what the consensus already expects, how the current price reflects that, and what happens to the price if the consensus is wrong. 
 
 I'm going to walk through an example here, but I want to make clear beforehand that this is not investment advice and I do not own shares in the company below at the time of writing.
 
 Take a look at the Workday stock below.
+
 ![[Workday_5-Year.webp]]
+
 Like many SAAS businesses, it's down over 50% from its highs. As Anthropic, OpenAI and Google release increasingly powerful AI models, the narrative that agentic AI will render enterprise software obsolete is hammering the industry stock prices. 
 
 First-level thinking takes the fear at face value. Second-level thinking asks whether Proctor & Gamble, KPMG, and Walmart actually want to build and maintain custom HR software in-house. Does the economic logic of outsourcing IT infrastructure disappear just because the underlying code is generated differently? If it does not, the narrative fear might be overstated in the price. 
@@ -58,13 +69,9 @@ I built a skill for Claude to do exactly this and here is the output:
 <div>
 <h2 class="sr-only">Howard Marks Market Temperature — April 2026: 13 Left, 5 Split, 4 Right</h2>
 
-  
-
 <div class="mmt-header">Howard Marks Market Temperature</div>
 
 <div class="mmt-sub">April 11, 2026 — scored against current data</div>
-
-  
 
 <div class="score-bar">
 
@@ -75,8 +82,6 @@ I built a skill for Claude to do exactly this and here is the output:
 <div class="score-seg seg-right" style="flex: 4">Right (opp.) — 4</div>
 
 </div>
-
-  
 
 <table>
 
@@ -329,12 +334,15 @@ The fact is that, as discussed above, even a well-reasoned position can go again
 The practical implication of all this is that you don't need to predict the future. Forward visibility is almost always unclear. All you need to do is read the environment in front of you and let that dictate your posture. 
 
 Opportunistic investing is not headline-grabbing, sexy job of hunting for the next big thing. It's being positioned when a seller is motivated and prices their asset below value. The key is having the patience and emotional stability to let deals come to you rather than manufacturing reasons to act. 
+
 ### The Only Job
+
 There is a concept in tennis called "the pusher". It's the word for a certain style of player who likes to sit back, avoid making risky shots, return every ball and simply outlast their opponents mistakes. They are not exciting to watch. But they are effective. The investing equivalent also exists. They read the field in front of them, avoids overpaying, survives the disasters, and deploys capital when prices and value diverge in their favour. 
 
 Like opponents in sport, markets can challenge you in gruelling ways that are difficult to prepare for. But they also make mistakes. Those mistakes are not a problem to be solved. It's the game itself. 
 
 ---
+
 ## Notes
 
 [[Act On The Present, Not Forecasted Futures]]

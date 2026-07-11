@@ -12,6 +12,7 @@ Living authentically requires one to embrace and follow their passions with 100%
 For those with multiple passions, or those that change, how can living authentically be reconciled with the fact that true mastery requires years of discipline and commitment?
 
 ---
+
 ## Connections
 
 [[Progressive Overload Is A Law of Human Improvement]]
@@ -19,6 +20,7 @@ For those with multiple passions, or those that change, how can living authentic
 [[Changing Tasks v. Rest]]
 
 ---
+
 ## Reference
 
 #Original 

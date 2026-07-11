@@ -17,6 +17,7 @@ The extraction and processing of rare earths is extraordinarily complex. At a hi
 This three-step process may need to be repeated **hundreds** of times to achieve a pure concentration.
 
 ---
+
 ## Connections
 
 [[Rare Earth Element Processing Cannot Be Standardized]]
@@ -24,6 +25,7 @@ This three-step process may need to be repeated **hundreds** of times to achieve
 [[Rare Earth Refining Cannot Target High Priced Materials]]
 
 ---
+
 ## Reference
 
 [🟢 The Elements of Power](/library/The-Elements-of-Power)
