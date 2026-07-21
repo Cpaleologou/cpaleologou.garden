@@ -240,6 +240,8 @@ Looking back historically once again demonstrates the impact of the console cycl
 
 ## 3. Balance Sheet Health
 
+**Nintendo Net Debt (FY17-FY26):**
+
 ![[Nintendo_Net_Debt.webp]]
 
 This is as close to a fortress balance sheet as exists in consumer entertainment. Total debt is effectively zero across the entire observable history. This is obviously great. Nintendo's balance sheet is managed so that it can never go out of business due to debt and has the best chance possible at being around 10,20, 100 years from now. It is a long term view and that is what I like to see in businesses. 
@@ -334,7 +336,7 @@ Tellingly, Nintendo's R&D intensity tracks closer to Apple's (roughly 5-8% of a 
 
 **Revenue per Employee - Nintendo vs. Competitors:**[^37]
 
-![[Revenue per Employee.webp]]
+![[RevenueperEmployee.webp]]
 
 Nintendo has generated somewhere between roughly 2x and nearly 4x the revenue per employee of Square Enix and Capcom in every year of the sample.
 
@@ -346,7 +348,7 @@ Nintendo does not compete on hardware cost leadership. The console is deliberate
 
 This is actually a key strategic advantage for Nintendo. In 2026, the video game industry has been in a genuine capital-cycle reckoning: roughly 45,000 jobs were eliminated industry-wide between 2022 and mid-2025, and the 2026 GDC State of the Game Industry survey found a third of American game workers had been laid off in the prior two years, rising to two-thirds among triple-A studio staff specifically.[^30]. At the time of writing this report, on July 6th 2026, Microsoft-Xbox has announced major restructuring activities.[^31] It is my view that this is the textbook back-half of an overexpansion cycle, coupled with rising development costs due to the availability of **powerful PC and console hardware** that tempts developers into making massive, costly games.
 
-**The Capital Cycle, per [[04-Projects/Youtube/1-Ideas/Capital Returns|Capital Returns]]:**
+**The Capital Cycle, per [[Capital Returns]]:**
 
 ![[CapitalCycleChart.webp]]
 
@@ -430,7 +432,99 @@ What matter here is that this is not Sony failing to execute. This is the state 
 
 ## 5. Risks & Opportunities
 
-### Pokemon As The Blueprint
+### Risk 
+
+The risk section ahead will not attempt to predict or discuss short term risks to Nintendo's business. This includes broader industry pressures, such as the current spike in digital memory that is driving price increases on many electronic products. [^45]
+Instead, it will take a long term perspective. We will view the business as owners would and we'll try to identify what could go wrong. Specifically, what series of events, if they played out, would turn today's investment into a permanent loss within 10 years?
+
+#### 1. Solvency Risk
+
+**Nintendo Net Debt (FY17-FY26):**
+
+![[Nintendo_Net_Debt.webp]]
+
+As discussed in the balance sheet health section above, Nintendo carries over ¥2.2 trillion in net cash. This is roughly equivalent to $14B USD and almost 25% of the company's market cap. Financial distress is not a real scenario and is not worth further discussion.
+
+#### 2. Earning Power Risk
+
+With that in mind, the fundamental risk Nintendo faces is a permanent decline in earning power. The moat, discussed above, slowly eroding. Given that moat is built on the company's IP, I see two major risks that could disrupt Nintendo's earning power in 10 years time.
+
+##### The Gamer Lifecycle Breaks Down
+
+![[GamerLifeCycle.webp]]
+
+Nintendo's gamer lifecycle, and the durability of the business, depends on core franchises being introduced to each new generation of gamers, so that they form nostalgic bonds with those characters and games. If children stop arriving at Nintendo as their first serious gaming experience, then the renewal mechanism reverses. Nintendo would still be able to sell games, and would appear successful for many years, especially as the cohorts already served enter their strongest earning years as adults. But with that cohort not being replaced at the bottom, Nintendo's customer base would face a long, slow hollowing out.
+
+**Nintendo Age Distribution, 2023**[^6]
+
+![[NintendoAgeDistribution2021.webp]]
+
+As discussed above, although Nintendo did share age demographic data in 2023, it is difficult to draw any major conclusion from the data alone, since this is Nintendo Account data, not actually gamer data. Parents are likely to create accounts for their children, who then play on the device. That said, at face value, this data would suggest that the majority of Nintendo's customer base are adults, and that the children's cohort is not of significant size to replace them in ten years' time.
+
+Looking to broader market data, shown below, we can see that the average age of gamers has increased from 29 in 2004 to 36 in 2024. The largest change is in the cohort under 18, which has fallen 10% over the past two decades — a trend that supports the conclusion that there are fewer child gamers than there used to be.
+
+**The Average Age of Gamers (2024):**[^46]
+
+![[AverageAgeOfGamer2024.webp]]
+
+This appears to be caused by two compounding factors. First, there are simply fewer children. Demographics are destiny. This is, in my opinion, the most material trend for the majority of companies and industries across the global economy. It is particularly relevant for businesses that rely on children as their audience for long-term durability, like Nintendo.
+
+**Children Born Per Woman, 1933-Present:**[^47]
+
+![[children-born-per-woman.webp]]
+
+Second, according to the Pew Research Center, gaming is fundamentally less popular among American teens than it used to be. In 2008, 97% of teens aged 12–17 played computer, web, portable, or console games.[^48] In 2024, that figure was only 85%.[^49]
+
+This data, however, while illustrative of general industry trends, says little about Nintendo's popularity among the children who are still gaming. For that, a decent indicator may be the Nickelodeon Kids' Choice Award for Favorite Video Game. It is a children-voted popularity poll that has been running for over 30 years.
+
+**Kids Choice Awards - Nintendo Winners vs. Wins (1995-2025):**[^50]
+
+![[KidsChoiceGameNomineeVsWinners.webp]]
+
+Each column in the chart above represents a ceremony. The full height is the total group of nominees, and the red or black portion represents the share of that group made up of Nintendo games. Red marks a year Nintendo won.
+
+Immediately, two things stand out. First, Nintendo has been, and continues to be, an incredibly consistent presence in child gaming culture. At the same time, it hasn't won the award in 15 years.
+
+**Kids Choice Awards - Nintendo Win Rate By Era (1995-2025):**[^50]
+
+![[KidsChoiceWinRateByEra.webp]]
+
+Charting the same data decade by decade, we see a similar pattern. Nintendo's presence has remained flat since the 2000s, but its ability to win — to create the game kids love most — appears to have slowly eroded. There are likely two reasons for this. First, this analysis is admittedly flawed: it compares Nintendo, an entire business, to single games. So while votes for Minecraft or Just Dance cluster around a single title, Nintendo often has multiple candidates splitting the vote. That's fine for assessing the cultural relevance of Nintendo IP, but not ideal for assessing its ability to win. Second, the chart below shows how the internet has changed gaming and children's preferences.
+
+**Kids Choice Awards - Winner by Genre (1995-2025):**[^50]
+
+![[KidsChoiceWinnersByGenre.webp]]
+
+By categorizing each year's winner as local (single-player or couch co-op) versus online or platform gaming (Roblox and Minecraft), we can clearly see that preferences shifted in 2010 and never went back.
+
+My overall assessment is that while Nintendo games may not have the cultural dominance they had in the '90s, the company has demonstrated a persistent relevance that has stayed relatively flat since the 2000s, despite major shifts in market preferences. I see this as a sign of strength rather than weakness. There is currently little indication that child gamers today are any less enthusiastic about Nintendo IP than they were 20 years ago. I don't know where preferences will go next, but I'm confident that as the world changes, genre popularity will change with it.
+
+In Charlie Munger's book _Poor Charlie's Almanack_, he discusses the boon Disney received from the invention of the VHS tape. The company, which had existed since 1923, sat on a large catalogue of movies and assets with no way to scale their distribution. The invention of the VHS tape, and later technological shifts like the internet, provided a massive scaling opportunity for the business without any real additional work on its part. He also discusses a similar boon Coca-Cola received from mass-market refrigeration, which allowed the product to be more readily available across the country in its ideal state for consumption.
+
+The point here is that I see similar qualities in Nintendo. Nintendo did not invent GPS technology or augmented-reality technology, yet Pokémon GO — an adaptation of the franchise first released in 1996 — became one of the most popular and profitable games of 2016.[^51] It has remained popular since, and in 2021 was featured on the Nickelodeon nominee list. As long as the IP retains its ability to captivate audiences, it is likely to keep performing well in the future. The bigger question, for the next several decades, is the demographic trend of an aging or shrinking population in Nintendo's key markets. This is unlikely to be a problem within the next ten years — the generations Nintendo succeeded in capturing are now entering their peak earning years — but for an investor taking an extremely long-term view, it's worth monitoring.
+
+##### Self-Inflicted Dilution
+
+While opportunities are discussed below, it should be evident at this point in the research that the growth story for Nintendo stems from monetizing the IP. Yet, part of the moat discussed above was that Nintendo has full ownership of that IP, and thus the ability to ration exposure of it to its audience. Expanding IP touch points with more films, more parks, and more licensing deals appears to be in tension with the disciplined drip-feeder strategy that has work so well for Nintendo so far. I have to wonder how many Mario movies can Nintendo make before their audience fatigues? Below we will look into four difference cases where IP expansion either broke the business, or compounded, and see what takeaways we can ascertain in understanding Nintendo's risk.
+
+**Pokémon**
+Pokémon is the most immediate comparison we can make because it is 32% owned by Nintendo and is one of the most aggressively exploited IPs in the world: games, trading cards, a decades-running anime, films, Pokémon GO, and an ungodly amount of merchandise. As a private company, financial information is sparse; however, estimates put lifetime revenue between $115B and $150B USD.[^52] [^53] The most important thing to understand is that of this total, an estimated one-fifth comes from the games themselves. The rest is merchandise, cards, etc.[^54] We can speculate that the economics work like this:
+
+1. The mainline games, while being the smallest revenue slice, function to generate new creatures, characters, and lore. The core game loop of capturing, training, and battling creatures has remained the same for thirty years and effectively bootstraps new players into the attachment they form with their favourite Pokémon, while compounding the same attachment older players already have. It is fuel for the business.
+2. The anime, movies, and spin-off games like Pokémon GO function as top-of-funnel reach extension, pulling in children and more casual mobile players.
+3. The Trading Card Game (TCG) and licensed merchandise is the evergreen profit centre. The TCG literally prints high-margin, pieces of paper that the global fan base has turned into a genuine asset class. While the licensed merchandise, like stuffed animals, provide other high margin products. This business line digitalized in late 2024 with the cross-platform app "Pokémon Trading Card Game Pocket." Officially released financial information from the Japanese government shows 2025 year-over-year revenue growth for The Pokemon Company of nearly 40%.[^55] Given little other activity from Pokémon this year (no new games or major releases), most of this growth must be coming from the digital trading card game.
+
+This framework illustrates how Pokémon's business model functions without exhausting its audience. The games remain largely the same, and the release cadence of true mainline titles stays staggered every few years. The monetization of the IP then happens through ancillary categories, rather than by accelerating the core games.
+
+**Disney Princesses**
+
+**Pokemon Game Scores (Metacritic/GameRankings):**[^56]
+
+![[PokemonGameScoresOverTime.webp]]
+
+#### 3. Valuation Risk
+
+#### 4. Foreign Currency Risk
 
 ---
 
@@ -478,3 +572,15 @@ What matter here is that this is not Sony failing to execute. This is the state 
 [^42]: https://camelcamelcamel.com/product/B0B61YDF5V
 [^43]: https://en.wikipedia.org/wiki/God_of_War_(franchise)
 [^44]: https://www.playstation.com/en-ca/games/god-of-war-ragnarok/
+[^45]: https://www.cbc.ca/news/business/apple-price-hike-ipad-macbook-ai-memory-chip-2026-9.7248577
+[^46]: https://www.theesa.com/wp-content/uploads/2024/05/Essential-Facts-2024-FINAL.pdf
+[^47]: https://ourworldindata.org/fertility-rate
+[^48]: https://www.pewresearch.org/internet/2008/09/16/teens-video-games-and-civics/
+[^49]: https://www.pewresearch.org/internet/2024/05/09/teens-and-video-games-today/
+[^50]: https://en.wikipedia.org/wiki/Kids'_Choice_Award_for_Favorite_Video_Game
+[^51]: https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go
+[^52]: https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises
+[^53]: https://vgsales.fandom.com/wiki/Pok%C3%A9mon
+[^54]: https://vgsales.fandom.com/wiki/Pok%C3%A9mon
+[^55]: https://kanpo-kanpo.blog.jp/archives/44639158.html
+[^56]: https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series)

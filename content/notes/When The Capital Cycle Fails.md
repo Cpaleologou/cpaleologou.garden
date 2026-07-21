@@ -8,7 +8,10 @@ date: 2026-06-10T00:00:00.000Z
 Not all industries are viewed usefully through the capital cycle framework. Some, but not all, cases where the capital cycle perspective fails to predict value accretion are as follows:
 
 **Product Complexity**
-Industries, like car manufacturing, have consolidated into oligopolistic structures, yet fail to generate substantial returns for shareholders. This is because a successful product depends on management's ability to create value additive offerings across many components of a value proposition, including feature specification, customer financing terms, safety regulations, marketing costs around new launches, and service and warranty. The complexity of the product and the accumulation of decisions that go into a winning product make outsized performance unlikely. 
+Industries, like car manufacturing, have consolidated into oligopolistic structures, yet fail to generate substantial returns for shareholders. This is because the "tit-for-tat" structure of a co-operative marketplace where price levels can be matched by each major participant, becomes much more difficult when products are complex. 
+The product offering of a vehicle includes feature specification, customer financing terms, safety regulations, marketing costs around new launches, and service and warranty. 
+An industry participant can therefore make the product cheaper (reduced price) through more obscure methods, like extended financing terms, lower rates, lower safety scores, gas efficiency, etc. 
+This creates noise in what is happening in the marketplace, prices rising or falling becomes obscured and tit-for-tat competition becomes impossible. When you compare this to a commoditized market, like paper for example, the only real way to compete is the raise or lower the price, which makes "cooperation" between competitors likely.
 
 **Political Interference**
 National stakes in businesses also disrupt the capital cycle. When the government becomes involved in the success of a business or industry, it restricts the markets natural ability to reset, clear out under-performers and reallocate resources to the most productive firms.

@@ -129,7 +129,8 @@ Marathon is also intellectually honest about where the capital cycle framework f
 
 #### 1. Product Complexity
 
-Car manufacturing has consolidated significantly, with oligopolistic dynamics in many segments. Yet shareholders have consistently been disappointed. The reason is that a winning car depends on an accumulation of decisions across dozens of value-chain components: feature specification, financing terms, safety regulation compliance, launch marketing, service and warranty execution. The complexity makes it genuinely difficult for any management team to consistently create value, regardless of the competitive structure.
+Car manufacturing has consolidated significantly, with oligopolistic dynamics in many segments. Yet shareholders have consistently been disappointed. The reason is that a winning car depends on an accumulation of decisions across dozens of value-chain components: feature specification, financing terms, safety regulation compliance, launch marketing, service and warranty execution. 
+The results that the capital returns methodology predicts, however, depend on a "tit-for-tat" industry dynamic, where industry players can clearly see what other competitors are doing. In the paper industry, for example, there is little a manufacturer can do to differentiate their offer. Therefore, market competition is typically driven by price fluctuations. It's easy for the whole market to raise or lower the price of the product to match each other because it is clear what is happening. With cars, however, a manufacturer can effectively lower the price of the vehicle without changing the sticker price. They can change financing terms, or fuel efficiency, etc. This makes changes in the real price of the product opaque and much more difficult for management teams across the industry to follow and maintain consistency in the industry through prices and therefore margin.  
 
 #### 2. Political Interference
 
