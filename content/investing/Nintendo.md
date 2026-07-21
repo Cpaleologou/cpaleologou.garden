@@ -324,9 +324,9 @@ Nintendo spent roughly 6% of revenue on advertising in fiscal 2026 and about 5.8
 
 This is a direct demonstration of the strength of Nintendo's IP. Both competitors were selected because they themselves have strong IP - EA with EAFC (formerly FIFA), for example, and Take-Two with the GTA series, Red-Dead Redemption, and more. Regardless of whether Nintendo is in a console launch year, or a regular mid-cycle year, a new Mario or Zelda entry is so beloved and culturally relevant that the game alone performs the demand-generation work a media budget would otherwise have to buy. 
 
-**Revenue per Employee - Nintendo vs. Competitors:**[^38]
+**R&D to Revenue - Nintendo vs. Competitors:**[^38]
 
-![[R&D as _ of Revenue.webp]]
+![[RnDToRevenue.webp]]
 
 Nintendo's R&D intensity has run in roughly a 6-12% of revenue range across fiscal 2017 through fiscal 2025, spiking to around 12% in both fiscal 2017 and fiscal 2025 which are the two years bracketing a hardware-transition R&D ramp (Switch's 2017 launch cycle and Switch 2's development-heavy pre-launch year), set against a temporarily smaller revenue base. 
 
