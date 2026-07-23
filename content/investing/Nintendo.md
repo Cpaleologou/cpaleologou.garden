@@ -302,9 +302,9 @@ By being able to satisfy both audiences - adults and children - success in one g
 
 Many of Nintendo's core IP (Mario, The Legend of Zelda, Donkey Kong, Starfox, etc.) were created by one person, Shigeru Miyamoto. Normally, this would create significant key-man risk as Miyamoto is now in his 70s. However, Nintendo has taken careful steps to practice deliberate succession planning. The best example of this is the continued excellence in metascores that The Legend of Zelda has received, even after directorial control was passed on to Eiji Aonuma years ago[^25].
 
-**Legend of Zelda Games, Metascores:**[^26]
+**Legend of Zelda Game Scores**[^26]
 
-![[LegendofZeldaGames1986-2026Metascores.webp]]
+![[ZeldaGameScoresOverTime.webp]]
 
 #### IP Enforcement
 
@@ -430,9 +430,11 @@ The best comparison I can think of for Playstation is their title "God of War: R
 
 What matter here is that this is not Sony failing to execute. This is the state of normalcy in the gaming industry for all players - except Nintendo. The difference is almost half a decade of sales at full margins, versus running as fast as you can to stay in one place. It is a good of a picture as we can get of the pricing power Nintendo holds and the power of its IP.
 
+---
+
 ## 5. Risks & Opportunities
 
-### Risk 
+### Risks
 
 The risk section ahead will not attempt to predict or discuss short term risks to Nintendo's business. This includes broader industry pressures, such as the current spike in digital memory that is driving price increases on many electronic products. [^45]
 Instead, it will take a long term perspective. We will view the business as owners would and we'll try to identify what could go wrong. Specifically, what series of events, if they played out, would turn today's investment into a permanent loss within 10 years?
@@ -505,26 +507,92 @@ The point here is that I see similar qualities in Nintendo. Nintendo did not inv
 
 ##### Self-Inflicted Dilution
 
-While opportunities are discussed below, it should be evident at this point in the research that the growth story for Nintendo stems from monetizing the IP. Yet, part of the moat discussed above was that Nintendo has full ownership of that IP, and thus the ability to ration exposure of it to its audience. Expanding IP touch points with more films, more parks, and more licensing deals appears to be in tension with the disciplined drip-feeder strategy that has work so well for Nintendo so far. I have to wonder how many Mario movies can Nintendo make before their audience fatigues? Below we will look into four difference cases where IP expansion either broke the business, or compounded, and see what takeaways we can ascertain in understanding Nintendo's risk.
+While opportunities are discussed below, it should be evident at this point in the research that the growth story for Nintendo stems from monetizing the IP. Yet, part of the moat discussed above was that Nintendo has full ownership of that IP, and thus the ability to ration exposure of it to its audience. Expanding IP touch points with more films, more parks, and more licensing deals appears to be in tension with the disciplined steady curation strategy that has worked so well for Nintendo. I have to wonder how many Mario movies can Nintendo make before their audience fatigues? Below, we will look into three different cases where IP expansion either broke the business, or compounded, and see what takeaways we can ascertain in understanding Nintendo's risk as it expands into the business of broader IP monetization.
 
-**Pokémon**
-Pokémon is the most immediate comparison we can make because it is 32% owned by Nintendo and is one of the most aggressively exploited IPs in the world: games, trading cards, a decades-running anime, films, Pokémon GO, and an ungodly amount of merchandise. As a private company, financial information is sparse; however, estimates put lifetime revenue between $115B and $150B USD.[^52] [^53] The most important thing to understand is that of this total, an estimated one-fifth comes from the games themselves. The rest is merchandise, cards, etc.[^54] We can speculate that the economics work like this:
+###### Disney Princesses
+
+In 2000, Disney consolidated its princess characters into a single retail line, the Disney Princess franchise, and turned it into one of the largest licensing businesses in entertainment.[^57] The business model is simple: a film seeds the IP with a story and a cast, then the merchandising engine takes over, selling toys, theme park attractions, apparel, and endless side content. But, that monetization engine depends entirely on the **quality** of the canonical film to generate the emotional attachment that makes a child want the toy in the first place.
+
+This shows up quite clearly in the data. Charting Rotten Tomatoes critic scores for every Disney Princess film going back to Snow White, a clear pattern emerges. 
+
+**Disney Princesses Rotten Tomatoes Critic Score:**[^58]
+
+![[DisneyPrincessRatings.webp]]
+
+Films in black are canonical, Walt Disney Animation Studios originals, spanning eight decades. Almost all of them sit above an 80% critic score, with Moana 2 as the lone exception. Films in grey are non-canonical, direct-to-video, B-tier studio productions. Their scores are far lower.
+
+What matters isn't that the grey films were bad. It's *why* they were allowed to be bad. None of them received a theatrical release or involved the original directors or creative leads. They were, in every meaningful sense, walled off from the core franchise, produced by a separate B-team to feed a content calendar without ever touching the asset that actually generates consumer affection.
+
+That separation is the point. Disney could let a cheap, disposable Cinderella sequel absorb the pressure to constantly ship new content, while the canonical films stayed rare and protected. The merchandise machine got its volume. The brand equity stayed intact.
+
+**Lesson learned:** the business of merchandise cannot be allowed to dictate the cadence or quality of the creative team producing the canonical asset. The moment monetization pressure bleeds into the thing that creates the affection in the first place, the whole flywheel breaks. Building a buffer between the two, and obsessively protecting the quality of the canonical stories (until recently, it seems) allows the merchandising business to run far and wide.
+
+###### Angry Birds
+
+Angry Birds is the failure case. At it's peak in 2012, the franchise generated roughly $200M a year with 260 million monthly active players. Rovio, the developer, quickly expanded into lunchboxes, clothing, board games, Band-Aids, and more. By 2014, revenue had fallen 73% to about $10M. This collapse was directly attributable to declining brand-licensing revenue. The business was sold to Sega in 2023, for roughly $775M, a fraction of its peak worth. 
+
+**Lesson learned:** Rovio didn't do anything Disney hasn't done with its princess franchise. It expanded into exactly the same categories. The difference was the depth of the IP-universe. Angry birds was a simple, puzzle-like mobile game with no real characters or story. The relationship with the player was light fun, rather than deep connection. In reference to the Disney example above, we can expand the understanding of the IP business further than "quality drives IP". It's that IP generates *affection reservoirs* that the expansion into merchandise draws on. Depth in the reservoir comes from great stories, and years of quality interaction with the characters. Without that, the reservoir draws down quicker than it can be replaced. 
+
+###### Pokémon
+
+Pokémon, the next case study, is the most valuable comparison we can make because it is 32% owned by Nintendo and is one of the most aggressively exploited IPs in the world: games, trading cards, a decades-running anime, films, Pokémon GO, and an ungodly amount of merchandise. As a private company, financial information is sparse; however, estimates put lifetime revenue between $115B and $150B USD.[^52] [^53] The most important thing to understand is that of this total, an estimated one-fifth comes from the games themselves. The rest is merchandise, cards, etc.[^54] We can speculate that the economics work like this:
 
 1. The mainline games, while being the smallest revenue slice, function to generate new creatures, characters, and lore. The core game loop of capturing, training, and battling creatures has remained the same for thirty years and effectively bootstraps new players into the attachment they form with their favourite Pokémon, while compounding the same attachment older players already have. It is fuel for the business.
 2. The anime, movies, and spin-off games like Pokémon GO function as top-of-funnel reach extension, pulling in children and more casual mobile players.
 3. The Trading Card Game (TCG) and licensed merchandise is the evergreen profit centre. The TCG literally prints high-margin, pieces of paper that the global fan base has turned into a genuine asset class. While the licensed merchandise, like stuffed animals, provide other high margin products. This business line digitalized in late 2024 with the cross-platform app "Pokémon Trading Card Game Pocket." Officially released financial information from the Japanese government shows 2025 year-over-year revenue growth for The Pokemon Company of nearly 40%.[^55] Given little other activity from Pokémon this year (no new games or major releases), most of this growth must be coming from the digital trading card game.
 
-This framework illustrates how Pokémon's business model functions without exhausting its audience. The games remain largely the same, and the release cadence of true mainline titles stays staggered every few years. The monetization of the IP then happens through ancillary categories, rather than by accelerating the core games.
+This framework illustrates the *affection reservoir* thesis again. Games may be in fact the best way to build audience affection as in essence, the player actually lives the story themself rather than just watches it. Decades of Pokemon games with the same core loop, but different characters and creatures has created an incredibly deep reservoir of affection and content to monetize through the Trading Card Game and other surfaces. 
 
-**Disney Princesses**
+What is interesting, though, is that despite growing revenues, the chart below clearly shows a degradation of quality in the games since 2016. With revenues trending up, but core franchise quality trending down, it paints a picture of the franchise being monetized harder than ever with the creative core getting weaker. 
 
-**Pokemon Game Scores (Metacritic/GameRankings):**[^56]
+**Pokemon Game Scores:**[^56]
 
 ![[PokemonGameScoresOverTime.webp]]
 
-#### 3. Valuation Risk
+In my eyes, this is further confirmed simply by viewing the Pokemon that are most heavily pushed through the merchandise. Across a range of new and old Pokemon cards, and using price as a proxy for broad secondary market demand, it is clear that the most popular Pokemon are the old ones. I can tell, because I recognize all of them from when I was a young Pokemon trainer. Scrolling through the list, it seems *all* the most popular pokemon are older creatures, and this indicates that while the affection reservoir discussed above is incredibly deep, it is being drawn down faster than it is being refilled. If this was not the case, I would expect to see at least one newer pokemon on this popularity chart.
 
-#### 4. Foreign Currency Risk
+**Most Expensive Pokemon Cards:**[^59]
+
+![[MostExpensivePokemonCards.webp]]
+
+The danger for Nintendo, and the investor is that the financial results of Pokemon today, looks like success, while the moat - the affection reservoir - is depleted. The Pokemon Company's stewardship has done a brilliant job of monetizing its reservoir and maintaining the commercial momentum, but it has not protected the core game's quality the way that the reservoir thesis requires. Speculatively, each new poorly reviewed Pokemon game is another indicator that future results may not be as strong as history alone predicts.
+
+**Lesson learned:** The reason this matters is that, of course, Pokemon exists within the Nintendo corporate family. But, it is unknown how much control Nintendo has over the quality and cadence of Pokemon games. For an investor who is betting on Pokemon as the playbook for Mario and Zelda, the discipline for Nintendo to focus on quality in the games - the driver of the affection reservoir - is imperative.
+
+###### Nintendo
+
+The reassuring point to make on Nintendo is that the wholly owned franchises show no quality erosion despite the recent expansions into film, parks, and merchandise. Metacritic scores have generally trended down over the last 20 years[^60], so against that trend it seems that Mario games have remained highly enjoyable and Legend of Zelda games may have actually become better. The takeaway here is that Nintendo itself seems to have the discipline and understanding of what is required to maintain an exploitable IP franchise, while its partner Pokemon may not. This matters for Nintendo. Pokemon and Nintendo are strongly associated in consumer minds. Pokemon has only ever been playable on Nintendo devices and Nintendo's 32% stake in the company is a material part of its valuation. But it does not kill the thesis either. Purely speculating, if the Pokemon franchise ever appeared to actually be impaired in its ability to sell merchandise, it may be possible for Nintendo to have preferential access to acquire a controlling stake in the business and/or provide more resources to Game Freak in developing the series.
+The secondary takeaway from this section of the analysis is that we gain an important insight into predicting the performance of the business going forward. With the reservoir mental model in mind, it becomes clear that the sales figures for a game are not the most relevant metric for future success. It is possible to break sales records while *drawing down* the affection reservoir, without refilling it. The important thing to track is the quality of the games released by Nintendo. As long as the quality remains high, the reservoir gets refilled, and the broad monetization of the IP remains intact.
+
+**Super Mario Mainline Game Scores (Metacritic):**
+
+![[MarioGameScoresOverTime.webp]]
+
+**Legend Of Zelda Mainline Game Scores (Metacritic):**
+
+![[ZeldaGameScoresOverTime.webp]]
+
+### Opportunities
+
+---
+
+## Management
+
+---
+
+## Valuation
+
+### 1. The Comparison
+
+Nintendo bought Activision-Blizzard for $70B, a worse business. Nintendo's enterprise value is ~$50B.
+
+### 2. Logic
+
+Reverse DCF, segment growth
+
+### 3. Discounted Cash Flow
+
+Full DCF.
 
 ---
 
@@ -584,3 +652,7 @@ This framework illustrates how Pokémon's business model functions without exhau
 [^54]: https://vgsales.fandom.com/wiki/Pok%C3%A9mon
 [^55]: https://kanpo-kanpo.blog.jp/archives/44639158.html
 [^56]: https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series)
+[^57]: https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises
+[^58]: https://editorial.rottentomatoes.com/guide/disney-princess-movies/
+[^59]: https://www.tcgcollector.com/cards/intl?releaseDateOrder=newToOld&displayAs=images&sortBy=marketPriceDesc
+[^60]: https://n4g.com/news/2003793/20-years-of-metacritic-scores-shows-a-steady-decline-in-90-and-above-titles
