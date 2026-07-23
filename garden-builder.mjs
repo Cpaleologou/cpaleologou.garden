@@ -31,11 +31,6 @@ const FOLDERS_TO_SYNC = [
         dest: './content/now'
     },
     {
-        name: 'Learning Plans', 
-        source: path.join(SOURCE_ROOT, 'learning-plans'),
-        dest: './content/learning-plans'
-    },
-    {
         name: 'Investing', 
         source: path.join(SOURCE_ROOT, 'investing'),
         dest: './content/investing'
@@ -54,7 +49,8 @@ const FOLDERS_TO_SYNC = [
 const BOOK_LINK_MAP = {
     "🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor": "/library/The-Most-Important-Thing",
     "🟢 The Elements of Power": "/library/The-Elements-of-Power",
-    "🟢 Breakneck": "/library/Breakneck"
+    "🟢 Breakneck": "/library/Breakneck",
+    "🟢 Capital Returns": "/library/Capital-Returns"
 };
 
 // --- MARKDOWN SPACING NORMALIZER ---

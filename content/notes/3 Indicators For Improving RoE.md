@@ -24,4 +24,4 @@ The linked note provides two types of businesses that are candidates for investm
 
 ## Reference
 
-� Capital Returns
+[🟢 Capital Returns](/library/Capital-Returns)
