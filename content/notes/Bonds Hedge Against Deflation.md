@@ -22,4 +22,4 @@ The note linked above provides a detailed checklist that an investor can follow 
 
 ## Reference
 
-The Simple Path to Wealth Your Road Map to Financial Independence and a Rich, Free Life
+� The Simple Path to Wealth Your Road Map to Financial Independence and a Rich, Free Life

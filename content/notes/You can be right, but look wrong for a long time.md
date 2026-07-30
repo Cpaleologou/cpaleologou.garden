@@ -10,7 +10,7 @@ Being right and seeing the rewards immediately are not the same thing in capital
 
 A level-headed investor should remember that a falling stock does not mean you were wrong, it's just the nature of markets.
 
-To hold through those periods though, is what makes investing difficult. The only viable solution is to perform solid analysis think about the theory from different angles and develop internal conviction. That is how one can stay unemotional as you try to hold through the gap between being right and being proven right.
+To hold through those periods though, is what makes investing difficult. The only viable solution is to perform solid analysis, think about the theory from different angles and develop internal conviction. That is how one can stay unemotional as you try to hold through the gap between being right and being proven right.
 
 ---
 
