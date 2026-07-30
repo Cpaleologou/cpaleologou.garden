@@ -2,18 +2,19 @@
 title: The Intelligent Investor
 tags:
   - Book
+  - '#Investing'
 publish: 'true'
-date: '2026-07-29'
+date: 2026-07-29T00:00:00.000Z
 ---
 <div class="book-header">
-  <img src="/assets/Cover.jpg" alt="The Intelligent Investor">
+  <img src="/assets/TheIntelligentInvestorCover.jpg" alt="The Intelligent Investor">
   <div class="book-header-meta">
-    <p class="book-genre">{{Genre}} · {{Published Year}}</p>
-    <p class="book-author">{{Author}}</p>
+    <p class="book-genre">Investing · 2026</p>
+    <p class="book-author">Benjamin Graham, Jason Zweig</p>
     <hr>
     <p class="book-title">The Intelligent Investor</p>
-    <p class="book-subtitle">{{Subtitle}}</p>
-    <p class="book-date-read">Read {{Date (Mmm. DD, YYYY)}}</p>
+    <p class="book-subtitle">The Definitive Book On Value Investing (Third Edition)</p>
+    <p class="book-date-read">Read Jun. 24, 2026</p>
   </div>
 </div>
 
