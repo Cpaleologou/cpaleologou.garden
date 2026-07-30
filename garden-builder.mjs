@@ -50,7 +50,8 @@ const BOOK_LINK_MAP = {
     "🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor": "/library/The-Most-Important-Thing",
     "🟢 The Elements of Power": "/library/The-Elements-of-Power",
     "🟢 Breakneck": "/library/Breakneck",
-    "🟢 Capital Returns": "/library/Capital-Returns"
+    "🟢 Capital Returns": "/library/Capital-Returns",
+    "🟡 The Intelligent Investor": "/library/The-Intelligent-Investor"
 };
 
 // --- MARKDOWN SPACING NORMALIZER ---

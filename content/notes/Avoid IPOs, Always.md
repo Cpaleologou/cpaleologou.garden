@@ -34,6 +34,6 @@ No where is above note more relevant than in an IPO. At this moment, it is likel
 
 ## Reference
 
-� The Intelligent Investor
+[🟡 The Intelligent Investor](/library/The-Intelligent-Investor)
 
 Prof. Ritter: https://site.warrington.ufl.edu/ritter/published-articles/
