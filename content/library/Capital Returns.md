@@ -21,7 +21,7 @@ date: 2026-06-25T00:00:00.000Z
 
 ## Summary
 
-Most investors focus on understanding and valuing a business by modelling demand-side economics. This approach is rife with assumptions and predictions that consistently produce unsatisfactory results across the asset-management industry. The **Capital Returns** methodology flips the script by assessing the supply-side flows of capital into an industry, allowing the analyst to find businesses that have strong economic prospects ahead of them without reliance on models that overemphasize the need to predict the future. By focusing on what is sure — the here and now — **Capital Returns** promises a simpler process and better returns for investors.
+Most investors focus on understanding and valuing a business by modelling demand-side economics. This approach is rife with assumptions and predictions that consistently produce unsatisfactory results across the asset-management industry. The **Capital Returns** methodology flips the script by assessing the supply-side flows of capital into an industry, allowing the analyst to find businesses that have strong economic prospects ahead of them without reliance on models that overemphasize the need to predict the future. By focusing on what is sure, the here and now, **Capital Returns** promises a simpler process and better returns for investors.
 
 ---
 
@@ -35,9 +35,9 @@ Referencing a paper in the *Journal of Finance*, a phenomenon called the *asset-
 
 What’s more striking, is that the reverse was equally true. Asset contraction activities such as share buybacks, debt repayment, spin-offs, and dividend initiation tend to precede periods of outperformance. 
 
-The implication is uncomfortable. When a business is aggressively deploying capital, something is usually wrong. Not with the business. Obviously reinvestment is important to growth. But with the industry around it, as an opportunity for shareholder ROI. 
+The implication is unintuitive. When a business is aggressively deploying capital, something is usually wrong. Not with the business. Obviously reinvestment is important to growth. But with the industry around it, as an opportunity for shareholder ROI. 
 
-Capital is flooding into the industry because demand looks strong and returns look attractive. But it is precisely this flood of capital that will erode those returns. By the time the investment thesis is obviously enough to justify spending, that opportunity is already starting to crowd out and competition eats up the results. 
+Capital is flooding into the industry because demand looks strong and returns look attractive. But it is exactly this flood of capital that will erode those returns. By the time the investment thesis is obviously enough to justify spending, that opportunity is already starting to crowd out and competition eats up the results. 
 
 It’s hard not to see parallels for this exact process happening with the AI industry today. The hyperscalers - Meta, Amazon, Microsoft, Google, etc. - have all committed extraordinary amounts of capital to AI data centre build-out. Some of them have seen large run ups in price. Others have dropped off to their lowest valuations in years. The market seems to be grappling with whether those investments will generate commensurate returns. But the asset-growth anomaly would suggest that investors should be cautious, especially when CEOs of these companies are actually saying that an over-build is likely. 
 
@@ -58,7 +58,7 @@ This is the core of Marathon's framework: the *capital cycle*.
 The Marathon capital cycle works as follows. 
 1. A business finds success through great product and limited competition, producing strong returns. 
 2. That success attracts capital. Competitors enter the market, investment floods in, supply expands. The offering becomes commoditised, margins compress, returns deteriorate. What looked like a great industry becomes a crowded one.
-3. The cycle turns. Poor returns drive capital out. Competitors exit or collapse. The firms that remain find themselves in a pseudo-oligopoly, able to exercise pricing discipline and compete on quality rather than racing each other to the margin floor. Returns recover and the best risk-adjusted opportunity arrives.
+3. The cycle turns. Poor returns drive capital out. Competitors exit or collapse. The firms that remain find themselves in a pseudo-oligopoly, able to exercise pricing discipline and compete on other factors rather than racing each other to the margin floor. Returns recover and the best risk-adjusted opportunity arrives.
 
 ![[CapitalCycleChart.webp]]
 
@@ -80,27 +80,27 @@ Once you have identified an industry where the capital cycle is functioning and 
 
 **Growth candidates** are businesses where the market is dramatically underestimating the terminal size of the opportunity. These are not necessarily dominant players, they may not even be profitable yet, but the addressable market is far larger than current investor assumptions reflect.
 
-The early years of Uber is a good example. Investors valued it as a taxi company, pricing its terminal value against the taxi industry's total revenue. What they missed was that the app and gig economy unlocked a TAM far beyond taxis: more rides, food delivery, package delivery, and eventually travel. The market was thinking small about something that was growing large.
+Uber, in the early years, is a good example. Investors valued it as a taxi company, pricing its terminal value against the taxi industry's total revenue. What they missed was that the app and gig economy unlocked a TAM far beyond taxis: more rides, food delivery, package delivery, and eventually travel. The market was thinking small about something that was growing large.
 
 **Value candidates** are businesses where the market is underestimating the barriers to entry, and therefore assuming that competitive pressure will erode margins faster than it actually will.
 
 Booking Holdings might prove a contemporary example, in my opinion. The surface-level narrative is that AI will make it trivially easy to find hotels directly, rendering Booking's marketplace irrelevant. What that narrative misses is the depth of Booking's integrations with independent hotels across Europe. They have spent years building system integrations for real-time room availability, dynamic pricing, photography, and localized content that is not something an LLM reading a hotel's website can replicate. Network effects from years of accumulated reviews compound the moat further.
 
-![[IMG_0218.jpeg]]
+![[CapitalReturnsInvestmentCandidates.jpeg]]
 
 ### How To Think About Price and Value
 
-While the capital cycle tells you where to look and when to move, it does not stray from the fundamentals of investing with it comes to thinking carefully about price. That means questioning some of the most widely used metrics in investing.
+While the capital cycle tells you where to look and when to move, it does not stray from the fundamentals of investing when it comes to thinking carefully about price. That means questioning some of the most widely used metrics in investing.
 
 #### Short-comings Of The P/E Ratio
 
-The price-to-earnings ratio is the default valuation metric for most investors and analysts. It is also, in many cases, the wrong one to anchor to.
+The price-to-earnings ratio is the default valuation metric for most investors and analysts. It is also, in many cases, the wrong one to use.
 
 Earnings are an accounting construct. As a CPA and former auditor, I can speak with some candour here: not all earnings are equal. A business generating $10 of earnings while consuming $9 in maintenance capital expenditure is a very different situation from one that converts those same earnings cleanly into free cash flow. 
 
 Airlines are the textbook example: impressive earnings figures that routinely disappear into aircraft maintenance, fleet replacement, and infrastructure costs. The investor in airlines is perpetually reinvesting just to stand still. The income statement does not always capture this cleanly.
 
-When it comes to earnings *quality*, for a high-level metric, the better choices are price to operating cash flow or price to free cash flow. These strip away accounting noise and capture what the business is actually able to return to its owners.
+When it comes to earnings *quality*, for a high-level metric, the better choices are price to operating cash flow or price to free cash flow. These strip away accounting noise and capture what the business is actually able to return to its owners, or reinvest into growth.
 
 #### High Valuations ≠ Overpriced
 
@@ -134,7 +134,7 @@ The results that the capital returns methodology predicts, however, depend on a 
 
 #### 2. Political Interference
 
-The capital cycle depends on free, uninterrupted market processes. Under-performers must be forced to exit, capital forced reallocate, and industries forced to undergo severe but natural resets. When a government has a stake, real or implied, in the ongoing success of a business, this mechanism is disrupted. European national airline champions are a clear example: rather than restructure when capacity is oversupplied, these businesses pursue market share-capture strategies, spending more money to sustain inefficient operations. Inefficiency becomes permanent, and the opportunity never arrives.
+The capital cycle depends on free, uninterrupted market processes. Under-performers must be forced to exit, capital must be forced to reallocate, and industries must be forced to undergo severe but natural resets. When a government has a stake, real or implied, in the ongoing success of a business, this mechanism is disrupted. European national airline champions are a clear example: rather than restructure when capacity is oversupplied, these businesses pursue market share-capture strategies, spending more money to sustain inefficient operations. Inefficiency becomes permanent, and the opportunity never arrives.
 
 #### 3. Exceptional Management
 
@@ -142,11 +142,11 @@ Bunzl, the British distribution business, is Marathon's own example. Its managem
 
 ### Personal Opinion
 
-As an analyst, it stings a bit to admit that I see Marathon’s point when they say that financial models are fraught with errors. Huge data sets, carefully linked assumptions, scenario toggles do often produce outputs that carry an aura of assurance undeserved by the genuine uncertainty that they contain.
+As an analyst, it stings a bit to admit that I see Marathon’s point when they say that financial models are fraught with errors. Huge data sets, carefully linked assumptions and multiple scenario toggles do often produce outputs that carry an aura of assurance undeserved by the uncertainty that they contain.
 
-And yet, I don’t that there isn’t value in them. Whether I’m managing my own money, or providing a recommendation on a business decision at work, I would not feel comfortable abandoning the rigorous thought and consideration that goes into building a model. To adapt Eistein’s famous quote - A model should be as simple as possible, but no simpler. It’s not that the output of a model is precise, its that the process of building one forces the analyst and the team to ask concrete questions about growth rates, margins of safety, and other assumptions we may make without consideration if we are not forced to input them into a model.  
+And yet, I don’t think there isn’t value in them. Whether I’m managing my own money, or providing a recommendation on a business decision at work, I would not feel comfortable abandoning the thought and consideration that goes into building a model. To adapt George Box’s famous quote - "All models are wrong, but some are useful". It’s not that the output of a model is precise, its that the process of building one forces the analyst and the team to ask concrete questions about growth rates, margins of safety, and other assumptions we may otherwise make without consideration if we are not forced to input them into a model.  
 
-That said, I also have a background in economics and I find Marathon’s supply-side logic of the capital cycle genuinely compelling. I think it makes perfect sense under the conditions they laid out, and agree on where it can fail. I think it belongs as a keystone component in business analysis I do going forward. The Marathon framework can guide where to look, where to avoid, and give conviction on whether a genuine opportunity may exist. Then the valuation modelling tells you what an opportunity is worth and how much to pay. The capital returns framework, in my opinion, is not viable enough to stand on its own, but it is powerful tool for any analyst  with coupled with traditional methodology.
+The capital cycle framework belongs as a keystone component in business analysis I do going forward. The Marathon framework can guide where to look, where to avoid, and give conviction on whether a genuine opportunity may exist. Then the valuation modelling tells you what an opportunity is worth and how much to pay. Its not viable enough to stand on its own, but it is a powerful tool for any analyst when coupled with traditional methodology.
 
 ---
 

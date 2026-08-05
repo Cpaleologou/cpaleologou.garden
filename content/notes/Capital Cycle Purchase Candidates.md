@@ -7,7 +7,7 @@ date: 2026-06-16T00:00:00.000Z
 ---
 For industries where the capital cycle functions, Marathon splits purchase candidates into 2 groups. 
 
-![[IMG_0218.jpeg]]
+![[CapitalReturnsInvestmentCandidates.jpeg]]
 
 #### 1. Growth Candidates
 

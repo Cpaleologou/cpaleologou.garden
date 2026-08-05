@@ -593,13 +593,53 @@ As we have seen, console gaming in developed markets is now mature. Secular grow
 
 Nintendo's user base is heavily concentrated in three regions - North America, Europe and Japan. 
 
-**Nintendo FY26 Revenue By Geography:**[^61]
+**Nintendo Regional Revenue Growth:**
 
-![[nintendo_fy26_revenue_by_geography.webp]]
+![[Nintendo_Regional_Revenue_Growth.webp]]
+
+The story here is in the red. "Other Regions", rose nearly 227% on the launch of the Switch 2. That is a near decade of foundational building on the original Switch, translating directly into the next console. It also represents a materially higher install base at a much earlier point in the cycle, meaning we can expect a higher per-console attach rate on games the Switch 2 than the original over its life. 
+
+However, this is also not a story about emerging markets - at least, that is unlikely. More likely is that this is driven by sales in Oceania, South Korea, Taiwan & Singapore. These are markets that are already high-income and "console-literate". While they provide an earlier-sized install base for games in the cycle, they are unlikely to provide true console growth in the future. That must come from emerging markets like India, Indonesia, the Philippines, Vietnam, Thailand. 
+
+India is out of the question. Furukawa addressed the question directly in the 2026 AGM[^65] . He stated that they are still in the "seed-sowing stage" there, while they do see it as attractive in the long term. On the other hand, Nintendo obviously does see opportunity in the other Southeast Asian regions, and in 2025 Nintendo opened new regional headquarters in Singapore with a stated goal of accelerating business in Southeast Asia.[^64] The issue with these regions is two-fold. First, they are simply not rich enough to provide a material boost to income. Average monthly net wages for locals in many of these countries does not even cross $500, roughly the cost of the console itself. 
+
+**Average Monthly Income Across South East Asia:**[^67]
+
+![[SouthEastAsiaAverageNetWages.webp]]
+
+The second issue for Nintendo is that gaming culture is extremely weighted towards mobile gaming. Console gaming represents only 6.3% of the market, as of 2025. Furthermore, that market is projected to only reach ~$2B by 2030.[^66] That is roughly the same amount that Nintendo did this year in the "Other regions" category. That is to say, complete capture of the Southeast Asian gaming market, an impossible task, would only represent 5-10% revenue growth. Realistically, if the console segment of the market grows by a few percentage points, and Nintendo captures a slice of it, it would represent just a few percentage points of growth.
+
+The interesting conversation here though is in the compounding of Nintendo's new IP exploitation endevours and it's ability to spread Nintendo's characters and influence into these regions "sowing the seeds" for the next generation. 
 
 #### IP Exploitation
 
+![[Nintendo_IP_Related_Income.webp]]
+
+IP related income fell in FY26, which management attributed to a decrease in movie-related revenue. [^68] I would expect this line to continue fluctuating around movie releases. Nintendo has been clear that it sees movies as a mechanism to grow touch points with the fan base, and that we can expect more in the future. The baseline number is also expected to grow though the expansion of various parks operated by Universal. The attractiveness of the opportunity here is in its capital intensity. Universal builds and operates the parks and licenses the IP; Illumination and Sony co-finance the films. Nintendo contributes the characters and creative control. Thus, the revenues are close to equal to the margins and the risk is limited to the perception of the IP. It is likely that this line item continues to grow above a ¥100B base line over the next decade.
+
+**Nintendo's Movie Release Line Up:**[^69]
+
+![[NintendoMoviePipeline.webp]]
+
+**Nintendo IP Expansion Endeavours:**[^70]
+
+![[NintendoIPExpansionEndeavours.webp]]
+
+What is more interesting is that this line does not include Pokemon. As discussed above, The Pokemon Company earnings attributable to Nintendo flow through equity income. As discussed above, the jump is likely coming through the Trading Card Game, but also discussed above, is unclear how long it will continue for. It should also be mentioned that equity earnings are an accounting construct and does not show up as cash on the cash flow statement unless dividends are paid to Nintendo from the Pokemon company. That said, The Pokemon Company is clearly a long-term, high integrated partnership with Nintendo. How it is defined in the valuation of the business matters and will be addressed in detail below.
+
+![[Nintendo_Equity_Income.webp]]
+
 #### Digitization
+
+The digitization question is two separate questions. 
+1. How much does Nintendo make from shifting software sales from physical to digital?
+2. What is the potential of Nintendo's online subscription (NSO)?
+
+**What is a digital mix shift worth?**
+Nintendo does not disclose a hardware/software revenue split, so the software revenue base has to be estimated. Luckily, there is enough information to get close.
+In 2026, total digital sales including first party games, third party games, NSO, and extra content was 407.6B JPY. It was also reported that this was 55% of total software sales. Thus, the reverse calculated total software sales was roughly 747B JPY.
+Nintendo also reported that 75% of total software sales came from first-party games and content. That means first party software was roughly 556B JPY and third-party + NSO was around 190B JPY.
+Since total Video Game Platform revenue was 2,240B JPY, the implied console hardware sales were 1,493B JPY. 
 
 ---
 
@@ -685,3 +725,10 @@ Full DCF.
 [^61]: https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf
 [^62]: https://www.metacritic.com/
 [^63]: https://www.nintendo.co.jp/ir/pdf/2023/231108e.pdf
+[^64]: https://www.nintendo.co.jp/corporate/release/en/2025/250930.html
+[^65]: https://www.nintendo.co.jp/ir/pdf/2026/qa2606e.pdf
+[^66]: https://nikopartners.com/asia-mena-market-model-2025-half-year-update/
+[^67]: https://en.wikipedia.org/wiki/List_of_Asian_countries_by_average_wage
+[^68]: https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf
+[^69]: https://www.nintendo.co.jp/ir/pdf/2025/251105e.pdf
+[^70]: https://www.nintendo.co.jp/ir/pdf/2025/251105e.pdf

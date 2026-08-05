@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "fiscalapp",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd /Users/christianpaleologou/Documents/FiscalApp && npm run dev"],
+      "port": 5174
+    }
+  ]
+}
