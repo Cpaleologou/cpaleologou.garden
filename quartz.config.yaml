@@ -106,24 +106,19 @@ plugins:
     options:
       renderEngine: katex
     order: 80
-  # The fonts plugin does NOT inherit configuration.theme.typography — it only
-  # reads a registry published by a @quartz-themes plugin, and otherwise falls
-  # back to its own defaults (Schibsted Grotesk / Source Sans Pro). The faces
-  # must be restated here or the site silently ships the stock v5 typography.
+  # Disabled: this plugin emits the family name into --bodyFont/--headerFont
+  # UNQUOTED, e.g. `--bodyFont: Source Serif 4`. An unquoted CSS font family
+  # must be a sequence of valid identifiers and `4` cannot be one (identifiers
+  # can't start with a digit), so `font-family: Source Serif 4` is invalid and
+  # the browser drops it and renders Times. "Newsreader" and "IBM Plex Mono"
+  # survive because every one of their tokens is a valid identifier.
+  #
+  # Core (quartz/util/theme.ts) already emits both the Google Fonts <link> and
+  # properly quoted variables with fallback stacks, so leaving this off fixes
+  # the quoting and removes a duplicate Google Fonts request. Typography is
+  # configured under configuration.theme.typography above.
   - source: "@quartz-community/quartz-fonts"
-    enabled: true
-    options:
-      fontOrigin: googleFonts
-      header:
-        name: Newsreader
-        weights: [400, 500, 600, 700]
-      body:
-        name: Source Serif 4
-        weights: [400, 600]
-        includeItalic: true
-      code:
-        name: IBM Plex Mono
-        weights: [400, 500]
+    enabled: false
 
   # ---- filters ----
   - source: "@quartz-community/remove-draft"
