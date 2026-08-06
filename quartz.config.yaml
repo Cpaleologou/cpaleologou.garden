@@ -1,0 +1,278 @@
+# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+configuration:
+  pageTitle: christianp.space
+  pageTitleSuffix: ""
+  enableSPA: true
+  enablePopovers: true
+  analytics:
+    provider: plausible
+  locale: en-US
+  baseUrl: christianp.space
+  ignorePatterns:
+    - private
+    - templates
+    - .obsidian
+  theme:
+    fontOrigin: googleFonts
+    cdnCaching: true
+    typography:
+      header:
+        name: Newsreader
+        weights: [400, 500, 600, 700]
+      body:
+        name: Source Serif 4
+        weights: [400, 600]
+      code:
+        name: IBM Plex Mono
+        weights: [400, 500]
+    colors:
+      lightMode:
+        light: "#F0EFE9" # Bone White: the main paper background
+        lightgray: "#DBD8CC" # Stone Grey: subtle borders / inactive elements
+        gray: "#6E7460" # Deepened sage: secondary text/icons
+        darkgray: "#3E4438" # Dark olive-grey: sub-headers, secondary text
+        dark: "#23281E" # Near-black olive: main body text
+        secondary: "#1A2421" # Olive Drab: primary brand colour (headlines)
+        tertiary: "#B34D00" # Burnt Orange, deepened for link contrast
+        highlight: rgba(75, 83, 32, 0.08) # Very faint olive for hover states
+        textHighlight: "#E8C54766" # Muted Gold: text highlighting
+      darkMode:
+        light: "#1a2318" # Deep binding green — background
+        lightgray: "#26311f" # Lighter green — card/sidebar surfaces
+        gray: "#8fa07c" # Muted sage — secondary text, icons
+        darkgray: "#d4c9a8" # Aged cream — sub-headers, metadata
+        dark: "#ece5d0" # Warm parchment — main body text
+        secondary: "#F0EFE9" # Aged cream — headlines
+        tertiary: "#d99b2e" # Gold, brightened for link contrast
+        highlight: rgba(217, 155, 46, 0.12)
+        textHighlight: "#d99b2e55"
+
+plugins:
+  # ---- transformers ----
+  - source: "@quartz-community/note-properties"
+    enabled: true
+    options:
+      includeAll: false
+      includedProperties:
+        - description
+        - tags
+        - aliases
+      excludedProperties: []
+      hidePropertiesView: true
+    order: 5
+  - source: "@quartz-community/created-modified-date"
+    enabled: true
+    options:
+      defaultDateType: modified
+      priority:
+        - frontmatter
+        - git
+        - filesystem
+    order: 10
+  - source: "@quartz-community/syntax-highlighting"
+    enabled: true
+    options:
+      theme:
+        light: github-light
+        dark: github-dark
+      keepBackground: false
+    order: 20
+  - source: "@quartz-community/obsidian-flavored-markdown"
+    enabled: true
+    options:
+      enableInHtmlEmbed: false
+    order: 30
+  - source: "@quartz-community/github-flavored-markdown"
+    enabled: true
+    order: 40
+  - source: "@quartz-community/table-of-contents"
+    enabled: true
+    order: 50
+    layout:
+      position: right
+      priority: 30
+      display: desktop-only
+  - source: "@quartz-community/crawl-links"
+    enabled: true
+    options:
+      markdownLinkResolution: shortest
+    order: 60
+  - source: "@quartz-community/description"
+    enabled: true
+    order: 70
+  # LaTeX — rendered with KaTeX at build time ($inline$ and $$block$$)
+  - source: "@quartz-community/latex"
+    enabled: true
+    options:
+      renderEngine: katex
+    order: 80
+  # The fonts plugin does NOT inherit configuration.theme.typography — it only
+  # reads a registry published by a @quartz-themes plugin, and otherwise falls
+  # back to its own defaults (Schibsted Grotesk / Source Sans Pro). The faces
+  # must be restated here or the site silently ships the stock v5 typography.
+  - source: "@quartz-community/quartz-fonts"
+    enabled: true
+    options:
+      fontOrigin: googleFonts
+      header:
+        name: Newsreader
+        weights: [400, 500, 600, 700]
+      body:
+        name: Source Serif 4
+        weights: [400, 600]
+        includeItalic: true
+      code:
+        name: IBM Plex Mono
+        weights: [400, 500]
+
+  # ---- filters ----
+  - source: "@quartz-community/remove-draft"
+    enabled: true
+
+  # ---- emitters ----
+  - source: "@quartz-community/alias-redirects"
+    enabled: true
+  - source: "@quartz-community/content-index"
+    enabled: true
+    options:
+      enableSiteMap: true
+      enableRSS: true
+  - source: "@quartz-community/favicon"
+    enabled: true
+  - source: "@quartz-community/og-image"
+    enabled: true
+  - source: "@quartz-community/cname"
+    enabled: true
+
+  # ---- page types ----
+  - source: "@quartz-community/content-page"
+    enabled: true
+  - source: "@quartz-community/folder-page"
+    enabled: true
+  - source: "@quartz-community/tag-page"
+    enabled: true
+
+  # ---- layout components ----
+  - source: "@quartz-community/page-title"
+    enabled: true
+    layout:
+      position: left
+      priority: 10
+  - source: "@quartz-community/search"
+    enabled: true
+    layout:
+      position: left
+      priority: 20
+      group: toolbar
+      groupOptions:
+        grow: true
+  - source: "@quartz-community/spacer"
+    enabled: true
+    options: {}
+    order: 25
+    layout:
+      position: left
+      priority: 25
+      display: mobile-only
+  - source: "@quartz-community/darkmode"
+    enabled: true
+    layout:
+      position: left
+      priority: 30
+      group: toolbar
+  - source: "@quartz-community/explorer"
+    enabled: true
+    layout:
+      position: left
+      priority: 60
+  # Recent notes are instantiated four times (writing/notes x desktop/mobile)
+  # with slug filters in quartz.ts — filters cannot be expressed in YAML.
+  # Left disabled here on purpose: enabling it would ALSO place a fifth,
+  # unfiltered "Recent Notes" block via the plugin's own default layout slot.
+  - source: "@quartz-community/recent-notes"
+    enabled: false
+  - source: "@quartz-community/graph"
+    enabled: true
+    layout:
+      position: right
+      priority: 10
+  - source: "@quartz-community/backlinks"
+    enabled: true
+    layout:
+      position: right
+      priority: 50
+  - source: "@quartz-community/breadcrumbs"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 5
+      condition: not-index
+  - source: "@quartz-community/article-title"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 10
+      condition: not-index
+  - source: "@quartz-community/content-meta"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 20
+      condition: not-index-or-library
+  - source: "@quartz-community/tag-list"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 30
+      condition: not-index-or-library
+  - source: "@quartz-community/footer"
+    enabled: true
+    options:
+      links:
+        GitHub: https://github.com/jackyzha0/quartz
+        Discord Community: https://discord.gg/cRFFHYye7t
+    layout:
+      position: footer
+      priority: 50
+
+  # ---- explicitly disabled ----
+  - source: "@quartz-community/reader-mode"
+    enabled: false
+  - source: "@quartz-community/citations"
+    enabled: false
+  - source: "@quartz-community/comments"
+    enabled: false
+
+layout:
+  groups:
+    toolbar:
+      priority: 35
+      direction: row
+      gap: 0.5rem
+  byPageType:
+    "404":
+      positions:
+        beforeBody: []
+        left: []
+        right: []
+    # NOTE: `exclude` matches on extractPluginName(), which does NOT reduce npm
+    # specifiers to bare names (it only does that for github:/local sources).
+    # So these must be the full "@quartz-community/..." strings, not "explorer".
+    #
+    # Content pages keep the recent-notes rail instead of the explorer.
+    content:
+      exclude:
+        - "@quartz-community/explorer"
+    # Folder/tag listings use the explorer and drop the right rail, matching v4.
+    folder:
+      exclude:
+        - "@quartz-community/tag-list"
+      positions:
+        right: []
+    tag:
+      exclude:
+        - "@quartz-community/tag-list"
+      positions:
+        right: []
+    canvas: {}
+    bases: {}

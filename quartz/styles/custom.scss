@@ -1,3 +1,990 @@
-@use "./variables.scss" as *;
+@use "./base.scss";
 
-// put your custom CSS here!
+/* ==========================================================================
+   MODERN EDITORIAL REFRESH — July 2026
+   Direction: keep the warm olive/bone/burnt-orange palette and the site's
+   personality (icons, drop cap), but optimize for the reader: real font
+   weights, larger labels, higher contrast, calmer decoration, softer depth.
+   Fonts (set in quartz.config.ts): Newsreader / Source Serif 4 / IBM Plex Mono.
+   ========================================================================== */
+
+/* ==========================================================================
+   1. GLOBAL LAYOUT & BACKGROUND
+   ========================================================================== */
+
+/* Paper texture — kept, but as a whisper rather than a statement.
+   Disabled in dark mode where multiply blending muddied the text. */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/static/beige-paper.png");
+  background-repeat: repeat;
+  background-size: auto;
+  mix-blend-mode: multiply;
+  opacity: 0.14;
+  pointer-events: none;
+  z-index: -1;
+}
+
+html[saved-theme="dark"] body::before {
+  display: none;
+}
+
+/* The dashed "cartographic" left rule is retired — it read as clutter
+   and stole horizontal space from the text column. */
+.center {
+  box-sizing: border-box;
+}
+
+/* Sidebar scroll fix */
+.sidebar {
+  overflow-y: auto !important;
+  max-height: 100vh;
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+/* Visible keyboard focus everywhere */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* ==========================================================================
+   2. TYPOGRAPHY — body copy
+   ========================================================================== */
+
+article p,
+article li {
+  font-size: 1.0625rem !important;
+  font-weight: 400 !important;
+  line-height: 1.75 !important;
+  color: var(--dark) !important;
+}
+
+/* Drop cap — kept as the one flourish articles get.
+   Confirmed DOM: .center article > p is the first paragraph after the header. */
+.center article > p:first-of-type::first-letter {
+  font-family: var(--headerFont);
+  font-size: 3.9rem;
+  font-weight: 500;
+  line-height: 0.8;
+  float: left;
+  margin: 0.05em 0.12em 0 0;
+  color: var(--tertiary);
+}
+
+/* H6 — the Pinyon Script flourish is retired for legibility.
+   Now a quiet small heading. (Homepage hero h6 overridden in §16.) */
+h6 {
+  font-family: var(--headerFont);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.3;
+  color: var(--secondary);
+}
+
+/* ==========================================================================
+   3. ARTICLE TITLE
+   Confirmed DOM: <h1 class="article-title"> — it IS the h1, not a wrapper.
+   ========================================================================== */
+
+h1.article-title {
+  font-size: 2.5rem !important;
+  line-height: 1.12 !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  letter-spacing: -0.02em !important;
+  color: var(--secondary) !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* ==========================================================================
+   4. CONTENT META & TAGS
+   Confirmed DOM: <p class="content-meta" show-comma="true">
+                    <time>Mar 14, 2026</time><span>8 min read</span>
+                  </p>
+   ========================================================================== */
+
+p.content-meta {
+  font-family: var(--codeFont) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  font-size: 0.75rem !important;
+  color: var(--gray) !important;
+  border-bottom: 1px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
+  padding-bottom: 0.6rem !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.75rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.25rem !important;
+  flex-wrap: wrap !important;
+
+  time, span { color: var(--gray) !important; }
+
+  /* Suppress the trailing comma that show-comma="true" adds via ::after */
+  & > *::after { content: "" !important; margin: 0 !important; }
+}
+
+/* Tags
+   DOM: ul.tags > li > a.internal.tag-link
+   base.scss adds a "#" via a.internal.tag-link::before — suppressed. */
+.center .tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 1.5rem !important;
+
+  li {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  a.internal.tag-link {
+    font-family: var(--codeFont) !important;
+    font-size: 0.72rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.06em !important;
+    text-transform: uppercase !important;
+    color: var(--darkgray) !important;
+    background-color: color-mix(in srgb, var(--lightgray) 55%, transparent) !important;
+    border: 1px solid color-mix(in srgb, var(--gray) 40%, transparent) !important;
+    border-radius: 999px !important;
+    padding: 0.25rem 0.75rem !important;
+    line-height: normal !important;
+    display: inline-block !important;
+    transition: border-color 0.2s ease, color 0.2s ease !important;
+
+    /* Hide the "#" prefix that base.scss injects */
+    &::before { content: "" !important; }
+
+    &:hover {
+      border-color: var(--tertiary) !important;
+      color: var(--tertiary) !important;
+    }
+  }
+}
+
+/* ==========================================================================
+   5. BREADCRUMBS
+   Confirmed DOM: .breadcrumb-container > .breadcrumb-element > p / a
+   ========================================================================== */
+
+.breadcrumb-container {
+  margin-top: 0 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.breadcrumb-element,
+.breadcrumb-element p,
+.breadcrumb-element a {
+  font-family: var(--codeFont) !important;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  color: var(--gray) !important;
+  font-weight: 400 !important;
+}
+
+.breadcrumb-element a:hover {
+  color: var(--tertiary) !important;
+}
+
+/* ==========================================================================
+   6. ARTICLE HEADING HIERARCHY
+   Hierarchy now carried by size + weight, not italics and borders.
+   ========================================================================== */
+
+.page article {
+
+  h2 {
+    font-size: 1.6rem;
+    line-height: 1.25;
+    margin-top: 3rem;
+    margin-bottom: 0.85rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.01em;
+    border-bottom: none;
+    padding-left: 0;
+    border-left: none;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    line-height: 1.35;
+    margin-top: 2.25rem;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-top: 1.75rem;
+    margin-bottom: 0.4rem;
+    color: var(--darkgray);
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  /* h5 keeps its role as a small "eyebrow" label, at a readable size */
+  h5 {
+    font-family: var(--codeFont);
+    font-size: 0.78rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gray);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid color-mix(in srgb, var(--gray) 30%, transparent);
+  }
+}
+
+/* ==========================================================================
+   7. SIDEBAR COMPONENT HEADINGS
+   Confirmed DOM:
+     - .recent-notes > h3
+     - .graph > h3
+     - .backlinks > h3
+     - button.toc-header > h3
+   ========================================================================== */
+
+.sidebar.left .recent-notes > h3,
+.sidebar.right .graph > h3,
+.sidebar.right .backlinks > h3,
+.sidebar.right button.toc-header > h3 {
+  font-family: var(--codeFont) !important;
+  font-size: 0.72rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: var(--gray) !important;
+  margin: 0 !important;
+}
+
+/* TOC button — fine rule below the heading */
+.sidebar.right button.toc-header {
+  padding-bottom: 0.4rem !important;
+  border-bottom: 1px solid color-mix(in srgb, var(--gray) 25%, transparent) !important;
+  width: 100% !important;
+  margin-bottom: 0.25rem !important;
+}
+
+/* ==========================================================================
+   8. TOC ENTRIES
+   Confirmed DOM: ul.toc-content.overflow > li.depth-N > a
+   ========================================================================== */
+
+.sidebar.right ul.toc-content {
+  padding-left: 0 !important;
+  margin: 0.5rem 0 !important;
+  list-style: none !important;
+  border-left: none !important;
+}
+
+.sidebar.right ul.toc-content > li {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-left: 2px solid color-mix(in srgb, var(--gray) 25%, transparent) !important;
+}
+
+/* All entries — inactive state */
+.sidebar.right ul.toc-content > li > a {
+  font-family: var(--bodyFont) !important;
+  font-size: 0.85rem !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  color: var(--darkgray) !important;
+  opacity: 0.75 !important;
+  display: block !important;
+  padding: 0.25rem 0 0.25rem 1rem !important;
+  line-height: 1.45 !important;
+  text-decoration: none !important;
+  background: none !important;
+  transition: opacity 0.2s ease, color 0.2s ease !important;
+
+  &:hover {
+    opacity: 1 !important;
+    color: var(--tertiary) !important;
+  }
+}
+
+/* Active entry — li gets accent border, a gets weight (not italics) */
+.sidebar.right ul.toc-content > li:has(> a.in-view) {
+  border-left: 2px solid var(--tertiary) !important;
+}
+
+.sidebar.right ul.toc-content > li > a.in-view {
+  font-weight: 600 !important;
+  font-style: normal !important;
+  color: var(--dark) !important;
+  opacity: 1 !important;
+}
+
+/* Depth-1+ indent */
+.sidebar.right ul.toc-content > li.depth-1 > a,
+.sidebar.right ul.toc-content > li.depth-2 > a {
+  padding-left: 1.75rem !important;
+  font-size: 0.8rem !important;
+}
+
+/* ==========================================================================
+   9. BACKLINKS ENTRIES
+   Confirmed DOM: .backlinks > ul.overflow > li > a
+   ========================================================================== */
+
+.sidebar.right .backlinks ul.overflow {
+  padding: 0 !important;
+  margin: 0.25rem 0 0 !important;
+}
+
+.sidebar.right .backlinks ul.overflow > li {
+  list-style: none !important;
+  padding: 0.6rem 0 !important;
+  border-bottom: 1px solid color-mix(in srgb, var(--gray) 20%, transparent) !important;
+
+  &:last-of-type { border-bottom: none !important; }
+}
+
+.sidebar.right .backlinks ul.overflow > li > a {
+  font-family: var(--bodyFont) !important;
+  font-size: 0.88rem !important;
+  font-weight: 400 !important;
+  color: var(--dark) !important;
+  background: none !important;
+  padding: 0 !important;
+  line-height: 1.4 !important;
+  display: block !important;
+  text-decoration: none !important;
+
+  &:hover { color: var(--tertiary) !important; }
+}
+
+/* ==========================================================================
+   10. RECENT NOTES — Inkwell Animation (kept — it's the site's signature)
+   Confirmed DOM:
+     .recent-notes > ul.recent-ul > li.recent-li
+       > .section > .desc > h3 > a.internal
+       > .section > .meta > time
+   ========================================================================== */
+
+/* Header row */
+.recent-notes > h3 {
+  border-bottom: 1px solid color-mix(in srgb, var(--gray) 25%, transparent) !important;
+  padding-bottom: 0.4rem !important;
+  margin-bottom: 0.25rem !important;
+  width: 100% !important;
+}
+
+.recent-notes > ul.recent-ul {
+  list-style: none !important;
+  margin-top: 0.5rem !important;
+  padding-left: 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.recent-notes > ul.recent-ul > li.recent-li {
+  position: relative;
+  padding: 0.75rem 0.75rem 0.75rem 3.5rem !important;
+  margin: 0 !important;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+              box-shadow 0.2s ease;
+
+  &:hover {
+    background-color: var(--light);
+    border-color: color-mix(in srgb, var(--gray) 35%, transparent);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+    .section > .desc > h3 > a { color: var(--tertiary) !important; }
+  }
+
+  /* ICON LAYER 1: THE POT */
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0.5rem;
+    top: 1rem;
+    display: block;
+    width: 36px; height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/static/CustomIcons/InkWell_Pot_Light.webp');
+    z-index: 1;
+  }
+
+  /* ICON LAYER 2: THE FEATHER */
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0.5rem;
+    top: 1rem;
+    display: block;
+    width: 36px; height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/static/CustomIcons/InkWell_Feather_Light.webp');
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform-origin: center;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &:hover::after { transform: translateY(-6px); }
+}
+
+/* Entry title */
+.recent-notes .section > .desc > h3 {
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+
+  & > a.internal {
+    font-family: var(--headerFont) !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    color: var(--dark) !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    line-height: 1.3 !important;
+
+    &:hover { color: var(--tertiary) !important; }
+  }
+}
+
+/* Entry meta — <p class="meta"><time datetime="...">Mar 14, 2026</time></p> */
+.recent-notes .section > .meta,
+.recent-notes .section > .meta time {
+  font-family: var(--codeFont) !important;
+  font-size: 0.7rem !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  color: var(--gray) !important;
+  margin: 0 !important;
+}
+
+/* "See N more →" link — <p><a href="/writing/">See 1 more →</a></p> */
+.recent-notes > p > a {
+  font-family: var(--codeFont) !important;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  color: var(--tertiary) !important;
+  font-weight: 400 !important;
+
+  &:hover { text-decoration: underline !important; }
+}
+
+/* Dark mode icon swap */
+html[saved-theme="dark"] .recent-notes > ul.recent-ul > li.recent-li {
+  &::before { background-image: url('/static/CustomIcons/InkWell_Pot_Dark.webp'); }
+  &::after  { background-image: url('/static/CustomIcons/InkWell_Feather_Dark.webp'); }
+}
+
+/* ==========================================================================
+   11. IMAGES & FIGURES
+   The hard offset "physical photo" shadow is retired for a modern,
+   quiet elevation. Rounded corners, no rotation on hover.
+   ========================================================================== */
+
+.center article img,
+.library-grid img {
+  border: 1px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 8px !important;
+  padding: 0 !important;
+  background-color: var(--light) !important;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  transition: box-shadow 0.25s ease !important;
+
+  &:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08), 0 12px 32px rgba(0, 0, 0, 0.08) !important;
+  }
+}
+
+%floated-image-base {
+  border: 1px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 8px !important;
+  padding: 0 !important;
+  background-color: var(--light) !important;
+  width: 280px;
+}
+
+img[alt$="right"] {
+  @extend %floated-image-base;
+  float: right;
+  margin-left: 1.75rem;
+  margin-bottom: 1rem;
+  clear: right;
+}
+
+img[alt$="left"] {
+  @extend %floated-image-base;
+  float: left;
+  margin-right: 1.75rem;
+  margin-bottom: 1rem;
+  clear: left;
+}
+
+/* ==========================================================================
+   12. BLOCKQUOTES
+   The "FIELD REPORT //" label is retired. Quotes now read as quotes:
+   accent border, upright text, quiet background.
+   Scoped to plain blockquotes only; .callout is styled in callouts.scss.
+   ========================================================================== */
+
+blockquote:not(.callout) {
+  background-color: color-mix(in srgb, var(--secondary) 4%, transparent) !important;
+  border-left: 3px solid var(--tertiary) !important;
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 1.25rem !important;
+  margin: 2rem 0 !important;
+  font-style: normal !important;
+
+  &::before { content: none !important; }
+
+  p {
+    font-family: var(--bodyFont) !important;
+    font-size: 1.02rem !important;
+    font-style: normal !important;
+    line-height: 1.7 !important;
+    color: var(--dark) !important;
+    margin: 0 !important;
+  }
+
+  p + p { margin-top: 0.75rem !important; }
+}
+
+/* ==========================================================================
+   12b. CALLOUTS
+   Styling lives in quartz/styles/callouts.scss — edited directly.
+   Nothing to do here.
+   ========================================================================== */
+
+/* ==========================================================================
+   13. START GRID (custom icons kept)
+   ========================================================================== */
+
+.start-grid {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.85rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 4rem 0;
+
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.9rem;
+    background-color: var(--light);
+    border: 1px solid var(--lightgray);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+    margin: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+      border-color: color-mix(in srgb, var(--tertiary) 55%, transparent);
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      width: 30px; height: 30px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      flex-shrink: 0;
+      margin-top: 3px;
+      background-image: url('/static/CustomIcons/TeaIcon_Light.webp');
+      transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transform-origin: center;
+    }
+
+    &:hover::before { transform: rotate(-22deg) scale(1.12); }
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    background: transparent !important;
+    padding: 0 !important;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+    }
+
+    strong {
+      color: var(--dark);
+      font-family: var(--headerFont);
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1.3;
+      margin-bottom: 0.25rem;
+      transition: color 0.2s ease;
+    }
+
+    .desc {
+      color: var(--darkgray);
+      font-family: var(--bodyFont);
+      font-size: 0.85rem;
+      line-height: 1.45;
+      font-weight: 400;
+    }
+  }
+
+  li:hover a strong { color: var(--tertiary); }
+}
+
+html[saved-theme="dark"] .start-grid li:nth-child(1)::before {
+  background-image: url('/static/CustomIcons/TeaIcon_Dark.webp');
+}
+
+.start-grid li:nth-child(2) {
+  &::before { background-image: url('/static/CustomIcons/GlobeIcon_Light.webp') !important; }
+  &:hover::before { transform: scale(1.12) !important; }
+}
+html[saved-theme="dark"] .start-grid li:nth-child(2)::before {
+  background-image: url('/static/CustomIcons/GlobeIcon_Dark.webp') !important;
+}
+
+.start-grid li:nth-child(3) {
+  &::before { background-image: url('/static/CustomIcons/WatchIcon_Light.webp') !important; }
+  &:hover::before { transform: scale(1.12) !important; }
+}
+html[saved-theme="dark"] .start-grid li:nth-child(3)::before {
+  background-image: url('/static/CustomIcons/WatchIcon_Dark.webp') !important;
+}
+
+.start-grid li:nth-child(4) {
+  &::before { background-image: url('/static/CustomIcons/BookIcon_Light.webp') !important; }
+  &:hover::before { transform: scale(1.12) !important; }
+}
+html[saved-theme="dark"] .start-grid li:nth-child(4)::before {
+  background-image: url('/static/CustomIcons/BookIcon_Dark.webp') !important;
+}
+
+.start-grid li:nth-child(5) {
+  &::before { background-image: url('/static/CustomIcons/TickerTape_Light.webp') !important; }
+  &:hover::before { transform: scale(1.12) !important; }
+}
+html[saved-theme="dark"] .start-grid li:nth-child(5)::before {
+  background-image: url('/static/CustomIcons/TickerTape_Dark.webp') !important;
+}
+
+/* ==========================================================================
+   16. HOMEPAGE (INDEX) OVERRIDES
+   ========================================================================== */
+
+body[data-slug="index"] {
+
+  // "Welcome" h6 — hero treatment. Italic Newsreader keeps the old warmth.
+  article h6 {
+    font-family: var(--headerFont) !important;
+    font-size: 3.25rem !important;
+    font-weight: 500 !important;
+    font-style: italic !important;
+    color: var(--secondary) !important;
+    letter-spacing: -0.02em !important;
+    line-height: 1.05 !important;
+    margin-top: 2.5rem !important;
+    margin-bottom: 1.75rem !important;
+    opacity: 1 !important;
+  }
+
+  // Lede — first h2 ("I'm Christian...") gets left-border pullquote treatment.
+  article > h2:first-of-type {
+    border-left: 3px solid var(--tertiary) !important;
+    padding-left: 1.25rem !important;
+    font-family: var(--headerFont) !important;
+    font-size: 1.35rem !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    line-height: 1.45 !important;
+    color: var(--dark) !important;
+    margin-top: 0 !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  // Subhead — first h3 ("This is my digital garden...")
+  article > h3:first-of-type {
+    font-family: var(--headerFont) !important;
+    font-size: 1.15rem !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    color: var(--tertiary) !important;
+    margin-top: 0 !important;
+    margin-bottom: 1.75rem !important;
+    line-height: 1.5 !important;
+  }
+
+  // Drop cap on first body paragraph
+  article > p:first-of-type::first-letter {
+    font-family: var(--headerFont);
+    font-size: 3.9rem;
+    font-weight: 500;
+    line-height: 0.8;
+    float: left;
+    margin: 0.05em 0.12em 0 0;
+    color: var(--tertiary);
+  }
+
+  // All body paragraphs — clean rendering
+  article > p {
+    font-family: var(--bodyFont) !important;
+    font-style: normal !important;
+    color: var(--dark) !important;
+    line-height: 1.75 !important;
+    font-size: 1.0625rem !important;
+  }
+
+  // Subsequent h2s keep section style
+  article > h2:not(:first-of-type) {
+    margin-top: 3rem !important;
+  }
+}
+
+/* ==========================================================================
+   14. LIBRARY PAGE
+   ========================================================================== */
+
+body[data-slug="library"] {
+  .center .breadcrumb-container,
+  .center .article-title,
+  .center .content-meta,
+  .center article {
+    max-width: 100%;
+  }
+
+  .center article ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 0;
+    list-style: none;
+
+    @media (max-width: 800px) { grid-template-columns: repeat(2, 1fr); }
+    @media (max-width: 500px) { grid-template-columns: 1fr; }
+  }
+}
+
+.library-grid {
+  & > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    @media (max-width: 800px) { grid-template-columns: repeat(2, 1fr); }
+    @media (max-width: 500px) { grid-template-columns: 1fr; }
+  }
+
+  & li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--lightgray);
+    border-radius: 10px;
+    padding: 1.1rem 0.9rem 1rem;
+    background-color: var(--light);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+      border-color: color-mix(in srgb, var(--tertiary) 55%, transparent);
+    }
+
+    img {
+      max-width: 130px;
+      margin-bottom: 0.75rem;
+      object-fit: cover;
+    }
+
+    a {
+      font-weight: 600;
+      font-size: 0.92rem;
+      line-height: 1.35;
+      text-decoration: none;
+      color: var(--dark);
+      &.internal { background: none; }
+    }
+
+    .author {
+      display: block;
+      font-family: var(--codeFont);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--gray);
+      margin-top: 0.3rem;
+    }
+  }
+}
+
+/* ==========================================================================
+   15. BOOK HEADER COMPONENT
+   ========================================================================== */
+
+.book-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  img {
+    width: 200px !important;
+    flex-shrink: 0;
+    object-fit: cover;
+    border: 1px solid color-mix(in srgb, var(--gray) 35%, transparent) !important;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.10), 0 10px 28px rgba(0, 0, 0, 0.08) !important;
+    padding: 0 !important;
+    background-color: var(--light) !important;
+    border-radius: 6px !important;
+    margin: 0 !important;
+    display: block !important;
+    transition: none !important;
+
+    &:hover {
+      transform: none !important;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.10), 0 10px 28px rgba(0, 0, 0, 0.08) !important;
+    }
+
+    @media (max-width: 600px) {
+      width: 160px !important;
+    }
+  }
+}
+
+.book-header-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 0.25rem;
+  gap: 0;
+
+  .book-genre {
+    font-family: var(--codeFont) !important;
+    font-size: 0.72rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    color: var(--gray) !important;
+    margin: 0 0 0.5rem 0 !important;
+  }
+
+  .book-author {
+    font-family: var(--bodyFont) !important;
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+    color: var(--darkgray) !important;
+    margin: 0 0 0.6rem 0 !important;
+    line-height: 1.3 !important;
+  }
+
+  hr {
+    border: none !important;
+    border-top: 1.5px solid color-mix(in srgb, var(--gray) 30%, transparent) !important;
+    margin: 0 0 0.6rem 0 !important;
+    width: 2.5rem !important;
+    box-shadow: none !important;
+  }
+
+  .book-title {
+    font-family: var(--headerFont) !important;
+    font-size: 1.75rem !important;
+    font-weight: 600 !important;
+    line-height: 1.15 !important;
+    color: var(--secondary) !important;
+    margin: 0 0 0.2rem 0 !important;
+  }
+
+  .book-subtitle {
+    font-family: var(--headerFont) !important;
+    font-size: 1.05rem !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    line-height: 1.35 !important;
+    color: var(--darkgray) !important;
+    margin: 0 0 1.25rem 0 !important;
+  }
+
+  .book-date-read {
+    font-family: var(--codeFont) !important;
+    font-size: 0.72rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    color: var(--gray) !important;
+    margin: 0 !important;
+    padding-top: 0.75rem !important;
+    border-top: 1px solid color-mix(in srgb, var(--gray) 20%, transparent) !important;
+  }
+}
