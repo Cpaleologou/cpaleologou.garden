@@ -635,11 +635,17 @@ The digitization question is two separate questions.
 1. How much does Nintendo make from shifting software sales from physical to digital?
 2. What is the potential of Nintendo's online subscription (NSO)?
 
-**What is a digital mix shift worth?**
-Nintendo does not disclose a hardware/software revenue split, so the software revenue base has to be estimated. Luckily, there is enough information to get close.
-In 2026, total digital sales including first party games, third party games, NSO, and extra content was 407.6B JPY. It was also reported that this was 55% of total software sales. Thus, the reverse calculated total software sales was roughly 747B JPY.
-Nintendo also reported that 75% of total software sales came from first-party games and content. That means first party software was roughly 556B JPY and third-party + NSO was around 190B JPY.
-Since total Video Game Platform revenue was 2,240B JPY, the implied console hardware sales were 1,493B JPY. 
+**What is a digital mix shift worth?**[^71]
+Nintendo doesn't disclose a hardware/software revenue split, so software revenue has to be backed into — but there's enough disclosed data to get close.
+In FY26, digital sales — first-party games, third-party games, NSO, and extra content combined — totalled 407.6B JPY, reported as 55% of total software sales. That implies total software sales of roughly **741B JPY** (407.6B ÷ 0.55).
+Nintendo also disclosed that first-party games and content made up 75% of total software sales, or **556B JPY**. Third-party software plus NSO makes up the remaining **185B JPY**.
+The first-party bucket is what can meaningfully shift channels (third-party and NSO are a separate, mostly-already-digital story). Assume roughly half of first-party sales are already digital — **278B JPY** — and that Nintendo can push that to 70% over the next five years — **389B JPY**. That target may be aggressive, but it implies about **111B JPY of first-party sales moving (not growing) from physical to digital**.
+On that shifted volume, assume Nintendo recaptures the ~15% margin it currently gives up to physical distributors. That's roughly **17B JPY flowing to the bottom line** — call it **\$110-115M USD**, or a mid-single-digit percentage of FY26 net income.
+And they are still selling physical games, which mean relationship with distributors, inventory management, etc all still need to be managed, so headcount and other fixed costs are going to be reduced materially either. So really, I think we are saying that at best, we might see a 5% growth in earnings over 5 years, maybe 1% a year, from this transition. 
+
+**Bottom line: real and margin-accretive, but not large enough on its own to move the needle materially.**
+
+**What is the potential of Nintendo's online subscription platform?**
 
 ---
 
@@ -674,10 +680,10 @@ Full DCF.
 [^9]: Fiscal Year Ended March 2026 Earnings Release/ Financial Results Briefing (Online), https://www.nintendo.co.jp/ir/pdf/2026/260508e.pdf
 [^10]: Fiscal Year Ended March 2026 Earnings Release/ Financial Results Briefing (Online), https://www.nintendo.co.jp/ir/pdf/2026/260508_5e.pdf
 [^11]: https://techcrunch.com/2021/03/30/console-game-china-pulled-ecommerce/
-[^12]: https://www.sony.com/en/SonyInfo/IR/books/presen/er/pdf/25q4_supplement.pdf
+[^12]: https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_supplement.pdf
 [^13]: Fiscal Year Ended March 2026 Earnings Release/ Financial Results Briefing (Online), https://www.nintendo.co.jp/ir/pdf/2026/260508_5e.pdf
 [^14]: https://www.nintendo.com/us/online/compare-memberships/
-[^15]: https://www.sony.com/en/SonyInfo/IR/books/presen/business_segment_meeting/pdf/2025/GNS_E.pdf
+[^15]: https://www.sony.com/en/SonyInfo/IR/library/presen/business_segment_meeting/pdf/2025/GNS_E.pdf
 [^16]: https://corpgov.law.harvard.edu/2025/10/21/tokyo-stock-exchange-initiative-on-cost-of-capital-and-stock-price-conscious-management/
 [^17]: https://tradingeconomics.com/japan/inflation-cpi
 [^18]: https://youtu.be/6muaDM9mIEc?si=gYBBtFTQ0jcH5PCA
@@ -732,3 +738,4 @@ Full DCF.
 [^68]: https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf
 [^69]: https://www.nintendo.co.jp/ir/pdf/2025/251105e.pdf
 [^70]: https://www.nintendo.co.jp/ir/pdf/2025/251105e.pdf
+[^71]: https://www.nintendo.co.jp/ir/pdf/2026/260508_4e.pdf
