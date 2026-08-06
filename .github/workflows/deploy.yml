@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - v5
+  # Allows redeploying the current v5 build from the Actions tab without
+  # having to push a commit.
+  workflow_dispatch:
 
 permissions:
   contents: read
