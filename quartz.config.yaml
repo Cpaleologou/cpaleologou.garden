@@ -141,8 +141,13 @@ plugins:
     enabled: true
   - source: "@quartz-community/og-image"
     enabled: true
+  # Disabled deliberately. christianp.space is configured as the custom domain
+  # in the repo's Pages settings, which is the source of truth for Actions-based
+  # deploys — v4 never emitted a CNAME file and worked fine. Shipping one makes
+  # Pages re-apply the custom domain on every deploy, which stalled
+  # actions/deploy-pages until its 10-minute timeout.
   - source: "@quartz-community/cname"
-    enabled: true
+    enabled: false
 
   # ---- page types ----
   - source: "@quartz-community/content-page"
