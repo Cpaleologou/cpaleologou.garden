@@ -35,3 +35,5 @@ date: 2026-07-29T00:00:00.000Z
 [[Set A Maximum Limit On The PE Ratio You Will Accept]]
 
 [[Avoid IPOs, Always]]
+
+Sell-offs Do Not Equal Value

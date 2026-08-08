@@ -6,11 +6,11 @@ publish: 'true'
 ---
 ###### Welcome
 
-## I'm Christian — a CPA and sr. financial analyst writing on history, philosophy, technology and finance. 
+## I'm Christian — a CPA and sr. financial analyst writing on investing, philosophy, history, and technology. 
 
 ### _This is my digital garden; a collection of notes, half-formed ideas, and occasional essays._
 
-Most of what's here is incomplete; fragments of what I have learned in my readings. I like to think of it as dry-powder. Ideas and knowledge waiting to be deployed into something interesting or useful. 
+Most of what's here is incomplete. A note is a single idea; a fragment of what I have learned in my readings. 
 Pieces that mature into something coherent can be found in the **writings** section. But most stay messy. Many have spelling errors. I'm often more interested in exploration than polish.
 
 ## About This Garden

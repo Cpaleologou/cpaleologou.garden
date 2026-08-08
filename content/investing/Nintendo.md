@@ -631,10 +631,6 @@ What is more interesting is that this line does not include Pokemon. As discusse
 
 #### Digitization
 
-The digitization question is two separate questions. 
-1. How much does Nintendo make from shifting software sales from physical to digital?
-2. What is the potential of Nintendo's online subscription (NSO)?
-
 **What is a digital mix shift worth?**[^71]
 Nintendo doesn't disclose a hardware/software revenue split, so software revenue has to be backed into — but there's enough disclosed data to get close.
 In FY26, digital sales — first-party games, third-party games, NSO, and extra content combined — totalled 407.6B JPY, reported as 55% of total software sales. That implies total software sales of roughly **741B JPY** (407.6B ÷ 0.55).
@@ -644,8 +640,6 @@ On that shifted volume, assume Nintendo recaptures the ~15% margin it currently 
 And they are still selling physical games, which mean relationship with distributors, inventory management, etc all still need to be managed, so headcount and other fixed costs are going to be reduced materially either. So really, I think we are saying that at best, we might see a 5% growth in earnings over 5 years, maybe 1% a year, from this transition. 
 
 **Bottom line: real and margin-accretive, but not large enough on its own to move the needle materially.**
-
-**What is the potential of Nintendo's online subscription platform?**
 
 ---
 
