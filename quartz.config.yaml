@@ -42,7 +42,12 @@ configuration:
         gray: "#8fa07c" # Muted sage — secondary text, icons
         darkgray: "#d4c9a8" # Aged cream — sub-headers, metadata
         dark: "#ece5d0" # Warm parchment — main body text
-        secondary: "#F0EFE9" # Aged cream — headlines
+        # Matches --dark on purpose. This was #F0EFE9, the light mode's bone
+        # white, whose channels are near-equal (240/239/233) so it read as a
+        # cool white against the green while body text stayed warm. Headings
+        # are already distinguished by size, weight and Newsreader, so they
+        # don't need a separate colour.
+        secondary: "#ece5d0" # Warm parchment — headlines, titles, links
         tertiary: "#d99b2e" # Gold, brightened for link contrast
         highlight: rgba(217, 155, 46, 0.12)
         textHighlight: "#d99b2e55"
