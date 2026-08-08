@@ -20,26 +20,27 @@ registerCondition("not-index-or-library", (props) => {
 
 const config = await loadQuartzConfig()
 
-// Four RecentNotes instances (writing/notes x desktop-sidebar/mobile-afterBody).
-// These need `filter` callbacks, which YAML cannot express, so they are built
-// here rather than in quartz.config.yaml.
-const recentWriting = (): QuartzComponent =>
+// Six RecentNotes instances (writing/investing/notes x desktop-sidebar and
+// mobile-afterBody). These need `filter` callbacks, which YAML cannot express,
+// so they are built here rather than in quartz.config.yaml.
+//
+// hideFolderPages matters: a bare `startsWith("writing/")` also matches the
+// generated folder page at `writing/index`, which inflated the counts — the
+// list advertised "See 2 more" against 4 real posts, and "See 247 more"
+// against 249 notes.
+const recentIn = (title: string, folder: string) => (): QuartzComponent =>
   RecentNotes({
-    title: "Recent Writing",
+    title,
     limit: 3,
     showTags: false,
-    linkToMore: "writing/",
-    filter: (f) => (f.slug ? f.slug.startsWith("writing/") : false),
+    hideFolderPages: true,
+    linkToMore: `${folder}/`,
+    filter: (f) => (f.slug ? f.slug.startsWith(`${folder}/`) : false),
   })
 
-const recentNotes = (): QuartzComponent =>
-  RecentNotes({
-    title: "Recent Notes",
-    limit: 3,
-    showTags: false,
-    linkToMore: "notes/",
-    filter: (f) => (f.slug ? f.slug.startsWith("notes/") : false),
-  })
+const recentWriting = recentIn("Recent Writing", "writing")
+const recentInvesting = recentIn("Recent Investing", "investing")
+const recentNotes = recentIn("Recent Notes", "notes")
 
 const base = await loadQuartzLayout()
 
@@ -51,6 +52,7 @@ const withMobileRecents = <T extends { afterBody?: QuartzComponent[] }>(l: T): T
   afterBody: [
     ...(l.afterBody ?? []),
     MobileOnly(recentWriting()) as QuartzComponent,
+    MobileOnly(recentInvesting()) as QuartzComponent,
     MobileOnly(recentNotes()) as QuartzComponent,
   ],
 })
@@ -71,9 +73,12 @@ const layout = {
         pageType,
         {
           ...next,
+          // Long-form first (writing, investing), then the much larger notes
+          // bucket last.
           left: [
             ...(next.left ?? base.defaults.left ?? []),
             DesktopOnly(recentWriting()) as QuartzComponent,
+            DesktopOnly(recentInvesting()) as QuartzComponent,
             DesktopOnly(recentNotes()) as QuartzComponent,
           ],
         },
