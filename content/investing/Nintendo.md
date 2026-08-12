@@ -645,6 +645,48 @@ And they are still selling physical games, which mean relationship with distribu
 
 ## Management
 
+### History
+
+![[Shuntaro_Furukawa.webp|218]]
+
+Shuntaro Furukawa became president in June 2018 at the age of 46, inheriting a company one year into the Switch and two years out of the Wii U disaster. He has been at Nintendo since 1994, joining as a junior accountant at the age of 22.[^72] That tells you how he thinks. He is a finance first leader, not a designer or engineer, and after over 30 years with company has been there through most of the modern history of the business. He would be expected to have a deep understanding of the business and its culture, while being young enough to have a long and steady run way ahead of him, should he and the company want it.
+
+Eight years on, revenue has grown from ¥1,055.7bn to ¥2,313.0bn and operating profit from ¥177.6bn to ¥360.1bn. The Switch 2, Nintendo's newest console, quickly became the fastest selling Nintendo console of all time.[^73] While there are caveats to this, such as the extended cycle of the Switch 1, and rising prices (discussed below) pulling forward sales, it is still true that to date, Furukawa has pulled off the difficult task of a console transition better than his predecessors. 
+
+![[Nintendo_Furukawas_Tenure_Revenue__Operating_Profit.webp]]
+
+### Guidance Accuracy
+
+Listed below are the historical comaprisons between full guidance and end of year actuals for the 4 metrics Nintendo guides on. Keeping in mind that mid-year updates are not included in the analysis, historical guidance has been very reasonable. Significant variance does exist in FY21, however, this was the main year of the Covid-19 pandemic and inability to forecast the future is reasonable. Adjusting out FY21, average variance since FY19 are as follows:
+- **Sales:** 8.8%
+- **Operating Profit:** 17.9%
+- **Hardware Units:** 14.9%
+- **Switch Software:** 14.9%
+This is a management team that usually under-promises and over-delivers. Accuracy is always best, but slight sandbagging is better than the opposite. 
+
+![[NintendoSalesvsGuidance.webp]]
+
+![[NintendoProfitvsGuidance.webp]]
+
+![[NintendoHardwarevsGuidance.webp]]
+
+![[NintendoSoftwarevsGuidance.webp]]
+
+Promise vs. Delivery (Memory Guidance Error)
+
+### Capital Allocation (Investment, Buy Backs, Dividends)
+
+![[NintendoCapitalAllocationValues.webp]]
+
+![[Nintendo Capital Allocation Mix.webp]]
+
+Common Dividends Paid, Repurchase of Common Stock, Capital Expenditure, 
+Retained in Cash = Cash from Operations - Above Metrics
+
+The One-Dollar Test
+
+Alignment
+
 ---
 
 ## Valuation
@@ -733,3 +775,5 @@ Full DCF.
 [^69]: https://www.nintendo.co.jp/ir/pdf/2025/251105e.pdf
 [^70]: https://www.nintendo.co.jp/ir/pdf/2025/251105e.pdf
 [^71]: https://www.nintendo.co.jp/ir/pdf/2026/260508_4e.pdf
+[^72]: https://nintendo.fandom.com/wiki/Shuntaro_Furukawa
+[^73]: https://www.ign.com/articles/switch-2-becomes-fastest-selling-nintendo-hardware-ever-with-over-35-million-units-sold-worldwide-in-just-four-days
