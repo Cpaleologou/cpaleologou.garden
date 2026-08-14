@@ -12,24 +12,6 @@
    1. GLOBAL LAYOUT & BACKGROUND
    ========================================================================== */
 
-/* Paper texture — kept, but as a whisper rather than a statement.
-   Disabled in dark mode where multiply blending muddied the text. */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-image: url("/static/beige-paper.png");
-  background-repeat: repeat;
-  background-size: auto;
-  mix-blend-mode: multiply;
-  opacity: 0.14;
-  pointer-events: none;
-  z-index: -1;
-}
-
 html[saved-theme="dark"] body::before {
   display: none;
 }
@@ -432,18 +414,39 @@ p.content-meta {
     .section > .desc > h3 > a { color: var(--tertiary) !important; }
   }
 
+  /* ------------------------------------------------------------------
+     ICON LAYERS
+     The two icons are SVG masks filled with a theme colour, so they
+     recolour with the palette instead of needing a light/dark asset pair.
+
+     Positioning note: the old .webp pair shared one 36x36 box and relied
+     on the artwork being drawn off-centre inside each canvas (pot low,
+     feather high-right) to compose. The SVGs are centred in their own
+     canvases, so each layer now gets its own explicit box, sized and
+     offset to land the ink exactly where it used to sit. The numbers are
+     derived from the SVG path bounds:
+       inkwell.svg  ink fills x 15.14%-84.74%, y 12.74%-87.26% of 314x280
+       feather.svg  ink fills x 20.51%-79.49%, y 11.88%-88.12% of 280x280
+     ------------------------------------------------------------------ */
+
   /* ICON LAYER 1: THE POT */
   &::before {
     content: "";
     position: absolute;
-    left: 0.5rem;
-    top: 1rem;
+    left: 14.9px;
+    top: 30.5px;
     display: block;
-    width: 36px; height: 36px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('/static/CustomIcons/InkWell_Pot_Light.webp');
+    width: 21.4px; height: 18.9px;
+    background-color: var(--darkgray);
+    -webkit-mask-image: url('/static/CustomIcons/inkwell.svg');
+    mask-image: url('/static/CustomIcons/inkwell.svg');
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    transition: background-color 0.2s ease;
     z-index: 1;
   }
 
@@ -451,21 +454,31 @@ p.content-meta {
   &::after {
     content: "";
     position: absolute;
-    left: 0.5rem;
-    top: 1rem;
+    left: 21px;
+    top: 19.4px;
     display: block;
-    width: 36px; height: 36px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('/static/CustomIcons/InkWell_Feather_Light.webp');
-    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    width: 19.1px; height: 18.8px;
+    background-color: var(--darkgray);
+    -webkit-mask-image: url('/static/CustomIcons/feather.svg');
+    mask-image: url('/static/CustomIcons/feather.svg');
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+                background-color 0.2s ease;
     transform-origin: center;
     z-index: 2;
     pointer-events: none;
   }
 
+  /* The quill lifts out of the well; both layers warm to the accent. */
   &:hover::after { transform: translateY(-6px); }
+
+  &:hover::before,
+  &:hover::after { background-color: var(--tertiary); }
 }
 
 /* Entry title */
@@ -511,11 +524,8 @@ p.content-meta {
   &:hover { text-decoration: underline !important; }
 }
 
-/* Dark mode icon swap */
-html[saved-theme="dark"] .recent-notes > ul.recent-ul > li.recent-li {
-  &::before { background-image: url('/static/CustomIcons/InkWell_Pot_Dark.webp'); }
-  &::after  { background-image: url('/static/CustomIcons/InkWell_Feather_Dark.webp'); }
-}
+/* No dark-mode icon swap needed: the inkwell and feather are SVG masks
+   painted with var(--darkgray), so they follow the palette automatically. */
 
 /* ==========================================================================
    11. IMAGES & FIGURES

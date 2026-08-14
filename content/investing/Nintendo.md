@@ -657,35 +657,54 @@ Eight years on, revenue has grown from ¥1,055.7bn to ¥2,313.0bn and operating 
 
 ### Guidance Accuracy
 
-Listed below are the historical comaprisons between full guidance and end of year actuals for the 4 metrics Nintendo guides on. Keeping in mind that mid-year updates are not included in the analysis, historical guidance has been very reasonable. Significant variance does exist in FY21, however, this was the main year of the Covid-19 pandemic and inability to forecast the future is reasonable. Adjusting out FY21, average variance since FY19 are as follows:
-- **Sales:** 8.8%
-- **Operating Profit:** 17.9%
-- **Hardware Units:** 14.9%
-- **Switch Software:** 14.9%
+Listed below are the historical comparisons between full guidance and end of year actuals for the 4 metrics Nintendo guides on. Keeping in mind that mid-year updates are not included in the analysis, historical guidance has been very reasonable. Significant variance does exist in FY21, however, this was the main year of the Covid-19 pandemic and inability to forecast the future is reasonable. Adjusting out FY21, average variance since FY19 are as follows:
+
+- **Sales:** +8.8% vs. Guidance
+- **Operating Profit:** +17.9% vs. Guidance
+- **Hardware Units:** +14.9% vs. Guidance
+- **Switch Software:** +14.9% vs. Guidance
+
 This is a management team that usually under-promises and over-delivers. Accuracy is always best, but slight sandbagging is better than the opposite. 
 
-![[NintendoSalesvsGuidance.webp]]
+**Nintendo Sales, Actual vs. Guidance:**[^75]![[NintendoSalesvsGuidance.webp]]
 
-![[NintendoProfitvsGuidance.webp]]
+**Nintendo Operating Profit, Actual vs. Guidance:**[^75]![[NintendoProfitvsGuidance.webp]]
 
-![[NintendoHardwarevsGuidance.webp]]
+**Nintendo Hardware, Actual vs. Guidance:**[^75]![[NintendoHardwarevsGuidance.webp]]
+
+**Nintendo Software, Actual vs. Guidance:**[^75]
 
 ![[NintendoSoftwarevsGuidance.webp]]
 
-Promise vs. Delivery (Memory Guidance Error)
-
 ### Capital Allocation (Investment, Buy Backs, Dividends)
 
-![[NintendoCapitalAllocationValues.webp]]
+The charts below demonstrates the allocation of capital Nintendo has chosen to make each year since FY18. The line represents the total cash from operations generated each year. The bar charts estimate the total cash usage via reinvestment back into the business, or returned to shareholders through dividends and buybacks. The difference between the level of the line chart and the top of the bar charts is treated as "retained capital".
+I say "estimated" use of capital because R&D is not a cash flow statement item. It is a GAAP expense and thus is not necessarily representative of how cash was used. That said, it is a significant form of investment for the business. It is much more significant than pure capital expense for a business like Nintendo, and the nature of the expense is likely to be mostly headcount related - salaries, bonus, benefits - and some hardware components for building console related products like a Switch 2 Lite. Those are expenses close to cash outlays. It has therefore been included in the chart in order to accurately estimate Nintendo's capital allocation decisions.
+Under these assumptions, we can see that over the last nine years, Nintendo has invested about 30% of its generated cash back into the business, returned approximately 49% to shareholders, primarily through dividends, and held onto about 21%.
 
-![[Nintendo Capital Allocation Mix.webp]]
+**Nintendo Capital Allocation Breakdown by JPY:**[^76]![[NintendoCapitalAllocationValues.webp]]
 
-Common Dividends Paid, Repurchase of Common Stock, Capital Expenditure, 
-Retained in Cash = Cash from Operations - Above Metrics
+**Nintendo Capital Allocation Breakdown by JPY:**[^76]![[Nintendo Capital Allocation Mix.webp]]
 
-The One-Dollar Test
+On a dollar basis, both R&D expenses and Capital Expenditures have ticked up over the period. Understandably, details on R&D are sparse due to the strategic nature of the investments.  However, it is my belief that we can expect this amount to continue to rise over time, due to the general increase in development costs that modern games face compared to the past from graphic and scale complexities, and because the rising capital expenditure above can be explained by the table below. Three of four capital expenditure initiatives are facilities which can be predicted to be used for research and development, rather than general administrative purposes. 
 
-Alignment
+**Nintendo, Plans for new installation & retirement of equipment:**[^77]![[NintendoFY26CapitalExpenditure.webp]]
+
+Ultimately, this is standard, but good. As we saw above, Nintendo has a high return on invested capital and a demonstrated track record of prudent cost management. If they are able to create more value to shareholders than those shareholders could achieve themselves, incremental dollars should flow back into the business. But, we have also seen from the growth opportunities available to Nintendo, that the runway is limited. Thus, the more pressing question becomes what they do with the excess capital and whether that has been managed appropriately.
+
+As seen in the chart above, Nintendo has completed four buyback events in the last nine years. Against the stock price at the time, the timing looks like this:
+
+**Nintendo Buy Back Timing vs Stock Price:**
+
+![[NintendoBuyBacks.webp]]
+
+Fundamentally, these look quite well timed against relative lows in console cycle that is expected to create high volatility in the stock price. It should also be noted however, that the FY26 buyback was less of an opportunistic purchase due to the shares being undervalued. Rather it was more of a defensive/technical decision to keep the share price stable amongst ongoing corporate reform initiatives that has been happening across Japan for years. These reforms, in FY26 results in several cross-shareholding unwinds and secondary share sales by several large Japanese banks. Rather than letting those sales dilute the stock, Nintendo repurchased the shares and retired them. [^78]
+
+What we can derive, along with understand gained in various sections above, is that Nintendo is not a "share cannibal", but is open to opportunistic repurchases when it makes sense, returning excess earnings directly to shareholders via dividends when overvaluation of the company by the market is clearly at hand, or when valuation is less clear. Typically, one would expect management to have a better idea of the true intrinsic value of the business than the market, and Nintendo does likely spend most of its life in the "overvalued" range due to mainstream consumer popularity. Gamers and fans likely own the stock because they like the games, rather than actually attempting to understand the business or follow the business beyond it's gaming platform and IP-related releases.  For further discussion on Nintendo propensity to retain cash, see "balance sheet health" section above.
+
+### Alignment
+
+![[NintendoDirectorCompensation.webp]]
 
 ---
 
@@ -777,3 +796,8 @@ Full DCF.
 [^71]: https://www.nintendo.co.jp/ir/pdf/2026/260508_4e.pdf
 [^72]: https://nintendo.fandom.com/wiki/Shuntaro_Furukawa
 [^73]: https://www.ign.com/articles/switch-2-becomes-fastest-selling-nintendo-hardware-ever-with-over-35-million-units-sold-worldwide-in-just-four-days
+[^74]: https://www.nintendo.co.jp/ir/pdf/2025/251105_2e.pdf
+[^75]: All data manually collected from historic earnings guidance and financial statements.
+[^76]: Normalized data per Financial Modeling Prep API (https://site.financialmodelingprep.com/?gad_source=1&gad_campaignid=8675957969&gclid=CjwKCAjw1vXTBhB-EiwAEKr_k1TOB7KQn52sUuhMarzoaDjrouoiulIgcFQzq1b3wsokw1gw4z0-VRoCMD0QAvD_BwE), and select financial statements where API data is unavailable.
+[^77]: https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf
+[^78]: https://www.nintendo.co.jp/ir/pdf/2026/260303_2e.pdf
