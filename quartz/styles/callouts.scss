@@ -282,6 +282,66 @@
   .callout-title::before { content: "≡"; }
 }
 
+/* ── DISCLOSURE — colophon register.
+   For standing notices (AI use, affiliations, corrections policy) that need
+   to be permanently on the page but should never read as an alert. Drops the
+   whole callout chrome — no rail, no fill, no title bar, no glyph — and keeps
+   only a hairline rule above, a small mono label, and quiet grey body text.
+   Sits like a footnote rather than a box.
+   Usage:  > [!disclosure] Disclosure
+           > I use AI extensively in …                                   ── */
+.callout[data-callout="disclosure"] {
+  --callout-bg: transparent;
+
+  border-left:  none;
+  border-top:   1px solid color-mix(in srgb, var(--gray) 28%, transparent);
+  margin:       2.5rem 0 1.75rem;
+
+  & > .callout-title {
+    background-color: transparent;
+    border-bottom:    none;
+    padding:          0.7rem 0 0;
+    gap:              0;
+
+    /* No glyph — the rule above already does the separating */
+    &::before { content: none; }
+
+    /* Newsreader rather than the mono used by every other callout label —
+       the disclosure is meant to read as part of the page's prose voice,
+       not as a system label. A serif at this size needs more weight and
+       less tracking than IBM Plex Mono to hold up in uppercase.
+       The label text is wrapped in a <p>, which custom.scss §2 targets with
+       `article p { … !important }`, so these have to be !important to land. */
+    & > .callout-title-inner {
+      font-family:    var(--headerFont);
+      font-size:      0.85rem;
+      font-weight:    600;
+      letter-spacing: 0.1em;
+      color:          var(--gray);
+      opacity:        1;
+
+      & > p {
+        font-family:    var(--headerFont) !important;
+        font-size:      0.85rem !important;
+        font-weight:    600 !important;
+        line-height:    1.4 !important;
+        letter-spacing: 0.1em;
+        color:          var(--gray) !important;
+      }
+    }
+
+    & .fold-callout-icon { margin-left: auto; }
+  }
+
+  /* Body copy is deliberately left to custom.scss §2 (`article p`, which is
+     !important and would win anyway) — the disclosure reads as ordinary
+     prose under a labelled rule. To make it quieter than body text, add
+     font-size / color here with !important. */
+  & > .callout-content {
+    padding: 0.35rem 0 0;
+  }
+}
+
 /* ── QUOTE / CITE — pure quotation, no label chrome ── */
 .callout[data-callout="quote"],
 .callout[data-callout="cite"] {

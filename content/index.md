@@ -23,7 +23,7 @@ Essays are organized by **maturity**, rather than chronology or topic. I've tak
 
 #Gazetteer - Rare, fully-formed thoughts. Though, I always reserve the right to change my mind.
 
-> [!note] On AI
+> [!disclosure] On AI
 > I use AI extensively in research, formatting and cleaning up my writing, writing code for this site, etc. Interpret that as you wish.
 
 ## Places to Start

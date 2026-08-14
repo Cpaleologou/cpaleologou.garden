@@ -58,15 +58,29 @@ article li {
   color: var(--dark) !important;
 }
 
+/* The obsidian-flavored-markdown plugin wraps rendered content in
+   <div class="markdown-preview-view markdown-rendered">, so `article > x`
+   no longer selects top-level content. $md matches the real content parent
+   whether or not that wrapper is present — use it instead of `article >`. */
+$md: "article, article > .markdown-preview-view";
+
 /* Drop cap — kept as the one flourish articles get.
-   Confirmed DOM: .center article > p is the first paragraph after the header. */
-.center article > p:first-of-type::first-letter {
+   Sized and offset to sit properly on a two-line cap rather than floating
+   above the text. Body copy is 1.0625rem / 1.75, so line 1's cap-top to
+   line 2's baseline is 41.14px; Newsreader's cap height is 0.676em, giving
+   3.8rem. The 0.2em top margin drops the glyph so its cap-top meets the
+   first line's cap-top and its foot lands on the second line's baseline.
+   The negative bottom margin pulls the float's exclusion box back up so it
+   indents exactly two lines — without it, dropping the glyph leaves the box
+   overlapping line 3 and a third line gets indented under empty space.
+   Retune these together if the body font-size or line-height moves. */
+.center :is(#{$md}) > p:first-of-type::first-letter {
   font-family: var(--headerFont);
-  font-size: 3.9rem;
+  font-size: 3.8rem;
   font-weight: 500;
   line-height: 0.8;
   float: left;
-  margin: 0.05em 0.12em 0 0;
+  margin: 0.2em 0.12em -0.15em 0;
   color: var(--tertiary);
 }
 
@@ -267,6 +281,19 @@ p.content-meta {
   text-transform: uppercase !important;
   color: var(--gray) !important;
   margin: 0 !important;
+}
+
+/* Wordmark — align it with the content column.
+   Both columns start at the same 6rem content top, but Quartz gave
+   .page-title a 1.9rem top margin, which dropped the wordmark ~30px below
+   the article's first line. Zeroed, so the wordmark's cap-height lines up
+   with the first line of content (measured: within 1px on both the homepage
+   hero and h1.article-title).
+   The bottom margin is dropped too — the sidebar is a flex column with a
+   1.2rem gap, so a 1rem margin on top of that was double-spacing it. */
+.sidebar.left .page-title {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 /* TOC button — fine rule below the heading */
@@ -746,6 +773,8 @@ html[saved-theme="dark"] .start-grid li:nth-child(5)::before {
 body[data-slug="index"] {
 
   // "Welcome" h6 — hero treatment. Italic Newsreader keeps the old warmth.
+  // margin-top is 0 so the hero's box top meets the 6rem content top, level
+  // with the sidebar wordmark; the optical nudge lives on .page-title in §7.
   article h6 {
     font-family: var(--headerFont) !important;
     font-size: 3.25rem !important;
@@ -754,13 +783,13 @@ body[data-slug="index"] {
     color: var(--secondary) !important;
     letter-spacing: -0.02em !important;
     line-height: 1.05 !important;
-    margin-top: 2.5rem !important;
-    margin-bottom: 1.75rem !important;
+    margin-top: 0 !important;
+    margin-bottom: 1.25rem !important;
     opacity: 1 !important;
   }
 
   // Lede — first h2 ("I'm Christian...") gets left-border pullquote treatment.
-  article > h2:first-of-type {
+  :is(#{$md}) > h2:first-of-type {
     border-left: 3px solid var(--tertiary) !important;
     padding-left: 1.25rem !important;
     font-family: var(--headerFont) !important;
@@ -774,7 +803,7 @@ body[data-slug="index"] {
   }
 
   // Subhead — first h3 ("This is my digital garden...")
-  article > h3:first-of-type {
+  :is(#{$md}) > h3:first-of-type {
     font-family: var(--headerFont) !important;
     font-size: 1.15rem !important;
     font-weight: 400 !important;
@@ -785,19 +814,12 @@ body[data-slug="index"] {
     line-height: 1.5 !important;
   }
 
-  // Drop cap on first body paragraph
-  article > p:first-of-type::first-letter {
-    font-family: var(--headerFont);
-    font-size: 3.9rem;
-    font-weight: 500;
-    line-height: 0.8;
-    float: left;
-    margin: 0.05em 0.12em 0 0;
-    color: var(--tertiary);
-  }
+  // Drop cap on the first body paragraph is inherited from §2 — the global
+  // rule matches here too, so the duplicate that used to live at this spot
+  // was removed. Tune the drop cap in one place, §2.
 
   // All body paragraphs — clean rendering
-  article > p {
+  :is(#{$md}) > p {
     font-family: var(--bodyFont) !important;
     font-style: normal !important;
     color: var(--dark) !important;
@@ -806,7 +828,7 @@ body[data-slug="index"] {
   }
 
   // Subsequent h2s keep section style
-  article > h2:not(:first-of-type) {
+  :is(#{$md}) > h2:not(:first-of-type) {
     margin-top: 3rem !important;
   }
 }
