@@ -1,6 +1,6 @@
 ---
 title: Nintendo
-Last Updated: 2026-07-02T00:00:00.000Z
+Last Updated: 2026-08-14T00:00:00.000Z
 tags:
   - '#Surveyed'
   - '#Nintendo'
@@ -8,13 +8,14 @@ tags:
   - '#Gaming'
   - '#Japan'
 publish: 'true'
-date: 2026-07-02T00:00:00.000Z
+date: 2026-04-02T00:00:00.000Z
 ---
-# The Business Model of Nostalgia
+# Nintendo Business Analysis · 2026
 
-*Nintendo Business Analysis · 2026*
+This is a deep dive into Nintendo's business. The first five sections will aim to build a strong foundational understanding of the business model, the competitive landscape, how Nintendo actually makes money, and what the financial statements tell us about the quality of the business. The remaining sections will take a closer look at the business from an investment perspective to cover the moat, the risks, management quality, and valuation.
 
-This is a deep dive into Nintendo's business. The first five sections will aim to build a strong foundational understanding of the business model, the competitive landscape, how Nintendo actually makes money, and what the financial statements tell us about the quality of the business. The remain sections will take closer look at the business from an investment perspective to cover the moat, the risks, management quality, and  valuation, including a reverse DCF and a base-case model.
+> [!disclosure] On Relevancy
+> Information in this report may be outdated. My investing style is long term oriented and therefore my writing and research is focused on understanding the business and its durability across time, not next quarter. I also may or may not hold a stake in this company which directly sets my incentive to follow the business after this research was originally performed. Invest at your own risk.
 
 ---
 

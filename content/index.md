@@ -10,8 +10,7 @@ publish: 'true'
 
 ### _This is my digital garden; a collection of notes, half-formed ideas, and occasional essays._
 
-Most of what's here is incomplete. A note is a single idea; a fragment of what I have learned in my readings. 
-Pieces that mature into something coherent can be found in the **writings** section. But most stay messy. Many have spelling errors. I'm often more interested in exploration than polish. Feel free to look around!
+Most of what's here is incomplete. A note is a single idea - a fragment of what I have learned in my readings. When those ideas mature into something coherent, it can be found in the **writings** section. But most ideas stay messy. Many have spelling errors. I'm often more interested in exploration than polish. Feel free to look around!
 
 ## About This Garden
 
