@@ -267,8 +267,16 @@ async function buildGarden() {
         
         // Helper function to find and copy an image
         const processImage = async (rawLink) => {
-            // 1. Sanitize: Remove query params or tooltips if present in standard links
-            let cleanLink = rawLink.split(' ')[0]; 
+            // 1. Sanitize: strip a Markdown title (![alt](img.webp "Title")), then any
+            //    query string or fragment, then surrounding whitespace.
+            //    Do NOT split on spaces — Obsidian filenames routinely contain them
+            //    (e.g. "Nintendo Capital Allocation Mix.webp"), and splitting silently
+            //    truncated them to the first word so the copy step never found them.
+            let cleanLink = rawLink
+                .replace(/\s+["'][^"']*["']\s*$/, '')
+                .split('?')[0]
+                .split('#')[0]
+                .trim();
             const cleanImageName = path.basename(decodeURIComponent(cleanLink));
 
             const destImgPath = path.join(DEST_IMAGES, cleanImageName);
