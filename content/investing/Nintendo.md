@@ -682,13 +682,19 @@ The charts below demonstrates the allocation of capital Nintendo has chosen to m
 I say "estimated" use of capital because R&D is not a cash flow statement item. It is a GAAP expense and thus is not necessarily representative of how cash was used. That said, it is a significant form of investment for the business. It is much more significant than pure capital expense for a business like Nintendo, and the nature of the expense is likely to be mostly headcount related - salaries, bonus, benefits - and some hardware components for building console related products like a Switch 2 Lite. Those are expenses close to cash outlays. It has therefore been included in the chart in order to accurately estimate Nintendo's capital allocation decisions.
 Under these assumptions, we can see that over the last nine years, Nintendo has invested about 30% of its generated cash back into the business, returned approximately 49% to shareholders, primarily through dividends, and held onto about 21%.
 
-**Nintendo Capital Allocation Breakdown by JPY:**[^76]![[NintendoCapitalAllocationValues.webp]]
+**Nintendo Capital Allocation Breakdown by JPY:**[^76]
 
-**Nintendo Capital Allocation Breakdown by JPY:**[^76]![[Nintendo Capital Allocation Mix.webp]]
+![[NintendoCapitalAllocationValues.webp]]
+
+**Nintendo Capital Allocation Breakdown by JPY:**[^76]
+
+![[Nintendo Capital Allocation Mix.webp]]
 
 On a dollar basis, both R&D expenses and Capital Expenditures have ticked up over the period. Understandably, details on R&D are sparse due to the strategic nature of the investments.  However, it is my belief that we can expect this amount to continue to rise over time, due to the general increase in development costs that modern games face compared to the past from graphic and scale complexities, and because the rising capital expenditure above can be explained by the table below. Three of four capital expenditure initiatives are facilities which can be predicted to be used for research and development, rather than general administrative purposes. 
 
-**Nintendo, Plans for new installation & retirement of equipment:**[^77]![[NintendoFY26CapitalExpenditure.webp]]
+**Nintendo, Plans for new installation & retirement of equipment:**[^77]
+
+![[NintendoFY26CapitalExpenditure.webp]]
 
 Ultimately, this is standard, but good. As we saw above, Nintendo has a high return on invested capital and a demonstrated track record of prudent cost management. If they are able to create more value to shareholders than those shareholders could achieve themselves, incremental dollars should flow back into the business. But, we have also seen from the growth opportunities available to Nintendo, that the runway is limited. Thus, the more pressing question becomes what they do with the excess capital and whether that has been managed appropriately.
 
