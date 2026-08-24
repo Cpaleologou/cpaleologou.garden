@@ -685,12 +685,62 @@ blockquote:not(.callout) {
       background-position: center;
       flex-shrink: 0;
       margin-top: 3px;
-      background-image: url('/static/CustomIcons/TeaIcon_Light.webp');
       transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       transform-origin: center;
     }
 
     &:hover::before { transform: rotate(-22deg) scale(1.12); }
+  }
+
+  /* ------------------------------------------------------------------
+     TILE ICONS
+     Every icon is an SVG mask painted with a theme colour, so the set
+     recolours with the palette instead of needing a light/dark asset
+     pair per icon. Shared mask plumbing first, then the tile → icon
+     mapping, so re-pointing a tile is a one-line change.
+     ------------------------------------------------------------------ */
+  li:nth-child(1)::before,
+  li:nth-child(2)::before,
+  li:nth-child(3)::before,
+  li:nth-child(4)::before {
+    background-image: none;
+    background-color: var(--secondary);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+                background-color 0.2s ease;
+  }
+
+  li:nth-child(1):hover::before,
+  li:nth-child(2):hover::before,
+  li:nth-child(3):hover::before,
+  li:nth-child(4):hover::before { background-color: var(--tertiary); }
+
+  /* Only the teapot tips (as if pouring); the rest just swell slightly. */
+  li:nth-child(2):hover::before,
+  li:nth-child(3):hover::before,
+  li:nth-child(4):hover::before { transform: scale(1.12); }
+
+  /* Tile → icon mapping */
+  li:nth-child(1)::before {          /* Recent Writings */
+    -webkit-mask-image: url('/static/CustomIcons/teapot.svg');
+    mask-image: url('/static/CustomIcons/teapot.svg');
+  }
+  li:nth-child(2)::before {          /* Now */
+    -webkit-mask-image: url('/static/CustomIcons/watch.svg');
+    mask-image: url('/static/CustomIcons/watch.svg');
+  }
+  li:nth-child(3)::before {          /* Library */
+    -webkit-mask-image: url('/static/CustomIcons/book.svg');
+    mask-image: url('/static/CustomIcons/book.svg');
+  }
+  li:nth-child(4)::before {          /* Investing */
+    -webkit-mask-image: url('/static/CustomIcons/globe.svg');
+    mask-image: url('/static/CustomIcons/globe.svg');
   }
 
   a {
@@ -728,34 +778,6 @@ blockquote:not(.callout) {
   }
 
   li:hover a strong { color: var(--tertiary); }
-}
-
-html[saved-theme="dark"] .start-grid li:nth-child(1)::before {
-  background-image: url('/static/CustomIcons/TeaIcon_Dark.webp');
-}
-
-.start-grid li:nth-child(2) {
-  &::before { background-image: url('/static/CustomIcons/GlobeIcon_Light.webp') !important; }
-  &:hover::before { transform: scale(1.12) !important; }
-}
-html[saved-theme="dark"] .start-grid li:nth-child(2)::before {
-  background-image: url('/static/CustomIcons/GlobeIcon_Dark.webp') !important;
-}
-
-.start-grid li:nth-child(3) {
-  &::before { background-image: url('/static/CustomIcons/WatchIcon_Light.webp') !important; }
-  &:hover::before { transform: scale(1.12) !important; }
-}
-html[saved-theme="dark"] .start-grid li:nth-child(3)::before {
-  background-image: url('/static/CustomIcons/WatchIcon_Dark.webp') !important;
-}
-
-.start-grid li:nth-child(4) {
-  &::before { background-image: url('/static/CustomIcons/BookIcon_Light.webp') !important; }
-  &:hover::before { transform: scale(1.12) !important; }
-}
-html[saved-theme="dark"] .start-grid li:nth-child(4)::before {
-  background-image: url('/static/CustomIcons/BookIcon_Dark.webp') !important;
 }
 
 .start-grid li:nth-child(5) {
