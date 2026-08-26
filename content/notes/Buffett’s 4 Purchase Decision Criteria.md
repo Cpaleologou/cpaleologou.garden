@@ -2,7 +2,6 @@
 title: Buffett’s 4 Purchase Decision Criteria
 tags:
   - '#Investing'
-  - '#WarrenBuffett'
 publish: 'true'
 date: 2026-06-16T00:00:00.000Z
 ---
