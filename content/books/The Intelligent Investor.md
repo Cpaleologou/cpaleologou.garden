@@ -131,7 +131,5 @@ Making money in the market, by definition, requires being contrarian and thinkin
 
 [[Mr Market Is An Irrational Partner]]
 
----
-
 [^1]: https://www.gilderlehrman.org/news/new-york-stock-exchange-opens-first-headquarters-day-january-4-1865
 [^2]: https://site.warrington.ufl.edu/ritter/published-articles/

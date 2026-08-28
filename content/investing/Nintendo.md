@@ -842,10 +842,6 @@ I have also set a terminal growth rate of 3%, reflecting the maturing console ma
 
 ![[NintendoSensitivityAnalysis.webp]]
 
----
-
-## Sources
-
 [^1]: Fiscal Year Ended March 2026 Earnings Release/ Financial Results Briefing (Online), https://www.nintendo.co.jp/ir/pdf/2026/260508e.pdf
 [^2]: Back-calculated. See valuation section.
 [^3]: https://www.boxofficemojo.com/release/rl1930593025/
