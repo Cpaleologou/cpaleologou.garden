@@ -94,7 +94,7 @@ It is therefore not sufficient analysis, and is dangerous, to assume that a sign
 
 The margin of safety is Ben Graham's final truly foundational teaching from _The Intelligent Investor_. A margin of safety, at its core, means only shaking Mr. Market's hand at a price you believe is **vastly** wrong, rather than **probably** wrong. It is the tool that forces the humility discussed throughout this piece. Things go wrong. Indicators are wrong. We live in what might be called a "complex adaptive system". Small changes in one part of the system can produce large changes across the whole. The margin of safety, therefore, gives us room to be wrong. It protects us from ourselves, and the chaos of the world. It ensures that if we are wrong, our losses are minimized, and it has the added benefit of increasing our upside when we're right.
 
->[!note] **A Note For Analysts:** 
+>[!disclosure] **A Note For Analysts:** 
 >You can work a margin of safety into your analysis in several ways. Perhaps if the business has pricing power, you can assume prices stay the same over your forecasted period. You can use a higher discount rate than might be determined by academic formulas. Or you can perform the analysis to the most realistic and accurate level you can, and then simply set a buy price at -X% of your intrinsic value (my preferred method). You should not, however, use all methods simultaneously. While being overly optimistic is dangerous, being overly conservative is wasteful of your time and opportunities. It is easy for those attracted to value investing to fall into the trap of conservatism and thus never find an opportunity "worthy" of your capital.
 
 #### Principle 4: Trust your judgement
