@@ -20,7 +20,7 @@ date: 2026-07-29T00:00:00.000Z
 
 ## Summary
 
-*The Intelligent Investor* is the most famous investing book of all time for a reason. The stock market is a brutal place where speculators reliably lose their money. But, with humility, caution, and strategy, the intelligent investor can beat the market. In the book, Benjamin Graham lays out his time-tested principles, which **must** be understood and internalized for any prospective investor to find long-term success and grow their wealth over time.
+The Intelligent Investor is the most famous investing book of all time for a reason. The stock market is a brutal place where speculators reliably lose their money. But, with humility, caution, and strategy, the intelligent investor can beat the market. In the book, Benjamin Graham lays out his time-tested principles, which **must** be understood and internalized for any prospective investor to find long-term success and grow their wealth over time.
 
 ---
 
