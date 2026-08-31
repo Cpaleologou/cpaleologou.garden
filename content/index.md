@@ -14,7 +14,7 @@ Most of what's here is incomplete. A note is a single idea - a fragment of what 
 
 ## About This Garden
 
-Essays are organized by **maturity**, rather than chronology or topic. I've taken inspiration from Peter Hopkirk's [_The Great Game_](https://www.google.ca/books/edition/The_Great_Game/o6JNEAAAQBAJ?hl=en), and from those 19th-century explorers who risked their lives to dutifully chart and map 'the great unknown'.
+Essays are organized by **maturity**, rather than chronology or topic. I've taken inspiration from Peter Hopkirk's [_The Great Game_](https://www.google.ca/books/edition/The_Great_Game/o6JNEAAAQBAJ?hl=en), and from the 19th-century explorers who risked their lives to dutifully chart and map 'the great unknown'.
 
 #TerraIncognita - Raw notes and observations. Potentially wrong. Don't take these too seriously.
 
