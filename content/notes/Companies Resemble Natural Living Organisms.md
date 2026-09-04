@@ -21,4 +21,4 @@ The linked note explains how variance between creatures of the same species or o
 
 ## Reference
 
-[🟡 The Intelligent Investor](/books/the-intelligent-investor)
+� The Intelligent Investor

@@ -24,4 +24,4 @@ Ultimately, both the linked note and the current note stem from the teaching tha
 
 ## Reference
 
-[🟡 The Intelligent Investor](/books/the-intelligent-investor)
+� The Intelligent Investor

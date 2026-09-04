@@ -30,4 +30,4 @@ The linked note above is also extremely similar and in essence predicated on hum
 
 ## Reference
 
-[🟡 The Intelligent Investor](/books/the-intelligent-investor)
+� The Intelligent Investor

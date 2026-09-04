@@ -21,4 +21,4 @@ The strategy explained in the linked note is very similar to Graham's Mr. Market
 
 ## Reference
 
-[🟡 The Intelligent Investor](/books/the-intelligent-investor)
+� The Intelligent Investor

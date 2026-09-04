@@ -25,4 +25,4 @@ The linked note above is contradictory to this note. It discusses that none of u
 
 ## Reference
 
-[🟡 The Intelligent Investor](/books/the-intelligent-investor)
+� The Intelligent Investor

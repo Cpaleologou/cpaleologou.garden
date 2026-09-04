@@ -24,4 +24,4 @@ The cost of underperformance is higher than the investor might quantify in their
 
 ## Reference
 
-[🟡 The Intelligent Investor](/books/the-intelligent-investor)
+� The Intelligent Investor

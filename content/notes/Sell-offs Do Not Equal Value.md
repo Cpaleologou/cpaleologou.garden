@@ -25,4 +25,4 @@ In both cases it is important to do the hard work. To actually understand the bu
 
 ## Reference
 
-[🟡 The Intelligent Investor](/books/the-intelligent-investor)
+� The Intelligent Investor

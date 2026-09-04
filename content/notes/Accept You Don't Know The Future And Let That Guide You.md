@@ -33,4 +33,4 @@ The essence of the linked note is that markets will not always do what will make
 
 ## Reference
 
-[🟡 The Intelligent Investor](/books/the-intelligent-investor)
+� The Intelligent Investor
