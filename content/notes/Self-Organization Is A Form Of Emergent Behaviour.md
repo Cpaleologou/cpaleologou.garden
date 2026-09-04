@@ -24,4 +24,4 @@ The linked note describes the idea of emergent behaviour, produced by complex ad
 
 ## Reference
 
-� Scale
+[🟢 Scale](/books/scale)

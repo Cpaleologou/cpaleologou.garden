@@ -36,4 +36,4 @@ Part of me feels this is the case with the entire thesis of this book. I don't f
 
 ## Reference
 
-� Scale
+[🟢 Scale](/books/scale)

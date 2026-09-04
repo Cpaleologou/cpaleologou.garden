@@ -30,4 +30,4 @@ The scaling laws discussed in the current note are discussed across a wider rang
 
 ## Reference
 
-� Scale
+[🟢 Scale](/books/scale)

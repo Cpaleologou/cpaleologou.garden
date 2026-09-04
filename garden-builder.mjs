@@ -58,6 +58,7 @@ const BOOK_LINK_MAP = {
     "🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor": "/books/the-most-important-thing",
     "🟢 The Elements of Power": "/books/the-elements-of-power",
     "🟢 Breakneck": "/books/breakneck",
+    "🟢 Scale": "/books/scale",
     "🟢 Capital Returns": "/books/capital-returns",
     "🟡 The Intelligent Investor": "/books/the-intelligent-investor"
 };

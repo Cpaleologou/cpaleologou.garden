@@ -29,4 +29,4 @@ Imagine a real life game of "telephone" where one person thinks of a scene, then
 
 ## Reference
 
-� Scale
+[🟢 Scale](/books/scale)

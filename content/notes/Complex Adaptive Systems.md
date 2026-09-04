@@ -24,4 +24,4 @@ The current note describes what system thinkers mean when they use the term "com
 
 ## Reference
 
-� Scale
+[🟢 Scale](/books/scale)

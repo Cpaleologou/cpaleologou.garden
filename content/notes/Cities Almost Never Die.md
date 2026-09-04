@@ -28,4 +28,4 @@ Similar to the current note, the linked note observes the characteristics in the
 
 ## Reference
 
-� Scale
+[🟢 Scale](/books/scale)
