@@ -25,9 +25,9 @@ This is the business growing elephant ears. It is the "unnatural" extension of s
 
 ## Reference
 
-There Are Mathematical Limits To Growth
+[[There Are Mathematical Limits To Growth]]
 
-Entropy And The Second Law Of Thermodynamics
+[[Entropy And The Second Law Of Thermodynamics]]
 
 [[Truth is less important than trust]]
 
