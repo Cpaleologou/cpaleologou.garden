@@ -29,4 +29,4 @@ The artist must then be able to recognize that the art is nothing but a byproduc
 
 ## Reference
 
-� The Myth of Sisyphus and Other Essays
+The Myth of Sisyphus and Other Essays

@@ -54,14 +54,30 @@ const FOLDERS_TO_SYNC = [
 // NOTE: Quartz 5 lowercases and hyphenates all generated URLs, so these
 // targets must be lowercase. (In v4 they preserved the source file's casing.)
 // They live under /books, not /library — see FOLDERS_TO_SYNC above.
+// Keys keep the Obsidian status marker (🟢/🟡) because that is literally part
+// of the source filename; stripStatusEmoji below keeps it out of the rendered
+// link text.
 const BOOK_LINK_MAP = {
     "🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor": "/books/the-most-important-thing",
     "🟢 The Elements of Power": "/books/the-elements-of-power",
     "🟢 Breakneck": "/books/breakneck",
     "🟢 Scale": "/books/scale",
     "🟢 Capital Returns": "/books/capital-returns",
-    "🟡 The Intelligent Investor": "/books/the-intelligent-investor"
+    "🟡 The Intelligent Investor": "/books/the-intelligent-investor",
+    "🟢 The Burnout Society": "/books/the-burnout-society"
 };
+
+// --- STATUS EMOJI STRIPPER ---
+// Readwise source notes carry an Obsidian processing marker in their filename
+// (🟢 = finished processing, 🟡 = in progress). That marker is private
+// bookkeeping and must never reach the published garden's link text.
+//
+// The `u` flag is essential. Without it, `[🟢🟡]` is a class of UTF-16 code
+// *units*, so it matched only the shared high surrogate (\uD83D) and left the
+// orphaned low surrogate behind — which is why pretty-printed links used to
+// start with a "�" replacement character.
+const STATUS_EMOJI = /^[🟢🟡]\s*/u;
+const stripStatusEmoji = (text) => text.replace(STATUS_EMOJI, '');
 
 // --- MARKDOWN SPACING NORMALIZER ---
 // Obsidian is forgiving about missing blank lines; Quartz's renderer is not.
@@ -335,12 +351,12 @@ async function buildGarden() {
                 return match;
             } else if (BOOK_LINK_MAP[coreFilename]) {
                 const alias = linkTarget.split('|')[1];
-                const displayText = alias ? alias : coreFilename;
+                const displayText = stripStatusEmoji(alias ? alias : coreFilename);
                 return `[${displayText}](${encodeURI(BOOK_LINK_MAP[coreFilename])})`;
             } else {
                 // Private/missing link: Pretty-print text
                 let displayText = linkTarget.split('|')[0].split('#')[0]; 
-                displayText = displayText.replace(/^[🟢🟡]\s?/, '');
+                displayText = stripStatusEmoji(displayText);
                 return path.basename(displayText); 
             }
         });

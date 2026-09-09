@@ -29,4 +29,4 @@ Lady Murasaki seems to be a very close fit for Camus' concept of the absurd. As 
 
 ## Reference
 
-� The Diary of Lady Murasaki
+The Diary of Lady Murasaki

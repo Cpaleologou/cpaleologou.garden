@@ -17,4 +17,4 @@ AI diffusion models, the most common type of model for image generation rely on 
 
 ## Reference
 
-� How Physics Made Modern AI Possible
+How Physics Made Modern AI Possible

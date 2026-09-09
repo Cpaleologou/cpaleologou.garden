@@ -20,4 +20,4 @@ In other words, the absurd is a comparison between what we deeply crave (meaning
 
 ## Reference
 
-� The Myth of Sisyphus and Other Essays
+The Myth of Sisyphus and Other Essays

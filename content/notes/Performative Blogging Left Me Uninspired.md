@@ -25,4 +25,4 @@ Digital gardening is not about growing an audience or communicating expertise. I
 
 ## Reference
 
-� Networked Thought
+Networked Thought

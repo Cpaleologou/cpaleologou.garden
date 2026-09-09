@@ -36,4 +36,4 @@ Framework forcing, discussed in the linked note, is the idea that we often try t
 
 ## Reference
 
-[🟢 Breakneck](/books/breakneck)
+[Breakneck](/books/breakneck)

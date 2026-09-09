@@ -22,4 +22,4 @@ This tinted form of authenticity pushes the individual towards a pattern of thin
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

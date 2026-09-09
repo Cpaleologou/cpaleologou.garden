@@ -22,4 +22,4 @@ _Stromatolites in Saudi Arabia_
 
 ## Reference
 
-� It’s Time to Rethink How We Study Life’s Origins. It Emerged Far Earlier, and Far Quicker, Than We Once Thought Possible
+It’s Time to Rethink How We Study Life’s Origins. It Emerged Far Earlier, and Far Quicker, Than We Once Thought Possible

@@ -18,4 +18,4 @@ Before Czechoslovakia was annexed, a family living exactly on the border of Germ
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

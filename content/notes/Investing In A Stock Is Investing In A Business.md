@@ -28,4 +28,4 @@ It is easy to see the direct relationship between Buffet's four investment crite
 
 ## Reference
 
-� The Intelligent Investor
+The Intelligent Investor

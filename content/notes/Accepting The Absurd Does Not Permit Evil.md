@@ -27,4 +27,4 @@ With less, each of our actions matters more.
 
 ## Reference
 
-� The Myth of Sisyphus and Other Essays
+The Myth of Sisyphus and Other Essays

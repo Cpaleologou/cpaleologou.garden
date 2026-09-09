@@ -24,4 +24,4 @@ The meaning, for most, comes despite work—not because of it.
 
 ## Reference
 
-� 89 Responses to “ChatGPT and the Meaning of Life Guest Post by Harvey Lederman”
+89 Responses to “ChatGPT and the Meaning of Life Guest Post by Harvey Lederman”

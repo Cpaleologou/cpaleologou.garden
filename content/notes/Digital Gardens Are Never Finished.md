@@ -22,4 +22,4 @@ The focus on act of curating information in a digital garden is supported by the
 
 ## Reference
 
-� A Brief History & Ethos of the Digital Garden
+A Brief History & Ethos of the Digital Garden

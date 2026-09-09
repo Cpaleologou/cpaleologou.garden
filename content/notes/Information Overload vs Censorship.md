@@ -34,4 +34,4 @@ This seems related to information overload vs. censorship because the soothing o
 
 ## Reference
 
-� How to Do Nothing
+How to Do Nothing

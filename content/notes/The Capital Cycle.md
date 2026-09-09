@@ -43,6 +43,6 @@ The capital cycle is a methodology that is inherently useful for investors with 
 
 ## Reference
 
-[🟢 Capital Returns](/books/capital-returns)
+[Capital Returns](/books/capital-returns)
 
-[🟢 Capital Returns](/books/capital-returns)
+[Capital Returns](/books/capital-returns)

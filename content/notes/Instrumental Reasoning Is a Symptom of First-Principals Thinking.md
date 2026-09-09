@@ -28,4 +28,4 @@ It follows that if there is no other significance to them, the only logical thin
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

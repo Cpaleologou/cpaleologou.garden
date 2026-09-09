@@ -28,4 +28,4 @@ Digital gardening is a more authentic way to blog and communicate for both the r
 
 ## Reference
 
-� A Brief History & Ethos of the Digital Garden
+A Brief History & Ethos of the Digital Garden

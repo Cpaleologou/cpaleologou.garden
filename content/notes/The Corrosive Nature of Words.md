@@ -18,4 +18,4 @@ Words are invented to describe things that exist. They are, fundamentally, a lay
 
 ## Reference
 
-� Sun & Steel
+Sun & Steel

@@ -23,4 +23,4 @@ A lot can be said for the process of note taking, learning and digital gardening
 
 ## Reference
 
-� A Brief History & Ethos of the Digital Garden
+A Brief History & Ethos of the Digital Garden

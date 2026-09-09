@@ -32,4 +32,4 @@ Almost by definition, it also provides the **time** for ideas to mature through 
 
 ## Reference
 
-� 🌱 My Blog Is a Digital Garden, Not a Blog
+🌱 My Blog Is a Digital Garden, Not a Blog

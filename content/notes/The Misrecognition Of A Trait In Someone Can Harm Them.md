@@ -25,4 +25,4 @@ For example, if a person is told repeatedly that they are not capable of somethi
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

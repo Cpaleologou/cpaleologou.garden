@@ -20,4 +20,4 @@ It is only in this moment when life can be recognized for its true value.
 
 ## Reference
 
-� Sun & Steel
+Sun & Steel

@@ -22,4 +22,4 @@ When we accept the absurd we take on absolute power over our time on this earth.
 
 ## Reference
 
-� The Myth of Sisyphus and Other Essays
+The Myth of Sisyphus and Other Essays

@@ -20,4 +20,4 @@ As our understanding of the world expanded, as science replaced religion as the 
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

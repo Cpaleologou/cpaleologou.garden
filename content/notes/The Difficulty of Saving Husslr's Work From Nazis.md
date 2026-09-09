@@ -18,4 +18,4 @@ Husslr, on his passing, left behind an enormous amount of work. As the second Wo
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

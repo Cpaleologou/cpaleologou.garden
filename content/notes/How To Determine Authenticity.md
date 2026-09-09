@@ -33,4 +33,4 @@ Authenticity requires the following to be true:
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

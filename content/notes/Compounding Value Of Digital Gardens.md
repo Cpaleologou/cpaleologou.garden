@@ -23,4 +23,4 @@ The never ending nature of digital gardening means that this compounding can las
 
 ## Reference
 
-� A Brief History & Ethos of the Digital Garden
+A Brief History & Ethos of the Digital Garden

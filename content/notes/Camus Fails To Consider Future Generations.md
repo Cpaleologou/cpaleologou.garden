@@ -22,4 +22,4 @@ If in Camus' eyes it is important for me to live life to the fullest, it's impor
 
 ## Reference
 
-� The Myth of Sisyphus and Other Essays
+The Myth of Sisyphus and Other Essays

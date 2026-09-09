@@ -19,4 +19,4 @@ Physical pursuits however, have no corrosive effect because they are direct inte
 
 ## Reference
 
-� Sun & Steel
+Sun & Steel

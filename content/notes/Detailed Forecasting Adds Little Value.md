@@ -27,4 +27,4 @@ While not direction mentioned in the linked note, Buffett famously never used ex
 
 ## Reference
 
-[🟢 Capital Returns](/books/capital-returns)
+[Capital Returns](/books/capital-returns)

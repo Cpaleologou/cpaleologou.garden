@@ -26,4 +26,4 @@ We become *something* through our actions. If you act nice, you are nice. If you
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

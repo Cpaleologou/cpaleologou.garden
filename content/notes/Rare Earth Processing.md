@@ -28,4 +28,4 @@ This three-step process may need to be repeated **hundreds** of times to achieve
 
 ## Reference
 
-[🟢 The Elements of Power](/books/the-elements-of-power)
+[The Elements of Power](/books/the-elements-of-power)

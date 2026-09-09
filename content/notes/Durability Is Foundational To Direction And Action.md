@@ -19,4 +19,4 @@ Our ability to orient ourselves, act, and ultimately move towards an intended ta
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

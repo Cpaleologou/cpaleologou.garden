@@ -21,4 +21,4 @@ The linked note defines complex adaptive systems. The current note discusses the
 
 ## Reference
 
-[🟢 Scale](/books/scale)
+[Scale](/books/scale)

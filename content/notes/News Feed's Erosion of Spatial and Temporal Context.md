@@ -41,4 +41,4 @@ Where the connect lies though, is that this current note describes the *macro*  
 
 ## Reference
 
-� How to Do Nothing
+How to Do Nothing

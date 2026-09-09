@@ -20,4 +20,4 @@ James Baldwin noted that the horrible living standards of 20th century French ho
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

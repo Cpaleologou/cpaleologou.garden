@@ -19,4 +19,4 @@ Movies and books that have been translated are a good sign of the quality of tha
 
 ## Reference
 
-� How to find great films to watch
+How to find great films to watch

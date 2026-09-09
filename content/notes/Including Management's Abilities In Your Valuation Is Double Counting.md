@@ -21,4 +21,4 @@ The linked note above suggests that when a market is risky and turbulent, sticki
 
 ## Reference
 
-� The Intelligent Investor
+The Intelligent Investor

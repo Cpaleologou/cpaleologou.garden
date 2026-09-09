@@ -30,4 +30,4 @@ For instance, rather than being a CPA, I have trained as a CPA until this moment
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

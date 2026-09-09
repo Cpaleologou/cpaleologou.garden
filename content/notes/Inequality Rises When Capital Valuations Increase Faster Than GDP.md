@@ -18,4 +18,4 @@ Economic inequality will rise when the compounded annual rate of growth, especia
 
 ## Reference
 
-� Weekend Roundup What the MAGA Congress Got Right
+Weekend Roundup What the MAGA Congress Got Right

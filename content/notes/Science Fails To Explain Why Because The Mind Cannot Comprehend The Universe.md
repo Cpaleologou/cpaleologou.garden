@@ -22,4 +22,4 @@ But, in that action, our understanding of the universe returns to "poetry".
 
 ## Reference
 
-� The Myth of Sisyphus and Other Essays
+The Myth of Sisyphus and Other Essays

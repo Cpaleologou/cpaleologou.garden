@@ -26,4 +26,4 @@ The only criteria is emotional appeal.
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

@@ -27,4 +27,4 @@ This is, he says, because any time one tries to do this, they in essence fail. Y
 
 ## Reference
 
-� The Myth of Sisyphus and Other Essays
+The Myth of Sisyphus and Other Essays

@@ -20,4 +20,4 @@ The free market aligns the incentives of people so that acting in their own best
 
 ## Reference
 
-� First You Don’t Hear Other Views. Then You Can’t Trust Them. Your Personal Information Network Entraps You Just Like a Cult
+First You Don’t Hear Other Views. Then You Can’t Trust Them. Your Personal Information Network Entraps You Just Like a Cult

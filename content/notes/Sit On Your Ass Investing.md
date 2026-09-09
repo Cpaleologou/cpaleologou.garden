@@ -41,4 +41,4 @@ The linked note contains the actual reasoning for why Mr. Market is sometime irr
 
 ## Reference
 
-� The Intelligent Investor
+The Intelligent Investor

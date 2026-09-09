@@ -28,4 +28,4 @@ It is yet another example of how seemingly valid and widely accepted science, wh
 
 ## Reference
 
-� It’s Time to Rethink How We Study Life’s Origins. It Emerged Far Earlier, and Far Quicker, Than We Once Thought Possible
+It’s Time to Rethink How We Study Life’s Origins. It Emerged Far Earlier, and Far Quicker, Than We Once Thought Possible

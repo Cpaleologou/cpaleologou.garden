@@ -27,4 +27,4 @@ Exercise, in many ways, is a way to achieve space and time. It may be getting ou
 
 ## Reference
 
-� How to Do Nothing
+How to Do Nothing

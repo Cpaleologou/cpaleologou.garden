@@ -21,4 +21,4 @@ Whether you choose to abstain from an investment because it is overvalued, or bu
 
 ## Reference
 
-[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/books/the-most-important-thing)
+[The Most Important Thing Uncommon Sense for the Thoughtful Investor](/books/the-most-important-thing)

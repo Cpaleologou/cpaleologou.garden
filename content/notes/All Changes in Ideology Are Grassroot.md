@@ -20,4 +20,4 @@ All ideological shifts are grassroots movements. They are not created at a unive
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

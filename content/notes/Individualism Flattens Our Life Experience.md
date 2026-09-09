@@ -22,4 +22,4 @@ In this way, almost by definition, our world view of what matters is flattened a
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

@@ -22,4 +22,4 @@ It also explains why China, in so many ways, resembles a right-wing dictatorship
 
 ## Reference
 
-[🟢 Breakneck](/books/breakneck)
+[Breakneck](/books/breakneck)

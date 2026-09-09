@@ -25,4 +25,4 @@ If the efficient market hypothesis is often right, but sometimes wrong, beating 
 
 ## Reference
 
-[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/books/the-most-important-thing)
+[The Most Important Thing Uncommon Sense for the Thoughtful Investor](/books/the-most-important-thing)

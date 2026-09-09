@@ -21,4 +21,4 @@ The theory that as the population becomes increasingly focused on the self (indi
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

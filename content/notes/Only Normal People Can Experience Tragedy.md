@@ -18,4 +18,4 @@ In the Greek sense, tragedy is not merely suffering — it is the act of meeting
 
 ## Reference
 
-� Sun & Steel
+Sun & Steel

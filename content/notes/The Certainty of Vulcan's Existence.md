@@ -20,4 +20,4 @@ The problem wasn't the scientists—it was incomplete information. They were wor
 
 ## Reference
 
-� Journey to the Invisible Planet
+Journey to the Invisible Planet

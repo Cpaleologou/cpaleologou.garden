@@ -23,4 +23,4 @@ The rise in ability to write in Kana, led to a golden age of literature, mainly 
 
 ## Reference
 
-� The Diary of Lady Murasaki
+The Diary of Lady Murasaki

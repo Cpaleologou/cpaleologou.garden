@@ -24,4 +24,4 @@ As we move from our birthplaces, we settle in massive urban environments where t
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

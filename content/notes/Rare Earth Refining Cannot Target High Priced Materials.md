@@ -18,4 +18,4 @@ There is a prescribed order to extracting elements from ore. Cerium may need to 
 
 ## Reference
 
-[🟢 The Elements of Power](/books/the-elements-of-power)
+[The Elements of Power](/books/the-elements-of-power)

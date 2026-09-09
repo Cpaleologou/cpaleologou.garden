@@ -26,4 +26,4 @@ For that reason, in the early stages, in order to establish sustainable mines, g
 
 ## Reference
 
-[🟢 The Elements of Power](/books/the-elements-of-power)
+[The Elements of Power](/books/the-elements-of-power)

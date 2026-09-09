@@ -20,4 +20,4 @@ In this way, the routine is the first step towards the inevitable intersect betw
 
 ## Reference
 
-� The Myth of Sisyphus and Other Essays
+The Myth of Sisyphus and Other Essays

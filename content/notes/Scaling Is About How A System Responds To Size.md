@@ -26,4 +26,4 @@ The linked note discusses how we see predictable scaling laws all over the place
 
 ## Reference
 
-[🟢 Scale](/books/scale)
+[Scale](/books/scale)

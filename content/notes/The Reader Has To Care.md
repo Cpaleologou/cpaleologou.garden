@@ -26,4 +26,4 @@ If these three rules, along with hooking a reader within the first few sentences
 
 ## Reference
 
-� First, Make Me Care
+First, Make Me Care

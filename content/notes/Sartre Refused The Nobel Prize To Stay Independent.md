@@ -18,4 +18,4 @@ Sartre was incredibly authentic in that his actions reflected his beliefs. When 
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

@@ -17,4 +17,4 @@ Studies on whether cash transfers improve the lives of the recipients are findin
 
 ## Reference
 
-� Giving People Money Helped Less Than I Thought It Would
+Giving People Money Helped Less Than I Thought It Would

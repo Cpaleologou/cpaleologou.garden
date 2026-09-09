@@ -22,4 +22,4 @@ Part of the process of digital gardening is not maintenance. Many note taking sy
 
 ## Reference
 
-� 🌱 My Blog Is a Digital Garden, Not a Blog
+🌱 My Blog Is a Digital Garden, Not a Blog

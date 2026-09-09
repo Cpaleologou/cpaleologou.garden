@@ -22,4 +22,4 @@ In this moment we are most alive. In victory, we conquer death, and become heroe
 
 ## Reference
 
-� Sun & Steel
+Sun & Steel

@@ -23,4 +23,4 @@ The linked note discusses the idea that modern homes are so comfortable that the
 
 ## Reference
 
-� How to Do Nothing
+How to Do Nothing

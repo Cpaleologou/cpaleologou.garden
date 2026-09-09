@@ -20,4 +20,4 @@ Depending on a wide range of influential factors (Politics, finances, legal, tec
 
 ## Reference
 
-[🟢 The Elements of Power](/books/the-elements-of-power)
+[The Elements of Power](/books/the-elements-of-power)

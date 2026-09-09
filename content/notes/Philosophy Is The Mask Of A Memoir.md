@@ -20,4 +20,4 @@ Philosophy is really just an attempt by philosophers to express their own emotio
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

@@ -21,4 +21,4 @@ Instrumental Reasoning is the valuing of everything on an economic efficiency sc
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

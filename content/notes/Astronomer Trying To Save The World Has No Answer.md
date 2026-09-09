@@ -20,4 +20,4 @@ If a man responsible for ensuring the world doesn't end can respond with "I don'
 
 ## Reference
 
-� Inside the hunt for the most dangerous asteroid ever
+Inside the hunt for the most dangerous asteroid ever

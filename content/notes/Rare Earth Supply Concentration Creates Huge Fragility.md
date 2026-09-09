@@ -24,4 +24,4 @@ The reverse is equally true. Resolution of a disruption, or deliberate flooding 
 
 ## Reference
 
-[🟢 The Elements of Power](/books/the-elements-of-power)
+[The Elements of Power](/books/the-elements-of-power)

@@ -18,4 +18,4 @@ The modes of expression we use to discover our ways of being and eventually defi
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

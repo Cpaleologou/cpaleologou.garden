@@ -26,4 +26,4 @@ This contextual horizon of the world we inhabit and the time we are born is _giv
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

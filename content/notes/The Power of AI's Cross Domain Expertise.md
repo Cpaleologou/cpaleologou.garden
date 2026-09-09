@@ -23,4 +23,4 @@ The AI's design improved output by 10-15%, which when dealing with such fine mar
 
 ## References
 
-� AI Comes Up with Bizarre Physics Experiments. But They Work. Quanta Magazine
+AI Comes Up with Bizarre Physics Experiments. But They Work. Quanta Magazine

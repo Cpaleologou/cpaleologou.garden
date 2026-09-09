@@ -20,4 +20,4 @@ With our world lens set to instrumental reason, the solution to all problems see
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

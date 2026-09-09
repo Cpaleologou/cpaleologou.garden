@@ -46,4 +46,4 @@ The current situation in software (03-30-2026), is one of extreme fear. Many mas
 
 ## Reference
 
-[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/books/the-most-important-thing)
+[The Most Important Thing Uncommon Sense for the Thoughtful Investor](/books/the-most-important-thing)

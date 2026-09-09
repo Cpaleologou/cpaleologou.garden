@@ -22,4 +22,4 @@ For example, a man and a woman, being different, are not "equal". However, when 
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

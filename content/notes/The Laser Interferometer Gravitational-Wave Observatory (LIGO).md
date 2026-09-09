@@ -21,4 +21,4 @@ This insane level of capability required decades of design and 20 years of const
 
 ## References
 
-� AI Comes Up with Bizarre Physics Experiments. But They Work. Quanta Magazine
+AI Comes Up with Bizarre Physics Experiments. But They Work. Quanta Magazine

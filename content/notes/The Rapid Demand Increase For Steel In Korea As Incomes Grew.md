@@ -18,4 +18,4 @@ In South Korea, steel demand per person grew more than five fold as the average 
 
 ## Reference
 
-[🟢 The Elements of Power](/books/the-elements-of-power)
+[The Elements of Power](/books/the-elements-of-power)

@@ -23,4 +23,4 @@ In the age of AI, all data is hyper sensitive because even non-sensitive data ca
 
 ## Reference
 
-� The Future of Health Data in the Age of AI
+The Future of Health Data in the Age of AI

@@ -18,4 +18,4 @@ We must recognize that, by living in modern society, we are historical beings. T
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

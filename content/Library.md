@@ -3,16 +3,17 @@ title: Library
 date: 1996-06-08T00:00:00.000Z
 publish: 'true'
 ---
-## Non-fiction I Frequently Think About
+## Non-fiction
 
 <div class="library-grid">
 
 - [![ScaleCover](ScaleCover.jpg)](/books/scale) **Scale: The Universal Laws of Life, Growth, and Death in Organisms, Cities, and Companies** <span class="author">by Geoffrey West</span>
 - [![TheIntelligentInvestorCover](TheIntelligentInvestorCover.jpg)](/books/the-intelligent-investor) **The Intelligent Investor** <span class="author">by Benjamin Graham</span>
 - [![CapitalReturnsCover](CapitalReturnsCover.jpeg)](/books/capital-returns) **Capital Returns** <span class="author">by Edward Chancellor</span>
-- [![ElementsofPower](ElementsofPower.webp)](/books/the-elements-of-power) **The Elements of Power** <span class="author">by David S. Abraham</span>
 - [![TheMostImportThingCover](TheMostImportThingCover.jpg)](/books/the-most-important-thing) **The Most Important Thing** <span class="author">by Howard Marks</span>
+- [![TheBurnoutSocietyCover](TheBurnoutSocietyCover.jpg)](/books/the-burnout-society) **The Burnout Society** <span class="author">by Byung-Chul Han</span>
 - [![Breakneck](Breakneck.webp)](/books/breakneck) **Breakneck: China's Quest to Engineer the Future** <span class="author">by Dan Wang</span>
+- [![ElementsofPower](ElementsofPower.webp)](/books/the-elements-of-power) **The Elements of Power** <span class="author">by David S. Abraham</span>
 - [![The Ethics of Authenticity](EthicsOfAuthenticity.jpg)](https://www.google.ca/books/edition/The_Ethics_of_Authenticity/adnIDwAAQBAJ?hl=en&gbpv=0) **The Ethics of Authenticity** <span class="author">by Charles Taylor</span>
 - [![What It Takes](WhatItTakes.jpg)](https://www.google.ca/books/edition/What_it_Takes/pzuyxgEACAAJ?hl=en) **What It Takes: Lessons in the Pursuit of Excellence** <span class="author">by Stephen A. Schwarzman</span>
 - [![Range: Why Generalists Triumph in a Specialized World](Range.jpg)](https://www.google.ca/books/edition/Range/TzG5wgEACAAJ?hl=en) **Range: Why Generalists Triumph in a Specialized World** <span class="author">by David Epstein</span>

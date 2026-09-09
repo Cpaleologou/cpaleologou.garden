@@ -23,4 +23,4 @@ Pleasure, pain, fear, greed, the bond between two people, all of it will pass gi
 
 ## Reference
 
-� The Myth of Sisyphus and Other Essays
+The Myth of Sisyphus and Other Essays

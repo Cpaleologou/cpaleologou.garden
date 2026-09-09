@@ -24,4 +24,4 @@ Yet, accepting that we will die, means more than our decisions being pointless. 
 
 ## Reference
 
-� The Myth of Sisyphus and Other Essays
+The Myth of Sisyphus and Other Essays

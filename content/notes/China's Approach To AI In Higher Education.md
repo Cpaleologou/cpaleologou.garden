@@ -22,4 +22,4 @@ These are not just available to students in computer science or machine learning
 
 ## Reference
 
-� Chinese Universities Want Students to Use More AI, Not Less
+Chinese Universities Want Students to Use More AI, Not Less

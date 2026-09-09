@@ -24,4 +24,4 @@ I am none of these things. And, being indescribable, am nothing and everything. 
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

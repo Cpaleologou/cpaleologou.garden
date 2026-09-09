@@ -26,4 +26,4 @@ Perhaps this indicates the Heian court's disconnection from the common people. R
 
 ## Reference
 
-� The Diary of Lady Murasaki
+The Diary of Lady Murasaki

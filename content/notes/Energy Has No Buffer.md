@@ -24,4 +24,4 @@ Under supply leads to black outs and over supply leads to a loss of stability in
 
 ## Reference
 
-� The Beauty of Batteries
+The Beauty of Batteries

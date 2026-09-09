@@ -22,4 +22,4 @@ Many people, including myself have a tendency, or habitual preference, to retrea
 
 ## Reference
 
-� Sun & Steel
+Sun & Steel

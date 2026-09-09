@@ -24,4 +24,4 @@ Any consideration of innate human morality or goodwill in leadership had been la
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

@@ -20,4 +20,4 @@ In the world of philosophy, he suffered from shiny-object syndrome, always wanti
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

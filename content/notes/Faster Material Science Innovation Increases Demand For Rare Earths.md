@@ -19,4 +19,4 @@ As technology continues to advance, break throughs in physicals, chemistry, biol
 
 ## Reference
 
-[🟢 The Elements of Power](/books/the-elements-of-power)
+[The Elements of Power](/books/the-elements-of-power)

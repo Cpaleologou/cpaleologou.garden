@@ -23,4 +23,4 @@ As a result society itself becomes an unconnected, drifting mass of parts, rathe
 
 ## Reference
 
-� How to Do Nothing
+How to Do Nothing

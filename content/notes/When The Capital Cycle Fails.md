@@ -39,4 +39,4 @@ This is in fact a topic discussed in the book at length. That is, the fact that 
 
 ## Reference
 
-[🟢 Capital Returns](/books/capital-returns)
+[Capital Returns](/books/capital-returns)

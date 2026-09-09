@@ -23,4 +23,4 @@ The implicit problem with this is that since a belief system is now an individua
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

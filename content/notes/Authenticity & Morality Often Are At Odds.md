@@ -28,4 +28,4 @@ This, though, can create a conflict with morality because, on a broad societal l
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

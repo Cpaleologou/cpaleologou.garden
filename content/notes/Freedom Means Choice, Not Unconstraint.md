@@ -20,4 +20,4 @@ In the mind of Sartre, freedom means we can choose how we act in any given momen
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

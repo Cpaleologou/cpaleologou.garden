@@ -32,4 +32,4 @@ Once you have identified an industry that the capital cycle is likely to be rele
 
 ## Reference
 
-[🟢 Capital Returns](/books/capital-returns)
+[Capital Returns](/books/capital-returns)

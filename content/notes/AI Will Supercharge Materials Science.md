@@ -24,4 +24,4 @@ The difficulty though, is the work needed to theorize, formula, and test differe
 
 ## Reference
 
-[🟢 The Elements of Power](/books/the-elements-of-power)
+[The Elements of Power](/books/the-elements-of-power)

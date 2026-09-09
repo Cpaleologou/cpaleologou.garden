@@ -25,4 +25,4 @@ The increased bias of focus on the self in each individual results in belief sys
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

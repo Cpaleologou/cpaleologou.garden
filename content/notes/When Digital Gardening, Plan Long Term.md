@@ -24,4 +24,4 @@ If the garden is a lifetime project, it makes sense to plan long term for the in
 
 ## Reference
 
-� A Brief History & Ethos of the Digital Garden
+A Brief History & Ethos of the Digital Garden

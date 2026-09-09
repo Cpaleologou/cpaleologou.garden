@@ -27,4 +27,4 @@ Yet, there is no repealing the allure of the individual. The freedom to "be your
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

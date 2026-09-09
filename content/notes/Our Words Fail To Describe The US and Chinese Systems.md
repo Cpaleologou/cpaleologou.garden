@@ -22,4 +22,4 @@ In both cases, the typical words we use to describe and understand the systems i
 
 ## Reference
 
-[🟢 Breakneck](/books/breakneck)
+[Breakneck](/books/breakneck)

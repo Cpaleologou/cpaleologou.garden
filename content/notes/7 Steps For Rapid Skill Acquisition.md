@@ -48,4 +48,4 @@ These are two important sides to the same coin of skill acquisition and learning
 
 ## Reference
 
-� How the Blog Broke the Web
+How the Blog Broke the Web

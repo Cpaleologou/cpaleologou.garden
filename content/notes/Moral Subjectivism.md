@@ -20,4 +20,4 @@ Moral Subjectivism is the cultural phenomenon where by the beliefs adopted by an
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

@@ -20,4 +20,4 @@ Those between the ages of 5-6 spend 3.5 hours a day watching Youtube and TikTok.
 
 ## Reference
 
-� Literacy Lag We Start Reading Too Late
+Literacy Lag We Start Reading Too Late

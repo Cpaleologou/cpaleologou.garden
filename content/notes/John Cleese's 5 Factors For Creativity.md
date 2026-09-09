@@ -34,4 +34,4 @@ You need space away from people and distractions and stressors to think deeply a
 
 ## Reference
 
-� How to Do Nothing
+How to Do Nothing

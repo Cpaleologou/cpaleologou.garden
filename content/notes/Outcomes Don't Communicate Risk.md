@@ -28,4 +28,4 @@ Quarterly earnings are by-and-large lagging indicators. They only in form us of 
 
 ## Reference
 
-[🟢 The Most Important Thing Uncommon Sense for the Thoughtful Investor](/books/the-most-important-thing)
+[The Most Important Thing Uncommon Sense for the Thoughtful Investor](/books/the-most-important-thing)

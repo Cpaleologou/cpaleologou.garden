@@ -21,4 +21,4 @@ You can not experience music by describing it. Only by listening with your entir
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

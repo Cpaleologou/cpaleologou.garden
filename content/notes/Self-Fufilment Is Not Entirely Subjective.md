@@ -20,4 +20,4 @@ The modern approach to self-fulfillment typically centers on deep connections wi
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

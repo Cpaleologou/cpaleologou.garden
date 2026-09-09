@@ -22,4 +22,4 @@ In turn, individuals create new forms of conformance in systems that are potenti
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

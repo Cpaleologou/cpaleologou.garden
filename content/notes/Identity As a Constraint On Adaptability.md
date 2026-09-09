@@ -33,4 +33,4 @@ The linked note argues for a literal acceptance of death in order to live authen
 
 ## Reference
 
-� Essence Is Fluttering
+Essence Is Fluttering

@@ -22,4 +22,4 @@ By requiring the thinker to be true to their own lived personal experience, phen
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

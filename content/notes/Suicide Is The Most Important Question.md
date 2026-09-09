@@ -20,4 +20,4 @@ All questions of science, love, philosophy comes after the _decision_ to continu
 
 ## Reference
 
-� The Myth of Sisyphus and Other Essays
+The Myth of Sisyphus and Other Essays

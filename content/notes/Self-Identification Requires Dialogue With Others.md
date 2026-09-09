@@ -33,4 +33,4 @@ It is impossible to define our self-identity in pure isolation for several reaso
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

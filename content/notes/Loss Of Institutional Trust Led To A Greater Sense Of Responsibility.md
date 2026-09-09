@@ -18,4 +18,4 @@ After World War 2, when trust in traditional institutions had been shattered, pe
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

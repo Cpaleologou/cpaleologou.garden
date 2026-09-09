@@ -21,4 +21,4 @@ Resisting "das Man", to instead follow our own virtues, is to live authentically
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

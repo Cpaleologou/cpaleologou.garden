@@ -24,4 +24,4 @@ Through this lense, digital gardening promotes a closer approximation of who we 
 
 ## Reference
 
-� A Brief History & Ethos of the Digital Garden
+A Brief History & Ethos of the Digital Garden

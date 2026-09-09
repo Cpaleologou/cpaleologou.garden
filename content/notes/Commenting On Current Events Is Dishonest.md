@@ -20,4 +20,4 @@ Thus, pontificating on current events is simply an opportunity to pander and exp
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

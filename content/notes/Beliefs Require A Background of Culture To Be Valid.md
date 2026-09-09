@@ -28,4 +28,4 @@ Perhaps the person can claim that it is spiritually significant as it allows you
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

@@ -20,4 +20,4 @@ For Sartre, the awakened individual is the person who is deeply and utterly enga
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

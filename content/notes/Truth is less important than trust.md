@@ -28,4 +28,4 @@ _This_, rather than the misinformation itself, is what is causing the fracturing
 
 ## Reference
 
-� First You Don’t Hear Other Views. Then You Can’t Trust Them. Your Personal Information Network Entraps You Just Like a Cult
+First You Don’t Hear Other Views. Then You Can’t Trust Them. Your Personal Information Network Entraps You Just Like a Cult

@@ -22,4 +22,4 @@ The authentic voice of a regular person is what makes it different and interesti
 
 ## Reference
 
-� Fell in a Hole, Got Out.
+Fell in a Hole, Got Out.

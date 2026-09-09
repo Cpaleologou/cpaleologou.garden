@@ -21,4 +21,4 @@ As they disconnect increasingly further from reality, their ability to act and j
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

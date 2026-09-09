@@ -33,4 +33,4 @@ A business, like a body or a beam, generates entropy as a function of its volume
 
 ## Reference
 
-[🟢 Scale](/books/scale)
+[Scale](/books/scale)

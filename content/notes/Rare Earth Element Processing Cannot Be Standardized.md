@@ -22,4 +22,4 @@ This means that while extraction and refining processes may be similar across si
 
 ## Reference
 
-[🟢 The Elements of Power](/books/the-elements-of-power)
+[The Elements of Power](/books/the-elements-of-power)

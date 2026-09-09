@@ -20,4 +20,4 @@ Experiencing someone through video and audio is incomparable to the real thing, 
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

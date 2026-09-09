@@ -33,4 +33,4 @@ We do not discover ourselves, like a 17th century explorer might find new lands.
 
 ## Reference
 
-�Your Phone Is the Reason You Have No Identity
+Your Phone Is the Reason You Have No Identity

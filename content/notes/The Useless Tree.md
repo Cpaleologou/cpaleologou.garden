@@ -20,4 +20,4 @@ The lesson is that the tree survives by being unhelpful for those trying to use 
 
 ## Reference
 
-� How to Do Nothing
+How to Do Nothing

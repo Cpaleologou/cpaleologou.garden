@@ -24,4 +24,4 @@ Its a great example of why showing your work, even if unfinished, is important a
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

@@ -18,4 +18,4 @@ The black plague killed so many people that it caused a rapid surge of inflation
 
 ## Reference
 
-� Age of Invention The Century-Long Depression
+Age of Invention The Century-Long Depression

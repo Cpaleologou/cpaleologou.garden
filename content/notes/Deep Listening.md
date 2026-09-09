@@ -19,4 +19,4 @@ It's a bit like phenomenology but without the act of describing it.
 
 ## Reference
 
-� How to Do Nothing
+How to Do Nothing

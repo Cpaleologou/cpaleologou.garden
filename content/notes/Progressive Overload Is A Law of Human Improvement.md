@@ -24,4 +24,4 @@ However, this concept applies far beyond the reach of sport science. It is certa
 
 ## Reference
 
-� Sun & Steel
+Sun & Steel

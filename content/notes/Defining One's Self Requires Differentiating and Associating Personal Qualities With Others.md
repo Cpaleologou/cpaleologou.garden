@@ -25,4 +25,4 @@ Perhaps though, if 3,732 is a sacred number in ones culture, this trait could ha
 
 ## Reference
 
-� The Ethics of Authenticity
+The Ethics of Authenticity

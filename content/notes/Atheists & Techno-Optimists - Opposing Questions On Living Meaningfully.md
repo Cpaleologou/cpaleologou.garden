@@ -20,4 +20,4 @@ Atheist existentialists grappled with finding meaning in a godless universe. Tec
 
 ## Reference
 
-� At the Existentialist Café
+At the Existentialist Café

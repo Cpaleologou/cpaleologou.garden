@@ -20,4 +20,4 @@ They say "Time in the market beats timing the market". Well Boomers have had the
 
 ## Reference
 
-� Age of Invention The Century-Long Depression
+Age of Invention The Century-Long Depression

@@ -45,4 +45,4 @@ Zeitlkasten Method Boxes
 
 ## Reference
 
-� How to Create a 12-Week Self-Education Plan
+How to Create a 12-Week Self-Education Plan

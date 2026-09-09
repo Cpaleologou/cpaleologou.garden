@@ -22,4 +22,4 @@ Now though, there is an issue of overcapacity creating unsustainably low prices.
 
 ## Reference
 
-� Israeli Strike Kills Gaza Journalists
+Israeli Strike Kills Gaza Journalists
