@@ -79,3 +79,5 @@ Discuss why elephant ears
 [[Truth is less important than trust]]
 
 [[Loss Of Institutional Trust Led To A Greater Sense Of Responsibility]]
+
+Value Investing Requires A Paradigm Shift In The 21st Century
