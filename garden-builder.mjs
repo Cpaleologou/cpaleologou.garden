@@ -64,7 +64,8 @@ const BOOK_LINK_MAP = {
     "🟢 Scale": "/books/scale",
     "🟢 Capital Returns": "/books/capital-returns",
     "🟡 The Intelligent Investor": "/books/the-intelligent-investor",
-    "🟢 The Burnout Society": "/books/the-burnout-society"
+    "🟢 The Burnout Society": "/books/the-burnout-society",
+    "🟢 Where the Money Is Value Investing in the Digital Age": "/books/where-the-money-is"
 };
 
 // --- STATUS EMOJI STRIPPER ---
