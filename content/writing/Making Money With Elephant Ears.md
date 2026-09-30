@@ -80,4 +80,4 @@ Discuss why elephant ears
 
 [[Loss Of Institutional Trust Led To A Greater Sense Of Responsibility]]
 
-Value Investing Requires A Paradigm Shift In The 21st Century
+[[Value Investing Requires A Paradigm Shift In The 21st Century]]
