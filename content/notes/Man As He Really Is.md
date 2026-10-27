@@ -5,7 +5,7 @@ tags:
 publish: 'true'
 date: 2026-09-22T00:00:00.000Z
 ---
-_We have come to know Man as he really is. After all,  man is that being who invested the gas chambers of Auschwitz; however, he is also that being who entered those gas chambers upright, with the Lord's Prayer or the Shema Yisrael on his lips._
+_We have come to know Man as he really is. After all,  man is that being who invented the gas chambers of Auschwitz; however, he is also that being who entered those gas chambers upright, with the Lord's Prayer or the Shema Yisrael on his lips._
 
 ---
 

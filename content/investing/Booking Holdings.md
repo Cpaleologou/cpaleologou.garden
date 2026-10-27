@@ -1,6 +1,6 @@
 ---
 title: Booking Holdings
-Last Updated: 2026-10-10T00:00:00.000Z
+Last Updated: 2026-10-27T00:00:00.000Z
 tags:
   - '#TerraIncognita'
 publish: 'true'
@@ -93,7 +93,7 @@ Unlike hotels under the agency model, booking a flight requires paying upfront, 
 
 Becoming the merchant of record in a travel transaction also changes Booking's relationship with the customer. It increases the payment options available to customers and puts Booking in charge of customer support, which builds brand trust and direct usage of the product over time.
 
-Booking's merchant model also facilitated another key supply-side growth lever: alternative accommodation. Alt. accommodation became a big focus area for Booking in the 2010s as Airbnb demonstrated the global potential of the market. As of FY25's year end, roughly 89% of the properties on Booking.com were alternative accommodations, though by our atomic unit of room nights they represent only 40%. This is also what explains the gap between the ~500k hotels and the 4.4 million total properties mentioned earlier. Payments are more significant for alternative accommodations than for hotels. Independent hosts face a lot more challenges than experienced hoteliers in verifying foreign cards, taking foreign exchange gains or losses, or chasing down a chargeback.
+Booking's merchant model also facilitated another key supply-side growth lever: alternative accommodation. Alt. accommodation became a big focus area for Booking in the 2010s as Airbnb demonstrated the global potential of the market. As of FY25's year end, roughly 89% of the properties on Booking.com were alternative accommodations, though by our atomic unit of room nights they represent only about 36%. This is also what explains the gap between the ~500k hotels and the 4.4 million total properties mentioned earlier. Payments are more significant for alternative accommodations than for hotels. Independent hosts face a lot more challenges than experienced hoteliers in verifying foreign cards, taking foreign exchange gains or losses, or chasing down a chargeback.
 
 **Booking Holdings' Share of Listings vs. Share of Room Nights:**[^10]
 
@@ -135,9 +135,9 @@ With that understanding in place, we can begin to think about the metrics that m
 2. **Take-rate** - The take-rate represents Booking's pricing power and competitive positioning. Personally, my preference is for this to stay flat. A declining take-rate may indicate a weakening negotiating position, while an increasing take-rate, particularly without value adds to the hotels in return, represents rent-seeking behaviour that appears good in the short term but detracts from the brand's reputation and relationships with its hosts.
 3. **Marketing % of Revenue** - Marketing costs represent the cost to acquire new customers.
 4. **Direct Mix** - Direct customers are far more profitable than paid customers, for the reasons covered in the third decision above. A shrinking direct mix indicates lower future earnings, while a growing or stable mix, as long as room nights increase, indicates higher future earnings.
-5. **Total Properties or Booking Options** - The "moat" of Booking's network will be discussed in further detail below. In short, however, the value of a marketplace is generally derived from the number of vendors and customers. Growing vendor count provides more options for customers, which attracts more customers, which increases the marketplace's value for vendors. One caution is that property count flatters the picture. As shown above, alternative accommodations make up 89% of properties but only 40% of room nights, so growth in listings does not translate one-for-one into growth in useful supply.
+5. **Total Properties or Booking Options** - The "moat" of Booking's network will be discussed in further detail below. In short, however, the value of a marketplace is generally derived from the number of vendors and customers. Growing vendor count provides more options for customers, which attracts more customers, which increases the marketplace's value for vendors. One caution is that property count flatters the picture. As shown above, alternative accommodations make up 89% of properties but only about 36% of room nights, so growth in listings does not translate one-for-one into growth in useful supply.
 
-![[booking-network-flywheel.webp]]
+**The Travel Marketplace Flywheel**![[booking-network-flywheel.webp]]
 
 > **Section 1 Verdict: Value Propositions**
 > As a network, Booking has to provide value to two parties. 
@@ -156,10 +156,8 @@ With that understanding in place, we can begin to think about the metrics that m
 | Capex / revenue                               | 1.1%                        | [^16]                      |
 | SBC / revenue (2025)                          | 2.3%                        | [^17]                      |
 | Operating invested capital, 31 Dec 2025       | −\$4.6bn                     | Appendix B                 |
-| Owner earnings per diluted share, 2016 to TTM | \$2.95 → \$9.88 (13.6%/yr)    | [^19], <br>Appendix A      |
+| Owner earnings per diluted share, 2016 to TTM | Index 100 → 369 (~15%/yr)   | [^19], <br>Appendix A      |
 | Diluted shares, 2016 to Q2-26                 | 1,252m → 770m (−38.5%)      | [^20],<br>[^21]            |
-
-%% Margin changed from 26.7% to 26.9% (\$7,608m / \$28,241m TTM revenue). Revert if the worksheet uses a different revenue base. %%
 
 Booking Holdings, like many digital businesses, earns high owner-earnings margins on almost no capital. Share-based compensation (SBC) at 2.3% is also good for a technology company. While my owner-earnings calculation (Appendix A) differs from Booking's Adjusted EBITDA, the company does include SBC as a cost in the metric management is measured against, indicating a management team that understands its real economic cost.
 
@@ -199,16 +197,93 @@ The vast majority of owner-earnings growth over the past decade has come from re
 
 Marketing cost savings are the other side of the third decision from Section 1. The decline in marketing expense relative to revenue has corresponded with the increase in direct bookings through the mobile app and stand-alone site. Direct bookings do not require performance marketing expenses, and are thus materially more profitable than paid bookings. Beyond growing total bookings, increasing the mix of direct bookings is the single biggest thing Booking Holdings can do to increase profits. It is also the part of the business the market fears AI agents will threaten, which is covered in the Risk & Opportunity section.
 
-On a total company level, owner earnings have compounded at ~8% a year since 2016. On a per share basis, owner earnings have grown faster, at ~13.6% a year, because a substantial amount of the business's free cash flow has been directed towards open-market buybacks, reducing diluted shares by 38.5% over the period. We will analyze the execution of these buybacks in the management section below. On first appearance, however, the combination of organic and buyback growth appears excellent.
+On a total company level, owner earnings have compounded at ~9% a year since 2016, from \$3.3bn to \$7.6bn. On a per share basis, owner earnings have grown faster, at ~15% a year (about 3.7x in total), because a substantial amount of the business's free cash flow has been directed towards open-market buybacks, reducing diluted shares by 38.5% over the period. We will analyze the execution of these buybacks in the management section below. On first appearance, however, the combination of organic and buyback growth appears excellent.
 
 **Booking Holdings Per-Share Owner-Earnings**
 
 ![[BKNG_owner_earnings_per_share_index_FY2016-TTM.webp]]
 
 > **Section 2 Verdict: Quality Rating**
-> **Exceptional.** Booking earns a near 27% owner-earnings margin on negative operating capital, with 13.6% annual growth in owner earnings per share since 2016.
+> **Exceptional.** Booking earns a near 27% owner-earnings margin on negative operating capital, with roughly 15% annual growth in owner earnings per share since 2016.
 
-# 3. Moat Analysis
+# 3. Moat Analysis (Durability)
+
+## Moat Evidence
+
+Before attempting to dissect the durability of Booking's competitive advantages, it would be beneficial to understand whether they actually exist. The online travel agency (OTA) industry has three major players: Booking, Expedia, and Airbnb. We can get a sense of whether Booking has any innate advantage by first comparing its margins to the others. Higher operating margins is typically a pretty good indicator that customers are either willing to pay more for a business's offering, or the business has innate operating advantages worth dissecting further. 
+
+**OTA Operating Profit per \$100 of Gross Bookings:** [^12] [^26] [^27] [^28] [^29] [^30] [^31] [^32] [^33]![[bkng-operating-profit-per-100-gross-bookings-vs-peers.webp]]
+
+The most direct comparison is against Expedia, which effectively operates the exact same business model. Since 2017, Booking has earned a massive gap in earnings margins over Expedia, indicating some kind of advantage over the competition. Airbnb as a less direct competitor, is a similar story. 
+
+It should also be noted that the gap between Booking and Expedia has narrowed since the pandemic, some of this is due to one-off charges across all three companies in any given year. Another component is the change in mix. As Booking has integrated flights to the service offers, the margin has come down with it. This is expected and says nothing about the accommodation margin, aside from making it more difficult to assess. 
+
+As can be seen in the revenue chart below however, it is not the case that Expedia is under-earning to spur growth. Along with the lower margin rate, growth has been lower than Booking across the period. Airbnb on the other hand has grown faster than Booking, and the margins above are likely suppressed as the company builds out its offering package, including experiences and boutique hotels. Nonetheless, it does not change the verdict of some kind of advantage being clearly present for Booking.
+
+**Total Revenues: Booking, Expedia, Airbnb**[^35]
+
+![[booking-expedia-airbnb-revenue.webp]]
+
+Breaking down the difference further, we can start to put the pieces together in terms of Booking's moat   --  see the waterfall chart below. More than half of the difference between the margins of Expedia and Booking comes from a higher take-rate alone. Hotels are willing to pay more to Booking than Expedia for an incremental sale. This points to a supply-side network effect advantage, discussed further below.
+
+The other major gap comes from Marketing expense, meaning Booking is able to acquire each booking more cheaply. This points to a customer acquisition advantage cost advantage, also discussed further below.
+
+**Booking vs. Expedia, Operating Profit per \$100 of Gross Bookings, 2025:**
+
+![[bkng-vs-expe-profit-bridge-2025.webp]]
+
+## Moat Sources
+
+With comfort that some kind of durable competitive advantage exists, we can move on to trying to understand exactly what kind of advantage that is and assess it's durability. To do this, it helps to understand two separate, but related, mental models: Aggregation Theory and Network Effect theory.
+
+### Aggregation Theory
+
+Ben Thompson defined aggregation theory in his newsletter Stratechery in 2015.[^34] The framework divides the value chain of a consumer market into three layers: suppliers, distributors and consumers. Historically the bulk of the profits in that industry went towards companies that were able to either monopolize a full layer, gaining leverage over the others, or integrating two layers, thus gaining an advantage over the competition. Newspapers are his first example. The market dynamic was such that consumers of newspapers far outnumbers the sources of content, and distributing that content to consumers carried a high associated cost in the form of vehicles, fuel, and labour. The most successful newspaper companies owned the distribution capital and then integrated backwards, hiring journalists and writers to simultaneously own the supply the content. With scarce, exclusive content and distribution capabilities, newspapers captured pricing power and captured the value in the industry.
+
+The internet flipped this strategy on its head by changing two key qualities in the value chain. First, the cost of distribution fell to zero. Whether through email or a webpage, getting content and information to a consumer no longer required the vans and labour that it used to. This meant that supply of content and information became commoditized. The entire world of journalists and regular people (as later happened with social media) was available as content to any individual consumer. 
+
+Second, the cost of individual consumer relationships fell to zero. Before the internet, newspapers captured the value in the industry by selling bulk advertising to a geographic group of consumers who *likely* had similar preferences due to their shared location. But through the automation available through code and algorithms, a distributor could learn the needs and preferences of each individual consumer, maintain that relationship across time for near-zero cost, and thus sell hyper specific, and therefore more valuable advertising.
+
+The problem space thus shifted. It was no longer about controlling supply and distribution, it was about helping each individual *find* what they need when they need it. Competition moved forward in the value chain to the consumer space and the company that provided the best user experience won. In the newspaper example, this was, of course, Google.
+
+**Aggregation Theory Illustrated, per Ben Thompson**[^34]![[AggregationTheory_BenThompson.webp]]
+What makes Booking particularly interesting, is that it is not a pure front-end aggregator. We saw in Section 1 of this report that roughly 65% of Booking's traffic comes to the site directly, but the remaining 35% actually comes from Google - another aggregator. This is an aggregator above an aggregator situation and it is, again, why direct bookings is such a key number for the business and industry as a whole. It will be discussed at length in the Risks & Opportunities section below.
+
+### Network Effect Theory
+
+The beauty of aggregator businesses - like Google, Facebook, Uber and Booking - is that aggregation also turned out be an extremely powerful virtuous cycle. The best user experience attracts the most users, that mass of users attracts suppliers, more suppliers improve the user experience, which in turn attracts more users. This is a network effect; where each incremental user or supplier increases the value of the network for the next user. The result is an extremely strong and durable competitive advantage that can actually be understood in monetary terms quite easily. 
+
+Let's take another example: Meta (Facebook/Instagram/Whatsapp). 
+The technology behind these apps, especially in 2026, is not novel or particularly complicated. A competitor could relatively easily build the same app. But regardless of having the same interface and features, the user would have a much worse experience on the app, simply because no one else is on it. This is a cost to that consumer, and the competitor would have to offset that cost in some other way to convince the user to use their duplicate product instead of Meta's. This is extremely hard to do, especially with Meta's products, because they are already free for the user. 
+
+But, we can imagine a world where a competitor actually pays users to use the alternative app. How much would you have to be paid to use an Instagram-like app instead of Instagram? It is actually likely close to an infinite amount of money because the competitor app is effectively worthless to you as a user unless there are other people using it. It follows that Meta's network effects, derived from their mass of users, is nearly impossible to disrupt because it is simply too expensive for a competitor to do so. 
+
+### Booking Holding's Moat
+
+Booking.com is an aggregator of hotels, alternative accommodations and other travel related activities. The company spent nearly 20 years building out a massive supply base of hotels and alternative accommodations, spending marketing dollars advertising on Google, optimizing its site for conversion rates, and then getting users to come back directly through the mobile app and Genius loyalty program. More properties brought more selection and lower prices, which attracted more travellers, which makes listing on Booking.com more attractive for properties. At some point the network effect cycle started spinning fast enough that Booking created a competitive advantage, allowing it to earn outsized profits to its closest competition.
+
+**Booking.com's Network Effect**![[bookingdotcom_flywheel.webp]]
+
+The nature of network effects also creates another desirable feature. Since the value of the platform accrues from the number of nodes in the network, winning begets winning, and the industry typically consolidates into one or two leaders. In other words, it trends towards monopolies. 
+
+We can see this in the two charts below. The first clearly shows the long term trend towards OTAs as the booking method of choice. The second illustrates how one platform dominates the rest. 
+
+**OTA vs. Direct Hotel Booking Marketshare, 2025**[^36]
+
+![[Booking-hotrec-europe-distribution-channels-2013-2025.webp]]
+
+**Booking Holding's Share Of OTA Room Nights**[^37]
+
+![[hotrec_2025_channels_ota_split.webp]]
+
+*This proves the moat - now we want to understand the mechanics*
+What the supply side adds to the moat
+Where the network is the deepest
+durability checklist
+
+Need to discuss falsifiers
+
+Verdict - Wide, Stable
 
 # 4. Risk & Opportunity Framework
 
@@ -275,8 +350,6 @@ Owner Earnings is a concept first put forward by Warren Buffett (to my knowledge
 5. **Intangible Amortization and KAYAK Impairment Charges** - Again, these are accounting charges. Amortization of acquired intangibles and impairment charges are relics of cash that was paid several years ago.
 6. **D&A and Maintenance Cap. Ex.** - This is slightly pedantic for a low cap-ex demand business like Booking. But for completeness, we assume the capital expenditure required for Booking to maintain its market position is the same as depreciation and amortization. The two adjustments net to zero.
 
-%% Item 4: the body uses B2C direct mix (mid-60s, TTM Q2 FY26). Confirm this mid-fifties figure is direct share of ALL room nights (including B2B), and consider saying so, so the two numbers don't read as a contradiction. %%
-
 ## Appendix B - Operating Invested Capital
 
 Operating invested capital is used to understand *who* funds the day-to-day operations of the business. By netting the operating assets against the operating liabilities of Booking Holdings, we get -\$4.6B. This tells us that the operations of the business are funded by the suppliers, merchants and customers, plus extra (float). Shareholders and lenders are not needed to finance operations.
@@ -329,4 +402,16 @@ Operating Invested Capital, December 31, 2025[^18]
 [^22]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_127, pg. 25
 [^23]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_127, pg. 26
 [^24]: https://docs.google.com/spreadsheets/d/1nigCgAQxhfQYFgO7u8b-Y0XwWfLjkDBaPdiE7gOUczo/edit?gid=130839315#gid=130839315
-[^25]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_127, 25
+[^25]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_127, pg. 25
+[^26]: https://www.businessofapps.com/data/booking-statistics/
+[^27]: https://www.businessofapps.com/data/expedia-statistics/
+[^28]: https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm, pg. 121
+[^29]: https://www.sec.gov/Archives/edgar/data/1559720/000119312522043371/d251410dex991.htm, pg. 2
+[^30]: https://www.sec.gov/Archives/edgar/data/1559720/000119312524033706/d646462dex991.htm, pg. 2
+[^31]: https://s26.q4cdn.com/656283129/files/doc_financials/2025/q4/Airbnb_Q4-2025-Shareholder-Letter.pdf, pg. 2
+[^32]: Financial Modeling Prep API, FMP:statements income-statement, ABNB (annual 2019 to 2025). Revenue, sales and marketing, operating income.
+[^33]: Financial Modeling Prep API, FMP:statements income-statement, EXPE (annual 2016 to 2025). Revenue, sales and marketing, operating income.
+[^34]: https://stratechery.com/aggregation-theory/
+[^35]: Financial Modeling Prep API, FMP:statements income-statement, BKNG, EXPE, ABNB (annual 2017 to 2025). Revenue.
+[^36]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 18
+[^37]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, 93
