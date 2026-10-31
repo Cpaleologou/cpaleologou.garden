@@ -272,20 +272,63 @@ We can see this in the two charts below. The first clearly shows the long term t
 
 ![[Booking-hotrec-europe-distribution-channels-2013-2025.webp]]
 
-**Booking Holding's Share Of OTA Room Nights**[^37]
+**Booking Holding's Share Of OTA Room Nights**[^37]![[hotrec_2025_channels_ota_split.webp]]
+The same HOTREC study used for the visualizations above also contains data that can help us assess where Booking's supply-side advantage is the deepest. The study, based on 2,713 European hotels, across 28 countries, breaks Booking's share of OTA bookings down by type of hotel. The key findings are as follows:
 
-![[hotrec_2025_channels_ota_split.webp]]
+- Booking holds 71% of OTA bookings at hotels with fewer than 20 rooms.[^42]
+- Booking holds 71.8% in towns under 10,000 people.[^42]
+- Booking holds 71.6% in alpine regions.[^42]
+- Booking holds 69.4% at independent hotels. [^42]
 
-*This proves the moat - now we want to understand the mechanics*
-What the supply side adds to the moat
-Where the network is the deepest
-durability checklist
+The company's weakest positions sit in the segments of 5-star hotels, chain hotels, and in major urban metropolises. These are the segments Expedia targets. The takeaway is that Booking's lead is largest in the long, fragmented tail of small, independent, leisure and destination hotels, where the company's field organization spent a decade physically onboarding each hotel. The advantage is thinnest in big cities where inventory is concentrated in chains that every OTA, or AI agent can reach. 
 
-Need to discuss falsifiers
+**Booking.com vs. Expedia OTA Marketshare by Hotel Segment**[^38]
 
-Verdict - Wide, Stable
+![[booking-expedia-ota-share-by-segment.webp]]
+
+The second-order insight from the data is that the hotels that depend on Booking the most are also the least digitally equipped. The same study noted that small, independent hotels are underrepresented in AI adoption, or planned AI adoption, and that the same kinds of properties are overrepresented in managing their distribution channels manually, rather than through an automated service.[^39] Furthermore, across all hotel segments, operators report increasing technical complexity to management as their largest issue, rather than commercial challenges.[^41] The point is that the long tail of small hotels rely on Booking, not only for demand aggregation, but also for the technological merchant of record capabilities that come with it.[^40] Booking is no longer just an aggregator for demand, like aggregation theory explains, but also an integrated technological solution for a large part of the wider European accommodation market.
+
+The weakness in the moat comes from two other key factors in network effect theory: Multi-homing and Disintermediation. 
+
+Multi-homing refers to the ability of marketplace users to use a rival at little cost. To understand this, it helps to go back to the Meta example above. We already assessed how a user would require a near infinite amount of money to use a feature-parity instagram app instead of the real instagram app because the value of the service comes from the users, and without them, there is no value. In travel, a hotel faces no such trade-off. Listing on various platforms costs almost nothing and 66% of European hotels use a channel manager to push a hotels rates and availability to every OTA at once from a single source. [^43] 
+
+**How Channel Managers Work (See Link For Animation)**[^44]
+
+![[HowChannelManagersWork.webp]]
+
+This may actually already be appearing in the numbers. The same HOTREC data used above for Booking's 69% OTA marketshare, shows that this percentage has actually fallen over the last 5 years from 71%. My personal opinion is that this is not currently material enough for a conclusion to be drawn, but it is certainly a risk worth monitoring. 
+
+On the demand side multi-homing is just as easy. Travellers often compare prices against other OTAs, Google Hotel Ads and the hotel's own website prior to making a reservation. The AI agent threat discussed below attacks this moat weakness by making comparison easier for the traveller. Booking, however, has two defences against multi-homing. On the demand side, the loyalty program provides value to travellers that is only available on Booking. A level 3 member who books elsewhere forfeits 20% discounts, funded by the hotels themselves, additionally showing the value of Booking's demand volume.[^45] 
+
+The second weakness Booking's network effect faces is disintermediation. This is the risk that the traveller and hotel meet through Booking and then choose to deal directly. Either the traveller finds a hotel on Booking, enjoys their stay and then books directly next time, or a traveller finds a hotel on Booking, and goes directly to hotel on their first visit. If the traveller is willing to spend the time negotiating, a hotel may even be willing to extend the same discount that can be achieved on Booking in order to route around the commission. This again plays into the AI agent narrative where an agent could do this negotiating on your behalf, lowering the time-barrier for travellers. 
+
+The defence for Booking here is the value it is able to add to every booking, so that going direct is worse for one party or the other. Genius discounts are again present, but offering payment solutions is traveller's native currency or payment system is also a large value add that most hotels do not have the technical ability to offer. For a global network like Booking and the travel industry in general, this is incredibly important and helps to explain the shift to Booking's merchant model from section 1 above. Booking also offers customer service in more languages than an independent hotel can offer. AI threat to all of this will be discussed below. Here we are simply trying to understand the where Booking's advantage comes from and why it has persisted over decades. 
+
+It should finally be noted that disintermediation risk does not apply equally to every hotel on Booking.com. We can surmize from the discussion above that the risk is greatest for chains and large hotels with the resources to compete with Booking's value-adds. It is weakest for the independent and small hotelier's that make up the majority of Booking's room nights. As of Q4 2025, the top 10 global chains represented only a low double-digit percentage of total room nights.[^46]
+
+With that understanding formed, we can proceed to understanding the durability of Booking's competitive advantage in a structured way.
+
+### The Durability Checklist
+
+| **Network Property** | **Question**                                                          | **Booking**                                                                                                                                                                                                                                                                                                                                                                      | **Score**                                           |
+| -------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Clustering           | Is it one global network, or many local pockets?                      | Hotel aggregation is one large, global cluster. Any traveller may want any property across the world.                                                                                                                                                                                                                                                                            | Strong.                                             |
+| Saturation           | Does more supply improve the product after initial scale is achieved? | In large urban centres, another property adds little, especially against rivals (Airbnb, Expedia). <br>In secondary and tertiary cities/countries, Booking has an advantage.<br>As global travel demand rises, primary cities become overcrowded and those alternative locations benefit.                                                                                        | Mixed. Strong in the long tail. Weak in big cities. |
+| Multi-homing         | Can each side use a rival at the same time?                           | Yes, on both sides. 66% of European hotels use channel managers to push inventory to multiple OTAs at once. [^43] <br>Traveller and AI agents compare prices on Google, meta-search and direct options before they book.<br>                                                                                                                                                     | Weak                                                |
+| Disintermediation    | Can the two sides meet once and then go direct?                       | A guest can find a hotel on Booking, then book directly, on either the first or repeat visits.<br>In Europe, the DMA has made rate-parity agreements illegal, meaning Hotels can undercut Booking. <br>To counter, Booking provides extra value to the customer includes a wide range of payment options, cancellation handling, customer service, reviews and Genius discounts. | Mixed.                                              |
+| Bridging             | Can the network be carried into other products?                       | Connected Trip adds flights, cars, attractions, and increasingly restaurants. The Genius loyalty program includes all of them.                                                                                                                                                                                                                                                   | Growing, but unproven.                              |
+| Aggregator Strength  | Do users start on the platform or arrive through someone else?        | Roughly 65% of users arrive direct, and the app carries roughly 50% of room nights.[^6]<br>The rest is bought, mostly from Google.                                                                                                                                                                                                                                               | Mixed.                                              |
+
+Network effect businesses are really difficult to disrupt. Supply and demand feed on each other and breaking the symbiosis often requires a paramount shift in the behaviour of one side or the other. AI agents might be that. Agents like Meta's Muse, Open AI's Dots, Claude's Duet, and Google's AI mode all threaten to become a new aggregator above the aggregator and capture value Booking once received. The next section of the report will build on our understand of Booking to assess whether this threat is real, and if so, what the size of the impact could be, or if the market is overreacting to a technology that has shown no impact on any industry yet. 
+
+>**Section 2 Verdict: Moat**
+>**Wide/Stable.** Booking's two-sided network effect comes from having the absolute largest global selection of inventory, especially in secondary and tertiary travel locations, build by two decades of build-out effort. Traveller repeat business is reinforced by a strong Genius loyalty program driving significant direct traffic, allowing Booking to capture value with aggregator economics. The strength of the moat is found in the numbers. Booking earns significantly more operating margin than its competitors and its accommodation partners fund the loyalty rewards.
+>The weakness lays in the ability for users and hotels to multi-home and disintermediate Booking should they choose to.
+>The metrics are currently stable, but deterioration would show up first in the direct-mix numbers.
 
 # 4. Risk & Opportunity Framework
+
+- note - I think the conversion rate advantage is only, or mostly, applied to the indirect traffic as direct return customers are likely coming for the extra value adds and discounts.
 
 # 5. Management & Capital Allocation
 
@@ -414,4 +457,13 @@ Operating Invested Capital, December 31, 2025[^18]
 [^34]: https://stratechery.com/aggregation-theory/
 [^35]: Financial Modeling Prep API, FMP:statements income-statement, BKNG, EXPE, ABNB (annual 2017 to 2025). Revenue.
 [^36]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 18
-[^37]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, 93
+[^37]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 93
+[^38]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 97-99
+[^39]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 126, 127
+[^40]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 121
+[^41]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 101
+[^42]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 97
+[^43]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 133
+[^44]: https://qloapps.com/channel-manager/, a good animation for understanding how a channel manager works.
+[^45]: Citi's 2026 Global TMT Conference Sep 2026, min 16:21
+[^46]: Q4 2025 Earnings Call, min 12:09
