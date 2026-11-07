@@ -336,9 +336,7 @@ Like most public corporations, the incentive to avoid lawsuits has resulted in r
 2. EU and national regulators restrict Booking sufficiently enough to make it difficult for them to compete with competitors, or restrict the industry enough to hinder the overall tourism market.
 3. A travel demand shock, like what happened in 2020, severely impacts Booking's ability to earn, pay down debt, and return earnings to shareholders through their heavy buy-back program. Demand shocks include, but are not limited to, a pandemic, war, or recession. 
 
-After discussing each risk, I will make a subjective judgement on its probability (Unlikely, Possible, Likely), and its long-term severity (light, moderate, heavy). Which ever risk has the highest probability and severity combination will become the bear case in the valuation section below.
-
-The largest opportunity is often the flip-side of the largest risk, simplify because both come from the same dearth of foresight. Once the largest risk has been assessed, I will discuss the opportunities for Booking. This discussion will become the bull base in the valuation section.
+The largest opportunity is often the flip-side of the largest risk, simply because both come from the same dearth of foresight. Once the largest risk has been assessed, I will discuss the opportunities for Booking. This discussion will become the bull base in the valuation section.
 
 ## Risks
 
@@ -454,22 +452,85 @@ Put simply, Booking is worth what a traveller would lose by booking directly, pl
 
 From the hotel's perspective, the preference is simple. Assume through Booking it pays a commission of about 15%. Direct, it saves the commission but has its own costs - card fees, staff servicing, and some risk to being de-ranked on Booking. We can estimate this at 3-5%. So the furthest the hotel can go on direct discounts is between 10-12% below the price the traveller would pay on Booking. Note that Genius discounts are primarily hotel-funded so it is not relevant to the discussion.[^59]
 
-From the traveller's perspective, they can achieve this direct discount only by giving up the other services that Booking provides, including trust. Now, these services are not equally valuable for every vacation. As we mentioned above, Booking provides more value when making a reservation at a small remote hotel in Serbia than reserving a room at the Marriott in Paris. So, if the discount received by the traveller is more than the value provided by Booking, they would go direct. We can get an idea of whether this is common by assigning value to Booking's core offering across three hotel scenarios: Large Chain/Primary City, Medium Hotel / Secondary City, Small Hotel/Alt. Accommodation/Remote City. The figures below are my own estimates, not sourced or derived.
+From the traveller's perspective, they can achieve this direct discount only by giving up the other services that Booking provides, including trust. We will call the discount d, and Booking's value v. The traveller only books direct if the value of d is larger than v. The point where the discount exactly makes up for losing Booking's services is the traveller's indifference curve, and can be visualized as the following.
 
-| Booking's Value                    | Large Chain/Primary City | Medium Hotel/Secondary City | Small Hotel / Alt. Accomodation / Remote City | Reasoning                                                                                                                                    |
-| ---------------------------------- | ------------------------ | --------------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Local Currency Payment             | 0.5%                     | 1.5%                        | 2.5%                                          | My personal experience in retail has taught me that the ability to pay in whichever way you want (there are many) is surprisingly important. |
-| Free Cancellation                  | 0%                       | 1.5%                        | 3%                                            | Any hotel can make this promise over email, but the promise from a small hotel is worth less than Bookings.                                  |
-| Recourse when something goes wrong | 1%                       | 3%                          | 5%                                            | Things go wrong when travelling. Having someone to help you sort it out, especially on multi-hotel trips is very valuable.                   |
-| Customer Service in 40 languages   | 0%                       | 0.5%                        | 0.5%                                          | Likely not worth very much when AI can do live audio translation.                                                                            |
-| Loyalty Progress and Credits       | 1%                       | 3%                          | 3%                                            | Large chains have their own loyalty programs, but if you often vacation in different places, one single loyalty program is valuable.         |
-| **Total Estimated Value**              | **2.5%**                     | **9.5%**                        | **14%**                                           |                                                                                                                                              |
+**Indifference Curve: Booking Direct vs. Using Booking.com**
+
+![[BookingDirect_IndifferenceCurve.webp]]
+
+A direct booking at Booking's price leaves the traveller worse off, because it has the same cost and less service. The hotel has to provide more value before the traveller will switch.
+
+Now, the services provided by Booking in v are not equally valuable for every vacation. As we implied above, Booking provides more value when making a reservation at a small remote hotel in Serbia than reserving a room at the Marriott in Paris. So, if the discount received by the traveller is more than the value provided by Booking, they would go direct. We can get an idea of whether this happens frequently by assigning value to Booking's core offering across three hotel scenarios. The figures below are my own estimates, not sourced or derived.
+
+| Booking's Value                    | Large Chain, Primary City | Medium Hotel, Secondary City | Small Hotel, Alt. Accomodation, Remote City | Reasoning                                                                                                                                    |
+| ---------------------------------- | ------------------------- | ---------------------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Local Currency Payment             | 0.5%                      | 1.5%                         | 2.5%                                        | My personal experience in retail has taught me that the ability to pay in whichever way you want (there are many) is surprisingly important. |
+| Free Cancellation                  | 0%                        | 1.5%                         | 3%                                          | Any hotel can make this promise over email, but the promise from a small hotel is worth less than Bookings.                                  |
+| Recourse when something goes wrong | 1%                        | 3%                           | 5%                                          | Things go wrong when travelling. Having someone to help you sort it out, especially on multi-hotel trips is very valuable.                   |
+| Customer Service in 40 languages   | 0%                        | 0.5%                         | 0.5%                                        | Likely not worth very much when AI can do live audio translation.                                                                            |
+| Loyalty Progress and Credits       | 1%                        | 3%                           | 3%                                          | Large chains have their own loyalty programs, but if you often vacation in different places, one single loyalty program is valuable.         |
+| **Total Estimated Value**          | **2.5%**                  | **9.5%**                     | **14%**                                     |                                                                                                                                              |
+
+Next we can weight these estimated value percentages against Booking's mix to get a weighted average value. 
+
+- Glenn Fogel (CEO) has said in recent earnings calls and at conferences that the ten largest global hotel chains account for only a low double-digit percentage of room nights at Booking.com.[^60] For conservatism, lets estimate that at 15% to account for large chains outside of the top 10.
+- We also know that as of Q3 2026, 37% of room nights came from alternative accommodation.[^60] To account for the small and remote hotels where Booking has dominant marketshare, we can round this up to 45%. This is a guess but seems conservative to me.
+- That leaves us with 40% remaining room-night mix in the medium sized group.
+
+The weighted average value of Booking's services can thus be estimated as the following:
+
+$$
+\begin{aligned}
+\text{Weighted Average Value} &= (2.5\% \times 15\%) + (9.5\% \times 40\%) + (14\% \times 45\%) \\
+&= 0.375\% + 3.8\% + 6.3\% \\
+&= 10.475\%
+\end{aligned}
+$$
+On these estimates a direct deal works for both sides only between 10.5-12% off the Booking price. At the mid-point, about 11.25% off, each side gains less than 1%. That is a very thin reward for the work and risk of booking direct, even when your AI agent handles everything for you. 
+
+**Bargaining Zone For Booking Directly**
+
+![[BookingBargainModel.webp]]
+
+As a check, after Booking's rate parity clause ended in Europe, a Travelnews comparison found direct rates 6-16% below Booking in just over half the hotels checked.[^61] This more or less aligns with the expectation formed on the basis of the work above. 
+
+I should note that the outcome above is sensitive. If you disagree with me on the relative value of each of Booking's agent surviving offerings, or I'm wildly wrong on Booking's room-night mix, the deal zone widens materially. I am comfortable with this and I have tried to be both accurate and conservative in my assumptions. You can use my methodology to find your own conclusions. 
+
+As it stands, however, the result answers the take-rate question. If agents made this direct negotiation routine, the commission Booking could theoretically keep on an agent booking would trend towards v, plus the hotel's cost of a direct booking, plus whatever charge it can hold onto for discovery. In this model, on a weighted room night mix basis, Booking would keep most of its commission. Where it loses would be concentrated in the large chains where it's value proposition is already weakest. 
+
+Furthermore, as Booking improves it Genius program and adds more value, the gap widens. Agent incentives discussed above, also make direct negotiation less likely. The only question that remains, is how much of that value is split between Booking and the agent.
+
+##### 5. How The Value Is Split Between Booking And The Agent
+
+What we are left with as the highest probability outcome is Risk A. Here, customers plan their trips with their agent, who then uses Booking to complete the purchase. From my perspective, this last step is the hardest to figure out. Depends on a lot of assumptions and possible futures. That said, it is still a matter of negotiation between Booking (and other OTAs) and the agents. Here we will also, finally, consider different agentic business models. 
+
+At the extreme, after negotiation, one or either side walk away, and integration doesn't occur. Here, the agent partners with another OTA or does in fact try to lead the customer toward direct Booking. Based on the analysis performed so far, this does not seem as big of a threat as it first appears. Booking has a wide moat built off its deep supply-side inventory, and demand-side loyalty program and habitual travellers. Since Booking's strength lays in the long tail of fragment medium and small hotels in secondary and tertiary cities, the deal zone is small and Booking likely keeps its demand for quite a while, while agentic commerce grows, acting as an incumbent discussed above.
+
+How competitors there are at the agent layer also matters. A single winner, a dominant super-agent can deploy its weight into charging a lot. This is what Google has done to Booking over the last decade. In a world of competing agents, each agent has less negotiating power against the incumbents. Today, as we have seen, there are multiple well-funded assistants, merchants appear to be integrating with them selectively, and for a consumer, switching between them is cheap. Unlike business activities, most consumer tasks have a short half life, so switching agents is only painful for a brief period while the new agent catches up. Furthermore, it is not difficult to ask my current agent to summarize everything it know and what it is working on to pass off to my new agent. I think these low switching costs keep the agent layer fragmented for longer, and a fragmented agent layer has less leverage. 
+
+Finally, the agentic business model is important. For the past decade, Google has charged Booking for every click that routed a user to its website. Booking pays this whether the visitor books a trip or not. Part of Booking's competitive advantage has been in its ability to convert at a higher rate than its competition, therefore giving it more room to outbid players like Expedia. In an agentic commission model, where every OTA pays a similar rate per booking, Bookings conversion advantage may actually fade away. There is a weird disconnect here in a world where merchants negotiate lower booking fees for themselves, but the agentic app provider is incentivized to push the user towards the merchant with the highest commission fee attached. For this reason, I don't expect this business model to last long. 
+
+It feels much more wholistic for a bidding/advertising model to develop. Here, each player bids what it is willing to pay for an agent's attention. This consolidates incentives between the agent and the merchant and conversion skill becomes relevant again. I am not sure if the ability to convert on a traditional webpage will transition to being able to convert in agentic commerce, but an advantage held for over a decade with constant changes in the consumer, technological and regulatory environment tells me that the conversion skill likely lays in the people and culture of the company, rather than the webpage asset itself. 
+
+In the worse case scenario however, the agent layer consolidates into a single winner, the agent app is able to integrate much of the value Booking provides like customer service and payment guarantees, and pushes Bookings value proposition down towards the value we see in the Large Chain, Primary City scenario above, but for all market segments.
+
+#### Putting It Together
+
+The analysis above can be reduced to three key questions. Asking them in order, and assigning a probability to each, gives us the likelihood of our bear, base, and bull case for the valuation model below.
+
+1. **Do agents become a main way people book travel within ten years?** 
+	I put the odds of this at 75%. In Europe, 30% of people still book hotels over phone and email.[^62] Trends do not move as fast as investors and people within the technology industry think. Over ten years, however, I can see a substantial amount of traffic moving to agents. 
+2. **If so, does the agent layer consolidate into one super-agent, or stay fragmented?**
+	 Technology businesses seems to trend toward monopolies or duopolies (Google Search, Iphone/Android, etc.). This often goes back to network effects discussed in the moat section above. However, on current evidence, I'm inclined to say that to do not see network effects in the personal agent layer. Perhaps there are other forms of competitive advantages that will arise, but to date I am unsure of this. I also think this is a domain that will get more competitive, not less, over the next five years. Currently, we have three main players in Meta, OpenAI and Anthropic. SpaceX also has Grokbot. Google is likely follow with Android integrations, and Apple is likely to continue developing Siri, and specialized agents from Amazon, or Booking themself will likely continue to proliferate for the time being. I will therefore put the odds of this occurring at 50%. 
+	 Finally, in this section it is worth discussing what a fragmented agentic layer means for Booking. This is the bull case. The best possible outcome for Booking. Remember, on a weighted basis, between the direct and paid traffic that make up Booking's traveller base, they pay roughly \$4.4 per \$100 of gross bookings on the site. This is the world where their source of paid traffic comes from what is essentially a complete monopoly on search traffic - Google. If the discovery layer for travellers without loyalty to any OTA widens to include several competitors, it allows Booking to spread it's dollars out, find the optimal balance and ultimately reduce its cost. In this world, it is possible that the weighted average transaction made through Booking actually becomes more profitable, not less. 
+3. **In both scenarios, where agents consolidate or stay fragmented, does Booking have strong negotiation leverage?**
+	Once again, from a travellers perspective, Booking's value proposition comes from its deep inventory of small, independent hotels and alternative accommodations and the company's ability to make booking with them and travelling as a whole easier. From the hotel's perspective, these hotels do not have the time, ability, or funding to get noticed on the internet without aggregating with similar sized hotels across the world on OTA's like Booking, which functions almost like a decentralized union and allows them to compete with the big hotel chains. In a world where agents are incentivized to send traffic to the players that can pay the most for it, it is possible hotels need OTA's like Booking more, not less. My feeling after doing such an analysis is that Booking has leverage. I will put the odds of this at 60%.
+
+Putting The 
+
+![[Booking_ProbabilityTree.webp]]
 
 ---
-
-**4. The Cost of Agents**
-
-- note - I think the conversion rate advantage is only, or mostly, applied to the indirect traffic as direct return customers are likely coming for the extra value adds and discounts.
 
 # 5. Management & Capital Allocation
 
@@ -621,3 +682,6 @@ Operating Invested Capital, December 31, 2025[^18]
 [^57]: https://www.priceline.com/penny
 [^58]: https://vayo.com/
 [^59]: https://www.investing.com/news/transcripts/booking-holdings-at-citis-2026-global-tmt-conference-ai-loyalty-lead-93CH-4892462
+[^60]: https://s25.q4cdn.com/383369491/files/content_files/CORRECTED-TRANSCRIPT-Booking-Holdings-Inc-BKNG-US-Q3-2026-Earnings-Call-3-November2026.pdf
+[^61]: https://www.travelnews.ch/english-corner/26794-search-on-booking-but-book-directly.html
+[^62]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 16
