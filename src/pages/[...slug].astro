@@ -1,0 +1,153 @@
+---
+import { render } from "astro:content";
+import Base from "../layouts/Base.astro";
+import StageIcon from "../components/StageIcon.astro";
+import GraphView from "../components/GraphView.astro";
+import {
+  getGarden, getGraph, sectionOf, stageOf, titleOf, topicsOf, tagSlug, excerptOf,
+  plantedOf, tendedOf, formatDate, SECTIONS, STAGES, type Note,
+} from "../lib/site";
+
+export async function getStaticPaths() {
+  const notes = await getGarden();
+  return notes.map((note) => ({ params: { slug: note.id }, props: { note } }));
+}
+
+const { note } = Astro.props as { note: Note };
+const { Content, headings } = await render(note);
+const { backlinks } = await getGraph();
+const all = await getGarden();
+const byId = new Map(all.map((n) => [n.id, n]));
+const inbound = (backlinks.get(note.id) ?? []).map((id) => byId.get(id)!).filter(Boolean);
+
+const section = sectionOf(note);
+const stage = stageOf(note);
+const title = titleOf(note);
+const topics = topicsOf(note);
+const planted = plantedOf(note);
+const tended = tendedOf(note);
+// Notes often repeat their title as the first H1; hide that one.
+const toc = headings.filter((h) => h.depth >= 2 && h.depth <= 3 && !/^table of contents$/i.test(h.text));
+const isLong = toc.length >= 4;
+---
+
+<Base title={title} description={excerptOf(note, 160)}>
+  <div class={`note-layout wrap${isLong ? " has-toc" : ""}`}>
+    <article class="note" data-pagefind-body>
+      <header class="note-header">
+        <p class="eyebrow trail" data-pagefind-ignore>
+          {section ? <a href={`/${section}`}>{SECTIONS[section].title}</a> : <a href="/">Garden</a>}
+          {stage && (
+            <span class="stage" title={STAGES[stage].blurb}>
+              <StageIcon stage={stage} size={13} /> {STAGES[stage].label}
+            </span>
+          )}
+        </p>
+        <h1 data-preview-title data-pagefind-meta="title">{title}</h1>
+        <span hidden data-pagefind-meta={`section:${section ? SECTIONS[section].title : "Garden"}`}></span>
+        {stage && <span hidden data-pagefind-meta={`stage:${STAGES[stage].label}`}></span>}
+        <p class="dates mono" data-pagefind-ignore>
+          {planted && <span>First charted <time datetime={planted.toISOString()}>{formatDate(planted)}</time></span>}
+          {tended && tended.getTime() !== planted?.getTime() && (
+            <span>Last revised <time datetime={tended.toISOString()}>{formatDate(tended)}</time></span>
+          )}
+        </p>
+        {topics.length > 0 && (
+          <ul class="topics" data-pagefind-ignore>
+            {topics.map((t) => <li><a href={`/tags/${tagSlug(t)}`}>{t}</a></li>)}
+          </ul>
+        )}
+      </header>
+
+      <div class="prose" data-preview-body>
+        <Content />
+      </div>
+
+      <section class="connections" aria-labelledby="backlinks-h" data-pagefind-ignore="all">
+        <h2 id="backlinks-h" class="eyebrow">Linked from {inbound.length} {inbound.length === 1 ? "place" : "places"}</h2>
+        {inbound.length ? (
+          <ul class="backlinks">
+            {inbound.map((n) => (
+              <li>
+                <a class="internal backlink" href={`/${n.id}`} data-slug={n.id}>
+                  <strong>{titleOf(n)}</strong>
+                  <span>{excerptOf(n, 110)}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p class="none">Nothing links here yet.</p>
+        )}
+        <div class="graph-below"><GraphView current={note.id} /></div>
+      </section>
+    </article>
+
+    <aside class="rail">
+      <div class="rail-inner">
+        <GraphView current={note.id} />
+        {isLong && (
+          <nav class="toc" aria-label="On this page">
+            <p class="eyebrow">On this page</p>
+            <ol>
+              {toc.map((h) => (
+                <li class={`d${h.depth}`}><a href={`#${h.slug}`}>{h.text}</a></li>
+              ))}
+            </ol>
+          </nav>
+        )}
+      </div>
+    </aside>
+  </div>
+</Base>
+
+<style>
+  .note-layout { display: grid; grid-template-columns: minmax(0, var(--measure)) 17rem; gap: 4rem; justify-content: center; padding-top: 3.5rem; }
+  .note { min-width: 0; }
+  .note-header { margin-bottom: 2.75rem; }
+  .trail { display: flex; gap: 1rem; align-items: center; margin: 0 0 1rem; }
+  .trail a { color: var(--muted); text-decoration: none; }
+  .trail a:hover { color: var(--accent); }
+  .stage { display: inline-flex; gap: 0.35rem; align-items: center; cursor: help; }
+  h1 { font-size: clamp(2.2rem, 5vw, 3.2rem); margin: 0 0 1rem; line-height: 1.08; letter-spacing: -0.02em; }
+  .dates { display: flex; gap: 1.25rem; flex-wrap: wrap; margin: 0; font-size: 0.72rem; color: var(--muted); }
+  .topics { list-style: none; display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0; margin: 1rem 0 0; }
+  .topics a {
+    display: inline-block; font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.03em;
+    color: var(--ink-2); text-decoration: none; padding: 0.15rem 0.55rem; border-radius: 999px;
+    border: 1px solid var(--rule); background: var(--surface);
+  }
+  .topics a:hover { border-color: var(--accent); color: var(--accent); }
+
+  .connections { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
+  .connections h2 { font-weight: 400; margin: 0 0 1rem; }
+  .backlinks { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.75rem; }
+  .backlink {
+    display: flex; flex-direction: column; gap: 0.3rem; height: 100%; padding: 0.85rem 1rem; text-decoration: none;
+    border: 1px solid var(--rule); border-radius: var(--radius); background: var(--surface); color: var(--ink);
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  }
+  .backlink:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--rule)); box-shadow: var(--shadow); transform: translateY(-2px); }
+  .backlink strong { font-family: var(--font-head); font-size: 1.05rem; font-weight: 600; color: var(--heading); line-height: 1.25; }
+  .backlink span { font-size: 0.85rem; line-height: 1.45; color: var(--ink-2); }
+  .none { color: var(--muted); font-style: italic; }
+  .graph-below { display: none; margin-top: 2rem; }
+
+  .rail-inner { position: sticky; top: 5.5rem; display: flex; flex-direction: column; gap: 1.5rem; max-height: calc(100vh - 7rem); }
+  .toc { overflow-y: auto; min-height: 0; padding-right: 0.25rem; }
+  .toc p { margin: 0 0 0.6rem; }
+  .toc ol { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--rule); }
+  .toc li { margin: 0; }
+  .toc a {
+    display: block; padding: 0.22rem 0 0.22rem 0.85rem; margin-left: -1px; border-left: 2px solid transparent;
+    font-size: 0.85rem; line-height: 1.35; color: var(--ink-2); text-decoration: none;
+  }
+  .toc .d3 a { padding-left: 1.6rem; font-size: 0.8rem; color: var(--muted); }
+  .toc a:hover { color: var(--accent); border-left-color: var(--accent); }
+
+  @media (max-width: 1100px) {
+    .note-layout { grid-template-columns: minmax(0, var(--measure)); padding-top: 2.5rem; }
+    .rail { display: none; }
+    .graph-below { display: block; }
+  }
+</style>

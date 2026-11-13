@@ -1,0 +1,197 @@
+---
+import Base from "../layouts/Base.astro";
+import NoteCard from "../components/NoteCard.astro";
+import StageIcon from "../components/StageIcon.astro";
+import Icon from "../components/Icon.astro";
+import { getSection, getGraph, titleOf, coverOf, STAGES, type StageKey } from "../lib/site";
+
+const writing = await getSection("writing");
+const investing = await getSection("investing");
+const notes = await getSection("notes");
+const books = await getSection("books");
+const { graph } = await getGraph();
+const bookCovers = new Map(await Promise.all(books.map(async (b) => [b.id, await coverOf(b)] as const)));
+---
+
+<Base>
+  <div class="wrap home">
+    <section class="hero">
+      <p class="eyebrow">Welcome</p>
+      <h1>I'm Christian — a CPA and senior financial analyst writing on <em>investing</em>, <em>philosophy</em>, <em>history</em>, and <em>technology</em>.</h1>
+      <p class="lede">
+        This is my digital garden: a collection of notes, half-formed ideas, and occasional essays. Most of it is
+        incomplete. I'm more interested in exploration than polish, so feel free to wander.
+      </p>
+    </section>
+
+    <nav class="start" aria-label="Places to start">
+      {[
+        { href: "/writing", icon: "teapot", title: "Recent writing", desc: "My latest essays" },
+        { href: "/now", icon: "watch", title: "Now", desc: "What I'm doing currently" },
+        { href: "/library", icon: "book", title: "Library", desc: "Books I've read and recommend" },
+        { href: "/investing", icon: "globe", title: "Investing", desc: "Public company research" },
+      ].map((t) => (
+        <a class="tile icon-host" href={t.href}>
+          <Icon name={t.icon as any} size={32} />
+          <span><strong>{t.title}</strong><span>{t.desc}</span></span>
+        </a>
+      ))}
+    </nav>
+
+    <section class="stages" aria-labelledby="stages-h">
+      <h2 id="stages-h" class="visually-hidden">How to read this garden</h2>
+      <p class="stages-intro">
+        Writing here is organised by <strong>maturity</strong> rather than date, borrowing from the 19th-century
+        explorers in Peter Hopkirk's <em>The Great Game</em> who set out to chart the great unknown.
+      </p>
+      <ul>
+        {(Object.keys(STAGES) as StageKey[]).map((s) => (
+          <li>
+            <StageIcon stage={s} size={22} />
+            <div><strong>{STAGES[s].label}</strong><span>{STAGES[s].blurb}</span></div>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="block">
+      <header class="block-head">
+        <div>
+          <h2><Icon name="teapot" size={30} /> Writing</h2>
+          <p>Ideas that have matured into something coherent.</p>
+        </div>
+        <a class="more mono" href="/writing">All writing →</a>
+      </header>
+      <ul class="cards">
+        {writing.slice(0, 6).map((n) => <li><NoteCard note={n} /></li>)}
+      </ul>
+    </section>
+
+    <section class="block">
+      <header class="block-head">
+        <div>
+          <h2><Icon name="globe" size={30} /> Investing</h2>
+          <p>Long-form research on public companies. Long-term oriented, focused on durability.</p>
+        </div>
+        <a class="more mono" href="/investing">All research →</a>
+      </header>
+      <ul class="cards feature">
+        {investing.map((n) => <li><NoteCard note={n} variant="feature" /></li>)}
+      </ul>
+    </section>
+
+    <section class="block">
+      <header class="block-head">
+        <div>
+          <h2><Icon name="inkwell" size={30} /> Notes</h2>
+          <p>Single ideas, densely linked. Potentially wrong.</p>
+        </div>
+        <a class="more mono" href="/notes">All {notes.length} notes →</a>
+      </header>
+      <ul class="cards compact">
+        {notes.slice(0, 12).map((n) => <li><NoteCard note={n} variant="compact" /></li>)}
+      </ul>
+    </section>
+
+    <section class="block map">
+      <header class="block-head">
+        <div>
+          <h2>The map</h2>
+          <p>{graph.nodes.length} pages and {graph.links.length} links. Drag, zoom, and click to explore.</p>
+        </div>
+      </header>
+      <div class="map-frame"><garden-graph data-depth="-1"></garden-graph></div>
+    </section>
+
+    <section class="block">
+      <header class="block-head">
+        <div>
+          <h2><Icon name="book" size={30} /> Library</h2>
+          <p>Books I've read and taken notes on.</p>
+        </div>
+        <a class="more mono" href="/library">Full library →</a>
+      </header>
+      <ul class="shelf">
+        {books.map((b) => {
+          const cover = bookCovers.get(b.id);
+          return (
+            <li>
+              <a href={`/${b.id}`} class="internal book" data-slug={b.id}>
+                {cover ? <img src={cover} alt="" loading="lazy" /> : <span class="spine">{titleOf(b)}</span>}
+                <span class="book-name">{titleOf(b)}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+
+    <aside class="callout" data-callout="disclosure">
+      <div class="callout-title">On AI</div>
+      <p>I use AI extensively in research, formatting and cleaning up my writing, writing code for this site, etc. Interpret that as you wish.</p>
+    </aside>
+  </div>
+</Base>
+
+<script>
+  import "../scripts/graph";
+</script>
+
+<style>
+  .home { padding-top: 4.5rem; }
+  .hero { max-width: 48rem; }
+  .hero h1 { font-size: clamp(2.1rem, 4.6vw, 3.4rem); font-weight: 500; line-height: 1.12; letter-spacing: -0.02em; margin: 0.6rem 0 1.25rem; }
+  .hero h1 em { font-style: italic; color: var(--accent); }
+  .lede { font-size: 1.25rem; line-height: 1.6; color: var(--ink-2); margin: 0; max-width: 40rem; }
+
+
+  .start { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.85rem; margin-top: 2.75rem; }
+  @media (max-width: 900px) { .start { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px) { .start { grid-template-columns: 1fr; } }
+  .tile {
+    display: flex; gap: 0.9rem; align-items: center; padding: 1rem 1.1rem; text-decoration: none; color: var(--ink);
+    background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius);
+    transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+  }
+  .tile:hover { box-shadow: var(--shadow-lift); border-color: color-mix(in srgb, var(--accent) 50%, var(--rule)); transform: translateY(-2px); }
+  .tile strong { display: block; font-family: var(--font-head); font-size: 1.05rem; color: var(--heading); line-height: 1.25; }
+  .tile:hover strong { color: var(--accent); }
+  .tile span span { font-size: 0.85rem; color: var(--ink-2); line-height: 1.4; }
+  .block-head h2 { display: flex; align-items: center; gap: 0.7rem; }
+  .stages { margin: 2rem 0 1rem; padding: 1.5rem; border: 1px solid var(--rule); border-radius: 14px; background: var(--surface); }
+  .stages-intro { margin: 0 0 1.25rem; color: var(--ink-2); max-width: 46rem; }
+  .stages ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .stages li { display: flex; gap: 0.75rem; align-items: flex-start; }
+  .stages li :global(svg) { margin-top: 0.2rem; }
+  .stages li strong { display: block; font-family: var(--font-head); font-size: 1.1rem; color: var(--heading); }
+  .stages li span { font-size: 0.92rem; color: var(--ink-2); line-height: 1.45; }
+  @media (max-width: 760px) { .stages ul { grid-template-columns: 1fr; } }
+
+  .block { margin-top: 5rem; }
+  .block-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem; margin-bottom: 1.5rem; padding-bottom: 0.9rem; border-bottom: 1px solid var(--rule); }
+  .block-head h2 { margin: 0; font-size: 2rem; }
+  .block-head p { margin: 0.25rem 0 0; color: var(--ink-2); }
+  .more { white-space: nowrap; text-decoration: none; color: var(--accent); font-size: 0.75rem; }
+  .more:hover { text-decoration: underline; }
+
+  .cards { list-style: none; padding: 0; margin: 0; display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); }
+  .cards.feature { grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr)); }
+  .cards.compact { gap: 0.1rem 1.5rem; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); }
+  @media (max-width: 520px) { .cards.feature { grid-template-columns: 1fr; } }
+
+  .map-frame { height: 26rem; border: 1px solid var(--rule); border-radius: 14px; background: var(--surface); overflow: hidden; }
+  .map-frame garden-graph { display: block; height: 100%; }
+
+  .shelf { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr)); gap: 1.5rem; }
+  .book { display: flex; flex-direction: column; gap: 0.6rem; text-decoration: none; color: var(--ink); }
+  .book img, .spine {
+    width: 100%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 4px 8px 8px 4px;
+    box-shadow: var(--shadow); border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .spine { display: grid; place-items: center; padding: 1rem; text-align: center; font-family: var(--font-head); background: var(--surface); }
+  .book:hover img, .book:hover .spine { transform: translateY(-4px) rotate(-1deg); box-shadow: var(--shadow-lift); }
+  .book-name { font-size: 0.9rem; line-height: 1.3; font-family: var(--font-head); }
+
+  .home > .callout { margin-top: 5rem; max-width: 46rem; }
+</style>

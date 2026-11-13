@@ -1,0 +1,54 @@
+/* Shared look for interactive widgets. Uses the site tokens so widgets follow light/dark. */
+
+
+.gw {
+  margin: 0; padding: 1.25rem 1.4rem 1.1rem; border-radius: 14px;
+  background: var(--surface); border: 1px solid var(--rule); box-shadow: var(--shadow);
+  font-family: var(--font-body);
+}
+@media (min-width: 900px) { .gw { margin-inline: -2.5rem; } }
+.gw-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 1rem; }
+.gw-eyebrow { margin: 0; font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); }
+.gw-title { margin: 0.2rem 0 0; font-size: 1.3rem; }
+.gw-reset {
+  font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+  border: 1px solid var(--rule); background: var(--paper); color: var(--ink-2); padding: 0.35rem 0.7rem; border-radius: 6px; cursor: pointer;
+}
+.gw-reset:hover { border-color: var(--accent); color: var(--accent); }
+
+.gw-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 1.5rem; }
+@media (max-width: 700px) { .gw-grid { grid-template-columns: 1fr; } }
+
+.gw-controls { display: flex; flex-direction: column; gap: 0.9rem; }
+.gw-slider { display: block; }
+.gw-slider-row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; }
+.gw-label { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); }
+.gw-slider output { font-family: var(--font-mono); font-size: 0.9rem; color: var(--heading); font-variant-numeric: tabular-nums; }
+.gw-slider.accent output { color: var(--accent); }
+.gw-slider input { width: 100%; margin: 0.35rem 0 0; accent-color: var(--muted); cursor: pointer; }
+.gw-slider.accent input { accent-color: var(--accent); }
+
+.gw-results { display: flex; flex-direction: column; gap: 0.9rem; padding-left: 1.5rem; border-left: 1px solid var(--rule); }
+@media (max-width: 700px) { .gw-results { padding-left: 0; border-left: 0; border-top: 1px solid var(--rule); padding-top: 1rem; } }
+.gw-stat { display: flex; flex-direction: column; gap: 0.1rem; }
+.gw-big { font-family: var(--font-head); font-size: 2.1rem; font-weight: 600; line-height: 1.1; color: var(--heading); font-variant-numeric: tabular-nums; }
+.gw-big.accent { color: var(--accent); }
+.gw-mid { font-family: var(--font-head); font-size: 1.35rem; font-weight: 600; color: var(--ink-2); }
+.gw-sub { font-size: 0.88rem; line-height: 1.45; color: var(--ink-2); }
+
+.gw-chart { display: block; width: 100%; height: auto; margin-top: 1.25rem; overflow: visible; }
+.gw-chart .grid { stroke: var(--rule); stroke-width: 1; }
+.gw-chart .tick { font-family: var(--font-mono); font-size: 10px; fill: var(--muted); }
+.gw-chart .bar { fill: color-mix(in srgb, var(--accent) 70%, var(--surface)); transition: y 0.15s ease, height 0.15s ease; }
+.gw-chart .implied { fill: none; stroke: var(--ink-2); stroke-width: 1.75; stroke-dasharray: 5 4; }
+.gw-chart .implied-dot { fill: var(--surface); stroke: var(--ink-2); stroke-width: 1.5; }
+.gw-chart .ref { stroke: var(--stage-surveyed); stroke-width: 1.25; stroke-dasharray: 2 3; }
+.gw-chart .ref-label { font-family: var(--font-mono); font-size: 10px; fill: var(--stage-surveyed); }
+
+.gw-legend { font-style: normal; text-align: left; display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; margin-top: 0.5rem; font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.gw-legend span { display: inline-flex; align-items: center; gap: 0.4rem; }
+.sw { display: inline-block; width: 14px; height: 0; }
+.sw.bar { height: 10px; border-radius: 2px; background: color-mix(in srgb, var(--accent) 70%, var(--surface)); }
+.sw.implied { border-top: 2px dashed var(--ink-2); }
+.sw.ref { border-top: 2px dotted var(--stage-surveyed); }
+.gw-note { margin: 0.9rem 0 0; font-size: 0.82rem; line-height: 1.5; color: var(--muted); }

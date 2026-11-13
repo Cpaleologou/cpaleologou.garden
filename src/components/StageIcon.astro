@@ -1,0 +1,32 @@
+---
+// Cartographic growth-stage marks: an uncharted dashed outline, a surveyor's
+// crosshair, and a finished compass rose.
+import type { StageKey } from "../lib/site";
+interface Props { stage: StageKey; size?: number }
+const { stage, size = 16 } = Astro.props;
+---
+
+<svg class={`stage-icon stage-${stage}`} viewBox="0 0 20 20" width={size} height={size} aria-hidden="true">
+  {stage === "terraincognita" && (
+    <circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="2.6 2.4" />
+  )}
+  {stage === "surveyed" && (
+    <>
+      <circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="1.6" />
+      <path d="M10 1.5v5M10 13.5v5M1.5 10h5M13.5 10h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+    </>
+  )}
+  {stage === "gazetteer" && (
+    <>
+      <circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.4" />
+      <path d="M10 2.8l1.9 5.3 5.3 1.9-5.3 1.9-1.9 5.3-1.9-5.3L2.8 10l5.3-1.9z" fill="currentColor" />
+    </>
+  )}
+</svg>
+
+<style>
+  .stage-icon { flex-shrink: 0; vertical-align: -0.15em; }
+  .stage-terraincognita { color: var(--stage-terra); }
+  .stage-surveyed { color: var(--stage-surveyed); }
+  .stage-gazetteer { color: var(--stage-gazetteer); }
+</style>

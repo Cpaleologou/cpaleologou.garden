@@ -1,0 +1,53 @@
+---
+import Base from "../../layouts/Base.astro";
+import NoteCard from "../../components/NoteCard.astro";
+import StageIcon from "../../components/StageIcon.astro";
+import Icon, { type IconName } from "../../components/Icon.astro";
+import { getSection, SECTIONS, STAGES, stageOf, type SectionKey, type StageKey } from "../../lib/site";
+
+export function getStaticPaths() {
+  return Object.keys(SECTIONS).map((section) => ({ params: { section } }));
+}
+
+const section = Astro.params.section as SectionKey;
+const meta = SECTIONS[section];
+const notes = await getSection(section);
+const icons: Record<SectionKey, IconName> = { writing: "teapot", investing: "globe", notes: "inkwell", books: "book", now: "watch" };
+const variant = section === "notes" ? "compact" : section === "investing" ? "feature" : "card";
+const counts = Object.fromEntries(
+  (Object.keys(STAGES) as StageKey[]).map((s) => [s, notes.filter((n) => stageOf(n) === s).length]),
+);
+---
+
+<Base title={meta.title} description={meta.blurb}>
+  <div class="wrap listing">
+    <header>
+      <p class="eyebrow">{notes.length} {notes.length === 1 ? "entry" : "entries"}</p>
+      <h1 class="icon-host"><Icon name={icons[section]} size={44} /> {meta.title}</h1>
+      <p class="blurb">{meta.blurb}</p>
+      {section === "notes" && (
+        <p class="stages mono">
+          {(Object.keys(STAGES) as StageKey[]).map((s) => (
+            <span title={STAGES[s].blurb}><StageIcon stage={s} size={13} /> {STAGES[s].label} · {counts[s]}</span>
+          ))}
+        </p>
+      )}
+    </header>
+    <ul class={`grid ${variant}`}>
+      {notes.map((note) => <li><NoteCard note={note} variant={variant} /></li>)}
+    </ul>
+  </div>
+</Base>
+
+<style>
+  .listing { padding-top: 3.5rem; }
+  header { max-width: 40rem; margin-bottom: 2.5rem; }
+  h1 { display: flex; align-items: center; gap: 0.9rem; font-size: clamp(2.4rem, 6vw, 3.4rem); margin: 0.3rem 0 0.5rem; letter-spacing: -0.02em; }
+  .blurb { margin: 0; font-size: 1.2rem; color: var(--ink-2); }
+  .stages { display: flex; flex-wrap: wrap; gap: 1.25rem; margin: 1.25rem 0 0; font-size: 0.72rem; }
+  .stages span { display: inline-flex; gap: 0.4rem; align-items: center; }
+  .grid { list-style: none; padding: 0; margin: 0; display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); }
+  .grid.feature { grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr)); }
+  .grid.compact { gap: 0.15rem 1.5rem; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); }
+  @media (max-width: 520px) { .grid.feature { grid-template-columns: 1fr; } }
+</style>

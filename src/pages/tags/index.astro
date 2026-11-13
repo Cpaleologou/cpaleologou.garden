@@ -1,0 +1,41 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getGarden, tagSlug, STAGES } from "../../lib/site";
+
+const notes = await getGarden();
+const counts = new Map<string, { label: string; count: number }>();
+for (const n of notes) {
+  for (const t of n.data.tags) {
+    const slug = tagSlug(t);
+    const cur = counts.get(slug) ?? { label: t, count: 0 };
+    cur.count++;
+    counts.set(slug, cur);
+  }
+}
+const tags = [...counts].filter(([slug]) => !(slug in STAGES)).sort((a, b) => b[1].count - a[1].count || a[1].label.localeCompare(b[1].label));
+---
+
+<Base title="Topics" description="Every topic in the garden.">
+  <div class="wrap listing">
+    <p class="eyebrow">{tags.length} topics</p>
+    <h1>Topics</h1>
+    <ul class="cloud">
+      {tags.map(([slug, t]) => (
+        <li><a href={`/tags/${slug}`}>{t.label}<span>{t.count}</span></a></li>
+      ))}
+    </ul>
+  </div>
+</Base>
+
+<style>
+  .listing { padding-top: 3.5rem; }
+  h1 { font-size: clamp(2.4rem, 6vw, 3.4rem); margin: 0.3rem 0 2rem; letter-spacing: -0.02em; }
+  .cloud { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .cloud a {
+    display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.3rem 0.75rem; border-radius: 999px;
+    border: 1px solid var(--rule); background: var(--surface); color: var(--ink-2); text-decoration: none;
+    font-family: var(--font-mono); font-size: 0.8rem;
+  }
+  .cloud a:hover { border-color: var(--accent); color: var(--accent); }
+  .cloud span { color: var(--muted); font-size: 0.7rem; }
+</style>

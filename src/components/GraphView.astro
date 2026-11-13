@@ -1,0 +1,55 @@
+---
+// Interactive link graph. Local mode shows the current note's neighbourhood;
+// the expand button opens the whole garden in a dialog.
+interface Props { current?: string; depth?: number }
+const { current = "", depth = 2 } = Astro.props;
+---
+
+<section class="graph-box" aria-label="Link graph">
+  <div class="graph-head">
+    <span class="eyebrow">Graph</span>
+    <button class="expand" type="button" aria-label="Open full graph">
+      <svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M12 3h5v5M8 17H3v-5M17 3l-6 6M3 17l6-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <garden-graph data-current={current} data-depth={depth}></garden-graph>
+  <dialog class="graph-dialog">
+    <div class="dialog-head">
+      <span class="eyebrow">The whole garden</span>
+      <button class="close" type="button" aria-label="Close">✕</button>
+    </div>
+    <garden-graph data-current={current} data-depth="-1" data-lazy="true"></garden-graph>
+  </dialog>
+</section>
+
+<script>
+  import "../scripts/graph";
+  document.addEventListener("click", (e) => {
+    const t = e.target as Element;
+    const box = t.closest(".graph-box");
+    if (!box) return;
+    const dialog = box.querySelector("dialog") as HTMLDialogElement;
+    if (t.closest(".expand")) {
+      dialog.showModal();
+      dialog.querySelector("garden-graph")?.dispatchEvent(new Event("activate"));
+    } else if (t.closest(".close") || t === dialog) {
+      dialog.close();
+    }
+  });
+</script>
+
+<style>
+  .graph-box { border: 1px solid var(--rule); border-radius: var(--radius); background: var(--surface); overflow: hidden; }
+  .graph-head, .dialog-head { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 0.75rem; }
+  .graph-head { border-bottom: 1px solid var(--rule); }
+  .graph-box > garden-graph { display: block; height: 15rem; }
+  button { border: 0; background: none; color: var(--muted); cursor: pointer; padding: 0.25rem; border-radius: 4px; display: grid; place-items: center; }
+  button:hover { color: var(--accent); background: var(--hover); }
+  .graph-dialog {
+    width: min(64rem, 94vw); height: min(46rem, 88vh); padding: 0; border: 1px solid var(--rule);
+    border-radius: 14px; background: var(--surface); color: var(--ink); box-shadow: var(--shadow-lift);
+  }
+  .graph-dialog[open] { display: flex; flex-direction: column; }
+  .graph-dialog::backdrop { background: rgba(20, 24, 18, 0.45); backdrop-filter: blur(3px); }
+  .graph-dialog garden-graph { display: block; flex: 1; min-height: 0; }
+</style>

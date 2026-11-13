@@ -1,0 +1,36 @@
+---
+import Base from "../../layouts/Base.astro";
+import NoteCard from "../../components/NoteCard.astro";
+import { getGarden, tagSlug, type Note } from "../../lib/site";
+
+export async function getStaticPaths() {
+  const notes = await getGarden();
+  const tags = new Map<string, { label: string; notes: Note[] }>();
+  for (const n of notes) {
+    for (const t of n.data.tags) {
+      const slug = tagSlug(t);
+      if (!tags.has(slug)) tags.set(slug, { label: t, notes: [] });
+      tags.get(slug)!.notes.push(n);
+    }
+  }
+  return [...tags].map(([tag, data]) => ({ params: { tag }, props: data }));
+}
+
+const { label, notes } = Astro.props;
+---
+
+<Base title={`#${label}`}>
+  <div class="wrap listing">
+    <p class="eyebrow">Topic · {notes.length} {notes.length === 1 ? "note" : "notes"}</p>
+    <h1>#{label}</h1>
+    <ul class="grid">
+      {notes.map((note) => <li><NoteCard note={note} /></li>)}
+    </ul>
+  </div>
+</Base>
+
+<style>
+  .listing { padding-top: 3.5rem; }
+  h1 { font-size: clamp(2.2rem, 5vw, 3rem); margin: 0.3rem 0 2rem; }
+  .grid { list-style: none; padding: 0; margin: 0; display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); }
+</style>

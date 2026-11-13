@@ -1,0 +1,56 @@
+---
+import StageIcon from "./StageIcon.astro";
+import { STAGES, stageOf, titleOf, excerptOf, coverOf, tendedOf, formatDate, type Note } from "../lib/site";
+
+interface Props {
+  note: Note;
+  variant?: "feature" | "card" | "compact";
+}
+const { note, variant = "card" } = Astro.props;
+const stage = stageOf(note);
+const cover = variant === "feature" ? await coverOf(note) : null;
+---
+
+<a class={`note-card ${variant}`} href={`/${note.id}`} data-slug={note.id}>
+  {cover && <div class={`thumb${note.data.cover ? " is-cover" : ""}`}><img src={cover} alt="" loading="lazy" decoding="async" /></div>}
+  <div class="body">
+    <h3>{titleOf(note)}</h3>
+    {variant !== "compact" && <p class="excerpt">{excerptOf(note, variant === "feature" ? 190 : 120)}</p>}
+    <p class="meta">
+      {stage && <span class="stage"><StageIcon stage={stage} size={13} />{STAGES[stage].label}</span>}
+      <span>{formatDate(tendedOf(note))}</span>
+    </p>
+  </div>
+</a>
+
+<style>
+  .note-card {
+    display: flex; flex-direction: column; text-decoration: none; color: var(--ink);
+    background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius);
+    overflow: hidden; height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  .note-card:hover {
+    transform: translateY(-3px); box-shadow: var(--shadow-lift);
+    border-color: color-mix(in srgb, var(--accent) 40%, var(--rule));
+  }
+  .body { padding: 1.1rem 1.2rem 1rem; display: flex; flex-direction: column; flex: 1; }
+  h3 { margin: 0 0 0.4rem; font-size: 1.2rem; }
+  .feature h3 { font-size: 1.45rem; }
+  .excerpt { margin: 0 0 1rem; font-size: 0.95rem; line-height: 1.55; color: var(--ink-2); flex: 1; }
+  .meta {
+    margin: 0; display: flex; gap: 0.9rem; flex-wrap: wrap; align-items: center;
+    font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted);
+  }
+  .stage { display: inline-flex; gap: 0.35rem; align-items: center; }
+  .thumb { aspect-ratio: 16 / 9; overflow: hidden; border-bottom: 1px solid var(--rule); background: var(--paper); }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; transition: transform 0.4s ease; }
+  .note-card:hover .thumb img { transform: scale(1.03); }
+  /* A chosen cover (logo, artwork) is framed centred; fallback chart thumbnails show their top. */
+  .thumb.is-cover img { object-position: center; }
+
+  .compact { background: transparent; border-color: transparent; border-radius: 8px; }
+  .compact .body { padding: 0.65rem 0.8rem; }
+  .compact h3 { font-size: 1.05rem; font-weight: 500; margin-bottom: 0.25rem; }
+  .compact:hover { background: var(--surface); border-color: var(--rule); transform: none; box-shadow: none; }
+</style>

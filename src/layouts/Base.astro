@@ -1,0 +1,149 @@
+---
+import { ClientRouter } from "astro:transitions";
+import "../styles/global.css";
+import Search from "../components/Search.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+const { title, description = "Christian's digital garden: notes and essays on investing, philosophy, history, and technology." } = Astro.props;
+const fullTitle = title ? `${title} · christianp.space` : "christianp.space";
+const path = Astro.url.pathname.replace(/(\.html|\/index\.html|\/)$/, "");
+const nav = [
+  { href: "/writing", label: "Writing" },
+  { href: "/investing", label: "Investing" },
+  { href: "/notes", label: "Notes" },
+  { href: "/library", label: "Library" },
+  { href: "/now", label: "Now" },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap"
+    />
+    <script is:inline>
+      (function () {
+        function apply() {
+          var saved = null;
+          try { saved = localStorage.getItem("theme"); } catch (e) {}
+          var theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+          document.documentElement.dataset.theme = theme;
+        }
+        apply();
+        document.addEventListener("astro:after-swap", apply);
+      })();
+    </script>
+    <script is:inline>
+      // Plausible, set up exactly as on the Quartz site: manual pageviews, one per navigation.
+      (function () {
+        if (window.__plausibleSetup || /^(localhost|127\.|\[::1\])/.test(location.hostname)) return;
+        window.__plausibleSetup = true;
+        window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments); };
+        var s = document.createElement("script");
+        s.src = "https://plausible.io/js/script.manual.js";
+        s.defer = true;
+        s.setAttribute("data-domain", location.hostname);
+        document.head.appendChild(s);
+        document.addEventListener("astro:page-load", function () { window.plausible("pageview"); });
+      })();
+    </script>
+    <link rel="alternate" type="application/rss+xml" title="christianp.space" href="/index.xml" />
+    <link rel="sitemap" href="/sitemap.xml" />
+    <ClientRouter />
+  </head>
+  <body>
+    <a class="visually-hidden" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="wordmark" href="/">christianp<span>.space</span></a>
+        <nav aria-label="Main">
+          {
+            nav.map((item) => (
+              <a href={item.href} aria-current={path.startsWith(item.href) ? "page" : undefined}>
+                {item.label}
+              </a>
+            ))
+          }
+          <Search />
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <svg class="sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <svg class="moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>A digital garden by Christian Paleologou. Mostly incomplete, often revised.</p>
+        <p class="mono"><a href="/index.xml">RSS</a> · Built with Astro</p>
+      </div>
+    </footer>
+
+    <script>
+      import "../scripts/link-previews";
+      import "../scripts/lightbox";
+      import "../widgets/host";
+      document.addEventListener("click", (e) => {
+        const btn = (e.target as Element).closest(".theme-toggle");
+        if (!btn) return;
+        const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+        document.documentElement.dataset.theme = next;
+        try { localStorage.setItem("theme", next); } catch {}
+        document.dispatchEvent(new CustomEvent("themechange"));
+      });
+    </script>
+  </body>
+</html>
+
+<style>
+  .site-header {
+    position: sticky; top: 0; z-index: 20;
+    background: color-mix(in srgb, var(--paper) 88%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid color-mix(in srgb, var(--rule) 70%, transparent);
+  }
+  .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 3.75rem; flex-wrap: wrap; }
+  .wordmark { font-family: var(--font-head); font-size: 1.3rem; font-weight: 600; color: var(--heading); text-decoration: none; letter-spacing: -0.01em; }
+  .wordmark span { color: var(--accent); }
+  nav { display: flex; align-items: center; gap: 0.25rem; flex-wrap: wrap; }
+  nav a {
+    font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.04em; text-transform: uppercase;
+    color: var(--ink-2); text-decoration: none; padding: 0.35rem 0.6rem; border-radius: 6px;
+  }
+  nav a:hover { background: var(--hover); color: var(--heading); }
+  nav a[aria-current="page"] { color: var(--accent); }
+  .theme-toggle {
+    display: grid; place-items: center; width: 2rem; height: 2rem; margin-left: 0.25rem;
+    border: 1px solid var(--rule); border-radius: 50%; background: transparent; color: var(--ink-2); cursor: pointer;
+  }
+  .theme-toggle:hover { background: var(--hover); }
+  :global(:root[data-theme="dark"]) .sun, :global(:root:not([data-theme="dark"])) .moon { display: none; }
+  main { min-height: 70vh; }
+  .site-footer { margin-top: 6rem; border-top: 1px solid var(--rule); padding: 2rem 0 3rem; color: var(--muted); font-size: 0.95rem; }
+  .footer-inner { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+  .footer-inner p { margin: 0; }
+  .footer-inner a { color: inherit; }
+  @media (max-width: 640px) {
+    .site-header { position: static; }
+    .header-inner { padding-block: 0.5rem; }
+    nav a { padding: 0.3rem 0.4rem; font-size: 0.72rem; }
+  }
+</style>

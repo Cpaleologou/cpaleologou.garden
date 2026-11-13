@@ -1,0 +1,46 @@
+---
+// Christian's hand-made icons, carried over from the Quartz site. Each SVG is
+// used as a CSS mask filled with currentColor, so it recolours with the theme.
+// Hover animations trigger from any ancestor with class "icon-host".
+export type IconName = "teapot" | "watch" | "book" | "globe" | "inkwell";
+interface Props { name: IconName; size?: number; class?: string }
+const { name, size = 30, class: cls = "" } = Astro.props;
+---
+
+{name === "inkwell" ? (
+  <span class={`ci ci-inkwell ${cls}`} style={`--s:${size}px`} aria-hidden="true">
+    <span class="pot"></span>
+    <span class="feather"></span>
+  </span>
+) : (
+  <span class={`ci ci-mask ci-${name} ${cls}`} style={`--s:${size}px; --src:url(/icons/${name}.svg)`} aria-hidden="true"></span>
+)}
+
+<style>
+  .ci {
+    display: inline-block; flex-shrink: 0; width: var(--s); height: var(--s); color: var(--heading);
+    position: relative; vertical-align: middle;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), color 0.2s ease;
+  }
+  .ci-mask, .pot, .feather {
+    background-color: currentColor;
+    -webkit-mask: var(--src) center / contain no-repeat;
+            mask: var(--src) center / contain no-repeat;
+  }
+  /* Inkwell = pot + feather, offsets measured from the Quartz composition. */
+  .ci-inkwell { width: calc(var(--s) * 0.84); }
+  .pot, .feather { position: absolute; display: block; }
+  .pot { --src: url(/icons/inkwell.svg); left: 0; top: 37%; width: 85%; height: 63%; }
+  .feather {
+    --src: url(/icons/feather.svg); left: 24%; top: 0; width: 76%; height: 63%;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  :global(.icon-host:hover) .ci { color: var(--accent); }
+  :global(.icon-host:hover) .ci-teapot { transform: rotate(-22deg) scale(1.08); }
+  :global(.icon-host:hover) .ci-watch,
+  :global(.icon-host:hover) .ci-book,
+  :global(.icon-host:hover) .ci-globe { transform: scale(1.12); }
+  :global(.icon-host:hover) .feather { transform: translateY(-20%); }
+  @media (prefers-reduced-motion: reduce) { .ci, .feather { transition: color 0.2s; transform: none !important; } }
+</style>
