@@ -37,6 +37,20 @@ their cover from `Library.md` and everything else uses the note's first image.
 
 **Icons.** Christian's SVGs live in `public/icons/` and render through `src/components/Icon.astro`.
 
+## Photo galleries
+
+In Obsidian, paste or drag photos into a gallery callout. Captions are optional, after a `|`:
+
+```md
+> [!gallery] Japan, June 2026
+> ![[Kyoto_Arashiyama.webp|Bamboo grove at 7am, before the crowds]]
+> ![[Kyoto_Ramen.webp]]
+> ![[Osaka_Castle.webp|Osaka Castle]]
+```
+
+On the site it becomes a photo grid (3 columns, 2 on phones; `[!gallery|2]` sets the column count). Clicking a
+photo opens a viewer with arrows, ← → keys, swipe, captions and a counter.
+
 ## Interactive widgets
 
 Write a fenced block in any note, in Obsidian, with YAML settings:

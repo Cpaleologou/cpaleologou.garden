@@ -2,6 +2,7 @@
 //   [[Note]] / [[Note|alias]] / [[Note#Heading]]  -> internal links (or a muted span if unpublished)
 //   ![[image.webp]] / ![[image.webp|400]] / ![[image.webp|Caption]] -> images / figures
 //   > [!type] Title                                -> callouts
+//   > [!gallery] Title + image embeds              -> photo gallery with lightbox
 //   ```widget name  (YAML props)                   -> <garden-widget> interactive islands
 //   bare relative images ![x](Cover.jpg)           -> /assets/Cover.jpg
 
@@ -100,7 +101,7 @@ function callouts(tree) {
     const para = node.children[0];
     const first = para?.type === "paragraph" ? para.children[0] : null;
     if (first?.type !== "text") return;
-    const m = /^\[!([\w-]+)\]([+-]?)[ \t]*([^\n]*)\n?/.exec(first.value);
+    const m = /^\[!([\w-]+)(?:\|[^\]]*)?\]([+-]?)[ \t]*([^\n]*)\n?/.exec(first.value);
     if (!m) return;
     const [, rawType, , rawTitle] = m;
     const type = rawType.toLowerCase();
@@ -114,6 +115,61 @@ function callouts(tree) {
       children: [{ type: "text", value: rawTitle.trim() || type[0].toUpperCase() + type.slice(1) }],
     });
     node.data = { hName: "aside", hProperties: { className: ["callout"], "data-callout": type } };
+  });
+}
+
+
+/** Flatten a node's text, keeping markdown images as ![alt](url) so they can be read back. */
+function flatText(node) {
+  if (node.type === "text") return node.value;
+  if (node.type === "image") return `![${node.alt ?? ""}](${node.url})`;
+  if (node.type === "break") return "\n";
+  return (node.children ?? []).map(flatText).join(node.type === "blockquote" ? "\n" : "");
+}
+
+/**
+ * > [!gallery] Optional title          (or [!gallery|2] to force two columns)
+ * > ![[photo.webp|Optional caption]]
+ * > ![[another.webp]]
+ * becomes a photo grid; clicking opens a swipeable lightbox (scripts/lightbox.ts).
+ */
+function galleries(tree) {
+  visit(tree, "blockquote", (node, index, parent) => {
+    const head = flatText(node);
+    const m = /^\[!gallery(?:\|([^\]]*))?\][+-]?[ \t]*([^\n]*)/i.exec(head);
+    if (!m || !parent) return;
+    const n = parseInt(m[1] ?? "", 10);
+    const cols = Number.isFinite(n) ? Math.min(4, Math.max(1, n)) : null;
+    const title = m[2].trim();
+    const items = [];
+    const re = /!\[\[([^\]|]+?)(?:\|([^\]]*))?\]\]|!\[([^\]]*)\]\(([^)\s]+)[^)]*\)/g;
+    for (const g of head.slice(m[0].length).matchAll(re)) {
+      if (g[1]) {
+        if (!IMAGE_EXT.test(g[1].trim())) continue;
+        const opt = (g[2] ?? "").trim();
+        items.push({ src: assetUrl(g[1]), caption: /^\d+(x\d+)?$/.test(opt) ? "" : opt, name: g[1].trim() });
+      } else {
+        const url = /^([a-z]+:|\/)/i.test(g[4]) ? g[4] : assetUrl(decodeURI(g[4]));
+        items.push({ src: url, caption: g[3].trim(), name: g[4] });
+      }
+    }
+    if (!items.length) return;
+    const alt = (it) => escapeAttr(it.caption || it.name.replace(IMAGE_EXT, "").replace(/[_-]+/g, " "));
+    const html =
+      `<figure class="gallery"${cols ? ` style="--cols:${cols}"` : ""} data-count="${items.length}">` +
+      (title ? `<figcaption class="gallery-title">${escapeAttr(title)}</figcaption>` : "") +
+      `<ul class="gallery-grid">` +
+      items
+        .map(
+          (it, i) =>
+            `<li><a class="gallery-item" href="${it.src}" data-index="${i}" data-caption="${escapeAttr(it.caption)}">` +
+            `<img src="${it.src}" alt="${alt(it)}" loading="lazy" decoding="async"></a>` +
+            (it.caption ? `<span class="gallery-caption">${escapeAttr(it.caption)}</span>` : "") +
+            `</li>`,
+        )
+        .join("") +
+      `</ul></figure>`;
+    parent.children[index] = { type: "html", value: html };
   });
 }
 
@@ -139,6 +195,7 @@ function widgets(tree) {
 export function remarkObsidian() {
   return (tree) => {
     widgets(tree);
+    galleries(tree);
     callouts(tree);
     wikilinks(tree);
     markdownLinksAndImages(tree);
