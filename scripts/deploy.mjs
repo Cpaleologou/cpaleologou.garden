@@ -23,18 +23,23 @@ console.log("✅ Site builds.");
 
 run("git add -A");
 const changed = out("git status --porcelain");
-if (!changed) {
+// Commits made by hand (e.g. site code changes) that haven't been pushed yet.
+const unpushed = Number(out(`git rev-list --count origin/${BRANCH}..HEAD`));
+if (!changed && !unpushed) {
   console.log("Nothing new to publish.");
   process.exit(0);
 }
-console.log(changed.split("\n").length + " changed files.");
+if (changed) console.log(changed.split("\n").length + " changed files.");
+if (unpushed) console.log(`${unpushed} unpushed commit(s).`);
 if (dry) {
   run("git reset -q");
   console.log("Dry run: nothing committed or pushed.");
   process.exit(0);
 }
 
-const stamp = new Date().toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" });
-run(`git commit -q -m ${JSON.stringify(`Garden sync: ${stamp}`)}`);
+if (changed) {
+  const stamp = new Date().toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" });
+  run(`git commit -q -m ${JSON.stringify(`Garden sync: ${stamp}`)}`);
+}
 run(`git push origin ${BRANCH}`);
 console.log("🚀 Pushed. GitHub Actions will publish christianp.space in a minute or two.");
