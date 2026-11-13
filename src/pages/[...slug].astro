@@ -29,10 +29,15 @@ const tended = tendedOf(note);
 // Notes often repeat their title as the first H1; hide that one.
 const toc = headings.filter((h) => h.depth >= 2 && h.depth <= 3 && !/^table of contents$/i.test(h.text));
 const isLong = toc.length >= 4;
+// Per-section furniture: research memos and Now posts are read top to bottom,
+// so the link graph adds little there; Now posts are short diary entries, so no table of contents either.
+const showGraph = section !== "investing" && section !== "now";
+const showToc = isLong && section !== "now";
+const hasRail = showGraph || showToc;
 ---
 
 <Base title={title} description={excerptOf(note, 160)}>
-  <div class={`note-layout wrap${isLong ? " has-toc" : ""}`}>
+  <div class={`note-layout wrap${hasRail ? "" : " no-rail"}`}>
     <article class="note" data-pagefind-body>
       <header class="note-header">
         <p class="eyebrow trail" data-pagefind-ignore>
@@ -79,14 +84,15 @@ const isLong = toc.length >= 4;
         ) : (
           <p class="none">Nothing links here yet.</p>
         )}
-        <div class="graph-below"><GraphView current={note.id} /></div>
+        {showGraph && <div class="graph-below"><GraphView current={note.id} /></div>}
       </section>
     </article>
 
+    {hasRail && (
     <aside class="rail">
       <div class="rail-inner">
-        <GraphView current={note.id} />
-        {isLong && (
+        {showGraph && <GraphView current={note.id} />}
+        {showToc && (
           <nav class="toc" aria-label="On this page">
             <p class="eyebrow">On this page</p>
             <ol>
@@ -98,11 +104,13 @@ const isLong = toc.length >= 4;
         )}
       </div>
     </aside>
+    )}
   </div>
 </Base>
 
 <style>
   .note-layout { display: grid; grid-template-columns: minmax(0, var(--measure)) 17rem; gap: 4rem; justify-content: center; padding-top: 3.5rem; }
+  .note-layout.no-rail { grid-template-columns: minmax(0, var(--measure)); }
   .note { min-width: 0; }
   .note-header { margin-bottom: 2.75rem; }
   .trail { display: flex; gap: 1rem; align-items: center; margin: 0 0 1rem; }
