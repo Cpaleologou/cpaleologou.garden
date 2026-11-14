@@ -73,7 +73,7 @@ June was crazy. Like I said, we got engaged. But Vancouver also co-hosted the 20
 
 Then it was back to Canada for wedding season. One of my best friends, Ben, got married. There was the bachelor trip to Whistler and the wedding was a blast. I'm happy for them. And then my other long-time friend Josh got married to Hailey in Manning Park, which was also stunning.
 
->[!July/ August/ September]
+>[!gallery] July/ August/ September
 >![[IMG_5142.webp|Disc golf in the mountains]]
 >![[IMG_6803.webp| Lost Lake, Whistler BC]]
 >![[IMG_7645.webp]]
@@ -87,7 +87,7 @@ Then it was back to Canada for wedding season. One of my best friends, Ben, got 
 
 The Fall has been busy too! Alexa moved into a new place very nearby. It's basically the same building and is even attached via the underground parkway, which Linda has dubbed the 'dwarf tunnel' and finds a surprising amount of joy in using. It has to be the most someone has ever found joy in walking through a parkade. In all seriousness though, there was a lot going on in terms of shopping for furniture and other household items. Linda found some nice things we've added to our place as well, like a little bench by the door. We've also been doing Survivor Wednesday for Survivor season 51, which has been a great change from our usual routine of very little after work. I will typically cook some ribs or other bulk meat and Alexa will do the sides. And we dine and then watch the show. Being so close has also been nice since my parents can visit both of us at once, and we've been spending a lot of weekends together. Alexa even hosted Thanksgiving.
 
->![September/October]
+>[!gallery] July/ August/ September
 >![[IMG_0303.webp|Alexa hosts Thanksgiving]]
 >![[IMG_0312.webp|Mum's taking the photos]]
 >![[IMG_7186.webp|Linda and I also went to an Apple festival at UBC in October.]]
