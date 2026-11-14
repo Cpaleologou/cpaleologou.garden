@@ -1,6 +1,7 @@
 ---
 title: 'You can be right, but look wrong for a long time'
 tags:
+  - '#TerraIncognita'
   - '#Investing'
   - Markets
 publish: 'true'

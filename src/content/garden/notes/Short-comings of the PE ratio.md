@@ -1,6 +1,7 @@
 ---
 title: Short-comings of the PE ratio
 tags:
+  - '#TerraIncognita'
   - Investing
 publish: 'true'
 date: 2026-06-21T00:00:00.000Z

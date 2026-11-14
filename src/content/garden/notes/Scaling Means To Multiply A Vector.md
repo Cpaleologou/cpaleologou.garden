@@ -1,6 +1,7 @@
 ---
 title: Scaling Means To Multiply A Vector
 tags:
+  - '#TerraIncognita'
   - '#LinearAlgebra'
   - '#Math'
   - '#Scaling'

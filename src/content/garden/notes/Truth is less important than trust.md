@@ -1,6 +1,7 @@
 ---
 title: Truth is less important than trust
 tags:
+  - '#TerraIncognita'
   - '#Philosophy'
   - '#Trust'
 publish: 'true'

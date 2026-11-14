@@ -1,6 +1,7 @@
 ---
 title: Metcalfe's Law And Network Effects
 tags:
+  - '#TerraIncognita'
   - '#Investing'
   - '#Networks'
 publish: 'true'

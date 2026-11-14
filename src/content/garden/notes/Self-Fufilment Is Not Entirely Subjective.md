@@ -1,6 +1,7 @@
 ---
 title: Self-Fufilment Is Not Entirely Subjective
 tags:
+  - '#TerraIncognita'
   - '#Philosophy'
   - '#Society'
 publish: 'true'

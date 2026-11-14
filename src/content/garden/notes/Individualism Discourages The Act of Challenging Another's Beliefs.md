@@ -1,6 +1,7 @@
 ---
 title: Individualism Discourages The Act of Challenging Another's Beliefs
 tags:
+  - '#TerraIncognita'
   - '#Philosophy'
   - '#Communication'
 publish: 'true'

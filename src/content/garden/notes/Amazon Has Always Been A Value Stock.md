@@ -1,6 +1,7 @@
 ---
 title: Amazon Has Always Been A Value Stock
 tags:
+  - '#TerraIncognita'
   - '#Investing'
   - '#Value'
 publish: 'true'

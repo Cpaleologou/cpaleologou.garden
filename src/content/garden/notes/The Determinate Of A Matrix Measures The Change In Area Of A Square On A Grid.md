@@ -1,6 +1,7 @@
 ---
 title: The Determinate Of A Matrix Measures The Change In Area Of A Square On A Grid
 tags:
+  - '#TerraIncognita'
   - '#LinearAlgebra'
   - '#Math'
 publish: 'true'

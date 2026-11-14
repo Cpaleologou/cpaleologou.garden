@@ -1,6 +1,7 @@
 ---
 title: ChatGPT's Sycophancy Destroys It's Authenticity
 tags:
+  - '#TerraIncognita'
   - '#AI'
   - '#Authenticity'
 publish: 'true'

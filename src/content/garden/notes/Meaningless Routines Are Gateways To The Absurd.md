@@ -1,6 +1,7 @@
 ---
 title: Meaningless Routines Are Gateways To The Absurd
 tags:
+  - '#TerraIncognita'
   - '#Absurdism'
   - '#Philosophy'
 publish: 'true'

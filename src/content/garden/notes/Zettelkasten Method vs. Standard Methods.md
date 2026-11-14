@@ -1,6 +1,7 @@
 ---
 title: Zettelkasten Method vs. Standard Methods
 tags:
+  - '#TerraIncognita'
   - '#Writing'
   - '#NoteTaking'
 publish: 'true'

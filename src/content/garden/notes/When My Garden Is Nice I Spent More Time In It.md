@@ -1,6 +1,7 @@
 ---
 title: When My Garden Is Nice I Spent More Time In It
 tags:
+  - '#TerraIncognita'
   - '#DigitalGarden'
   - '#Design'
 publish: 'true'

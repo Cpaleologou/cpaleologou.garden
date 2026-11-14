@@ -1,6 +1,7 @@
 ---
 title: 'Prices Reflect Perception, Not Truth'
 tags:
+  - '#TerraIncognita'
   - Investing
   - '#Markets'
 publish: 'true'

@@ -1,6 +1,7 @@
 ---
 title: Boredom Is A Fundamentally Human State Of Being
 tags:
+  - '#TerraIncognita'
   - '#Creativity'
 publish: 'true'
 date: 2026-09-09T00:00:00.000Z

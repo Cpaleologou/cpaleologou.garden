@@ -1,6 +1,7 @@
 ---
 title: 'Act On The Present, Not Forecasted Futures'
 tags:
+  - '#TerraIncognita'
   - Investing
 publish: 'true'
 date: 2026-04-09T00:00:00.000Z

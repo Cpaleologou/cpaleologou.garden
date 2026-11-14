@@ -1,6 +1,7 @@
 ---
 title: The Asset-Growth Anomaly
 tags:
+  - '#TerraIncognita'
   - '#Investing'
   - '#CapitalExpenditure'
 publish: 'true'

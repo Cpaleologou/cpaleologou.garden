@@ -1,6 +1,7 @@
 ---
 title: Authentic Living Requires Acceptance of Death
 tags:
+  - '#TerraIncognita'
   - '#Authenticity'
   - '#Philosophy'
 publish: 'true'

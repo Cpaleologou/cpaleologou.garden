@@ -1,6 +1,7 @@
 ---
 title: Management Must Show That They Understand What Creates Value
 tags:
+  - '#TerraIncognita'
   - '#Investing'
   - '#Management'
 publish: 'true'

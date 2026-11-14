@@ -1,6 +1,7 @@
 ---
 title: Infinite Value of Digital Decentralization
 tags:
+  - '#TerraIncognita'
   - '#Decentralization'
   - '#Technology'
 publish: 'true'

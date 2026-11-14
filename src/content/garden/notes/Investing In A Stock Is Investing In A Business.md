@@ -1,6 +1,7 @@
 ---
 title: Investing In A Stock Is Investing In A Business
 tags:
+  - '#TerraIncognita'
   - '#Investing'
 publish: 'true'
 date: 2026-08-26T00:00:00.000Z

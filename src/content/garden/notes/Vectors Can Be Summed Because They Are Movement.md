@@ -1,6 +1,7 @@
 ---
 title: Vectors Can Be Summed Because They Are Movement
 tags:
+  - '#TerraIncognita'
   - '#LinearAlgebra'
   - '#Math'
   - '#Vectors'

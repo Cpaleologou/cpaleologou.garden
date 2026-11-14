@@ -1,6 +1,7 @@
 ---
 title: Globalization's Dulling Effect on Travel
 tags:
+  - '#TerraIncognita'
   - '#Globalization'
   - '#Travel'
 publish: 'true'

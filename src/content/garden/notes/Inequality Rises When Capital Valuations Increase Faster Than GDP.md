@@ -1,6 +1,7 @@
 ---
 title: Inequality Rises When Capital Valuations Increase Faster Than GDP
 tags:
+  - '#TerraIncognita'
   - '#Economics'
   - '#Society'
 publish: 'true'

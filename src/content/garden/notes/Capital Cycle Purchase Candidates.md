@@ -1,6 +1,7 @@
 ---
 title: Capital Cycle Purchase Candidates
 tags:
+  - '#TerraIncognita'
   - Investing
 publish: 'true'
 date: 2026-06-16T00:00:00.000Z

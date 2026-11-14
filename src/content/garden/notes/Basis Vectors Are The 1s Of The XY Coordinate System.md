@@ -1,6 +1,7 @@
 ---
 title: Basis Vectors Are The 1s Of The XY Coordinate System
 tags:
+  - '#TerraIncognita'
   - '#LinearAlgebra'
   - '#Math'
   - '#Vectors'

@@ -1,6 +1,7 @@
 ---
 title: Diversification Is The Opposite Of Staying In Your Circle Of Competence
 tags:
+  - '#TerraIncognita'
   - '#Investing'
 publish: 'true'
 date: 2026-08-24T00:00:00.000Z

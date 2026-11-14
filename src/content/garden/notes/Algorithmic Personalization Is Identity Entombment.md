@@ -1,6 +1,7 @@
 ---
 title: Algorithmic Personalization Is Identity Entombment
 tags:
+  - '#TerraIncognita'
   - '#Identity'
   - Development
 publish: 'true'

@@ -1,6 +1,7 @@
 ---
 title: Private Investors Shy Away From Rare Earth Mining
 tags:
+  - '#TerraIncognita'
   - '#RareEarths'
   - '#Economics'
 publish: 'true'

@@ -1,6 +1,7 @@
 ---
 title: True Self-Awareness Requires Suffering
 tags:
+  - '#TerraIncognita'
   - '#Philosophy'
   - '#Psychology'
 publish: 'true'

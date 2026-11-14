@@ -1,6 +1,7 @@
 ---
 title: Value Investing Requires A Paradigm Shift In The 21st Century
 tags:
+  - '#TerraIncognita'
   - '#Investing'
 publish: 'true'
 date: 2026-09-10T00:00:00.000Z

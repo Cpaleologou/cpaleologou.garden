@@ -1,6 +1,7 @@
 ---
 title: 'In Risky Markets, Leaders Provide The Best Risk-Adjusted Returns'
 tags:
+  - '#TerraIncognita'
   - '#Leadership'
   - '#Economics'
 publish: 'true'

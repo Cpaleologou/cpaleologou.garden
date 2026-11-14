@@ -1,6 +1,7 @@
 ---
 title: Faster Material Science Innovation Increases Demand For Rare Earths
 tags:
+  - '#TerraIncognita'
   - '#RareEarths'
 publish: 'true'
 date: 2025-08-24T00:00:00.000Z

@@ -1,6 +1,7 @@
 ---
 title: Instrumental Reasoning Is a Symptom of First-Principals Thinking
 tags:
+  - '#TerraIncognita'
   - '#Philosophy'
   - '#Thinking'
 publish: 'true'

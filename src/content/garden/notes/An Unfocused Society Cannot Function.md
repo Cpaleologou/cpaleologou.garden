@@ -1,6 +1,7 @@
 ---
 title: An Unfocused Society Cannot Function
 tags:
+  - '#TerraIncognita'
   - '#Society'
   - '#Attention'
 publish: 'true'

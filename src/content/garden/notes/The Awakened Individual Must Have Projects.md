@@ -1,6 +1,7 @@
 ---
 title: The Awakened Individual Must Have Projects
 tags:
+  - '#TerraIncognita'
   - '#Philosophy'
   - '#Creativity'
 publish: 'true'

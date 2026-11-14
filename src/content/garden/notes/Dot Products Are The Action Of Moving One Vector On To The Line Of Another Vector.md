@@ -3,6 +3,7 @@ title: >-
   Dot Products Are The Action Of Moving One Vector On To The Line Of Another
   Vector
 tags:
+  - '#TerraIncognita'
   - '#LinearAlgebra'
   - '#Math'
 publish: 'true'

@@ -1,6 +1,7 @@
 ---
 title: Exercise Dictates Modes of Thinking
 tags:
+  - '#TerraIncognita'
   - '#Exercise'
   - '#Creativity'
 publish: 'true'

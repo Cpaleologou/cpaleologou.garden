@@ -1,6 +1,7 @@
 ---
 title: Idea Dating
 tags:
+  - '#TerraIncognita'
   - '#Methodology'
   - '#Thinking'
 publish: 'true'

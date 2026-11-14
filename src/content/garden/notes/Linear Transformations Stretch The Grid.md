@@ -1,6 +1,7 @@
 ---
 title: Linear Transformations Stretch The Grid
 tags:
+  - '#TerraIncognita'
   - '#LinearAlgebra'
   - '#Math'
 publish: 'true'

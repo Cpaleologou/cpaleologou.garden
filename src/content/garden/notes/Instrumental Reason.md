@@ -1,6 +1,7 @@
 ---
 title: Instrumental Reason
 tags:
+  - '#TerraIncognita'
   - '#Philosophy'
   - '#Reasoning'
 publish: 'true'

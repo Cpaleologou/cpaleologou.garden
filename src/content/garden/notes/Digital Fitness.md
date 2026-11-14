@@ -1,6 +1,7 @@
 ---
 title: Digital Fitness
 tags:
+  - '#TerraIncognita'
   - '#Productivity'
   - '#Technology'
 publish: 'true'

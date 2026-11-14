@@ -1,6 +1,7 @@
 ---
 title: 'Narratives Drive Price, Not Value'
 tags:
+  - '#TerraIncognita'
   - Investing
   - Stories
 publish: 'true'

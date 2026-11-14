@@ -1,6 +1,7 @@
 ---
 title: Bonds Hedge Against Deflation
 tags:
+  - '#TerraIncognita'
   - Investing
   - Bonds
 publish: 'true'

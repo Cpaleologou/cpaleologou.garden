@@ -1,6 +1,7 @@
 ---
 title: Poor Living Standards In 20th Century French Hotels
 tags:
+  - '#TerraIncognita'
   - '#History'
   - '#Culture'
 publish: 'true'

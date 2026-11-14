@@ -1,6 +1,7 @@
 ---
 title: Only Normal People Can Experience Tragedy
 tags:
+  - '#TerraIncognita'
   - '#Philosophy'
   - '#Absurdism'
 publish: 'true'

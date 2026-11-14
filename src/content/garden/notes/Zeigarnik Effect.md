@@ -1,6 +1,7 @@
 ---
 title: Zeigarnik Effect
 tags:
+  - '#TerraIncognita'
   - '#Psychology'
 publish: 'true'
 date: 2021-10-01T00:00:00.000Z

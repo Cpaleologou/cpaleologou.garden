@@ -1,6 +1,7 @@
 ---
 title: Cross Products Measure The Area Of Two Vectors
 tags:
+  - '#TerraIncognita'
   - '#LinearAlgebra'
   - '#Math'
 publish: 'true'

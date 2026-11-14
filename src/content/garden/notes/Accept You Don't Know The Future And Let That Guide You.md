@@ -1,6 +1,7 @@
 ---
 title: Accept You Don't Know The Future And Let That Guide You
 tags:
+  - '#TerraIncognita'
   - '#Investing'
   - '#Humility'
   - '#Epistemology'

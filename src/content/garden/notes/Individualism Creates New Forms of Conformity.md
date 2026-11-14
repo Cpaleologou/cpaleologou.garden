@@ -1,6 +1,7 @@
 ---
 title: Individualism Creates New Forms of Conformity
 tags:
+  - '#TerraIncognita'
   - '#Philosophy'
   - '#Society'
 publish: 'true'

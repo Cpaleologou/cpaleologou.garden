@@ -1,6 +1,7 @@
 ---
 title: Forecasting Rare Earth Demand Is Not Straightforward
 tags:
+  - '#TerraIncognita'
   - '#RareEarths'
   - '#Economics'
 publish: 'true'

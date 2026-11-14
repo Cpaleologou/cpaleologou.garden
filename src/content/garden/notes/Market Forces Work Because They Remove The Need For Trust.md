@@ -1,6 +1,7 @@
 ---
 title: Market Forces Work Because They Remove The Need For Trust
 tags:
+  - '#TerraIncognita'
   - '#Economics'
   - '#Society'
 publish: 'true'

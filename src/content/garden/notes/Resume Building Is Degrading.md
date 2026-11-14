@@ -1,6 +1,7 @@
 ---
 title: Resume Building Is Degrading
 tags:
+  - '#TerraIncognita'
   - '#Work'
   - '#Philosophy'
 publish: 'true'

@@ -1,6 +1,7 @@
 ---
 title: Chatbots Are More Addiction For Intellectuals
 tags:
+  - '#TerraIncognita'
   - '#AI'
   - '#Psychology'
 publish: 'true'

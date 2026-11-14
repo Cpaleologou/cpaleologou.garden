@@ -1,6 +1,7 @@
 ---
 title: Second-Level Thinking
 tags:
+  - '#TerraIncognita'
   - '#Investing'
   - '#Thinking'
 publish: 'true'

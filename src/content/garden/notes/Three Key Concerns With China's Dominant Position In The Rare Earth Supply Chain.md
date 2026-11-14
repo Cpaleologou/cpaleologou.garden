@@ -3,6 +3,7 @@ title: >-
   Three Key Concerns With China's Dominant Position In The Rare Earth Supply
   Chain
 tags:
+  - '#TerraIncognita'
   - '#RareEarths'
   - '#China'
 publish: 'true'

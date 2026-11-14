@@ -1,6 +1,7 @@
 ---
 title: Rare Earth Regulation's Catch-22
 tags:
+  - '#TerraIncognita'
   - '#RareEarths'
 publish: 'true'
 date: 2025-08-24T00:00:00.000Z

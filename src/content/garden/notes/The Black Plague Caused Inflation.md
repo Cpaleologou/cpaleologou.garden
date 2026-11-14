@@ -1,6 +1,7 @@
 ---
 title: The Black Plague Caused Inflation
 tags:
+  - '#TerraIncognita'
   - '#History'
   - '#Economics'
 publish: 'true'

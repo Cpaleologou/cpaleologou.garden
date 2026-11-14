@@ -1,6 +1,7 @@
 ---
 title: China's Rare Earth Overcapacity Is Causing Deflation
 tags:
+  - '#TerraIncognita'
   - '#RareEarths'
   - '#Economics'
 publish: 'true'

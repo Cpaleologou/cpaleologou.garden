@@ -1,6 +1,7 @@
 ---
 title: Zombie Fungus
 tags:
+  - '#TerraIncognita'
   - '#Biology'
   - '#Parasite'
 publish: 'true'

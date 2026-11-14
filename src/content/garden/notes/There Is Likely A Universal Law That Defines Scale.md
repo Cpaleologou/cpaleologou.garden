@@ -1,6 +1,7 @@
 ---
 title: There Is Likely A Universal Law That Defines Scale
 tags:
+  - '#TerraIncognita'
   - '#Math'
 publish: 'true'
 date: 2026-08-31T00:00:00.000Z

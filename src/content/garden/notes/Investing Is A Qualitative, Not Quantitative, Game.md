@@ -1,6 +1,7 @@
 ---
 title: 'Investing Is A Qualitative, Not Quantitative, Game'
 tags:
+  - '#TerraIncognita'
   - '#Investing'
   - '#DecisionMaking'
 publish: 'true'

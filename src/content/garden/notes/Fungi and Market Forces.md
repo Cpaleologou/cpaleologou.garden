@@ -1,6 +1,7 @@
 ---
 title: Fungi and Market Forces
 tags:
+  - '#TerraIncognita'
   - '#Biology'
   - '#Economics'
 publish: 'true'

@@ -1,6 +1,7 @@
 ---
 title: Will Boomer Inheritance Improve Life?
 tags:
+  - '#TerraIncognita'
   - '#Economics'
   - '#Society'
   - '#Question'

@@ -1,6 +1,7 @@
 ---
 title: Rare Earth Element Processing Cannot Be Standardized
 tags:
+  - '#TerraIncognita'
   - '#RareEarths'
   - '#Manufacturing'
 publish: 'true'

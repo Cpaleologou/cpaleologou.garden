@@ -1,6 +1,7 @@
 ---
 title: Rare Earth Supply Concentration Creates Huge Fragility
 tags:
+  - '#TerraIncognita'
   - '#RareEarths'
   - '#Economics'
 publish: 'true'

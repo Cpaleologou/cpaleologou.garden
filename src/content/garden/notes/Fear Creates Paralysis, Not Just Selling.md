@@ -1,6 +1,7 @@
 ---
 title: 'Fear Creates Paralysis, Not Just Selling'
 tags:
+  - '#TerraIncognita'
   - Investing
   - Psychology
 publish: 'true'

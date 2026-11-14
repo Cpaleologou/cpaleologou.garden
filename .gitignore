@@ -5,3 +5,4 @@ node_modules/
 .DS_Store
 .claude/settings.local.json
 public/pagefind/
+.vault-backups/

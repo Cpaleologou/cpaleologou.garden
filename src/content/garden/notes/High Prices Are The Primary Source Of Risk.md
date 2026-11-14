@@ -1,6 +1,7 @@
 ---
 title: High Prices Are The Primary Source Of Risk
 tags:
+  - '#TerraIncognita'
   - Investing
   - Risk
   - Markets

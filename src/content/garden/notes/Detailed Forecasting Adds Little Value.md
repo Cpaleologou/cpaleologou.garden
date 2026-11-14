@@ -1,6 +1,7 @@
 ---
 title: Detailed Forecasting Adds Little Value
 tags:
+  - '#TerraIncognita'
   - Investing
 publish: 'true'
 date: 2026-06-21T00:00:00.000Z

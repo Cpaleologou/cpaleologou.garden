@@ -1,6 +1,7 @@
 ---
 title: Suicide Is The Most Important Question
 tags:
+  - '#TerraIncognita'
   - '#Philosophy'
   - '#Absurdism'
 publish: 'true'

@@ -1,6 +1,7 @@
 ---
 title: Wait For Deals To Come To You
 tags:
+  - '#TerraIncognita'
   - Investing
   - Patience
 publish: 'true'

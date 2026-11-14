@@ -1,6 +1,7 @@
 ---
 title: Rare Earth Concentrations And Quality Have Been Diminishing
 tags:
+  - '#TerraIncognita'
   - '#RareEarths'
   - '#Materials'
 publish: 'true'

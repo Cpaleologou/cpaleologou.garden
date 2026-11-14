@@ -1,6 +1,7 @@
 ---
 title: Companies Resemble Natural Living Organisms
 tags:
+  - '#TerraIncognita'
   - '#Investing'
   - '#Durability'
 publish: 'true'

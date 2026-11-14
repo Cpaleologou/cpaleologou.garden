@@ -1,6 +1,7 @@
 ---
 title: Market Temperature Checklist
 tags:
+  - '#TerraIncognita'
   - Investing
   - Markets
   - Framework

@@ -1,6 +1,7 @@
 ---
 title: Finding Yourself Requires Creation
 tags:
+  - '#TerraIncognita'
   - '#Self'
   - Creativity
 publish: 'true'

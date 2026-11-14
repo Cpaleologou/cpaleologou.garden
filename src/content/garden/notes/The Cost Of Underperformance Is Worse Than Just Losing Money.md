@@ -1,6 +1,7 @@
 ---
 title: The Cost Of Underperformance Is Worse Than Just Losing Money
 tags:
+  - '#TerraIncognita'
   - '#Investing'
 publish: 'true'
 date: 2026-07-29T00:00:00.000Z

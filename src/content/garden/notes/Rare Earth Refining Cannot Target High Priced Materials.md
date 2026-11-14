@@ -1,6 +1,7 @@
 ---
 title: Rare Earth Refining Cannot Target High Priced Materials
 tags:
+  - '#TerraIncognita'
   - '#RareEarths'
   - '#Manufacturing'
 publish: 'true'

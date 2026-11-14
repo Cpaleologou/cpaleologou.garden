@@ -1,6 +1,7 @@
 ---
 title: Individualism Flattens Our Life Experience
 tags:
+  - '#TerraIncognita'
   - '#Philosophy'
   - '#Psychology'
 publish: 'true'

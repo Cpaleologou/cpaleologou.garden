@@ -1,6 +1,7 @@
 ---
 title: The Certainty of Vulcan's Existence
 tags:
+  - '#TerraIncognita'
   - '#Science'
   - '#Philosophy'
 publish: 'true'

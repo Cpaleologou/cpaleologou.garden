@@ -1,6 +1,7 @@
 ---
 title: Loss Of Institutional Trust Led To A Greater Sense Of Responsibility
 tags:
+  - '#TerraIncognita'
   - '#Institutions'
   - '#Philosophy'
 publish: 'true'
