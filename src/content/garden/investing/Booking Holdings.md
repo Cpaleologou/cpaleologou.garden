@@ -65,9 +65,7 @@ In FY25, the total take-rate, called "% of Total gross bookings", was 14.5%. The
 
 ![[BookingHoldings_FY25Revenues.webp]]
 
-**Booking Holdings Inc., Merchant Take-Rates**[^5]
-
-![[bkng-merchant-bookings-revenue-take-rate-fy18-fy25.webp]]
+**Booking Holdings Inc., Merchant Take-Rates**[^5]![[bkng-merchant-bookings-revenue-take-rate-fy18-fy25.webp]]
 
 The mix between these types of revenue is important to understand for later sections of the report in terms of assessing business quality, competitive positioning, and durability of the marketplace itself. Over the last ten years, the mix has shifted materially towards merchant revenues. In 2017, merchant revenues were roughly 17% of revenues, while in 2025 they were roughly 66%. The gap has continued to widen into 2026, as seen in the Revenue Types chart above. Why Booking made this shift, and what it gained from it, is the second of the three decisions covered below.
 
@@ -352,69 +350,131 @@ The largest opportunity is often the flip-side of the largest risk because both 
 
 We saw in section 4 of this report that Booking has two main competitive advantages over Expedia. First, on the supply side of the marketplace, its take-rate is higher. Hotels are willing to pay Booking more per room night booked. Second, on the demand-side, it spends less on marketing. Two-thirds of Booking's traffic comes direct, and the remaining third converts at a higher rate because of the broad selection of properties, decades user interface refinements, and other value-added services that Booking offers.[^6] 
 
-Booking's network effect drives these advantages in both cases. However, as discussed in section 3, Booking's network effect has two main weaknesses that an AI agent directly threatens. The first is multi-homing. Travellers and hotels can already use rival channels at little cost, and agents make comparing options even cheaper. The second is disintermediation. Travellers and hotels can meet on Booking and then deal directly, and AI agents could make that process easier. 
-
 **Booking vs. Expedia, Operating Profit per \$100 of Gross Bookings, 2025:**
 
 ![[bkng-vs-expe-profit-bridge-2025.webp]]
 
-#### Three Ways Agents Could Take Value
+Booking's network effect drives these advantages in both cases. However, as discussed in section 3, Booking's network effect has two main weaknesses that an AI agent directly threatens. The first is multi-homing. Travellers and hotels can already use rival channels at little cost, and agents make comparing options even cheaper. The second is disintermediation. Travellers and hotels can meet on Booking and then deal directly, and AI agents could make that process easier. I therefore see three ways that AI agents threaten Booking's intrinsic value.
 
-##### Risk 1A: The Agent Calls Booking
+##### Risk 1A: The Agent Books The Hotel Directly 
+
+In this scenario, rather than use Booking, the agent simply searches the web, or connects to hotel channel managers and books with the hotel directly. The hotel is the merchant of record and the agent takes a fee lower than Booking's current take rate of 12% to 15%.
+
+##### Risk 1B: The Agent Searches Booking, Then Books By Email
+
+One of the features that makes AI agents valuable is their ability to connect to your email and calendar and act on your behalf. It seems entirely possible that an agent could search Booking.com, use its curated listings and reviews, and then email the hotel directly to negotiate a lower price. When the work of emailing, negotiating and managing the relationship is done for you, even a modest discount may be worth the extra effort.
+
+In practice, I think Risk 1B collapses into Risk 1A. If everyone's agents start emailing hotels to negotiate a discount, many hotels will simply block or ignore the requests. The hotels that are willing to offer a discount are more likely to just lower the price on their own website, which an agent can book without negotiating at all.
+
+##### Risk 1C: The Agent Calls Booking
 
 In this scenario travellers ask their chatbot or agent for help planning their trips, and the agent either uses Booking's website, or plugs into Booking via a connector and surfaces potential rooms suited to the traveller's needs. This already exists in today's chatbots. You can install the Booking.com connector within the app, ask for a hotel, and get a result that looks like the screenshot below.
 
 **Using Booking's Connector To Find A Hotel In Rome**![[BookingConnectorExample.webp]]
 
-Regardless of how this is monetized by the AI app, it threatens Booking's marketing advantage. In the image above, Claude used Booking because I had the connector installed and asked it to use it. In a world where the customer simply asks for a hotel, it is not clear how the app would choose which tool to use. Furthermore, if agents search every possible option before making a suggestion, I am not sure if Booking's conversion advantage carries from humans to agents. 
+Risks 1A and 1B threaten the take-rate advantage Booking currently holds. Hotels pay Booking more than the competition because Booking brings them more traffic. If AI agents route around Booking, that traffic falls, and so does the value Booking provides to the supply side of the network. The question therefore comes down to what Booking is worth to the traveller-agent pair once all the research has been done and the booking is ready to be made.
 
-The other concern is the direct mix. Customers who used to open the Booking app first, may instead go to their chatbot and complete their purchase there. When Meta announced Muse, Mark Zuckerberg said that the app would be largely free for consumers and that Meta would monetize the AI agent by taking a "small fee from transactions"[^47]. So, even if the customer directly requests for the agent to use Booking, it is now required to pay a fee on what were once its most profitable transactions. A very large, perhaps impossible, increase in unit volume would be needed to offset that cost. 
+Risk 1C threatens the marketing advantage. When Meta announced Muse, Mark Zuckerberg said that the app would be largely free for consumers and that Meta would monetize the AI agent by taking a "small fee from transactions"[^47]. Currently, Booking's ability to convert paid traffic into a sale, and then to have that customer return directly, lets it outbid competitors for search traffic and earn its profit on later bookings. If those customers who used to come direct now book through their agent, even if they request the agent to use Booking,  the OTA pays a fee on what were once its most profitable transactions. A very large, perhaps impossible, increase in unit volume would be needed to offset that cost.
 
-##### Risk 1B: The Agent Books Directly For A Lower Fee
+#### The Playing Field: Agents Spread & Merchants Choose Sides
 
-In this scenario, rather than use Booking, the agent simply searches the web, or connects to hotel channel managers and books with the hotel directly. The hotel is the merchant of record and the agent takes a fee lower than Booking's current take rate of 12% to 15%.
+##### Agents Spread
 
-##### Risk 1C: The Agent Uses Booking To Find A Hotel, Then Books By Email
+The scenario I am describing needs some explanation first. Some travellers enjoy planning a vacation. They enjoy browsing hotels, finding things to do and building an itinerary, and would not want to hand that job off to an agent. I want to be clear that the future I am trying to predict does not remove that, because I largely agree. I have serious doubts that anyone would ever want to simply tell an agent "I want to go to Costa Rica, build me a trip and book everything", then let the AI handle it all.
 
-One of the features that makes AI agents valuable is their ability to connect to your email and calendar and act on your behalf. It seems entirely possible that an agent could search Booking.com, use its curated listings and reviews, and then email the hotel directly to negotiate a lower price. When the work of emailing, negotiating and managing the relationship is done for you, even a modest discount may be worth the extra work.
-
-##### What Each Risk Threatens
-
-Risk 1A threatens the marketing advantage. Booking's ability to convert paid traffic into a sale, and then to have that customer return directly, lets it outbid competitors for search traffic and earn its profit on later bookings. If the direct mix falls, Booking pays a fee on customers who used to be free. In Risks 1B and 1C, Booking is bypassed entirely and no longer wins the room night.
-
-#### Game Theory: What Is Likely To Occur
-
-Whether any of these scenarios matters depends on five questions. Answering them in order, and assigning probabilities as we go provides us with our ultimate assessment of likelihood in the bear, base and bull cases.
-
-1. Do agents become a widely adopted method of booking travel?
-2. If so, what does the agent layer look like? How many agents are there, and how do they make money?
-3. How do merchants respond? Do they make themselves available to agents, or block them?
-4. Given what's available, does a traveller-agent pair prefer to go direct, or use an OTA like Booking, and which one? 
-5. If Booking.com is used by a traveller-agent pair, how does Booking and the agent split the fee?
-
-By my judgement, each of these questions will be asked of the market participants in this order and how each plays out depends on the answer to the one previously. Below is my own thinking, based on how merchants and agents are behaving today and on my own use of Muse. 
-
-##### Q1: Do Agents Become A Widely Adopted Method Of Booking Travel?
-
-Before jumping in, the scenario I am describing needs needs some explanation. Some travellers enjoy planning a vacation. They enjoy browsing hotels, finding things to do, building an itinerary, and would not want to hand that job off to an agent. I want to be clear that the future I am trying to predict does not remove that, because I largely agree. I have serious doubts that anyone would ever want to simply say to an agent "I want to go to Costa Rica, build me a trip and book everything", then let the AI handle it all.
-
-My idea of agentic commerce does not remove the planning part that people enjoy. It is closer to working with an agent in your AI app of choice to work through the planning in natural language, usually inside a formatted document that the agent builds and keeps track of. You still browse and decide. You just do a lot of the work inside the AI app. At the end, when the trip is planned, you just say "book it", and the agent takes care of the rest, making all the reservations for you in whichever way suits you best, based on price, your stated preferences, or past behaviour.
+My idea of agentic commerce keeps the planning part that people enjoy. It is closer to working with an agent in your AI app of choice to work through the planning in natural language, usually inside a formatted document that the agent builds and keeps track of. You still browse and decide. You just do a lot of the work inside the AI app. At the end, when the trip is planned, you say "book it", and the agent takes care of the rest, making all the reservations for you in whichever way suits you best, based on price, your stated preferences, or past behaviour.
 
 **Agentic Trip Planning Experience Example:**![[agent-trip-planner.webp|686x616]]
 
-I think this style of trip planning is very likely to become commonplace. Booking's management has said that users of their own AI tools convert at double the rate and have an average transaction value 20% higher than non-users.[^55] Clearly there is some utility in proprietary, specialist agents. 
+I think this style of trip planning is very likely to become commonplace. Booking's management has said that users of its own AI tools convert at double the rate and have an average transaction value 20% higher than non-users [^55]. Clearly there is some utility in proprietary, specialist agents. 
 
-Meanwhile, in generalist agentic apps, like Muse, shopping is clunky. I have been testing purchases with Muse and it sometimes struggles to log into a website or to understand what I am looking for. For example, I used Muse on voice chat while I measured my closet, and it kept a running document of the dimensions. However, when I asked it to find dividers and shelving, its suggestions did not match what I wanted and I ended up buying them on Amazon in the usual e-commerce way. In another example, I was buying a birthday gift for my sister with in-store pickup, and Muse noticed that the item was out of stock at the location I had chosen. Because it could see my calendar, it suggested a different store on the way to a friend's house, where I was going the next day. I ordered it for pickup there and everything went smoothly. That was an incremental sale for the retailer, who might otherwise have lost it. So the technology is certainly not there yet, but I think I see the potential and where it will actually add commercial value to merchants.
+Meanwhile, in generalist agentic apps like Muse, shopping is clunky. I have been testing purchases with Muse, and it sometimes struggles to log into a website or to understand what I am looking for. For example, I used Muse on voice chat while I measured my closet, and it kept a running document of the dimensions. However, when I asked it to find dividers and shelving, its suggestions did not match what I wanted, and I ended up buying them on Amazon in the usual e-commerce way. In another example, I was buying a birthday gift for my sister with in-store pickup, and Muse noticed that the item was out of stock at the location I had chosen. Because it could see my calendar, it suggested a different store on the way to a friend's house, where I was going the next day. I ordered it for pickup there and everything went smoothly. That was an incremental sale for the retailer, who might otherwise have lost it. So the technology is certainly not there yet, but I think I can see the potential, and where it will actually add commercial value for merchants.
 
-More importantly though, on the consumer side I also find generalist agents incredibly useful in my personal life. As of November 2026 I use Muse to help plan and manage my wedding, tutor me in Italian, follow news I'm interested in, and handle my other daily tasks. None of these uses have anything to do with shopping, and that is exactly why I think agentic commerce has a future. Consumers have reasons to adopt these apps regardless of the clunky current shopping experience. As the shopping kinks get ironed out, it makes sense that consumers will gradually shift to making purchases in the app they already spend so much time in. 
+More importantly, on the consumer side I also find generalist agents incredibly useful in my personal life. As of November 2026 I use Muse to help plan and manage my wedding, tutor me in Italian, follow news I'm interested in, and handle other daily tasks. None of these uses have anything to do with shopping, and that is exactly why I think agentic commerce has a future. Consumers have reasons to adopt these apps regardless of the clunky current shopping experience. As the shopping kinks get ironed out, it makes sense that consumers will gradually shift to making purchases in the app they already spend so much time in.
 
-The main factor that will slow agentic shopping is trust. When I talk to people today, most are very hesitant to let an AI agent shop for them. I expect this worry to fade as people have useful and safe experiences with their agents, just as worries about making purchases online faded in the 2000s. Getting to that point, however, takes several good experiences, and travel is a hard place to start. Holidays are expensive and bought only a few times a year. Getting the plan or the purchase wrong costs a lot in terms of money and emotion. Habits also change slowly. Trends tend to move more slowly than investors and people in the technology industry expect. In Europe, 30% of room-night bookings still come by phone or email[^62]. Over ten years though, I can see a substantial share of travel traffic moving to agents. For the purposes of modelling, I'd put that odds at likely and a value of 75%.
+The main factor that will slow agentic shopping is trust. When I talk to people today, most are very hesitant to let an AI agent shop for them. I expect this worry to fade as people have useful and safe experiences with their agents, just as worries about making purchases online faded in the 2000s. Getting to that point, however, takes several good experiences, and travel is a hard place to start. Holidays are expensive and bought only a few times a year, so getting the plan or the purchase wrong costs a lot in money and emotion. Habits are also sticky. Trends tend to move more slowly than investors and people in the technology industry expect. In Europe, 30% of room-night bookings still come by phone or email[^62]. Over ten years, though, I can see a substantial share of travel traffic moving to agents.
 
-##### Q2: What Does The Agent Layer Look Like?
+##### Who the agents are
 
-Before we can say how merchants and travellers will behave, we need to understand the agent layer itself. Two things matter: how many agents there are, and how they make money.
+Several personal assistant agents are now competing. Not long after Meta announced Muse, OpenAI announced their own version called Dots.[^48] Anthropic then announced Duet[^49]. Grokbot also exists, as well as open source alternatives. Apple is likely to enter the market with Siri, and Google has yet to release a competitor. I expect competition to intensify over the coming years as AI models get better and cheaper, other large technology companies enter the race, and smaller companies and start-ups build specialist agentic apps.
 
- Today, several personal assistant agents are now competing. Not long after Meta announced Muse, OpenAI announced their own version called Dots.[^48] Anthropic then announced Duet[^49]. Apple is likely to enter the market with Siri, and Google is also yet to release a competitor. I expect competition to intensify over the coming years as AI models get better and cheaper, other large tech giants enter the race, and smaller tech companies and start ups build specialist agentic apps.
+Whether this field consolidates, and how these agents make money, matters most for how Booking and an agent split the fee, so I come back to both questions in part 4.
+
+##### Merchants Choose Sides
+
+If agentic commerce truly becomes widespread, every merchant of sufficient size will have its finance department crunch the numbers and determine whether making its website and products available to agents is worth it. In assessing the opportunity, each merchant will ultimately weigh two things:
+
+1. **The cost of joining.** The fee it pays on sales that used to come direct. Whether this is a fixed commission or a bidding model does not matter for this section. What matters is how much direct traffic is cannibalized.
+2. **The benefit of joining.** The incremental market share it can win from merchants that don't integrate.
+
+A merchant in a dominant market position that also owns its demand would pay a lot and gain little. Why give up 3% on a transaction when you can make the customer come to you for free? These incumbents will rationally block Muse-like agents.
+
+This is already playing out. Amazon blocked Muse from using its site within days of the product's release, which protects its customer relationships and its advertising business[^50]. Airbnb's founder and CEO, Brian Chesky, has said Airbnb is likely to do the same[^51], and 90% of Airbnb's traffic comes direct[^53]. Merchants with less direct demand are likely to join, simply because they have less to lose and more to win. As we saw, Expedia spends ~\$6.1 of marketing per \$100 of bookings, against Booking's \$4.40. Unsurprisingly, Expedia announced a partnership with Muse near launch day[^52]. 
+
+Booking, somewhere between Expedia and Airbnb, has been candid on its earnings calls: it wants to be where the traveller is and capture the demand[^55]. Agoda, the Asia-focused subsidiary of Booking Holdings, announced a partnership with Muse on October 28, 2026 [^54], and management has said it is working on deals across its other platforms. To date, Booking.com has not joined Muse. With AI chatbots sending well under 1% of current room nights, the cost of waiting is small, and Booking can likely hold out for terms that keep its brand and customer accounts relevant[^55].  I suspect we will see more of these go/no-go announcements over the next year, as each business in the digital economy works out where they stand on agentic commerce.
+
+The problem for the incumbents is that the merchants that join will gain market share, and a feedback loop is likely to form for a while. A shopper asks their agent to find a few possible Airbnbs for a trip. The agent is blocked from Airbnb's site and instead shows several alternatives from a partner. Not everyone will leave Airbnb for these options, but some will see a place they like. If that partner is Booking, and the agent books through the traveller's Booking.com account, the stay counts toward Genius, the traveller gets Booking's confirmation, app and customer service, and they have a reason to book with Booking next time. As the merchants that join take share, the ones that blocked agents will accept that they need integrations with the most popular agents. The cost of losing share begins to outweigh the cost of giving up direct traffic.
+
+This will not be a fast process. It took years for many traditional retailers to add e-commerce channels. I expect agent integrations to be faster because no physical infrastructure has to change, but it is still a process of years, not months. 
+
+We land in a world where agentic commerce is common, consumers tell their agents which retailers they prefer, and consumers with no preference follow the path the agent chooses depending on commissions, or ads. The merchants that integrate first are likely to gain some marketshare through the feedback loop explained above. 
+
+#### What Is Booking Worth To A Traveller-Agent Pair?
+
+Once agents are common and most merchants have joined, a traveller-agent pair has a real choice between booking direct with the hotel and booking through an OTA. Two factors matter here: trust, and the economics of a direct booking.
+
+##### Trust
+
+In part 2 I argued that trust in agents for general purchases should build over time, as people have good experiences with them, much as it did for online shopping. I also noted that travel is a difficult place to start, because of the risk a traveller perceives. That points to a second layer of trust: trust in the merchant the agent deals with.
+
+Brands matter here. Watching your agent scroll the website of a small hotel in Serbia, and email it in a language you don't understand to negotiate a lower price, is not a comfortable experience. Seeing your agent use Booking.com, Expedia or Agoda inside a branded experience is much easier to trust, because you know who stands behind the reservation. On the Q3 2026 earnings call, Booking's CFO made the same point from the other side: agents want to work with Booking partly because the association gives them instant credibility with travellers[^56]. Agents need trusted partners to win users, and travellers are more likely to complete a booking when one is involved. So traveller-agent pairs are likely to prefer branded, embedded experiences inside their agentic apps. 
+
+##### The Economics Of A Direct Booking
+
+Trust alone does not settle the question. A hotel could still win the booking by offering a large enough discount. Convenience is also likely to matter. An agent can search every hotel website, compare rates and find each property on a map much faster than a person can, so Booking's comparison tools and indexed listings matter less than before agents. In the most extreme case, Risk 1B, the agent has already found the hotel on Booking, read the reviews and the traveller has agreed to the plan. The only question is whether the hotel and the traveller would both be better off with a direct booking. We can can use some basic economics to gain more insight into the tradeoffs.
+
+We saw in part one that Booking's average take-rate is ~15%. A direct booking saves the hotel that commission, but the hotel takes on costs that Booking currently carries. It now has to pay card fees, carries fraud risk, chargebacks and currency risk that Booking handles under the merchant model. The hotel's staff have to answer questions, change cancellations, and it risks being ranked lower on Booking in the future. I'm estimating, but these costs are probably worth 3% to 5% of the transaction value. On top of that, the agent takes its own fee. We are assuming that is around 3%, but it is likely that agent fees are higher for small players than big players. All together, that means the furthest a hotel can go on a direct discount is about 7% to 9% below the price the traveller would pay on Booking. There are some offsets, such as owning the guest relationship and data, and possibly being paid sooner, but I do not think they change the result much. Genius discounts are mostly funded by hotels, so they do not change this calculation.[^59]
+
+On the traveller's side, a direct booking means giving up the services Booking provides, including trust. So the traveller books directly only if the discount they receive is larger than the value Booking provides. A direct booking at Booking's price leaves the traveller worse off, because the price is the same and the service is less, so the hotel must offer more before the traveller switches.
+
+The services Booking provides are not equally valuable for every trip. As implied above, Booking provides more value on a reservation at a small, remote hotel in Serbia than on a room at the Marriott in Paris. We can get an idea of how often a direct booking makes sense by assigning a value to Booking's core offering across three types of hotel. The figures below are my own estimates.
+
+|                                    |                           |                              |                                         |                                                                                                                                      |
+| ---------------------------------- | ------------------------- | ---------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Booking's value                    | Large chain, primary city | Medium hotel, secondary city | Small hotel, alt. accommodation, remote | Reasoning                                                                                                                            |
+| Local currency payment             | 0.5%                      | 1.5%                         | 2.5%                                    | My experience in retail has taught me that the ability to pay in whichever way you want (there are many) is surprisingly important.  |
+| Free cancellation                  | 0%                        | 1.5%                         | 3%                                      | Any hotel can make this promise over email, but the promise from a small hotel is worth less than Booking's.                         |
+| Recourse when something goes wrong | 1%                        | 3%                           | 5%                                      | Things go wrong when travelling. Having someone to help you sort it out, especially on multi-hotel trips, is very valuable.          |
+| Customer service in 40 languages   | 0%                        | 0.5%                         | 0.5%                                    | Likely not worth very much when AI can do live audio translation.                                                                    |
+| Loyalty progress and credits       | 1%                        | 3%                           | 3%                                      | Large chains have their own loyalty programs, but if you often vacation in different places, one single loyalty program is valuable. |
+| **Total estimated value**          | **2.5%**                  | **9.5%**                     | **14%**                                 |                                                                                                                                      |
+| **Share of Booking's room nights** | **15%**                   | **40%**                      | **45%**                                 | See the notes below.                                                                                                                 |
+
+ The room-night shares come from the following:
+ - Glenn Fogel (CEO) has said in recent earnings calls and at conferences that the ten largest global hotel chains account for only a low double-digit percentage of room nights at Booking.com.[^60] For conservatism, lets estimate that at 15% to account for large chains outside of the top 10.
+- We also know that as of Q3 2026, 37% of room nights came from alternative accommodation.[^60] To account for the small and remote hotels where Booking has dominant marketshare, we can round this up to 45%. This is a guess but seems conservative to me.
+- That leaves us with 40% remaining room-night mix in the medium sized group.
+
+Compared with the 7% to 9% a hotel can afford to offer, Booking's estimated value is well below that range for large chains, just above it for medium chains, and well above it for small hotels and alternative accommodation. Hotel by hotel, that gives three different answers:
+- **Large chains.** A direct deal works anywhere from above 2.5% to 9% off the Booking price. Both sides have plenty to gain.
+- **Medium Hotels.** Once the agent's fee is included, there is no deal. Booking's value of about 9.5% is above the most the hotel can give back. Without an agent fee, as in Risk 1B, a narrow deal exists between about 9.5% and 12% off, but as I mentioned, I expect Risk 1B to collapse into 1A.
+- **Small hotels and alternative accommodation.** Here there is no deal. Booking's value is greater than anything the hotel can afford to give back to travellers. 
+
+When we take Booking's mix into account, a direct booking is clearly attractive for only about 15% of its room nights.
+
+```widget bargain
+title: "Bargaining Zone For Booking Directly"
+takeRate: 15          # Booking's average take rate, %
+hotelCosts: 3         # card fees, fraud, chargebacks, service: 3-5%
+agentFee: 3           # the agent's cut, %
+selected: 1           # chart opens on the medium hotel
+types:
+  - { name: "Large chain, primary city", value: 2.5, share: 15 }
+  - { name: "Medium hotel, secondary city", value: 9.5, share: 40 }
+  - { name: "Small hotel or alt. accommodation, remote", value: 14, share: 45 }
+```
+
+==---==
 
 ###### Does The Agent Layer Consolidate, Or Stay Fragmented?
 
@@ -440,82 +500,11 @@ To touch on the subscription model that most AI chatbot apps currently use. I ex
 
 I strongly believe that the future business model for consumer facing AI personal assistants will land on a bidding and advertising one. This matters for the rest of the analysis. Under a bidding model, merchants pay for an agent's attention according to how well they expect to convert it, which is the basis for how merchants decide whether to join (Q3), which merchants traveller-agent pairs end up using (Q4), and how the fee is split (Q5).
 
-##### Q3: How Do Merchants Respond?
-
-With the agent layer described, the next question is whether merchants make themselves available to agents. A traveller-agent pair can only choose among the merchants that have joined, so this has to be settled before we can ask which one they choose.
-
-If agentic commerce truly becomes wide spread, every merchant in the world of sufficient size will have their finance departments crunch the numbers and determine whether making their website and products available to agents is worth it. In assessing the opportunity of agent integration, each merchant will ultimately weigh two things:
-
-1. The cost of joining - The fee it pays on sales that used to come direct. Whether this is a fixed commission or a bidding model is irrelevant for this section. What matters is the amount of direct-traffic that is cannibalized.
-2. The benefit of joining - The incremental marketshare it can win from merchants that don't integrate.
-
-A merchant in a dominant market position that also owns its demand would pay a lot and gain little. Why give up 3% on a transaction when you can make the customer come to you for free? These players, the incumbents, will **rationally** block Muse-like agents.
-
-This is already playing out. Amazon blocked Muse from using the site within days of the product's release, which protects the customer relationship and their advertising business.[^50] Airbnb's founder and CEO, Brian Chesky, has said they are likely to do the same[^51]. 90% of Airbnb's traffic comes direct.[^53] Merchants with less direct demand are likely to join, simply because they have less to lose and more to win. As we saw, Expedia spends ~\$6.1 of marketing per \$100 of bookings, against Booking's \$4.40. Unsurprisingly, Expedia announced a partnership with Muse near launch day.[^52] 
-
-Booking, somewhere between Expedia and Airbnb, has been candid on their earnings calls: they want to be where the traveller is and capture the demand.[^55] Agoda, the asia-focused subsidiary of Booking Holdings, announced a partnership with Muse on October 28, 2026.[^54] Management has also said that they are working on deals across their other platforms. To date, Booking.com has not joined Muse. With AI chatbots sending well under 1% of current room nights, the cost of waiting is small, and Booking can likely hold out for terms that keep its brand and customer accounts relevant.[^55]  I suspect we will see more of these go/no-go announcements over the next year, as each business in the digital economy works out where they stand on agentic commerce. At least until agentic business models switch to bidding and advertising, if I'm correct on that.
-
-The problem for the incumbents is that merchants that join will gain market share and a feedback loop is likely to form for a while. A shopper asks their agent to find a few possible Airbnbs for a trip. The agent is blocked from Airbnb's site and instead shows several alternatives from a partner. Not everyone will leave Airbnb for these options, but some will see a place they like. If that parter is Booking, and the agent books through the traveller's Booking.com account, the stay counts toward Genius, the traveller gets Booking's confirmation, app and customer service, and they have a reason to book with Booking next time. 
-
-As the merchants that join take share, the ones that blocked agents will accept that they need integrations with the most popular agents. The cost of joining and losing direct traffic begins to outweigh the cost of holding out. This will not be a fast process. It took years for many traditional retailers to add e-commerce channels. I expect agent integrations to be faster because no physical infrastructure has to change, but it is still a process of years, not months. 
-
-We land in a world where agentic commerce is common, consumers tell their agents which retailers they prefer, and consumers with no preference follow the path the agent chooses depending on commissions, or ads. The merchants that integrate first are likely to gain some marketshare through the feedback loop explained above. 
-
 ##### Q4: Does A Traveller-Agent Pair Go Direct, Or Use An OTA Like Booking, And Which One?
-
-Once agents are common and most merchants have joined, a traveller-agent pair has a real choice between booking direct with the hotel and booking through an OTA. Two things decide it: trust, and the economics of a direct booking.
-
-###### Trust
-
-Competing agents will need trusted partners to win users and monetize effectively. We discussed under question 1 why it is likely that consumers eventually gain trust with their agents in terms of making general purchases. But, we also noted that travel is a difficult place to start because of the perceived risk for a traveller. This hints at another layer of trust we should discuss: trust in the merchant that your agent deals with.
-
-Here, we can understand the desire for AI companies to sign partnerships with merchants, as well as start to deflect the worries of Risk 1C above. Brands matter for trust. Watching your agent scroll the website of a small hotel in Serbia and email it in a language you don't understand in an attempt to negotiate with them for a lower price is not a highly comfortable experience. Seeing your agent use Booking.com, or Expedia, or Agoda, inside a branded experience is much easier to trust because you know who stands behind the reservation. On the FY26 Q3 earnings call Booking's CFO made the same point: agents want to work with Booking partly because the association gives them instant credibility with travellers.[^56] So agent-users are more likely to shop and complete their transactions when those AI agents have partnerships with trusted brands. And the competing agentic apps need partners to speed adoption and capture consumer marketshare. 
 
 The bidding model described under Q2 points the same way. Merchants bid for the traffic they expect to convert, and a trusted, branded booking experience converts better than an individual hotel's website or an email exchange. Between the need for trust and the economic incentives of the AI assistant industry, traveller-agent pairs are likely to prefer branded, embedded experiences within their agentic apps. This further weakens the probability of Risk 1C, and begins to weaken Risk 1B.
 
 ###### The Economics Of A Direct Booking
-
-Trust alone does not settle the question, because a hotel could still win the booking by offering a large enough discount. An agent can search every hotel website, compare rates and find each property on a map much faster than a person can, so convenience alone no longer separates Booking from its rivals. To test whether a direct booking makes sense, I use some basic economics.
-
-Booking is worth what a traveller would lose by booking directly, plus the hotel's own cost of handling a direct booking. The cleanest case is Risk 1C, after the traveller agrees to the plan and tells the agent to book it. The agent has already found the hotel on Booking and read the reviews, so search and reviews no longer matter. The only question is whether the hotel and the traveller would both be better off with a direct booking at a discount.
-
-On the hotel's side, assume it pays Booking a commission of about 15%. A direct booking saves that commission, but the hotel has its own costs, such as card fees and staff time, and it risks being ranked lower on Booking. I estimate these costs at 3% to 5%. The furthest a hotel can go on a direct discount is therefore about 10% to 12% below the price the traveller would pay on Booking. Genius discounts are mostly funded by hotels, so they do not change this calculation.[^59]
-
-On the traveller's side, a direct booking means giving up the services Booking provides, including trust. So, the traveller books directly only if the discount (d) received is larger than the value (v) provided by Booking. The point where the discount exactly makes up for losing Booking's services is the traveller's indifference point. A direct booking at Booking's price leaves the traveller worse off, because the price is the same and the service is less, so the hotel must offer more before the traveller switches.
-
-**Indifference Curve: Booking Direct vs. Using Booking.com**
-
-![[BookingDirect_IndifferenceCurve.webp]]
-
-Now, the services provided by Booking are not equally valuable for every vacation. As we implied above, Booking provides more value when making a reservation at a small remote hotel in Serbia than reserving a room at the Marriott in Paris. We can get an idea of whether this happens frequently by assigning value to Booking's core offering across three hotel scenarios. The figures below are my own estimates.
-
-| Booking's Value                    | Large Chain, Primary City | Medium Hotel, Secondary City | Small Hotel, Alt. Accomodation, Remote City | Reasoning                                                                                                                                    |
-| ---------------------------------- | ------------------------- | ---------------------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Local Currency Payment             | 0.5%                      | 1.5%                         | 2.5%                                        | My personal experience in retail has taught me that the ability to pay in whichever way you want (there are many) is surprisingly important. |
-| Free Cancellation                  | 0%                        | 1.5%                         | 3%                                          | Any hotel can make this promise over email, but the promise from a small hotel is worth less than Bookings.                                  |
-| Recourse when something goes wrong | 1%                        | 3%                           | 5%                                          | Things go wrong when travelling. Having someone to help you sort it out, especially on multi-hotel trips is very valuable.                   |
-| Customer Service in 40 languages   | 0%                        | 0.5%                         | 0.5%                                        | Likely not worth very much when AI can do live audio translation.                                                                            |
-| Loyalty Progress and Credits       | 1%                        | 3%                           | 3%                                          | Large chains have their own loyalty programs, but if you often vacation in different places, one single loyalty program is valuable.         |
-| **Total Estimated Value**          | **2.5%**                  | **9.5%**                     | **14%**                                     |                                                                                                                                              |
-
-Compared with the 10% to 12% a hotel can afford to offer, Booking's estimated value is well below that range for large chains (2.5%), close to it for medium hotels (9.5%) and above it for small hotels and alternative accommodation (14%).
-
-we can weight these estimated value percentages against Booking's mix to get a weighted average value. 
-
-- Glenn Fogel (CEO) has said in recent earnings calls and at conferences that the ten largest global hotel chains account for only a low double-digit percentage of room nights at Booking.com.[^60] For conservatism, lets estimate that at 15% to account for large chains outside of the top 10.
-- We also know that as of Q3 2026, 37% of room nights came from alternative accommodation.[^60] To account for the small and remote hotels where Booking has dominant marketshare, we can round this up to 45%. This is a guess but seems conservative to me.
-- That leaves us with 40% remaining room-night mix in the medium sized group.
-
-The weighted average value of Booking's services can thus be estimated as the following:
-
-$$
-\begin{aligned}
-\text{Weighted Average Value} &= (2.5\% \times 15\%) + (9.5\% \times 40\%) + (14\% \times 45\%) \\
-&= 0.375\% + 3.8\% + 6.3\% \\
-&= 10.475\%
-\end{aligned}
-$$
-On these estimates a direct deal works for both sides only between 10.5-12% off the Booking price. At the mid-point, about 11.25% off, each side gains less than 1%. That is a very thin reward for the work and risk of booking direct, even when your AI agent handles everything for you. 
 
 **Bargaining Zone For Booking Directly**
 
@@ -542,64 +531,40 @@ This ultimately lands us on Risk 1A, which feels like the most likely scenario a
 
 ###### What A Customer Costs Booking Today
 
-Currently, Booking spends about \$4.40 on marketing per \$100 of gross bookings, and we assume that around 90% (\$3.96) of it is spent on performance marketing (Appendix A). Booking's direct mix is in the mid 60%s, so roughly 35% comes from paid channels. So, we can conclude that a paid booking costs ~\$11.3 per \$100 of gross bookings (\$3.96 / 35%). 
+Currently, Booking spends about \$4.40 on marketing per \$100 of gross bookings, and we assume that around 90% (\$3.96) of it is spent on performance marketing (Appendix A). Booking's direct mix is in the mid 60%s, so roughly 35% comes from paid channels. We can conclude that a paid booking costs ~\$11.3 per \$100 of gross bookings (\$3.96 / 35%). 
 
 ###### The Range Of Agent Fees
 
-The fee Booking ends up paying per agentic booking mostly depends on how the agent layer ends up settling. Meta has not disclosed the rate it plans to charge on Muse transactions, but we can estimate a low end of this at 3%. This is the rate we might expect under a fragmented, generalist agent model. Under the same fragmented model, but with a bidding system, we have to consider conversion rates as well. For the past decade, with Google as the monopoly gate keeper, Booking pays for each click whether or not the visitor converts to a booking. Booking's management has said that users of its own AI tools convert at double the rate of non-users.[^55] This makes sense to me, not only because the experience is more intuitive, but also because the user that spends time in a conversation, asking for help planning a trip is likely a much higher intent customer. So I'd expect this higher conversion rate to continue in agentic apps if they are successful. If it converts at double the current standard, the same price per click costs half as much per booking, which brings the \$11.30 down to about \$5.70.  Finally, if the agent layer consolidates into one winning app, that winner would be able to increase is costs and I would expect the top of the range to remain at \$11.00.
+The fee Booking ends up paying per agentic booking mostly depends on how the agent layer ends up settling. Meta has not disclosed the rate it plans to charge on Muse transactions, but we can estimate a low end of this at 3%. This is the rate we might expect under a fragmented, generalist agent model. 
 
----
+Under the same fragmented model, but with a bidding system, we have to consider conversion rates as well. For the past decade, with Google as the monopoly gate keeper, Booking pays for each click whether or not the visitor converts to a booking. Booking's management has said that users of its own AI tools convert at double the rate of non-users.[^55] This makes sense to me, not only because the experience is more intuitive, but also because the user that spends time in a conversation, asking for help planning a trip is likely a much higher intent customer. So I'd expect this higher conversion rate to continue in agentic apps if they are successful. If it converts at double the current standard, the same price per click costs half as much per booking, which brings the \$11.30 down to about \$5.70.  
 
-##### Q3: If OTAs Are The Preferred Method, How Does the Traveller-Agent Pair Decide Which One To Use? 
+Finally, if the agent layer consolidates into one winning app, that winner would be able to increase its prices and I would expect the top of the range to remain at \$11.00.
 
-The choice comes down to two factors:
+==At the extreme, these pieces combine. A single dominant agent, facing a Booking whose direct demand has weakened, commoditizes it's service down to what it is worth to that agent. ==
 
-1. Whoever serves the customer needs best.
-2. Whoever is available in the AI assistant app.
-
-On the serving the customer needs, this is no different than today. The larger question is which merchant's are available for the agent to use.
-
-##### Q4: If Booking.com is used by a traveller-agent pair, how does Booking and the agent split the fee?
-
-There are two outstanding questions. When an agent does the booking, what is Booking worth to it? This question decides the take-rate that Booking is able to charge and closes the conclusion on Risks B and C. The second question is how is that value split between Booking and the agent? This decides how much the agent can charge and clarifies Risk A.
-
- Do consumers, have one super-agent that does everything for them? Or, does every vendor and app have their own agent that we use, similar to how we use apps today?
-
-##### 4. What Is Booking Worth To An Agent?
-
-As it stands, however, the result answers the take-rate question. If agents made this direct negotiation routine, the commission Booking could theoretically keep on an agent booking would trend towards v, plus the hotel's cost of a direct booking, plus whatever charge it can hold onto for discovery. In this model, on a weighted room night mix basis, Booking would keep most of its commission. Where it loses would be concentrated in the large chains where it's value proposition is already weakest. 
-
-Furthermore, as Booking improves it Genius program and adds more value, the gap widens. Agent incentives discussed above, also make direct negotiation less likely. The only question that remains, is how much of that value is split between Booking and the agent.
-
-##### 5. How The Value Is Split Between Booking And The Agent
-
-What we are left with as the highest probability outcome is Risk A. Here, customers plan their trips with their agent, who then uses Booking to complete the purchase. From my perspective, this last step is the hardest to figure out. Depends on a lot of assumptions and possible futures. That said, it is still a matter of negotiation between Booking (and other OTAs) and the agents. Here we will also, finally, consider different agentic business models. 
-
-At the extreme, after negotiation, one or either side walk away, and integration doesn't occur. Here, the agent partners with another OTA or does in fact try to lead the customer toward direct Booking. Based on the analysis performed so far, this does not seem as big of a threat as it first appears. Booking has a wide moat built off its deep supply-side inventory, and demand-side loyalty program and habitual travellers. Since Booking's strength lays in the long tail of fragment medium and small hotels in secondary and tertiary cities, the deal zone is small and Booking likely keeps its demand for quite a while, while agentic commerce grows, acting as an incumbent discussed above.
-
-How competitors there are at the agent layer also matters. A single winner, a dominant super-agent can deploy its weight into charging a lot. This is what Google has done to Booking over the last decade. In a world of competing agents, each agent has less negotiating power against the incumbents. Today, as we have seen, there are multiple well-funded assistants, merchants appear to be integrating with them selectively, and for a consumer, switching between them is cheap. Unlike business activities, most consumer tasks have a short half life, so switching agents is only painful for a brief period while the new agent catches up. Furthermore, it is not difficult to ask my current agent to summarize everything it know and what it is working on to pass off to my new agent. I think these low switching costs keep the agent layer fragmented for longer, and a fragmented agent layer has less leverage. 
-
-Finally, the agentic business model is important. For the past decade, Google has charged Booking for every click that routed a user to its website. Booking pays this whether the visitor books a trip or not. Part of Booking's competitive advantage has been in its ability to convert at a higher rate than its competition, therefore giving it more room to outbid players like Expedia. In an agentic commission model, where every OTA pays a similar rate per booking, Bookings conversion advantage may actually fade away. There is a weird disconnect here in a world where merchants negotiate lower booking fees for themselves, but the agentic app provider is incentivized to push the user towards the merchant with the highest commission fee attached. For this reason, I don't expect this business model to last long. 
-
-It feels much more wholistic for a bidding/advertising model to develop. Here, each player bids what it is willing to pay for an agent's attention. This consolidates incentives between the agent and the merchant and conversion skill becomes relevant again. I am not sure if the ability to convert on a traditional webpage will transition to being able to convert in agentic commerce, but an advantage held for over a decade with constant changes in the consumer, technological and regulatory environment tells me that the conversion skill likely lays in the people and culture of the company, rather than the webpage asset itself. 
-
-In the worse case scenario however, the agent layer consolidates into a single winner, the agent app is able to integrate much of the value Booking provides like customer service and payment guarantees, and pushes Bookings value proposition down towards the value we see in the Large Chain, Primary City scenario above, but for all market segments.
-
-#### Putting It Together
+##### Putting It Together
 
 The analysis above can be reduced to three key questions. Asking them in order, and assigning a probability to each, gives us the likelihood of our bear, base, and bull case for the valuation model below.
 
-1. **Do agents become a main way people book travel within ten years?** 
-	I put the odds of this at 75%. In Europe, 30% of people still book hotels over phone and email.[^62] Trends do not move as fast as investors and people within the technology industry think. Over ten years, however, I can see a substantial amount of traffic moving to agents. 
-2. **If so, does the agent layer consolidate into one super-agent, or stay fragmented?**
-	 Technology businesses seems to trend toward monopolies or duopolies (Google Search, Iphone/Android, etc.). This often goes back to network effects discussed in the moat section above. However, on current evidence, I'm inclined to say that to do not see network effects in the personal agent layer. Perhaps there are other forms of competitive advantages that will arise, but to date I am unsure of this. I also think this is a domain that will get more competitive, not less, over the next five years. Currently, we have three main players in Meta, OpenAI and Anthropic. SpaceX also has Grokbot. Google is likely follow with Android integrations, and Apple is likely to continue developing Siri, and specialized agents from Amazon, or Booking themself will likely continue to proliferate for the time being. I will therefore put the odds of this occurring at 50%. 
-	 Finally, in this section it is worth discussing what a fragmented agentic layer means for Booking. This is the bull case. The best possible outcome for Booking. Remember, on a weighted basis, between the direct and paid traffic that make up Booking's traveller base, they pay roughly \$4.4 per \$100 of gross bookings on the site. This is the world where their source of paid traffic comes from what is essentially a complete monopoly on search traffic - Google. If the discovery layer for travellers without loyalty to any OTA widens to include several competitors, it allows Booking to spread it's dollars out, find the optimal balance and ultimately reduce its cost. In this world, it is possible that the weighted average transaction made through Booking actually becomes more profitable, not less. 
-3. **In both scenarios, where agents consolidate or stay fragmented, does Booking have strong negotiation leverage?**
-	Once again, from a travellers perspective, Booking's value proposition comes from its deep inventory of small, independent hotels and alternative accommodations and the company's ability to make booking with them and travelling as a whole easier. From the hotel's perspective, these hotels do not have the time, ability, or funding to get noticed on the internet without aggregating with similar sized hotels across the world on OTA's like Booking, which functions almost like a decentralized union and allows them to compete with the big hotel chains. In a world where agents are incentivized to send traffic to the players that can pay the most for it, it is possible hotels need OTA's like Booking more, not less. My feeling after doing such an analysis is that Booking has leverage. I will put the odds of this at 60%.
-
-Putting The 
+1. **Do agents become a main way people book travel within ten years?** I put the odds of this at 75%. In Europe, 30% of people still book hotels by phone and email (fn 62). Trends do not move as fast as investors and people in the technology industry think. Over ten years, however, I can see a substantial amount of traffic moving to agents.
+2. **If so, does the agent layer consolidate into one super-agent, or stay fragmented?** Technology businesses seem to trend toward monopolies or duopolies (Google Search, iPhone and Android). This often comes back to the network effects discussed in the moat section above. However, on current evidence I do not see network effects in the personal agent layer. Other forms of competitive advantage may arise, but to date I am unsure of this. I also think this domain will get more competitive, not less, over the next five years. We currently have three main players in Meta, OpenAI and Anthropic, and SpaceX has Grokbot. Google is likely to follow with Android integrations, Apple is likely to keep developing Siri, and specialised agents from Amazon, or from Booking itself, will likely keep multiplying for the time being. I therefore put the odds of consolidation at 50%.
+3. **In either scenario, consolidated or fragmented, does Booking have strong negotiating leverage?** From a traveller's perspective, Booking's value comes from its deep inventory of small, independent hotels and alternative accommodation, and from making booking with them, and travelling as a whole, easier. From the hotel's perspective, these hotels do not have the time, ability or money to get noticed on the internet without grouping with similar-sized hotels around the world on OTAs like Booking. Booking works almost like a decentralised union that lets them compete with the big chains. In a world where agents are rewarded for sending traffic to whoever can pay the most for it, hotels may need OTAs like Booking more, not less. My feeling after this analysis is that Booking has leverage. I put the odds of this at 60%.
 
 ![[Booking_ProbabilityTree.webp]]
+
+The five paths through the tree describe five different worlds. Three of them leave Booking roughly where my base case has it, for different reasons.
+
+|                                        |             |                                                                                                                       |      |
+| -------------------------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------- | ---- |
+| Path                                   | Probability | What it looks like                                                                                                    | Case |
+| Agents not widely adopted              | 25%         | Agents stay a small channel and Booking looks much as it does today                                                   | Base |
+| Adopted, consolidated, strong leverage | 22.5%       | One dominant agent, but it needs Booking's supply and trust, so the toll stays modest                                 | Base |
+| Adopted, consolidated, weak leverage   | 15%         | One dominant agent that can route around Booking sets the toll, and Booking keeps little of each agent booking        | Bear |
+| Adopted, fragmented, strong leverage   | 22.5%       | Many agents compete for Booking's supply, so tolls stay low, agents replace some paid search and bring in new bookers | Bull |
+| Adopted, fragmented, weak leverage     | 15%         | Booking has less pull, but no single agent is strong enough to push the toll up                                       |      |
+
+This also closes the loop on the three risks from the start of this section. Risks B and C, where the booking goes around Booking, are mostly answered by question 3 and the deal zone in step 4: on my estimates, a direct deal rarely pays outside the large chains. Risk A, the toll Booking pays on customers who used to come direct, is the one that remains, and it depends on questions 2 and 3 together. That is why the bear case needs both a dominant agent and weak leverage.
 
 ---
 
@@ -696,25 +661,25 @@ Operating Invested Capital, December 31, 2025[^18]
 
 [^1]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_16, pg. 1
 [^2]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_16, pg. 2
-[^3]: Financial Modeling Prep API, FMP:statements income-statement (BKNG, annual 10y). Interest income (interestIncome field), FY2017 to FY2025.
+[^3]: Booking Holdings Financial Statements (FY17-FY25).
 [^4]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_16, pg. 31
-[^5]: Financial Modelling Prep API & 10-k filings across years presented.
+[^5]: Booking Holdings Financial Statements (FY18-FY25).
 [^6]: https://s25.q4cdn.com/383369491/files/doc_financials/2026/q2/BKNG-Quarterly-Earnings-Presentation-Q2-2026.pdf, pg. 5
 [^7]: https://skift.com/oral-history-of-booking-acquisition/
 [^8]: https://www.phocuswire.com/booking-fintech-unit
 [^9]: https://merchantadvisory.com/qa-with-ajay-moti-at-booking-com/
 [^10]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_16, pg. 26
 [^11]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_16, pg. 6
-[^12]: Financial Modeling Prep API, FMP:statements income-statement (annual 10y; quarterly 6q). Revenue, operating income, interest, tax, net income.
+[^12]: Booking Holdings Financial Statements (FY16-FY26).
 [^13]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000036/q2-26bkngearningsrelease.htm, pg. 15
 [^14]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000036/q2-26bkngearningsrelease.htm, pg. 11
 [^15]: https://docs.google.com/spreadsheets/d/1nigCgAQxhfQYFgO7u8b-Y0XwWfLjkDBaPdiE7gOUczo/edit?gid=750805656#gid=750805656
-[^16]: Financial Modeling Prep API, FMP:statements cashflow-statement (annual 10y; quarterly 22q). CFO, capex, SBC, working capital, buybacks, dividends.
-[^17]: Financial Modeling Prep API, FMP:statements key-metrics (annual 10y). ROIC, invested capital, EV, market cap, SBC/revenue.
+[^16]: Booking Holdings Financial Statements (FY16-FY26).
+[^17]: Booking Holdings Financial Statements (FY25).
 [^18]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_115, pg. 52
-[^19]: Financial Modeling Prep API, FMP:statements owner-earnings (quarterly, Q1 2014 to Q2 2026), cashflow-statement (annual 12y), income-statement (annual 12y). Owner earnings, maintenance and growth capex, operating cash flow, stock comp, net income, diluted weighted average shares, diluted EPS.
-[^20]: Financial Modeling Prep API, FMP:statements income-statement (annual, symbol BKNG, FY2016, filed 2017-02-27). Weighted average diluted shares outstanding (weightedAverageShsOutDil), diluted EPS (epsDiluted), net income.
-[^21]: Financial Modeling Prep API, FMP:statements income-statement (quarterly, symbol BKNG, Q2 2026, period ended 2026-06-30, filed 2026-08-04). Weighted average diluted shares outstanding (weightedAverageShsOutDil), diluted EPS (epsDiluted), net income.
+[^19]: Booking Holdings Financial Statements (FY16-FY26). Owner earnings calculated per Appendix A.
+[^20]: Booking Holdings Financial Statements (FY16), adjusted for the 25-for-1 stock split in 2026.
+[^21]: Booking Holdings Financial Statements (Q2 FY26).
 [^22]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_127, pg. 25
 [^23]: https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm#i520d0de07f6b49c5b84e7212c6cc1842_127, pg. 26
 [^24]: https://docs.google.com/spreadsheets/d/1nigCgAQxhfQYFgO7u8b-Y0XwWfLjkDBaPdiE7gOUczo/edit?gid=130839315#gid=130839315
@@ -725,10 +690,10 @@ Operating Invested Capital, December 31, 2025[^18]
 [^29]: https://www.sec.gov/Archives/edgar/data/1559720/000119312522043371/d251410dex991.htm, pg. 2
 [^30]: https://www.sec.gov/Archives/edgar/data/1559720/000119312524033706/d646462dex991.htm, pg. 2
 [^31]: https://s26.q4cdn.com/656283129/files/doc_financials/2025/q4/Airbnb_Q4-2025-Shareholder-Letter.pdf, pg. 2
-[^32]: Financial Modeling Prep API, FMP:statements income-statement, ABNB (annual 2019 to 2025). Revenue, sales and marketing, operating income.
-[^33]: Financial Modeling Prep API, FMP:statements income-statement, EXPE (annual 2016 to 2025). Revenue, sales and marketing, operating income.
+[^32]: Airbnb Financial Statements (FY19-FY25).
+[^33]: Expedia Group Financial Statements (FY16-FY25).
 [^34]: https://stratechery.com/aggregation-theory/
-[^35]: Financial Modeling Prep API, FMP:statements income-statement, BKNG, EXPE, ABNB (annual 2017 to 2025). Revenue.
+[^35]: Booking Holdings, Expedia Group and Airbnb Financial Statements (FY17-FY25).
 [^36]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 18
 [^37]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 93
 [^38]: https://www.hotrec.eu/media/static/files/import/all_news_2026_2026_35/full-study_european-hotel-distribution-study-2026_hotrec.pdf, pg. 97-99

@@ -925,7 +925,7 @@ I have also set a terminal growth rate of 3%, reflecting the maturing console ma
 [^63]: https://nintendo.fandom.com/wiki/Shuntaro_Furukawa
 [^64]: https://www.ign.com/articles/switch-2-becomes-fastest-selling-nintendo-hardware-ever-with-over-35-million-units-sold-worldwide-in-just-four-days
 [^65]: All data manually collected from historic earnings guidance and financial statements.
-[^66]: Normalized data per Financial Modeling Prep API (https://site.financialmodelingprep.com/?gad_source=1&gad_campaignid=8675957969&gclid=CjwKCAjw1vXTBhB-EiwAEKr_k1TOB7KQn52sUuhMarzoaDjrouoiulIgcFQzq1b3wsokw1gw4z0-VRoCMD0QAvD_BwE), and select financial statements where API data is unavailable.
+[^66]: Nintendo Financial Statements (FY18-FY26).
 [^67]: https://www.nomuraconnects.com/focused-thinking-posts/the-great-unwind-how-cross-shareholdings-are-reshaping-japan-m-a/
 [^68]: https://www.nintendo.co.jp/ir/pdf/2026/260303_2e.pdf
 [^69]: https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf, pg. 36
