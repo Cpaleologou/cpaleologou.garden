@@ -52,3 +52,35 @@
 .sw.implied { border-top: 2px dashed var(--ink-2); }
 .sw.ref { border-top: 2px dotted var(--stage-surveyed); }
 .gw-note { margin: 0.9rem 0 0; font-size: 0.82rem; line-height: 1.5; color: var(--muted); }
+
+/* ---- BargainZone ---- */
+.bargain { --bz-traveller: #2f6fb3; --bz-hotel: #c27c0e; --bz-zone: rgba(107, 127, 69, 0.18); --bz-zone-ink: #4f6a2c; }
+:root[data-theme="dark"] .bargain { --bz-traveller: #7fb0e6; --bz-hotel: #e0a83a; --bz-zone: rgba(159, 181, 122, 0.18); --bz-zone-ink: #a9c482; }
+.bz-types { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin-bottom: 1.1rem; }
+@media (max-width: 700px) { .bz-types { grid-template-columns: 1fr; } }
+.bz-type {
+  display: flex; flex-direction: column; gap: 0.2rem; text-align: left; cursor: pointer;
+  padding: 0.6rem 0.75rem; border-radius: 8px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink);
+  font: inherit; transition: border-color 0.15s, background 0.15s;
+}
+.bz-type:hover { border-color: color-mix(in srgb, var(--accent) 50%, var(--rule)); }
+.bz-type.is-active { border-color: var(--accent); background: var(--accent-soft); }
+.bz-type-name { font-family: var(--font-head); font-size: 0.95rem; font-weight: 600; line-height: 1.25; color: var(--heading); }
+.bz-type-meta { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.bz-type.has-deal .bz-type-meta { color: var(--bz-zone-ink); }
+.bz-chart .axis { stroke: var(--muted); stroke-width: 1.25; }
+.bz-chart .axis-title { font-size: 11px; }
+.bz-chart .zone { fill: var(--bz-zone); }
+.bz-chart .zone-label { font-family: var(--font-mono); font-size: 11px; font-weight: 500; fill: var(--bz-zone-ink); }
+.bz-chart .marker { stroke: var(--ink-2); stroke-width: 1.25; }
+.bz-chart .marker-label { font-family: var(--font-mono); font-size: 10.5px; fill: var(--ink-2); }
+.bz-chart .line { stroke-width: 2.5; stroke-linecap: round; transition: all 0.15s ease; }
+.bz-chart .line.traveller { stroke: var(--bz-traveller); }
+.bz-chart .line.hotel { stroke: var(--bz-hotel); }
+.bz-chart .end-label { font-family: var(--font-mono); font-size: 11px; font-weight: 500; }
+.bz-chart .end-label.traveller { fill: var(--bz-traveller); }
+.bz-chart .end-label.hotel { fill: var(--bz-hotel); }
+.bz-chart .mid { fill: var(--heading); stroke: var(--surface); stroke-width: 2; }
+.bz-chart .mid-label { font-family: var(--font-mono); font-size: 10.5px; fill: var(--heading); }
+.bz-chart-box { width: 100%; margin-top: 1.25rem; }
+.bz-chart-box .bz-chart { margin-top: 0; max-width: 100%; }

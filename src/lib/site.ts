@@ -63,6 +63,7 @@ let coverMapPromise: Promise<Map<string, string>> | null = null;
  *   3. the first image in the note
  */
 function coverMap() {
+  if (!CACHE) coverMapPromise = null;
   coverMapPromise ??= getCollection("garden", (n) => n.id === "library").then(([library]) => {
     const map = new Map<string, string>();
     const body = library?.body ?? "";
@@ -99,9 +100,14 @@ export function excerptOf(n: Note, max = 170): string {
 
 const byDateDesc = (a: Note, b: Note) => (tendedOf(b)?.getTime() ?? 0) - (tendedOf(a)?.getTime() ?? 0);
 
+// Module-level caches make the production build fast. In dev they would outlive
+// content changes (e.g. `npm run sync` briefly emptying the folder), so skip them there.
+const CACHE = !import.meta.env.DEV;
+
 let gardenPromise: Promise<Note[]> | null = null;
 /** Every published page except the hand-written homepage source. */
 export function getGarden(): Promise<Note[]> {
+  if (!CACHE) gardenPromise = null;
   gardenPromise ??= getCollection("garden", (n) => n.id !== "index").then((all) => all.sort(byDateDesc));
   return gardenPromise;
 }
@@ -117,6 +123,7 @@ export interface GraphData {
 
 let graphPromise: Promise<{ graph: GraphData; backlinks: Map<string, string[]> }> | null = null;
 export function getGraph() {
+  if (!CACHE) graphPromise = null;
   graphPromise ??= (async () => {
     const notes = await getGarden();
     const ids = new Set(notes.map((n) => n.id));

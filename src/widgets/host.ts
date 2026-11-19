@@ -9,6 +9,7 @@ import { h, render, type ComponentType } from "preact";
 
 const registry: Record<string, () => Promise<{ default: ComponentType<any> }>> = {
   dcf: () => import("./ReverseDcf"),
+  bargain: () => import("./BargainZone"),
 };
 
 class GardenWidget extends HTMLElement {
