@@ -1,6 +1,7 @@
-# christianp.space — Astro trial
+# christianp.space
 
-Trial rebuild of the Quartz garden in Astro 7. The Obsidian vault is the single source of truth; URLs match the Quartz site.
+Christian's digital garden, built with Astro 7 (it replaced the Quartz site in Nov 2026). Working conventions for
+Claude are in `CLAUDE.md`. The Obsidian vault is the single source of truth; URLs match the Quartz site.
 
 ```bash
 npm run sync     # publish notes + images straight from the vault (scripts/build-garden.mjs)
@@ -23,9 +24,10 @@ Rollback to Quartz: Actions → "Deploy Quartz site to GitHub Pages" → Run wor
 | Quartz-compatible slugs, wikilink index | `src/lib/garden.mjs` |
 | Collections, sections, growth stages, backlinks, graph data | `src/lib/site.ts`, `src/content.config.ts` |
 | Note page (header, prose, backlinks, TOC, graph rail) | `src/pages/[...slug].astro` |
-| Homepage / section listings / tags | `src/pages/index.astro`, `[section].astro`, `tags/[tag].astro` |
+| Homepage / section listings / tags | `src/pages/index.astro`, `[section]/index.astro`, `tags/` |
 | Graph (canvas + d3-force) | `src/scripts/graph.ts`, `src/components/GraphView.astro` |
 | Hover previews | `src/scripts/link-previews.ts` |
+| Image viewer and photo galleries | `src/scripts/lightbox.ts` |
 | Search (Pagefind, ⌘K / Ctrl+K / "/") | `src/components/Search.astro`, `scripts/search-index.mjs` |
 | Palette and typography | `src/styles/global.css` |
 
