@@ -242,12 +242,6 @@ export default function BargainZone(p: Props) {
       </svg>
       </div>
 
-      <p class="gw-note">
-        The hotel saves the {fmt(take)} commission but takes on about {fmt(costs)} of costs Booking carries today and pays the
-        agent {fmt(agent)}, so it can discount at most {fmt(ceiling)}. The traveller only switches if the discount beats
-        what Booking's services are worth to them. Pick a type of stay above to see its zone; changes to the sliders
-        update all three.
-      </p>
     </figure>
   );
 }
