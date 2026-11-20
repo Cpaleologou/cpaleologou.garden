@@ -123,9 +123,44 @@ img { max-width: 100%; height: auto; }
 }
 .prose pre { padding: 1rem 1.25rem; border-radius: var(--radius); overflow-x: auto; font-size: 0.85rem; line-height: 1.6; }
 .prose pre code { background: none; padding: 0; }
-.prose table { width: 100%; border-collapse: collapse; font-size: 0.95rem; display: block; overflow-x: auto; }
-.prose th, .prose td { padding: 0.5em 0.75em; border-bottom: 1px solid var(--rule); text-align: left; }
-.prose th { font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+/* Tables. remark-obsidian wraps each one in .table-wrap, which scrolls sideways on
+   narrow screens so columns keep a readable width instead of being crushed. */
+.prose .table-wrap {
+  margin: 2.25rem 0; overflow-x: auto; overscroll-behavior-x: contain;
+  border: 1px solid var(--rule); border-radius: var(--radius); background: var(--surface);
+  scrollbar-width: thin; scrollbar-color: var(--rule) transparent;
+}
+@media (min-width: 900px) { .prose .table-wrap { margin-inline: -2.5rem; } }
+.prose .table-wrap:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.prose table { width: 100%; margin: 0; border-collapse: collapse; font-size: 0.92rem; line-height: 1.55; }
+.prose th, .prose td {
+  padding: 0.8rem 1.1rem; min-width: 5rem; text-align: left; vertical-align: top;
+  border-bottom: 1px solid color-mix(in srgb, var(--rule) 75%, transparent);
+}
+.prose th {
+  font-family: var(--font-mono); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.07em; text-transform: uppercase;
+  color: var(--muted); background: color-mix(in srgb, var(--paper) 60%, var(--surface)); border-bottom-color: var(--rule);
+}
+.prose tbody tr:last-child td { border-bottom: 0; }
+.prose tbody tr { transition: background 0.15s; }
+.prose tbody tr:hover { background: var(--hover); }
+/* First column reads as the row's label. */
+.prose td:first-child { font-family: var(--font-head); font-size: 1rem; font-weight: 600; color: var(--heading); }
+.prose td strong { color: var(--heading); }
+.prose th strong { color: inherit; font-weight: inherit; }
+/* Phones: give each column a readable width and let the card scroll sideways. */
+@media (max-width: 640px) {
+  .prose th, .prose td { min-width: 10rem; padding: 0.7rem 0.85rem; }
+  .prose th:first-child, .prose td:first-child { min-width: 7.5rem; }
+}
+/* Obsidian tables often have a blank header row: hide it and let the first row act as the header. */
+.prose table:not(:has(thead th:not(:empty))) thead { display: none; }
+.prose table:not(:has(thead th:not(:empty))) tbody tr:first-child td {
+  font-family: var(--font-mono); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.07em; text-transform: uppercase;
+  color: var(--muted); background: color-mix(in srgb, var(--paper) 60%, var(--surface)); border-bottom-color: var(--rule);
+}
+.prose table:not(:has(thead th:not(:empty))) tbody tr:first-child:hover { background: transparent; }
+.link-preview .table-wrap { margin: 0.75rem 0; }
 
 .prose img {
   /* Keep figures modest; click any image to see it full size (scripts/lightbox.ts). */

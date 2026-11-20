@@ -173,6 +173,19 @@ function galleries(tree) {
   });
 }
 
+/** Wrap tables so wide ones can scroll sideways on phones instead of crushing their columns. */
+function tables(tree) {
+  visit(tree, "table", (node, index, parent) => {
+    if (!parent || parent.data?.hProperties?.className?.includes?.("table-wrap")) return;
+    parent.children[index] = {
+      type: "tableWrap",
+      data: { hName: "div", hProperties: { className: ["table-wrap"], tabIndex: 0 } },
+      children: [node],
+    };
+    return SKIP;
+  });
+}
+
 function widgets(tree) {
   visit(tree, "code", (node, index, parent) => {
     if (node.lang !== "widget" || !parent) return;
@@ -199,5 +212,6 @@ export function remarkObsidian() {
     callouts(tree);
     wikilinks(tree);
     markdownLinksAndImages(tree);
+    tables(tree);
   };
 }
